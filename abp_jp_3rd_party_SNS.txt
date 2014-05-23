@@ -1,0 +1,42 @@
+[Adblock Plus 2.3.1]
+! Checksum: sQdIcCk9wxDLHysyWA4kXg
+! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
+! Title: ABP Japanese 3rd party SNS filters (ONLY for Japanese: see Support Policy)
+! Expires: 6 hours
+! Version: 201402062322
+!
+! Last modified: 2014-02-06 23:22 +0900
+! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
+! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
+! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
+! Support policy:  https://code.google.com/p/adblock-plus-japanese-filter/wiki/Support_Policy
+! Project owners: k2japan
+! Project committers: looter, lostincarnation, tanahata
+! Project contributors: 
+!
+! ########## Default white list START ##########
+! False positives with ||twitter.com^$third-party from abs.twimg.com displaying tweets including other quoted tweets, Apr 22, 2013
+! example) https://api.twitter.com/1/statuses/show.json?callback=...
+@@||api.twitter.com^*/statuses/show.json?
+! ---------- Default white list END ----------
+||bufferapp.com^$third-party
+||d7x5nblzs94me.cloudfront.net^
+||facebook.$domain=~facebook.com
+||fbcdn-$domain=~facebook.com
+||fbcdn.$domain=~facebook.com
+||fbstatic-a.akamaihd.net^$domain=~facebook.com
+||getpocket.com^$third-party
+||apis.google.com/js/plusone.js
+||plus.google.com^$third-party
+||plusone.google.com^$third-party
+||share.gree.jp^
+||jiathis.com^$third-party
+||licdn.com^$domain=~linkedin.com
+||media.line.naver.jp^$third-party
+||linkedin.com^$third-party
+||mixi.jp^$third-party
+||i.ntere.st^$third-party
+||pinterest.com^$third-party
+||st-hatena.com/js/bookmark_button.js$domain=~hatena.ne.jp|~hatenablog.com
+||tumblr.com^$third-party
+||twitter.com^$third-party
