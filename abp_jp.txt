@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: GAO+V2Z2ep2cemP8wAH9EQ
+! Checksum: /OVyx9IyxU/8hab2Zm4B6g
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201405230100
+! Version: 201405282235
 !
-! Last modified: 2014-05-23 01:00 +0900
+! Last modified: 2014-05-28 22:35 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -373,6 +373,10 @@
 -adlink.
 -adlink^
 -adlink_
+-adriver-
+-adriver.
+-adriver^
+-adriver_
 -ads-
 -ads-$popup
 -ads.$domain=~retweet-ads.net
@@ -749,7 +753,10 @@
 .adlink.
 .adlink^
 .adlink_
+.adriver-
 .adriver.
+.adriver^
+.adriver_
 .ads-
 .ads-$popup
 .ads.
@@ -3339,6 +3346,10 @@ _AdPlugin-
 _AdPlugin.
 _AdPlugin^
 _AdPlugin_
+_adriver-
+_adriver.
+_adriver^
+_adriver_
 _ads-
 _ads-$popup
 _ads.
