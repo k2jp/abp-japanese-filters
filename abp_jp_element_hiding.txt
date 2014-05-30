@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: a5TexxWcY2JsMh7EnuXsEg
+! Checksum: E4MyrYp9zDP13aYX0kGs9Q
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201405131920
+! Version: 201405310518
 !
-! Last modified: 2014-05-13 19:20 +0900
+! Last modified: 2014-05-31 05:18 +0900
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -15,6 +15,8 @@
 ! Project contributors: 
 !
 ! ########## Temporary white list START ##########
+! false positive with the block including a download button, using ##[id*="-ad3"]:not(body):not(input) filter
+@@||microsoft.com/*/download/details.$elemhide
 ! pdf file names in the "Job listings" start with "ad_..." orz Why on earth "recruitment" is translated to "advertisement" on the page of National University (?_?) 
 @@||uec.ac.jp/about/advertisement/$elemhide
 ! ---------- Temporary white list END ----------
