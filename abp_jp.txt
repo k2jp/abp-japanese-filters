@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: xUvf2Aij5gc6XjGSDxpRRg
+! Checksum: B49Gjc6LUxJ9wRhlpdq5oA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201406030125
+! Version: 201406060230
 !
-! Last modified: 2014-06-03 01:25 +0900
+! Last modified: 2014-06-06 02:30 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -7323,7 +7323,7 @@ _yahooads_
 ||yimg.jp/images/listing/
 ||yimg.jp/images/market/
 ||yimg.jp/images/news/newsSearch/
-! Commented out a beacon generating filter to avoid ReferenceError: YAHOO is not defined @ http://i.yimg.jp/lib/news/ult_1_1-min.js:1 , Jan 17, 2014
+! Commented out a filter for beacon generator to avoid ReferenceError: YAHOO is not defined @ http://i.yimg.jp/lib/news/ult_1_1-min.js:1 , Jan 17, 2014
 ! Even though this filter is commented out, the beacon server ybx.yahoo.co.jp is still blocked ;-)
 ! ||yimg.jp/images/rapid/
 ||yimg.com^*/js/geov3.$script
