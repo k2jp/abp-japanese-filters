@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: wNHykKjEi15tEEACN8m8DQ
+! Checksum: DeZgnnD+SG4AEyMvn1+MJA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201406071829
+! Version: 201406071839
 !
-! Last modified: 2014-06-07 18:29 (UTC+0900)
+! Last modified: 2014-06-07 18:39 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1653,6 +1653,7 @@
 /rsss.$script,subdocument
 /rssss.$script,subdocument
 /run.php?user=$third-party
+/s.gif?t=$third-party
 /s/*.html?b=*&x=*&y=*&s=*&c=*&ref=*&h=*.*&$third-party
 /sa/infospace.
 /sbi_recommend.$script
@@ -4233,8 +4234,10 @@ _yahooads_
 ||apikozakanet-a.akamaihd.net^
 ||apiscantacknet-a.akamaihd.net^
 ||appnext-a.akamaihd.net^
+||canvas*-a.akamaihd.net^
 ||cdncache-a.akamaihd.net^
 ||cdncache1-a.akamaihd.net^
+||cdnstats-a.akamaihd.net^
 ||hdapp1003-a.akamaihd.net^
 ||hdapp1008-a.akamaihd.net^
 ||aknod.com^$third-party
