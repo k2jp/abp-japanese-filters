@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: jGqF4YuEqbgwQW3nPqaJuQ
+! Checksum: huZegQlgHYpyJn0kozQZ8Q
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201406101433
+! Version: 201406110919
 !
-! Last modified: 2014-06-10 14:33 (UTC+0900)
+! Last modified: 2014-06-11 09:19 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2702,6 +2702,10 @@
 ^doubleclick.
 ^doubleclick^
 ^doubleclick_
+^dynads-
+^dynads.
+^dynads^
+^dynads_
 ^eas-$third-party
 ^eas.$third-party
 ^eas^$third-party
@@ -4037,6 +4041,7 @@ _yahooads_
 ||adengage.com^$third-party
 ||adexcite.com^$third-party
 ||adexprt.com^
+||adextent.com^$third-party
 ! Moved to the paranoid subscription, Mar 9, 2013
 ! ||adf.ly^$third-party
 ||adforce.ru^$third-party
@@ -4736,6 +4741,7 @@ _yahooads_
 ||dtmvdvtzf8rz0.cloudfront.net^
 ||dtxtngytz5im1.cloudfront.net^
 ||dtym7iokkjlif.cloudfront.net^
+||dyau9xqp8gzji.cloudfront.net^
 ||cltrda.com^
 ||club-ama.com^$third-party
 ||club-xxx.net^$third-party
