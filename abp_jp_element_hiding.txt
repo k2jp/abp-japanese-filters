@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: aBBem4fv+axe4L/knOKvRw
+! Checksum: a5KaS8KA2Bh8M3PMiBAxSw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201406121543
+! Version: 201406131944
 !
-! Last modified: 2014-06-12 15:43 (UTC+0900)
+! Last modified: 2014-06-13 19:44 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1074,7 +1074,7 @@
 ##[id$="AdContainer"]:not(body):not(input)
 ##[id$="bottom_bnr"]:not(body):not(input)
 ##[class^="AD-"]:not(body):not(input)
-##[class^="AD_"]:not(body):not(input):not(table)
+##[class^="AD_"]:not(table):not(body):not(input)
 ##[class^="AD0"]:not(body):not(input)
 ##[class^="AD1"]:not(body):not(input)
 ##[class^="AD2"]:not(body):not(input)
@@ -1121,7 +1121,7 @@
 ##[class^="ADs7"]:not(body):not(input)
 ##[class^="ADs8"]:not(body):not(input)
 ##[class^="ADs9"]:not(body):not(input)
-~vmware.com##[class^="ad-"]:not(body):not(input):not(.ad-bg):not(.ad-wallpaper)
+~vmware.com##[class^="ad-"]:not(.ad-bg):not(.ad-wallpaper):not(body):not(input)
 ~collegehumor.com##[class^="ad_"]:not(body):not(input)
 ##[class^="ad0"]:not(body):not(input)
 ##[class^="ad1"]:not(body):not(input)
@@ -1377,7 +1377,7 @@
 ##[class$="-ADs"]:not(body):not(input)
 ##[class$="-ADV"]:not(body):not(input)
 ! Negative conditions are added to avoid false positives around plus.google.com
-##[class$="-ad"]:not(body):not(input):not([class^="a-"]):not([class^="f-"])
+##[class$="-ad"]:not([class^="a-"]):not([class^="f-"]):not(body):not(input)
 ##[class$="-ad1"]:not(body):not(input)
 ##[class$="-ad2"]:not(body):not(input)
 ##[class$="-ad3"]:not(body):not(input)
@@ -1399,7 +1399,8 @@
 ##[class$="-ads7"]:not(body):not(input)
 ##[class$="-ads8"]:not(body):not(input)
 ##[class$="-ads9"]:not(body):not(input)
-##[class$="-adv"]:not(body):not(input)
+! False positive with search form with .search--adv class on duckduckgo.com, June 13, 2014
+##[class$="-adv"]:not(.search--adv):not(body):not(input)
 ##[class$="-adv0"]:not(body):not(input)
 ##[class$="-adv1"]:not(body):not(input)
 ##[class$="-adv2"]:not(body):not(input)
