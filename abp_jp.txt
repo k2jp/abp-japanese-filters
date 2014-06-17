@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: PYbDJgqcIfXIug9DTOCl1A
+! Checksum: mfsNynhbeyp6wCyKaxTqTA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201406171000
+! Version: 201406171031
 !
-! Last modified: 2014-06-17 10:00 (UTC+0900)
+! Last modified: 2014-06-17 10:31 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -202,6 +202,8 @@
 ! A false positive with dynamic header script, using the |http:*^ad_ filter, reported by MASA, Jun 10, 2013
 @@||nikkei.com/dx/async/async.do/ae=P_CM_HEADERJS_TOP;
 @@||researchmap.jp^*/counter/$stylesheet
+! False positive with domain names to investigate, like adv-first.ru, June 17, 2014
+@@||robtex.com^*/advisory/
 ! False positives with product images starting at AD- using |https:*^ad- filter, reported via issue report, Feb 2, 2014
 @@||sanwa.co.jp/product/*/AD-$image
 ! False positive with management page, reported via Issue Report, Jan 27, 2012
