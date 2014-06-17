@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 6tEQi4LVbDzuLWUSizAaZg
+! Checksum: spgRb42A4KaAcyW3Zmbw7Q
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201406171841
+! Version: 201406171905
 !
-! Last modified: 2014-06-17 18:41 (UTC+0900)
+! Last modified: 2014-06-17 19:05 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4011,7 +4011,8 @@ _yahooads_
 ||ad-ya.net^
 |http://*.ad.ru^$third-party
 |https://*.ad.ru^$third-party
-||ad0*.ru^
+|http://ad0*.ru^
+|https://ad0*.ru^
 ||ad1.ru^$third-party
 ||ad2games.com^$third-party
 ||ad4game.com^$popup
@@ -4173,10 +4174,14 @@ _yahooads_
 ||adurr.com^
 ||adv-adserver.com^$third-party
 ||adv-first.ru^
-||adv2*.ru^
-||adv4*.ru^
-||adv6*.ru^
-||adv8*.ru^
+|http://adv2*.ru^
+|https://adv2*.ru^
+|http://adv4*.ru^
+|https://adv4*.ru^
+|http://adv6*.ru^
+|https://adv6*.ru^
+|http://adv8*.ru^
+|https://adv8*.ru^
 ||advd69.net^
 ||advenueplatform.com^$third-party
 ||adversalservers.com^$third-party
