@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: n4ByFqeE2op+1O9CaP9ysQ
+! Checksum: DUVfq4FeDA8/XRfTly1qhw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201406060230
+! Version: 201406212210
 !
-! Last modified: 2014-06-06 02:30 (UTC+0900)
+! Last modified: 2014-06-21 22:10 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2013,6 +2013,8 @@ _tracking_
 ##a[href*="/promo/"]
 ##a[href*="/r.php?"]
 ##a[href*="/refer.php?"]
+##a[href*="&tracking="]
+##a[href*="?tracking="]
 ! Added domain exception to avoid ugly false positives with CATEGORY HIGHLIGHT, Apr 16, 2012
 ~ustream.tv##a[href*="utm_campaign="]
 ##a[href*="utm_medium=banner"]
