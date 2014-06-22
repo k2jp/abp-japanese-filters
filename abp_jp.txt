@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: qX+qkD4lzv0jf6RZVtrhlw
+! Checksum: 9qkyjf4kw4IFwi8SrrUi5Q
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201406221332
+! Version: 201406230040
 !
-! Last modified: 2014-06-22 13:32 (UTC+0900)
+! Last modified: 2014-06-23 00:40 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -598,6 +598,18 @@
 -impression_id.
 -impression_id^
 -impression_id_
+-landing-$popup
+-landing.$popup
+-landing^$popup
+-landing_$popup
+-landingpage-$popup
+-landingpage.$popup
+-landingpage^$popup
+-landingpage_$popup
+-landingpages-$popup
+-landingpages.$popup
+-landingpages^$popup
+-landingpages_$popup
 -linkad-
 -linkad.
 -linkad^
@@ -980,6 +992,18 @@
 .jeu-a-telecharger.
 .jeuxofferts.
 .kissinsights.com/
+.landing-$popup
+.landing.$popup
+.landing^$popup
+.landing_$popup
+.landingpage-$popup
+.landingpage.$popup
+.landingpage^$popup
+.landingpage_$popup
+.landingpages-$popup
+.landingpages.$popup
+.landingpages^$popup
+.landingpages_$popup
 .megavod.
 .metrics-
 .metrics.
@@ -2974,6 +2998,10 @@
 ^landingpage.$popup
 ^landingpage^$popup
 ^landingpage_$popup
+^landingpages-$popup
+^landingpages.$popup
+^landingpages^$popup
+^landingpages_$popup
 ^liadsuite-
 ^liadsuite.
 ^liadsuite^
@@ -3602,6 +3630,18 @@ _impression_id.
 _impression_id^
 _impression_id_
 _jack.$image,object,domain=4gamer.net
+_landing-$popup
+_landing.$popup
+_landing^$popup
+_landing_$popup
+_landingpage-$popup
+_landingpage.$popup
+_landingpage^$popup
+_landingpage_$popup
+_landingpages-$popup
+_landingpages.$popup
+_landingpages^$popup
+_landingpages_$popup
 _metrics-
 _metrics.
 _metrics^
