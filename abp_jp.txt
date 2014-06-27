@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: UC9EjgaMEcNVrO1a7SpxZA
+! Checksum: 27Z4/O6G+AHxYEa6YjlQbQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201406272136
+! Version: 201406272150
 !
-! Last modified: 2014-06-27 21:36 (UTC+0900)
+! Last modified: 2014-06-27 21:50 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5054,6 +5054,7 @@ _yahooads_
 ||directrev.com^$third-party
 ||directtrack.com^$third-party
 ||dismas.jp^$third-party
+||displayincloud.com^
 ||displaymarketplace.com^
 ||disterme.com^
 ||distributique.com^
@@ -6226,6 +6227,7 @@ _yahooads_
 ||mxpnl.com^$third-party
 ||my-affiliate.com^$third-party
 ||my1.ru^
+||myadsrv04.com^
 ||mybet.com^$third-party
 ||track*.mybloglog.com^$third-party
 ||mybuys.com^$third-party
@@ -7411,6 +7413,7 @@ _yahooads_
 ||wayohoo.com^*-banner.
 ||wb-rotator.com^
 ||web-stat.com^$third-party
+||web3-ads.com^
 ||webantenna.info^$third-party
 ||webcam-facile.com^
 ||webcam-folie.com^
