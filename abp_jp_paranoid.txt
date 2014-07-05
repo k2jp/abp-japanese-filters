@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: DUVfq4FeDA8/XRfTly1qhw
+! Checksum: 28rLoDOdsbuhTep1QREbLw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201406212210
+! Version: 201407060451
 !
-! Last modified: 2014-06-21 22:10 (UTC+0900)
+! Last modified: 2014-07-06 04:51 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2019,10 +2019,6 @@ _tracking_
 ~ustream.tv##a[href*="utm_campaign="]
 ##a[href*="utm_medium=banner"]
 
-! Obfuscated short URL link with a banner AD image used to avoid adblocking, Sep 30, 2013
-##a[href*="//bit.ly/"]>img
-##a[href*="//goo.gl/"]>img
-
 ! Comment out to avoid too many false positives, Feb 27, 2013
 ! ##a[onClick*="pageTracker"]:not([href$=".asc"]):not([href$=".bz2"]):not([href$=".checksums"]):not([href$=".deb"]):not([href$=".dmg"]):not([href$=".exe"]):not([href$=".json"]):not([href$=".mar"]):not([href$=".pdf"]):not([href$=".pkg"]):not([href$=".tbz"]):not([href$=".txt"]):not([href$=".xpi"]):not([href$=".zip"]):not([href*=".asc?"]):not([href*=".bz2?"]):not([href*=".checksums?"]):not([href*=".deb?"]):not([href*=".dmg?"]):not([href*=".exe?"]):not([href*=".json?"]):not([href*=".mar?"]):not([href*=".pdf?"]):not([href*=".pkg?"]):not([href*=".tbz?"]):not([href*=".txt?"]):not([href*=".xpi?"]):not([href*=".zip?"])
 ! ##a[onclick*="pageTracker"]:not([href$=".asc"]):not([href$=".bz2"]):not([href$=".checksums"]):not([href$=".deb"]):not([href$=".dmg"]):not([href$=".exe"]):not([href$=".json"]):not([href$=".mar"]):not([href$=".pdf"]):not([href$=".pkg"]):not([href$=".tbz"]):not([href$=".txt"]):not([href$=".xpi"]):not([href$=".zip"]):not([href*=".asc?"]):not([href*=".bz2?"]):not([href*=".checksums?"]):not([href*=".deb?"]):not([href*=".dmg?"]):not([href*=".exe?"]):not([href*=".json?"]):not([href*=".mar?"]):not([href*=".pdf?"]):not([href*=".pkg?"]):not([href*=".tbz?"]):not([href*=".txt?"]):not([href*=".xpi?"]):not([href*=".zip?"])
@@ -2325,6 +2321,113 @@ www.yahoo.co.jp###local
 ! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-115i.html
 /traf.php^$third-party
 ! ----- Malicious objects reported at https://twitter.com/unixfreaxjp by @unixfreaxjp ----- END -----
+
+! ===== Link generator ===== START =====
+||excite.co.jp/feed/news/js/$script
+||zenback.jp^$third-party
+! ----- Link generator ----- END -----
+
+! ===== Live Chat or Online support ===== START =====
+/pusher.min.$script
+||53kf.com^$third-party
+||boldchat.com^$third-party
+||caiwa.jp^$third-party
+||chatango.com^$third-party
+||clickdesk.com^$third-party
+||d3ds63zw57jt09.cloudfront.net^
+||d3dy5gmtp8yhk7.cloudfront.net^
+||googleapis.com/code.snapengage.com/
+||iadvize.com^$third-party
+||instantservice.com^
+||intellichat.com^$third-party
+||intercom.io^$third-party
+||intercomcdn.com^
+||livechatinc.$third-party
+||liveperson.net^$third-party
+||livezilla.net^$third-party
+||marva.ru^$third-party
+||mynv.jp/js/mynavibear.
+||mynv.jp/js/search.
+||olark.com^$third-party
+||providesupport.com^$third-party
+||pusher.com^$third-party
+||pusherapp.com^
+||rakuchat.jp^$third-party
+||salesforceliveagent.com^
+||shoutmix.com^$third-party
+||snapabug.com^$third-party
+||snapengage.com^$third-party
+||zendesk.com^$third-party
+||zoosnet.net^$third-party
+||zopim.com^$third-party
+! ----- Live chat or Online support ----- END -----
+
+! ===== Notorious CDN ===== START =====
+||bootstrapcdn.com^$third-party
+! http://google.com/safebrowsing/diagnostic?site=cachefly.net
+! http://www.siteadvisor.com/sites/cachefly.net/msgpage
+! http://www.robtex.com/dns/cachefly.net.html#blacklists
+||cachefly.net^$third-party
+! http://www.google.com/safebrowsing/diagnostic?hl=ja&site=netdna-cdn.com
+||netdna-cdn.com^$third-party
+! ----- Notorious CDN ----- END -----
+
+! ===== Obfuscated short URL links with banner AD images used to avoid adblocking ===== START =====
+##a[href*="//bit.ly/"] > img
+##a[href*="//goo.gl/"] > img
+! ----- Obfuscated short URL links with banner AD images used to avoid adblocking ----- END -----
+
+! ===== Obfuscated short URL links frequently used to hide malicious links on SNS ===== START =====
+##a[href*="//jump.cx/"]
+! ----- Obfuscated short URL links frequently used to hide malicious links on SNS ----- END -----
+
+! ===== Questionnaire or survey ===== START =====
+||amazonaws.com/*.kissinsights.com/
+||amazonaws.com/ki.js/
+||ecustomeropinions.com^$third-party
+||qualtrics.com^$third-party
+! ----- Questionnaire or survey ----- END -----
+
+! ===== Replace contents or ADs dynamically ===== START =====
+||toprelatedtopics.com^$third-party
+! ----- Replace contents or ADs dynamically ----- END -----
+
+! ===== Search keyword tapping, including re-search overlay ===== START =====
+/search_frame.$script
+||excite.co.jp/jp/succession/front/scroll.$script
+||biglobe.ne.jp/searchbox.$script
+||biglobe.ne.jp/searchengine.$script
+||search.livedoor.com/research/
+||livedoor.jp/js*/research_$script
+||livedoor.jp/js/*search_frame.$script
+||seesaa.jp/js/trace_searcher.$script
+||so-net.ne.jp/search/javascripts/research/
+! ----- Search keyword tapping, including re-search overlay ----- END -----
+
+! ===== Selected text event hijacking ===== START =====
+/apture.$script
+||apture.com^$third-party
+||so-net.ne.jp/_common/js/select_search.$script
+! ----- Selected text event hijacking ----- END -----
+
+! ===== Third-party scripts which manage user feedback ===== START =====
+||disqus.com^$third-party
+||disquscdn.com^
+||fyre.co^$third-party
+||livefyre.com^$third-party
+||uservoice.com^$third-party
+! ----- Third-party scripts which manage user feedback ----- END -----
+
+! ===== Toolbar ===== START =====
+||conduit.com^$third-party
+||wibiya.com^$third-party
+! ----- Toolbar ----- END -----
+
+! ===== URL shortning Services ===== START =====
+##a[href*=".9-1.jp"]
+||adf.ly^$third-party
+##a[href*="://adf.ly/"]
+! ----- URL shortning Services ----- END -----
 
 ! ===== Malicious objects like Hidden iframes or encoded javascripts reported at http://labs.sucuri.net/ ===== START =====
 -android.org^$third-party
@@ -2856,110 +2959,5 @@ www.yahoo.co.jp###local
 ||mypets.ws^$third-party
 ! ----- Malicious objects like Hidden iframes and encoded javascripts reported at http://labs.sucuri.net/ ----- END -----
 
-! ===== Link generator ===== START =====
-||excite.co.jp/feed/news/js/$script
-||zenback.jp^$third-party
-! ----- Link generator ----- END -----
-
-! ===== Live Chat or Online support ===== START =====
-/pusher.min.$script
-||53kf.com^$third-party
-||boldchat.com^$third-party
-||caiwa.jp^$third-party
-||chatango.com^$third-party
-||clickdesk.com^$third-party
-||d3ds63zw57jt09.cloudfront.net^
-||d3dy5gmtp8yhk7.cloudfront.net^
-||googleapis.com/code.snapengage.com/
-||iadvize.com^$third-party
-||instantservice.com^
-||intellichat.com^$third-party
-||intercom.io^$third-party
-||intercomcdn.com^
-||livechatinc.$third-party
-||liveperson.net^$third-party
-||livezilla.net^$third-party
-||marva.ru^$third-party
-||mynv.jp/js/mynavibear.
-||mynv.jp/js/search.
-||olark.com^$third-party
-||providesupport.com^$third-party
-||pusher.com^$third-party
-||pusherapp.com^
-||rakuchat.jp^$third-party
-||salesforceliveagent.com^
-||shoutmix.com^$third-party
-||snapabug.com^$third-party
-||snapengage.com^$third-party
-||zendesk.com^$third-party
-||zoosnet.net^$third-party
-||zopim.com^$third-party
-! ----- Live chat or Online support ----- END -----
-
-! ===== Notorious CDN ===== START =====
-||bootstrapcdn.com^$third-party
-! http://google.com/safebrowsing/diagnostic?site=cachefly.net
-! http://www.siteadvisor.com/sites/cachefly.net/msgpage
-! http://www.robtex.com/dns/cachefly.net.html#blacklists
-||cachefly.net^$third-party
-! http://www.google.com/safebrowsing/diagnostic?hl=ja&site=netdna-cdn.com
-||netdna-cdn.com^$third-party
-! ----- Notorious CDN ----- END -----
-
-! ===== Questionnaire or survey ===== START =====
-||amazonaws.com/*.kissinsights.com/
-||amazonaws.com/ki.js/
-||ecustomeropinions.com^$third-party
-||qualtrics.com^$third-party
-! ----- Questionnaire or survey ----- END -----
-
-! ===== Replace contents or ADs dynamically ===== START =====
-||toprelatedtopics.com^$third-party
-! ----- Replace contents or ADs dynamically ----- END -----
-
-! ===== Search keyword tapping, including re-search overlay ===== START =====
-/search_frame.$script
-||excite.co.jp/jp/succession/front/scroll.$script
-||biglobe.ne.jp/searchbox.$script
-||biglobe.ne.jp/searchengine.$script
-||search.livedoor.com/research/
-||livedoor.jp/js*/research_$script
-||livedoor.jp/js/*search_frame.$script
-||seesaa.jp/js/trace_searcher.$script
-||so-net.ne.jp/search/javascripts/research/
-! ----- Search keyword tapping, including re-search overlay ----- END -----
-
-! ===== Selected text event hijacking ===== START =====
-/apture.$script
-||apture.com^$third-party
-||so-net.ne.jp/_common/js/select_search.$script
-! ----- Selected text event hijacking ----- END -----
-
-! ===== Third-party scripts which manage user feedback ===== START =====
-||disqus.com^$third-party
-||disquscdn.com^
-||fyre.co^$third-party
-||livefyre.com^$third-party
-||uservoice.com^$third-party
-! ----- Third-party scripts which manage user feedback ----- END -----
-
-! ===== Toolbar ===== START =====
-||conduit.com^$third-party
-||wibiya.com^$third-party
-! ----- Toolbar ----- END -----
-
-! ===== URL shortning Services ===== START =====
-##a[href*=".9-1.jp"]
-||adf.ly^$third-party
-##a[href*="://adf.ly/"]
-! ----- URL shortning Services ----- END -----
-
-
 
 ! ---------- Annoyance type END ----------
-
-
-! ########## Suspicious START ##########
-
-! ---------- Suspicious END ----------
-
