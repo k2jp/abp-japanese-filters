@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: ldBS2u/ymqXIhyaGB6Z54A
+! Checksum: dgbLEi84dLXNqA5snRJ/xA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407060525
+! Version: 201407060858
 !
-! Last modified: 2014-07-06 05:25 (UTC+0900)
+! Last modified: 2014-07-06 08:58 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -86,6 +86,8 @@
 @@||wikipedia.org^$elemhide
 ! False positive at mail.live.com when you click folder on the left side column, reported via Issue Report, Dec 17, 2011
 @@||wlxrs.com^*Popover.$script
+! False positive with ^count^$~image filter hiding the list of INBOX mails on the first page after login, Jul 6, 2014
+@@||mail.yahoo.co.jp/neo/ws/sd?/$xmlhttprequest
 ! False positives with ^count^$~image, Mar 3, 2013
 @@||pipes.yahoo.com^*&count=
 ! ---------- Default white list END ----------
