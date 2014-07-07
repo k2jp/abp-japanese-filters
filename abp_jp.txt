@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: FpJ9fGGkxsM1ZfLtXPHNBQ
+! Checksum: R2Qi+L/A+apEC1P6sLimzQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407071127
+! Version: 201407072146
 !
-! Last modified: 2014-07-07 11:27 (UTC+0900)
+! Last modified: 2014-07-07 21:46 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -593,6 +593,10 @@
 -comscore.
 -comscore^
 -comscore_
+-conduit-
+-conduit.
+-conduit^
+-conduit_
 -crdrjs-
 -crdrjs.
 -crdrjs^
@@ -986,6 +990,10 @@
 .cellcastmedia^
 .cellcastmedia_
 .cherry-chat.
+.conduit-
+.conduit.
+.conduit^
+.conduit_
 .crdrjs-
 .crdrjs.
 .crdrjs^
@@ -3628,6 +3636,10 @@ _comscore-
 _comscore.
 _comscore^
 _comscore_
+_conduit-
+_conduit.
+_conduit^
+_conduit_
 _crdrjs-
 _crdrjs.
 _crdrjs^
