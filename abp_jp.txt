@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: R2Qi+L/A+apEC1P6sLimzQ
+! Checksum: oL9RPoXJ5f5qfWhj98RAbQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407072146
+! Version: 201407080132
 !
-! Last modified: 2014-07-07 21:46 (UTC+0900)
+! Last modified: 2014-07-08 01:32 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4405,6 +4405,7 @@ _yahooads_
 ||amazonaws.com/hd_streamer/
 ||amazonaws.com/*.kissmetrics.com/
 ||amazonaws.com/*.pagefair.com/
+||amazonaws.com/opbanditcdn/
 ||amazonaws.com/opentag/
 ||amazonaws.com/saaspulse-cdn/
 ||amazonaws.com/sniffer/
@@ -6459,6 +6460,7 @@ _yahooads_
 ||onparade.jp^
 ||onsemate.com^
 ||l.player.ooyala.com^
+||opbandit.com^$third-party
 ||open-mind.vc^
 ||openads.org^
 ! Dropped a third-party option because adwares or malwares open it directly, Apr 2, 2012
