@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: b1Aj1PfjsvMXY3vLCOnd+g
+! Checksum: nR8EWkYXZwIkNseyxctTFA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407071030
+! Version: 201407071054
 !
-! Last modified: 2014-07-07 10:30 (UTC+0900)
+! Last modified: 2014-07-07 10:54 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4399,6 +4399,7 @@ _yahooads_
 ||amazonaws.com/totango-cdn/
 ||analyticsengine.s3.amazonaws.com^
 ||cd-ladsp-com.s3.amazonaws.com^
+||charmsavings-production.s3.amazonaws.com^
 ||ib-cdn.s3.amazonaws.com^
 ||isocket-creatives.s3.amazonaws.com^
 ||load.s3.amazonaws.com^
@@ -4748,6 +4749,7 @@ _yahooads_
 ||champions-quiz.$popup
 ||chango.com^$third-party
 ||channelintelligence.com^$third-party
+||charmsavings.com^$third-party
 ||charnelcam.com^
 ||chartbeat.com^$third-party
 ||chat-en-cam.
