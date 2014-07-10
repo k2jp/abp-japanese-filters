@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: G2Iklx+2RtRDvvAC9hUAPQ
+! Checksum: HuUfYYuTNsmfuqdKA6iiqw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407110338
+! Version: 201407110355
 !
-! Last modified: 2014-07-11 03:38 (UTC+0900)
+! Last modified: 2014-07-11 03:55 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4018,6 +4018,7 @@ _yahooads_
 ||5min.com^
 |http://i1.6.cn^
 ||600z.com^$third-party
+||6c20c3lp.com^
 ||6dad.com^$third-party
 ||711av.com^$third-party
 ||77tracking.com^$third-party
@@ -4031,12 +4032,14 @@ _yahooads_
 ||82d914.se^$popup
 ||85dcf732d593.se^
 ||85dcf732d593.se^$popup
+||863iw40s.com^
 ||88210212.com^
 ||888.com^$popup
 ||888casino.com^$popup
 ||888poker.com^$popup
 ||8cnd.com^$third-party
 ||99widgets.com/counters/
+||9ts3tpia.com^
 ||a-c-engine.com^$third-party
 ||a-cast.jp^
 ||a-pagerank.net^$third-party
@@ -7557,6 +7560,7 @@ _yahooads_
 ||wts-rotator.
 ||wunderloop.net^
 ||wwop-love.com^
+||wwv4ez0n.com^
 ||www.co.cc^$third-party
 ||wysistat.com^$third-party
 ||wyunion.com^$third-party
