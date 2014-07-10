@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: ZTaF5l4JtEcH6bA9rbbYQQ
+! Checksum: G2Iklx+2RtRDvvAC9hUAPQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407100410
+! Version: 201407110338
 !
-! Last modified: 2014-07-10 04:10 (UTC+0900)
+! Last modified: 2014-07-11 03:38 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1968,6 +1968,7 @@
 ?Pub_ID=$popup
 ?PubID=
 ?PubID=$popup
+?q=trw_pub-$third-party
 ?referer=$image,object,script
 ?referrer=$third-party
 ! Commented out duplicated filters, Nov 1, 2013
@@ -4024,6 +4025,7 @@ _yahooads_
 ||777town.net^$popup
 ||7794.com^$third-party
 ||7sur7-credit.com^
+||7vws1j1j.com^
 ||824js.info^
 ||82d914.se^
 ||82d914.se^$popup
@@ -5826,6 +5828,7 @@ _yahooads_
 ||jxliu.com^$third-party
 ||k-img.com^*/Rdm$script
 ||k-img.com^*_catalyst.$script
+||k0z09okc.com^
 ||k1nomania.com^
 ||kadtd.com^
 ||kakaku.com^*/Rdm
@@ -7500,6 +7503,7 @@ _yahooads_
 ||wec.co.kr^$third-party
 ||wekiss.com^$third-party
 ||wespoland.jp^$third-party
+||wh5kb0u4.com^
 ||whaleads.com^
 ||whiterabbitproducts.com^$third-party
 ||whitinjs.info^
