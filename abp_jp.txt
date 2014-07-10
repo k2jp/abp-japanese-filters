@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: HuUfYYuTNsmfuqdKA6iiqw
+! Checksum: 0mECn85z4xOGu4uC5NWZnw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407110355
+! Version: 201407110410
 !
-! Last modified: 2014-07-11 03:55 (UTC+0900)
+! Last modified: 2014-07-11 04:10 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3992,6 +3992,7 @@ _yahooads_
 ||2mdn.net^$popup
 ||2mdn.net^$third-party
 ||2o7.net^$third-party
+||32b4oilo.com^
 ||32d1d3b9c.se^
 ||32d1d3b9c.se^$popup
 ||3393.com^
@@ -4969,6 +4970,7 @@ _yahooads_
 ||cpuid.com//medias/
 ||cpxadroit.com^$third-party
 ||cpxinteractive.com^$third-party
+||cqq5id8n.com^
 ||crackac.com^
 ||crateac.com^
 ||craveonline.com^$third-party
@@ -5813,6 +5815,7 @@ _yahooads_
 ||jsutils.net^
 ||jswrite.com^
 ||jsyringe.com^
+||ju2g8tzj.com^
 ||jugao.com^$third-party
 ||jugem.jp/ad/
 ||ad.jugem.jp^
