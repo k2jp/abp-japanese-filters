@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: UmTbVh4aYs+Gw5eUabtNmQ
+! Checksum: DcUaLjwpFV6nTjADgHm5DQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407120451
+! Version: 201407120516
 !
-! Last modified: 2014-07-12 04:51 (UTC+0900)
+! Last modified: 2014-07-12 05:16 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1845,6 +1845,7 @@
 /xt_click.$script
 /xtclicks.$script
 /xtcore.$script
+/xuiow/?$third-party
 /yad.
 /yieldbot.$third-party
 /yim.$script,subdocument
@@ -4013,6 +4014,7 @@ _yahooads_
 ||4clvr.jp^
 ||4dsply.com^$third-party
 ||4dtrk.com^$third-party
+||4jsdw9ta.com^
 ||5068.com^$third-party
 ||users.51.la^
 ||51yes.com^$third-party
@@ -6670,6 +6672,7 @@ _yahooads_
 ||question-pour-un-pret.com^
 ||questionmarket.com^$third-party
 ||quick-rencontre.com^
+||quikcdn.com^
 ||quisma.com^$third-party
 ||quiz-mania.es^$popup
 ||quiz-fever.de^$popup
