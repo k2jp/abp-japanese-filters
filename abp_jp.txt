@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: qzbIbgKweMydhiIMlksr5g
+! Checksum: S9ekFifepxozRfb4Tkk2xw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407120534
+! Version: 201407120605
 !
-! Last modified: 2014-07-12 05:34 (UTC+0900)
+! Last modified: 2014-07-12 06:05 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3867,7 +3867,6 @@ _yahooads_
 ||openadext.
 ||openxmarket.$third-party
 ||optimizedby.$third-party
-||servedby.openxmarket.
 |http://ox-d.
 |https://ox-d.
 |http://ox-i.
@@ -3884,6 +3883,8 @@ _yahooads_
 ||smetrics.
 ! Commented out to avoid false positives on static: 2011-09-07
 ! ||stat.$domain=~ameblo.jp|~ameba.jp
+||static.*00.*.net/apps/$script,third-party
+||static.*00.*.net/partnerconfig/$script,third-party
 ||surveys.$third-party
 ||tealium.
 ||telemetry.$third-party
@@ -5895,6 +5896,7 @@ _yahooads_
 ||ku6cdn.com/pv/
 ||kuaiche.com^
 ||kuruten.jp^$third-party
+||kusham.net^
 ||kutsulog.net^$third-party
 ||kyoto-np.co.jp/koukoku/
 ||la-bonne-idee.com^
@@ -6492,6 +6494,7 @@ _yahooads_
 ||openstat.net^$third-party
 ||openx.$third-party
 ||openxenterprise.com^
+||servedby.openxmarket.
 ||opirata2.com^
 ||opt.ne.jp^$third-party
 ||optify.net^$third-party
@@ -6627,6 +6630,7 @@ _yahooads_
 ||premiumhdv.com^$third-party
 ||price.ru^$third-party
 ||pricegong.com^$third-party
+||pricepeep.net^$third-party
 ||primegrattage.com^$third-party
 ||printitgreen.com^$third-party
 ||prisma-presse.com^$third-party
