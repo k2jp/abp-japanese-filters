@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 0mECn85z4xOGu4uC5NWZnw
+! Checksum: Kw5W3EY13DrkJ3pN3Xyobg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407110410
+! Version: 201407111345
 !
-! Last modified: 2014-07-11 04:10 (UTC+0900)
+! Last modified: 2014-07-11 13:45 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4048,6 +4048,7 @@ _yahooads_
 ||a-q-f.com/openpc/yim.
 ||a-ranking.org^$third-party
 ||a-static.com^
+||a2pub.com^
 ||a433.com^$third-party
 ||a8.net^$third-party
 ||a9.com^$third-party
@@ -5003,6 +5004,7 @@ _yahooads_
 ||cubicleoffers.com^$third-party
 ||cupidon-webcam.com^
 ||cupidplc.com^$third-party
+||curancience.com^
 ||custom-click.com^$third-party
 ||custom-click.net^$third-party
 ||cxense.com^$third-party
@@ -5736,6 +5738,7 @@ _yahooads_
 ||integral-marketing.com^$third-party
 ||intellitxt.com^
 ||interclick.com^$third-party
+||interestably.com^
 ||interieu.com^
 ||internet-yadro.com^$third-party
 ||interstats.org^
