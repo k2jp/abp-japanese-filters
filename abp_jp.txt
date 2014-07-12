@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 7ftuZW9lA3BVTH+XUOuisg
+! Checksum: 9FE+Wq6LqFkKwu/S1Hlorw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407130558
+! Version: 201407130708
 !
-! Last modified: 2014-07-13 05:58 (UTC+0900)
+! Last modified: 2014-07-13 07:08 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4009,6 +4009,7 @@ _yahooads_
 ||37see.com^$third-party
 ||3c45d848d99.se^
 ||3c45d848d99.se^$popup
+||3file.info^
 ||3gl.net^
 ||47news.jp/js/randam_
 ||track.47news.jp^
@@ -5229,6 +5230,7 @@ _yahooads_
 ||adingo.jp.eimg.jp^
 ||ekitan.com/eco/
 ||log.ekitan.com^
+||ekod.info^
 ||ektezis.ru^$third-party
 ||elekted.com^
 ||elexjs.info^
@@ -5441,6 +5443,7 @@ _yahooads_
 ||gaymatome.biz^$third-party
 ||gddrio.com^
 ||gde.ru^$third-party
+||geede.info^
 ||gekimedia.net^
 ||gemius.pl^
 ||gendai.net/img/banner/
@@ -5858,6 +5861,7 @@ _yahooads_
 ||img.kakaku.com/images/*/set/bn_$image,object
 ||notice.kakaku.com^
 ||kaktuz.com^$third-party
+||kan3.info^
 ||kanaloco.jp/common/img/common/yondoku*.$image
 ||kantan-access.com^$third-party
 ||kau.li^$third-party
@@ -6194,6 +6198,7 @@ _yahooads_
 ||meteo-locale-gratuite.fr^
 ||mgid.com^$popup
 ||mgid.com^$third-party
+||mi3u.info^
 ||miapex.com^$third-party
 ||microad.jp^$third-party
 ||microsoft.com/library/svy/
@@ -6526,6 +6531,7 @@ _yahooads_
 ||p-td.com^
 ||pageimage.net^
 ||paltip.com^$third-party
+||parad7.ru^
 ||pardot.com^$third-party
 ||parsely.com^$third-party
 ||partypoker.$popup
@@ -6721,6 +6727,7 @@ _yahooads_
 ||rakuword.com^$third-party
 ||rambler.ru^$third-party
 ||rapidocam.com^
+||rarenok.biz^
 ||razil.jp^$third-party
 ||ad.rbbtoday.com^
 ||count.rbc.ru^$third-party
@@ -7090,6 +7097,7 @@ _yahooads_
 ||spylog.com^
 ||spylog.ru^
 ||ssfiles.com^
+||ssl-services.com^
 ||red.st-hatena.com^
 ||st00.net^
 ||standadv.com^
@@ -7274,8 +7282,8 @@ _yahooads_
 ||traffiliate.com^$third-party
 ||traffiq.com^$third-party
 ||trafidet.ru^
-||traforet.ru^$popup
-||traforet.ru^$third-party
+||traforet.$popup
+||traforet.$third-party
 ||trahic.ru^
 ||traient.com^
 ||trapasol.com^
