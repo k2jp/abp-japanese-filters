@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: dgbLEi84dLXNqA5snRJ/xA
+! Checksum: HvVSwY10Fu1AFmFTftrxDg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407060858
+! Version: 201407130713
 !
-! Last modified: 2014-07-06 08:58 (UTC+0900)
+! Last modified: 2014-07-13 07:13 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2288,10 +2288,12 @@ www.yahoo.co.jp###local
 ! ----- Forced reloading ----- END -----
 
 ! ===== geoip ===== START =====
+&geo=$third-party
 /geo.$third-party
 /geoip.$third-party
 /geoipAPI.$third-party
 /geolocation.$third-party
+?geo=$third-party
 ! ----- geoip ----- END -----
 
 ! ===== Malicious objects reported at https://twitter.com/unixfreaxjp by @unixfreaxjp ===== START =====
