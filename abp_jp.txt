@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 9FE+Wq6LqFkKwu/S1Hlorw
+! Checksum: nboHk4j4F2kOOrrTfWShdA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407130708
+! Version: 201407131338
 !
-! Last modified: 2014-07-13 07:08 (UTC+0900)
+! Last modified: 2014-07-13 13:38 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -6245,8 +6245,12 @@ _yahooads_
 ||mobraner.com^
 ||mobylog.jp^$third-party
 ||mobyrol.com^
+||mocean.mobi^
+||moceanads.com^
+||moceanmobile.$third-party
 ||mochiads.com^$third-party
 ||mofos.com^$third-party
+||mojivainc.com^
 ||mokkori-drive.net^$popup
 ||mokugeki.jp^
 ||mon-accompagnement-pret.com^
@@ -7192,6 +7196,7 @@ _yahooads_
 ||teromil.com^
 ||teser.net^
 ||test-2010.com^
+||testmocean.com^
 ||testodon.com^
 ||textad.net^$third-party
 ||thatsping.com^$third-party
