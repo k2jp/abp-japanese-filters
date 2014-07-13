@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: G7pBb0v0jOQ664gvpxG35g
+! Checksum: Y06JEH5nEf7cGD1X4AtaWg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407131400
+! Version: 201407131453
 !
-! Last modified: 2014-07-13 14:00 (UTC+0900)
+! Last modified: 2014-07-13 14:53 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4867,6 +4867,7 @@ _yahooads_
 ||d2o7lat8cdoi27.cloudfront.net^
 ||d2oh4tlt9mrke9.cloudfront.net^
 ||d2sj2omw0azr1m.cloudfront.net^
+||d2zm90ue88koyl.cloudfront.net^
 ||d31qbv1cthcecs.cloudfront.net^
 ||d35tca7vmefkrc.cloudfront.net^
 ||d36lvucg9kzous.cloudfront.net^
@@ -6164,6 +6165,7 @@ _yahooads_
 ||mediateas.com^
 ||mediatraffic.com.ua^$third-party
 ||mediaunder.$third-party
+||mediavoice.com^$third-party
 ! for Android, reporeted by 名無し a.k.a. 匿名 via blog, Apr 6, 2013, updated Apr 27, 2013
 ||mediba.jp^$third-party
 ! for Android, reporeted by 名無し a.k.a. 匿名 via blog, Apr 6, 2013, updated Apr 27, 2013
@@ -6610,6 +6612,7 @@ _yahooads_
 ||poisom.com^
 ||pojulo.com^
 ||pokitom.com^
+||polarmobile.com^
 ||polimantu.com^
 ||pomtiy.com^
 ||ponpare.jp^$third-party
