@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: RLJ6eyD1wS89I7tSRsQcHw
+! Checksum: g6OsQSQVYW34eGcGXCTaQg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407140126
+! Version: 201407140129
 !
-! Last modified: 2014-07-14 01:26 (UTC+0900)
+! Last modified: 2014-07-14 01:29 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1511,6 +1511,7 @@
 /flashbanner.swf
 /ga_social_tracking.$script
 /gads.$script
+/gdata/*$script,third-party
 /getad^
 /getmarquee^$domain=live.nicovideo.jp|www.nicovideo.jp
 ! Commented out duplicated filters, Feb 26, 2012
@@ -4849,6 +4850,8 @@ _yahooads_
 ||clo-saison.com^
 ||cloakac.com^
 ||np7beacon.cloudapp.net^
+||cloudcdnru.com^
+||cloudcnd.com^
 ||ajax.cloudflare.com^
 ||cloudfront.net^$popup
 ||d1bzh9wdftmzm0.cloudfront.net^
