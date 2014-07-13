@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: g6OsQSQVYW34eGcGXCTaQg
+! Checksum: aBTpT8PXOexZdE94hX55LA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407140129
+! Version: 201407140644
 !
-! Last modified: 2014-07-14 01:29 (UTC+0900)
+! Last modified: 2014-07-14 06:44 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4956,6 +4956,7 @@ _yahooads_
 ||contrat-de-pret.com^
 ||conversioncounter.jp^$third-party
 ||conversionruler.com^$third-party
+||convertfilesforfree.com^$third-party
 ||convertro.com^$third-party
 ! False positive at http://www.youtube.com/oracle reported by @dullneko 2011-10-03
 ! => Resolved with whitelists  @@||conviva.com/crossdomain.xml and @@||conviva.com/lpconfig/cfg/ 2011-10-06
