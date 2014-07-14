@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: IULGe84A2BZdjqubwRditg
+! Checksum: kjVuXJbc6E1f9EdINCRFyw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407140649
+! Version: 201407150836
 !
-! Last modified: 2014-07-14 06:49 (UTC+0900)
+! Last modified: 2014-07-15 08:36 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1595,8 +1595,8 @@
 /load_lcs.$script
 /log1.
 /logwrite.$image,object
-|http://*/lp/$popup
-|https://*/lp/$popup
+|http:*/lp/$popup
+|https:*/lp/$popup
 /makePCookie_
 /marquee/*
 /marqueeplayer.
@@ -4105,8 +4105,8 @@ _yahooads_
 |http:*.ad-v.jp^
 |https:*.ad-v.jp^
 ||ad-ya.net^
-|http://*.ad.ru^$third-party
-|https://*.ad.ru^$third-party
+|http:*.ad.ru^$third-party
+|https:*.ad.ru^$third-party
 |http://ad0*.ru^
 |https://ad0*.ru^
 ||ad1.ru^$third-party
@@ -4911,8 +4911,8 @@ _yahooads_
 ||mads.cnet.com^
 ||cnxad.com^$third-party
 ||cnzz.com^$third-party
-|http://*co-co-co.co^$popup
-|https://*co-co-co.co^$popup
+|http:*co-co-co.co^$popup
+|https:*co-co-co.co^$popup
 ||coadvertise.com^$third-party
 ||analytics.cocolog-nifty.com^
 ||ax*.cocolog-nifty.com^
@@ -5646,7 +5646,8 @@ _yahooads_
 ||hyperpromote.com^
 ||i-mobile.co.jp^$third-party
 ||i-nature.net^$third-party
-|http://*.i.ua^$third-party
+|http:*.i.ua^$third-party
+|https:*.i.ua^$third-party
 ||i2i.jp^$third-party
 ||i2idata.com^$third-party
 ||i2iserv.com^$third-party
@@ -7371,8 +7372,8 @@ _yahooads_
 ||unitag.jp^$third-party
 ||unthem.com^
 ||untily.com^
-|http://*.up.ru^
-|https://*.up.ru^
+|http:*.up.ru^
+|https:*.up.ru^
 ||updaterspro.com^$popup
 ||updaterspro.com^$third-party
 ||uploadstation.com/styles/popup.
