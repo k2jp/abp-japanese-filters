@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: kjVuXJbc6E1f9EdINCRFyw
+! Checksum: oS6mnTtTerd7MqJy1Y77ww
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407150836
+! Version: 201407151002
 !
-! Last modified: 2014-07-15 08:36 (UTC+0900)
+! Last modified: 2014-07-15 10:02 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -15,6 +15,8 @@
 ! Project contributors: 
 !
 ! ########## Temporary white list START ##########
+! Workaround to avoid a "ReferenceError: YMAP is not defined" false positive with the script ended with meaningless "?_t=pPc" like http://map.yahoo.co.jp/js/scroll.js?_t=pPc, using ^ppc^ Pay-Per-Click filter, reported via Issue Report, Jul 15, 2014
+@@.js?_t=pPc^$script,domain=map.yahoo.co.jp
 ! video-cdn.ea.com distributes mp4 videos with "&affiliateid="...
 @@.mp4?*&affiliateid=
 ! Added to avoid a never-ending "loading..." gif
