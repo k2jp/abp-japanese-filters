@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: kLPrONk+5txQBHoFmwv+TQ
+! Checksum: mQ4o2E6j1YngGUkvj1kMdw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407190143
+! Version: 201407190149
 !
-! Last modified: 2014-07-19 01:43 (UTC+0900)
+! Last modified: 2014-07-19 01:49 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -51,7 +51,7 @@
 ! ^urchin. filter causes false positives with the Japanese Amazon external audio player at web-cache.chocomaru.com, reporeted by 鳥 via blog, May 12, 2013
 @@||google-analytics.com/urchin.js$domain=web-cache.chocomaru.com
 ! Workaround to avoid an UNABLE TO LOAD PLUGIN error with .analytics- filter, Jan 26, 2014
-@@||edge.vie.hitbox.tv/static/player/flowplayer/flowplayer.analytics-3.2.*-dev.swf
+@@||hitbox.tv/static/player/flowplayer/flowplayer.analytics-3.2.*-dev.swf
 ! A ^beacon^ filter causes false positives with css sprite images below, Oct 3rd, 2012
 ! http://g-ec2.images-amazon.com/images/G/09/gno/beacon/BeaconSprite-JP-02._V393500380_.png
 ! http://g-ecx.images-amazon.com/images/G/01/gno/beacon/BeaconSprite-US-01._V394051227_.png
