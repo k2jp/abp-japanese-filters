@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: LXGORM4vDplAANXgtRnMAg
+! Checksum: lei4oLNbsm/pUcPRmB2oWw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201407281940
+! Version: 201407290329
 !
-! Last modified: 2014-07-28 19:40 (UTC+0900)
+! Last modified: 2014-07-29 03:29 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4482,6 +4482,7 @@ _yahooads_
 ||ws.amazon.$third-party
 ||sis.amazon.com^
 ||amazonaws.com^$popup
+||amazonaws.com/af-bdaz/
 ||amazonaws.com/ai-img/
 ||amazonaws.com/*.cetrk.com/
 ||amazonaws.com/getsatisfaction.com/
@@ -5960,6 +5961,7 @@ _yahooads_
 ||kingdun.net^$third-party
 ||kinwee.com^$third-party
 ||kissmetrics.com^$third-party
+||kitcode.net^
 ||kiwi.kz^$third-party
 ||kji.jp^$third-party
 ||klaviyo.com^$third-party
@@ -7087,6 +7089,7 @@ _yahooads_
 ||shinystat.com^$~image
 ||shop-japan.com^$third-party
 ||shopping-search.jp^$third-party
+||shorte.st^$third-party
 ||shoveac.com^
 ||showcase-tv.jp^
 ||showdysl.com^
@@ -7493,6 +7496,7 @@ _yahooads_
 ||valuecommerce.com^$third-party
 ||vatgia.com^
 ||vcm.jp^$third-party
+||vcmedia.vn^$third-party
 ||vdna-assets.com^
 ||vector.co.jp/adinfo/
 ||vector.co.jp/advertise/
