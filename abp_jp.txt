@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: d/xE7udPi+ubMUh4RfWPcQ
+! Checksum: 3uqTHFSz1l5MVvr8x9s2JA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201408040430
+! Version: 201408040456
 !
-! Last modified: 2014-08-04 04:30 (UTC+0900)
+! Last modified: 2014-08-04 04:56 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5396,6 +5396,7 @@ _yahooads_
 ||extreme-dm.com^
 ||eyewonder.com^$third-party
 ||ezbbs.net/*/sample*/img/
+||ezlkflefig.ru^
 ||ezwebcam.com^$popup
 ||facdn.com^
 ||facebook.com/ai.php?
@@ -6677,6 +6678,7 @@ _yahooads_
 ||pixfuture.net^$third-party
 ||piximedia.$third-party
 ||pixplug.in^
+||pjgjfcokyf.ru^
 ||plaisirs-webcam.com^
 ||plankam.net^
 ||plansmalin.com^
