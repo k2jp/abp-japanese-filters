@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: ru7gYN4hldzin1S2qkM9FQ
+! Checksum: FPR217ei19Y1QGX7gYKzqw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201408040557
+! Version: 201408040633
 !
-! Last modified: 2014-08-04 05:57 (UTC+0900)
+! Last modified: 2014-08-04 06:33 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2014,6 +2014,7 @@
 ! ?retargeting^
 ! ?retargeting_
 ?tgu_src_lp_domain=$popup
+?tid=$third-party
 ?track_id=
 ?track_id=$popup
 ?tracker_id=
@@ -7005,6 +7006,7 @@ _yahooads_
 ||secure-locked.com^$third-party
 ||secure-softwaremanager.com^
 ||securerequestform.com^$third-party
+||securespy.net^
 ||securestudies.com^
 ||a1.security-next.com^
 ||seertul.com^
@@ -7134,6 +7136,7 @@ _yahooads_
 ||sitesnapi.com^$third-party
 ||sitestat.com^$third-party
 ||sitetag.us^$third-party
+||sitewebred.info^
 ! ||ads.sixapart.com^
 ||skillupjapan.net^$third-party
 ||skimlinks.com^$third-party
