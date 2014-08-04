@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: qlI9J9iyIfb/OP3fcpbRsQ
+! Checksum: K1vWdAAAKK25qkR7mZk9hg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201408042202
+! Version: 201408050432
 !
-! Last modified: 2014-08-04 22:02 (UTC+0900)
+! Last modified: 2014-08-05 04:32 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4202,6 +4202,7 @@ _yahooads_
 ||addelive.com^$third-party
 ||addeluxe.jp^$third-party
 ||addfreestats.com^$third-party
+||addirecter.ru^
 ||addsky.tv^
 ||addthis.com^$third-party
 ||addthisedge.com^
@@ -4236,6 +4237,7 @@ _yahooads_
 ||adkontekst.pl^$third-party
 ||adlantis.jp^$third-party
 ||adlegend.com^$third-party
+||adlooker.ru^
 ||adlpo.com^$third-party
 ||admagnet.net^$popup
 ||admagnet.net^$third-party
@@ -4314,6 +4316,7 @@ _yahooads_
 ||adsplats.com^$popup
 ||adsplats.com^$third-party
 ||adspot-rich.info^$third-party
+||adstarter.ru^
 ||adsupply.com^$third-party
 ||adsurve.com^
 ||adswizz.com^$third-party
@@ -4443,12 +4446,14 @@ _yahooads_
 ||cdnstats-a.akamaihd.net^
 ||hdapp1003-a.akamaihd.net^
 ||hdapp1008-a.akamaihd.net^
+||akmega.ru^
 ||aknod.com^$third-party
 ||alc.co.jp/content/js/alcom/
 ||alc.co.jp/content/js/eow_infobar_
 ||alc.co.jp/content/js/sa/
 ||alc.co.jp/content/js/mc.
 ||aldaniti.net^$third-party
+||alemobile.ru^
 ||alexa.com^$third-party
 ||alexametrics.com^$third-party
 ||alfalfalfa.com/headline$subdocument
@@ -4577,6 +4582,7 @@ _yahooads_
 ||argus-vehicule.com^
 ||arkpressphoto.org^
 ||artemisweb.jp/sall.$script
+||asabor.ru^
 ||adnet.asahi.com/ad/
 ||imp.asahi.com^
 ||ad.ascii.jp^
@@ -4596,6 +4602,7 @@ _yahooads_
 ||astuces-du-net.com^
 ||astuces-malin.com^
 ||astuces-vip.com^
+||asyelop.ru^
 ||at-ad.com^
 ||atdmt.com^$third-party
 ||atemda.com^
@@ -4639,6 +4646,7 @@ _yahooads_
 ||ayads.co^
 ||azet.sk^$third-party
 ||azjmp.com^$popup
+||azorza.ru^
 ||b-click.net^$third-party
 ||b10f.jp^$third-party
 ||b5m.com^$popup
@@ -4671,7 +4679,9 @@ _yahooads_
 ||banquant.com^
 ||barnebys.co.uk/widget/
 ||barraien.com^
+||baryekhi.ru^
 ||batilo.de^$third-party
+||batitse.ru^
 ||baynote.net^
 ||bazaarvoice.com^$third-party
 ||bb-static.com^
@@ -4680,6 +4690,7 @@ _yahooads_
 ||bbchat.tv^$third-party
 ||bbelements.com^$third-party
 ||bbs-ad.com^$third-party
+||bcegovo.ru^
 ||beanscattering.jp^
 ||become.co.jp^$third-party
 ||beead.fr^$third-party
@@ -4697,6 +4708,7 @@ _yahooads_
 ||bestbuys.com^$popup
 ||bet365.com^$popup
 ||betrad.com^
+||bichaty.ru^
 ||bidvertiser.com^$third-party
 ||bigbord.net^$third-party
 ||bigcommerce.com^$third-party
@@ -4712,6 +4724,7 @@ _yahooads_
 ||binlayer.com^$third-party
 ||binmedia.ru^$third-party
 ||bitocean.info^
+||bixmarketing.ru^
 ||bizographics.com^$third-party
 ||bizrate-images.com^
 ||bizrate.com^$third-party
@@ -4751,6 +4764,7 @@ _yahooads_
 ||bmmetrix.com^
 ||bmnq.com^
 ||bnx.me^$third-party
+||bobrilla.com^
 ||bobyvs.com^
 ||bombermine.com/i/misc/
 ||bon-plan-rencontres.net^
@@ -5016,7 +5030,7 @@ _yahooads_
 ||conseil-emprunt.com^
 ||conseil-rencontre.com^
 ||conseils-pret.com^
-||contactsin.com^
+||contactsin.
 ||content.ad^$third-party
 ||contentabc.com^
 ||contentlink.co.kr^$third-party
@@ -5040,6 +5054,7 @@ _yahooads_
 ||livepass.conviva.com^
 ||banpro.in.coocan.jp^$third-party
 ||boxz.cools4u.com^
+||coolsor.ru^
 ||copercato.com^
 ||coquine.org^
 ||coquines-webcam.com^
@@ -5055,6 +5070,7 @@ _yahooads_
 ||countomat.com^$third-party
 ||coupishjs.info^
 ||couponsvc.com^
+||covcasi.ru^
 ||cpalead.com^$third-party
 ||cpm360.com^$third-party
 ||cpmadvisors.com^
@@ -5093,6 +5109,7 @@ _yahooads_
 ||csolution.jp^$third-party
 ||cszz.ru^
 ||cubicleoffers.com^$third-party
+||cudradi.ru^
 ||cupidon-webcam.com^
 ||cupidplc.com^$third-party
 ||curancience.com^
@@ -5148,6 +5165,7 @@ _yahooads_
 ||datingdiscret.com^
 ||datingfactory.com^$third-party
 ||datinglabel.com^
+||datorsi.ru^
 ||datropy.com^$third-party
 ||daum.net^$subdocument,third-party
 ||davarello.com^
@@ -5167,6 +5185,7 @@ _yahooads_
 ||demdex.net^$third-party
 ||demilith.com^
 ||deobp.com^
+||deolerton.ru^
 ||deplayer.net^$third-party
 ! Possibly false positive disabling "Regular download" button, reported by leaies.hotmail at [https://code.google.com/p/adblock-plus-japanese-filter/issues/detail?id=33]
 ! ||depositfiles.com/js/df_utils.$script
@@ -5185,16 +5204,19 @@ _yahooads_
 ||diamond.jp/oo/d/
 ||diamond.jp/mwimgs/f/b/
 ||diamond.jp^*/welcome.$script
+||didoga.ru^
 ||dificaux.com^
 ||digitalworld.fr^
 ||dimestore.com^
 ||dimprive.com^
 ||directaclick.com^
 ||directadvert.ru^$third-party
+||directerp.ru^
 ||direction-du-credit.com^
 ||direction-x.com^$third-party
 ||directrev.com^$third-party
 ||directtrack.com^$third-party
+||dirnema.ru^
 ||dismas.jp^$third-party
 ||displayincloud.com^
 ||displaymarketplace.com^
@@ -5248,10 +5270,12 @@ _yahooads_
 ||dreamsadnetwork.com^
 ||ad4u.drecom.jp^
 ||rss.drecom.jp/*banner/$third-party
+||drikova.ru^
 ||drk7.jp^$third-party
 ||drontres.com^
 ||dropdowndeals.com^$third-party
 ||drowle.com^
+||drugwow.ru^
 ||dt00.net^
 ||dt03.net^
 ||dt07.net^
@@ -5297,6 +5321,7 @@ _yahooads_
 ||ebis.ne.jp^$third-party
 ||ebuzzing.com^$third-party
 ||ec-images.com^$third-party
+||echasan.ru^
 ||ecnavi.jp/campaign/$third-party
 ||eco-tag.jp^
 ||econdus.com^
@@ -5314,6 +5339,7 @@ _yahooads_
 ||egameads.com^$third-party
 ||egooad.com^$third-party
 ||adingo.jp.eimg.jp^
+||ekdali.ru^
 ||ekitan.com/eco/
 ||log.ekitan.com^
 ||ekod.info^
@@ -5326,6 +5352,7 @@ _yahooads_
 ||emediate.eu^
 ||emierete.com^
 ||emisses.com^
+||emlitok.ru^
 ||emploi-center.com^
 ||emploi-express.com^
 ||emv2.com^
@@ -5352,6 +5379,7 @@ _yahooads_
 ||ero-tube.jp^$third-party
 ||erovation.com^$third-party
 ||erovinmo.com^
+||ertovy.ru^
 ||erwoved.ru^
 ||esdizi.com^
 ||esearchvision.com^$third-party
@@ -5413,6 +5441,8 @@ _yahooads_
 ||fastdiscountz.com^$third-party
 ||fastestjs.info^
 ||fastpic.ru^$third-party
+||fastsearcher.ru^
+||faststarter.ru^
 ||tracking.fathomseo.com^
 ||fbchatplus.com^
 ||fc2-master.sakura.ne.jp^$third-party
@@ -5439,6 +5469,7 @@ _yahooads_
 ||fc2web.com^$third-party
 ||fdgeen.com^
 ||featuredusers.com^$third-party
+||fedrobi.ru^
 ||feedjit.com^$third-party
 ||feedsweep.com^$third-party
 ||fetchback.com^$third-party
@@ -5457,6 +5488,7 @@ _yahooads_
 ||financialcontent.com^$third-party
 ||find-a.jp^$third-party
 ||findpre.net^
+||firmernet.ru^
 ||fivecool.tv^
 ||flascom.com^
 ||flashmediaportal.com^
@@ -5523,6 +5555,7 @@ _yahooads_
 ||gameforge.de^$third-party
 ||gameoftraffic.com^
 ||gaminatorslots.com^$popup
+||ganaza.ru^
 ||garss.jp^$third-party
 ||garss.tv^$third-party
 ||gaug.es^$third-party
@@ -5553,6 +5586,7 @@ _yahooads_
 ||gigazine.asia^
 ||gigya.com^$third-party
 ||gimite.net^$third-party
+||ginads.com^$third-party
 ||gingardo.com^
 ||giokole.com^
 ||giosany.com^
@@ -5571,6 +5605,9 @@ _yahooads_
 ||globaltakeoff.net^$third-party
 ||globe7.com^$third-party
 ||globeac.com^
+||globosearcher.ru^
+||globoverter.ru^
+||glubopa.ru^
 ||gmodmp.jp^
 ||gnavi.co.jp/analysis/
 ||gnavi.co.jp/img/lib/huc/
@@ -5631,6 +5668,7 @@ _yahooads_
 ||gsspcln.jp^
 ||csi.gstatic.com^
 ||metric.gstatic.com^
+||gublego.ru^
 ||gueur.com^
 ||gueurs.com^
 ||guide-des-bonnes-affaires.com^
@@ -5680,6 +5718,7 @@ _yahooads_
 ||hitomedia.jp/GT/
 ||hitslink.com^$third-party
 ||hittail.com^$third-party
+||hkik.ru^
 ||hlwan.net^$popup
 ||hm-analytics.com^
 ||hs-analytics.net^
@@ -5690,12 +5729,13 @@ _yahooads_
 ||hongfire.com/banner/
 ||hopedac.com^
 ||hopilos.com^
-||hotmatch.com^$third-party
-||hotpepper.jp^$third-party
-||houmekredit.ru^
 ||gigazine1.hoster.jp/images/2
 ||analytics.hosting24.com^
 ||hotlog.ru^$third-party
+||hotmatch.com^$third-party
+||hotpepper.jp^$third-party
+||houmekredit.ru^
+||howitcanbe.ru^
 ||d.href.asia^
 ||hsappstatic.net^
 ||hsforms.net^
@@ -5715,6 +5755,7 @@ _yahooads_
 ||t-ak.hulu.com^
 ||t2.hulu.com^
 ||huluim.com/images/_.$image,object
+||humanredirect.ru^
 ||hunt4tunes.com^$popup
 ||hurra.com^$third-party
 ||hype-ads.com^
@@ -5751,6 +5792,7 @@ _yahooads_
 ||idylsenior.com^
 ||iesnare.com^
 ||iforex.com^$third-party
+||ifortino.ru^
 ||ign-omy.com^
 ! ||ads.ign.com^
 ||atax.ign.com^
@@ -5763,8 +5805,10 @@ _yahooads_
 ||iij4u.or.jp/~metal/
 ||iij4u.or.jp/~miyavi/
 ||iivt.com^
+||ijmovix.ru^
 ||ikersont.com^
 ||ikolop.com^
+||ilasen.ru^
 ||ilivid.com^$popup
 ||iljmp.com^
 ||illiage.com^
@@ -5852,12 +5896,14 @@ _yahooads_
 ||ip-label.net^$third-party
 ||ipros.jp^$third-party
 ||direct.ips.co.jp^$third-party
+||irmeeting.ru^
 ||irs01.net^
 ||is686.com^$third-party
 ||iservdata.com^
 ||ismedia.jp^*/welcome.$script
 ||ismedia.jp/oo/
 ||jbpress.ismedia.jp/common/images/*/focus.
+||ismeti.ru^
 ||istrack.com^
 ||it-news-info.com^
 ||itgear.jp^$third-party
@@ -5879,6 +5925,8 @@ _yahooads_
 ||ivantat.com^
 ||ivwbox.de^
 ||ixnp.com^$third-party
+||ixtyted.ru^
+||iznalik.ru^
 ||j-a-net.jp^$third-party
 ||jadedi.com^
 ||japanmetrix.jp^
@@ -5910,6 +5958,7 @@ _yahooads_
 ||joinsmsn.com/sbox/
 ||jollyac.com^
 ||jollywallet.com^$third-party
+||jorjfix.ru^
 ||jowapt.com^
 ||jpg-server.com^$third-party
 ||jrfced.com^
@@ -5964,9 +6013,11 @@ _yahooads_
 ||keewurd.com^
 ||keyrun.cn^$third-party
 ||keywordlink.co.kr^$third-party
+||khimitsin.ru^
 ||kiev.ua^$third-party
 ||kikoucam.com^
 ||kilopog.com^
+||kimcheese.ru^
 ||kingdun.net^$third-party
 ||kinwee.com^$third-party
 ||kissmetrics.com^$third-party
@@ -5989,6 +6040,7 @@ _yahooads_
 ||koviovius.com^
 ||kozaka.net^$third-party
 ||kranted.com^
+||kromeleta.ru^
 ||krxd.net^
 ||kryter.com^$third-party
 ||analytics.ku6.com^
@@ -6068,6 +6120,7 @@ _yahooads_
 ||like18.info/image/
 ||likemastr.com^$third-party
 ||likondok.com^
+||lineni.ru^
 ||linezing.com^$third-party
 ||link-smart.com^
 ||link-trade.net^$third-party
@@ -6078,7 +6131,9 @@ _yahooads_
 ||linkbucks.com^$third-party
 ||linkbucksmedia.com^$third-party
 ||linkemann.com^$third-party
+||linkerlink.ru^
 ||linkfeed.org^
+||linkpeoples.com^
 ||linksmart.com^$third-party
 ||linksynergy.com^
 ||linkuryjs.info^
@@ -6131,9 +6186,11 @@ _yahooads_
 ||loneday.com^
 ||amazoo.longseller.org^$third-party
 ||lp.longtailvideo.com^
+||lookforsearch.ru^
 ||lopitus.com^
 ||loponop.com^
 ||lopytol.com^
+||losafo.ru^
 ||lostun.com^
 ||lovelove.fr^
 ||loveloves.com^
@@ -6176,6 +6233,7 @@ _yahooads_
 ||m2pub.com^
 ||m2pub.com^popup
 ||ma-cam-live.com^
+||mabirol.com^
 ||mach10.fr^
 ||macpath.net^
 ||macpath.net^$popup
@@ -6279,9 +6337,12 @@ _yahooads_
 ||megavideo.com/*/onhover.$script
 ||megavideo.com/mcad.
 ||megavideo.com/top.swf
+||meinlist.com^
 ||mekamek.com^
 ||meltwaternews.com^$third-party
 ||mementes.com^
+||menato.ru^
+||mendir.ru^
 ||menteret.com^
 ||mes-dossiers-credit.com^
 ||mes-prets-en-ligne.com^
@@ -6295,6 +6356,7 @@ _yahooads_
 ||mgid.com^$third-party
 ||mi3u.info^
 ||miapex.com^$third-party
+||micro-a.ru^
 ||microad.jp^$third-party
 ||microsoft.com/library/svy/
 ||c.microsoft.com^
@@ -6325,20 +6387,28 @@ _yahooads_
 ||moba8.net^$third-party
 ||mobalives.com^
 ||mobalives.com^$popup
+||mobapeople.com^
+||mobatori.com^
 ||mobatory.com^
 ||mobbober.com^
 ||mobbobr.com^
 ||mobicont.com^
 ||mobicow.com^$third-party
+||mobidump.com^
 ||mobifiesta.com^$popup
+||mobifobi.com^
 ||mobikano.com^
 ||mobikont.com^
 ||mobilcom-debitel.de^
 ||mobiledirectors.com^
 ||mobileraffles.com^$popup
 ||mobiloba.com^
+||mobirollcom.ru^
+||mobirollru.com^
+||mobnumbers.com^
 ||moborobot.com^
 ||mobraner.com^
+||mobruner.com^
 ||mobylog.jp^$third-party
 ||mobyrol.com^
 ||mocean.mobi^
@@ -6361,6 +6431,7 @@ _yahooads_
 ||montage-dossier-pret.com^
 ||montiera.com^$third-party
 ||mookie1.com^$third-party
+||moonhappy.ru^
 ||mopilod.com^
 ||morenews3.net^
 ||moselats.com^
@@ -6403,6 +6474,7 @@ _yahooads_
 ||my-affiliate.com^$third-party
 ||my1.ru^
 ||myadsrv04.com^
+||myasoril.ru^
 ||mybet.com^$third-party
 ||track*.mybloglog.com^$third-party
 ||mybuys.com^$third-party
@@ -6536,6 +6608,7 @@ _yahooads_
 ||noblok.com^
 ||nomura.co.jp/resource/image/sideparts/
 ||noproblemppc.com^$third-party
+||noptes.ru^
 ||novamov.com^$third-party
 ||novostimira.$third-party
 ||novoteka.ru^$third-party
@@ -6549,9 +6622,12 @@ _yahooads_
 ||ad.ntv.co.jp^
 ||nuggad.net^$third-party
 ||nukumori.tv^$third-party
+||numberia.com^
 ||numberium.com^
 ||numberiya.com^
 ||numerikart.com^
+||numking.com^
+||nummobile.com^
 ||nxtck.com^
 ||files.nyaa.eu/ab
 ||files.nyaa.se/ac
@@ -6565,6 +6641,7 @@ _yahooads_
 ||offermatica.com^
 ||offerssuperior.com^$popup
 ||offerswizardjs.info^
+||ofino.ru^
 ||ogt.jp/js/$third-party
 ||ogt.jp/plog?^$third-party
 ||oirplane.com^
@@ -6626,6 +6703,7 @@ _yahooads_
 ||overclockers.co.uk/home_banners/
 ||overture.com^$third-party
 ||overture.co.jp^$third-party
+||ovskin.ru^
 ||owldata.com^$third-party
 ||p-advg.com^$third-party
 ||p-bxm.com^$third-party
@@ -6650,6 +6728,7 @@ _yahooads_
 ||peepsrv.com^
 ||peer2cash.com^
 ||peer39.net^
+||peoplemobile.ru^
 ||percentmobile.com^$third-party
 ||perfectaudience.com^$third-party
 ! False positives at goal.com with eplayer modules, May 18, 2012
@@ -6673,6 +6752,7 @@ _yahooads_
 ||pinoyfullmovies.com^$third-party
 ||log.pinterest.com^
 ||pipe-ejac.net^
+||pishton.ru^
 ||ad.pitattomatch.com^
 ||ad.pitta.ne.jp^
 ||piwik-stat.com^
@@ -6707,6 +6787,7 @@ _yahooads_
 ||pokitom.com^
 ||polarmobile.com^
 ||polimantu.com^
+||pomarta.ru^
 ||pomtiy.com^
 ||ponpare.jp^$third-party
 ||poollast.com^
@@ -6715,13 +6796,14 @@ _yahooads_
 ||popads.net^$popup
 ||popads.net^$third-party
 ||popadscdn.net^
-||popander.in^
+||popander.
 ||popcash.net^$third-party
 ||popin.cc^$third-party
 ||popmyads.com^$popup
 ||poponclick.com^$third-party
 ||popularscreensavers.com^
-||popunder.ru^$third-party
+||popunder.$third-party
+||popundr.ru^
 ||popupclick.ru^$third-party
 ||porn99.net^$third-party
 ||pornbus.org^$third-party
@@ -6734,6 +6816,7 @@ _yahooads_
 ||porntrafic.com^
 ||ppc-direct.com^$third-party
 ||ppro.de^
+||ppsearcher.ru^
 ||preact.io^$third-party
 ||precisionclick.com^$third-party
 ||predictad.com^$third-party
@@ -6758,6 +6841,7 @@ _yahooads_
 ||projectsunblock.com^$third-party
 ||projectwonderful.com^$third-party
 ||proligtb.com^
+||proncar.ru^
 ||propellerpops.com^
 ||propermediadeals.com^
 ||ptengine.jp^$third-party
@@ -6854,6 +6938,7 @@ _yahooads_
 ||recomendedsite.com^$third-party
 ||reconize.com^$third-party
 ||recreativ.ru^$third-party
+||redavu.ru^
 ||redirectingat.com^$third-party
 ||redtram.com^$third-party
 ||reduxmedia.com^$third-party
@@ -6928,11 +7013,13 @@ _yahooads_
 ||rmdown.com/pc1.$image,object
 ||rmgserving.com^
 ||robimobi.com^
+||robotrix.ru^
 ||rocketgames.com^$popup
 ||roia.biz^$third-party
 ||roletan.com^
 ||romilit.com^
 ||ronetu.ru^
+||rootinmyhead.ru^
 ||ropedac.com^
 ||rotaban.ru^$third-party
 ||rpxnow.com^$third-party
@@ -6950,6 +7037,7 @@ _yahooads_
 ||rusrestbest.
 ||rvzrjs.info^
 ||ryminos.com^
+||rytatuy.ru^
 ||s-msn.com/br/*track*.$script
 ||s-msn.com/br/*/navigation.$script
 ||s-msn.com/br/*/report.$script
@@ -7055,6 +7143,7 @@ _yahooads_
 ||sharereactor.com^$third-party
 ||sharethis.com^$third-party
 ||shendu.cc^$third-party
+||shibkoshu.ru^
 ||shinobi.jp/analyze/
 ||shinobi.jp/tadaima/
 ||adm.shinobi.jp^
@@ -7269,6 +7358,7 @@ _yahooads_
 ||taboolasyndication.com^
 ||tacdn.com^$domain=~tripadvisor.ca|~tripadvisor.co|~tripadvisor.co.id|~tripadvisor.co.uk|~tripadvisor.com|~tripadvisor.com.au|~tripadvisor.com.br|~tripadvisor.com.gr|~tripadvisor.com.mx|~tripadvisor.com.my|~tripadvisor.com.sg|~tripadvisor.com.tr|~tripadvisor.com.tw|~tripadvisor.es|~tripadvisor.fr|~tripadvisor.ie|~tripadvisor.in|~tripadvisor.it|~tripadvisor.jp|~tripadvisor.ma|~tripadvisor.net|~tripadvisor.nl|~tripadvisor.org|~tripadvisor.se
 ||tacoda.net^$third-party
+||tafla.ru^
 ||takealldir.ru^
 ||takensparks.com^$third-party
 ||tanzuki.net^
@@ -7302,6 +7392,7 @@ _yahooads_
 ||tempo-credit.com^
 ||tenoad.com^$third-party
 ||tenso.com^$third-party
+||terigal.ru^
 ||teromil.com^
 ||teser.net^
 ||test-2010.com^
@@ -7421,6 +7512,7 @@ _yahooads_
 ||trustadnetwork.net^
 ||trustclick.ne.jp^
 ||truste.com^$third-party
+||tsingera.ru^
 ||ttfean.com^
 ||tubejs.info^
 ||tubemogul.com^$third-party
@@ -7447,8 +7539,10 @@ _yahooads_
 ||undertone.com^$third-party
 ||ubcpm.com^
 ||udedokei-catalog.com^$third-party
+||ugleder.ru^
 ||ugo2.jp^$third-party
 ||uimserv.net^
+||ukrotsel.ru^
 ||ultimedia.com^$third-party
 ||ultrapay.net^$third-party
 ||underclick.ru^
@@ -7479,6 +7573,7 @@ _yahooads_
 ! ||userlocal.jp/b
 ||userlocal.jp^$third-party
 ||api.social.userlocal.jp/apis/
+||uspovo.ru^
 ||ustream.tv^*/images/softbank-
 ||ustream.tv^*/images/special/
 ||ustream.tv/*/games/api/common/*.json?ts=$xmlhttprequest
@@ -7710,6 +7805,7 @@ _yahooads_
 ||wwop-love.com^
 ||wwv4ez0n.com^
 ||www.co.cc^$third-party
+||wwwmobiroll.com^
 ||wwwpromoter.com^$third-party
 ||wysistat.com^$third-party
 ||wyunion.com^$third-party
@@ -7848,6 +7944,7 @@ _yahooads_
 ||yontoo.com^$third-party
 ||yooclick.com^$popup
 ||you-bar.com^$third-party
+||youformobile.ru^
 ||youku.com/*/js/hzClick.
 ||youku.com^*/js/popup.
 ||atm.youku.com^
@@ -7866,6 +7963,8 @@ _yahooads_
 ||ytimg.com^*_background_$image,object
 ||ytimg.com^*_banner.$image,object
 ||ytimg.com^*_banner_$image,object
+||yuftabu.ru^
+||yustitum.ru^
 ||yyv.co^$popup
 ||z5x.net^$third-party
 ||zanox.com^$third-party
@@ -7897,6 +7996,7 @@ _yahooads_
 ||zone-voyance.com^
 ||zontrans.com^
 ||zwaar.org^
+||zyumicher.ru^
 ! ========== ValueClick alias domains: 216.34.207.62 START ==========
 ||afcyhf.com^
 ||anrdoezrs.net^
