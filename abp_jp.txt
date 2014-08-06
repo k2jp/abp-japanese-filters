@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: K1vWdAAAKK25qkR7mZk9hg
+! Checksum: diUItl0cEEx+qoKTPxf2iw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201408050432
+! Version: 201408061917
 !
-! Last modified: 2014-08-05 04:32 (UTC+0900)
+! Last modified: 2014-08-06 19:17 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -613,6 +613,10 @@
 -evercookie.
 -evercookie^
 -evercookie_
+-fingerprint-$script
+-fingerprint.$script
+-fingerprint^$script
+-fingerprint_$script
 -impression_id-
 -impression_id.
 -impression_id^
@@ -1018,6 +1022,10 @@
 .evercookie.
 .evercookie^
 .evercookie_
+.fingerprint-$script
+.fingerprint.$script
+.fingerprint^$script
+.fingerprint_$script
 .histats.$third-party
 .impact-ad.jp^$third-party
 .impression_id-
@@ -2824,6 +2832,10 @@
 ^fastpopunder.
 ^fastpopunder^
 ^fastpopunder_
+^fingerprint-$script
+^fingerprint.$script
+^fingerprint^$script
+^fingerprint_$script
 ^foresee-$script
 ^foresee.$script
 ^foresee^$script
@@ -3717,6 +3729,10 @@ _evercookie-
 _evercookie.
 _evercookie^
 _evercookie_
+_fingerprint-$script
+_fingerprint.$script
+_fingerprint^$script
+_fingerprint_$script
 _google_afc-
 _google_afc.
 _google_afc^
