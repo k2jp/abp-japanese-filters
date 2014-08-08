@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: Em9sJpujwFWPqg5RsAzK0g
+! Checksum: DigLNEXGuGzXRA+Nz+oR9g
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201408081036
+! Version: 201408090411
 !
-! Last modified: 2014-08-08 10:36 (UTC+0900)
+! Last modified: 2014-08-09 04:11 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3898,6 +3898,7 @@ _yahooads_
 ||ad-cdn.
 |http://ad.
 |https://ad.
+||ad0.
 ||ad1.
 ||ad2.
 ||ad3.
@@ -3910,8 +3911,16 @@ _yahooads_
 ||adcl.
 ||adimg.
 ||ads.
+||ads0.
 ||ads1.
 ||ads2.
+||ads3.
+||ads4.
+||ads5.
+||ads6.
+||ads7.
+||ads8.
+||ads9.
 ||adcdn.
 ||adserver.
 ||adserving.
@@ -3970,8 +3979,16 @@ _yahooads_
 |https://ox-i.
 ||phpadsnew.
 ||promo.
+||promo0.
 ||promo1.
 ||promo2.
+||promo3.
+||promo4.
+||promo5.
+||promo6.
+||promo7.
+||promo8.
+||promo9.
 ||reklama.
 ||reklame.
 ||reklamer.
@@ -3987,6 +4004,7 @@ _yahooads_
 ||tealium.
 ||telemetry.$third-party
 ||tizer.
+||tizer0.
 ||tizer1.
 ||tizer2.
 ||tizer3.
