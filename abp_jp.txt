@@ -3928,6 +3928,17 @@ _yahooads_
 ||beacon.
 |http://c.*/c.$image,object
 |https://c.*/c.$image,object
+||campaign.
+||campaign0.
+||campaign1.
+||campaign2.
+||campaign3.
+||campaign4.
+||campaign5.
+||campaign6.
+||campaign7.
+||campaign8.
+||campaign9.
 ||displayads.
 ||dosugcz.
 |http://dw.c$script
