@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: beFLL9mm3SsCikgwMzDSdw
+! Checksum: /Em3wGACMCBHaUIB1CP+5A
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201408120121
+! Version: 201408140312
 !
-! Last modified: 2014-08-12 01:21 (UTC+0900)
+! Last modified: 2014-08-14 03:12 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -686,10 +686,18 @@
 -retarget.
 -retarget^
 -retarget_
+-retargetid-
+-retargetid.
+-retargetid^
+-retargetid_
 -retargeting-
 -retargeting.
 -retargeting^
 -retargeting_
+-retargetingid-
+-retargetingid.
+-retargetingid^
+-retargetingid_
 -showad-
 -showad.
 -showad^
@@ -1102,10 +1110,18 @@
 .retarget.
 .retarget^
 .retarget_
+.retargetid-
+.retargetid.
+.retargetid^
+.retargetid_
 .retargeting-
 .retargeting.
 .retargeting^
 .retargeting_
+.retargetingid-
+.retargetingid.
+.retargetingid^
+.retargetingid_
 .rpxnow.com/$third-party
 .showad-
 .showad.
@@ -3279,10 +3295,18 @@
 ^retarget.
 ^retarget^
 ^retarget_
+^retargetid-
+^retargetid.
+^retargetid^
+^retargetid_
 ^retargeting-
 ^retargeting.
 ^retargeting^
 ^retargeting_
+^retargetingid-
+^retargetingid.
+^retargetingid^
+^retargetingid_
 ^rvzr-$third-party
 ^rvzr-$popup
 ^rvzr.$third-party
@@ -3816,10 +3840,18 @@ _retarget-
 _retarget.
 _retarget^
 _retarget_
+_retargetid-
+_retargetid.
+_retargetid^
+_retargetid_
 _retargeting-
 _retargeting.
 _retargeting^
 _retargeting_
+_retargetingid-
+_retargetingid.
+_retargetingid^
+_retargetingid_
 _showad-
 _showad.
 _showad^
