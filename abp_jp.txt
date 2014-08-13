@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: /Em3wGACMCBHaUIB1CP+5A
+! Checksum: hvVdvoodYEOrflHKa7nc7A
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201408140312
+! Version: 201408140341
 !
-! Last modified: 2014-08-14 03:12 (UTC+0900)
+! Last modified: 2014-08-14 03:41 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -339,7 +339,8 @@
 &trackid=
 &trackid=$popup
 ! &view=ad&
-&yad=
+! Merged with ^yad^, Aug 14, 2014
+! &yad=
 &zone_id=
 &zone_id=$popup
 &zoneid=
@@ -1417,7 +1418,8 @@
 ! /adsense_$domain=~google.com
 ! Domain-restricting options have moved to the whitelist 2011-12-07
 /adstay?
-/ADTECH;
+! Merged with ^adtech^, Aug 14, 2014
+! /ADTECH;
 /af/rakuten/*$third-party
 /afr.php?
 /afr?auid=
@@ -1898,7 +1900,8 @@
 /xtclicks.$script
 /xtcore.$script
 /xuiow/?$third-party
-/yad.
+! Merged with ^yad., Aug 14, 2014
+! /yad.
 /yieldbot.$third-party
 /yim.$script,subdocument
 /ystat.
@@ -2049,7 +2052,8 @@
 ?trackid=$popup
 ?url=$image,object,domain=fc2.com
 ! ?view=ad&
-?yad=
+! Merged with ^yad^, Aug 14, 2014
+! ?yad=
 ?zname=$third-party
 ?zone_id=
 ?zone_id=$popup
@@ -2487,6 +2491,10 @@
 ^adTag.
 ^adTag^
 ^adTag_
+^adtech-
+^adtech.
+^adtech^
+^adtech_
 ^adtext-
 ^adtext.
 ^adtext^
@@ -3445,6 +3453,10 @@
 ^urchin^
 ^urchin_
 ^watchtcm^$popup
+^yad-
+^yad.
+^yad^
+^yad_
 ^yads-
 ^yads.
 ^yads^
