@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: o8eCsgx1L35FArs1OReKyA
+! Checksum: tpZYD0F+V+aLyplc0smTFQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201408140407
+! Version: 201408170931
 !
-! Last modified: 2014-08-14 04:07 (UTC+0900)
+! Last modified: 2014-08-17 09:31 (UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -81,6 +81,8 @@
 ! Another false positive found at justin.tv ,reported and resolved via Issue Report, Dec 16, 2011
 @@||vox-static.liverail.com/swf/*/admanager.$domain=justin.tv|twitch.tv
 @@||media-imdb.com^*/ads.$script
+! False positive at xbox-news.com . common.css isn't loaded if javascript is enabled, and adbg.js and gyoen.minpos.com/delivery/ajs.php?zoneid=79 are blocked. 2011-09-23
+@@||gyoen.minpos.com/delivery/ajs.php?zoneid=79&
 ! False positive with data used for dynamic photo slides, reported via Issue Report, Feb 28, 2012
 @@||nationalgeographic.co.jp/DynamicLead/xml/Top/promo.$xmlhttprequest
 ! False positive at ndrive2.naver.jp . Login stops displaying "Loading N Drive" forever, Jan 23, 2012
@@ -103,9 +105,10 @@
 ! False positives at own3d.tv reported via Issue Report, Nov 21, 2011
 @@||tubemogul.com/crossdomain.xml|
 @@||tubemogul.com/bootloader/TubeMogulFlowPlayer.
+! Flase positive with ^tracking^ preventing the player from loading recorded streams, Aug 17, 2014
+@@||ustream.tv^*.flv?e=*&tracking=
 ! False positive at xbox-news.com . common.css isn't loaded if javascript is enabled, and adbg.js and gyoen.minpos.com/delivery/ajs.php?zoneid=79 are blocked. 2011-09-23
 @@||xbox-news.com/data/js/adbg.$script
-@@||gyoen.minpos.com/delivery/ajs.php?zoneid=79&
 ! Logo of Wikipedia uses URL including /ad/ ... reported via Issue Report, Jan 3, 2012
 @@||wikimedia.org/wikipedia/commons/*Wikipedia-logo*$image
 ! False positive with non-AD images, reported via Issue Report, Mar 19, 2012
