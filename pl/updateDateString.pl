@@ -23,7 +23,7 @@ my $data = readFile($file);
 
 my $time    = localtime();
 #my $strDateTime = $time->strftime("%d %b %Y %H:%M JST");
-my $strDateTime = $time->strftime("%F %R \(UTC%z\)");
+my $strDateTime = $time->strftime("%F %R JST\(UTC%z\)");
 my $strVersion = $time->strftime("%Y%m%d%H%M");
 
 die "[ERR] Failed to Generate DateTime String!" unless $strDateTime;
