@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 7+S4Ib9utbc2aDnv/W+XWw
+! Checksum: 8JGPHB0UCQdGzu+H+gkhmg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201408262127
+! Version: 201408271449
 !
-! Last modified: 2014-08-26 21:27 JST(UTC+0900)
+! Last modified: 2014-08-27 14:49 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -173,6 +173,9 @@
 @@||gstatic.com^*/Publisher/sprite$image
 ! False positives with combined stylesheets at guardian.co.uk, reported via Issue Report, Feb 6, 2012
 @@||combo.guim.co.uk^
+! False positives with combined scripts conflicting with _ads. filter and with further combined stylesheets, Aug 27, 2014
+@@||huffpost.com/assets/css.*?v=*%2C$stylesheet
+@@||huffpost.com/assets/js.*?v=*%2C$script
 @@||hulu.*/site-player/
 @@||lavasoft.com^*/ad_aware/
 ! False positive with a combined scripts, reported via Issue Report, Dec 31, 2011
