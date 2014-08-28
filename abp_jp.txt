@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: j2wqW7WrgUP9t7K2rEt9Uw
+! Checksum: xNl22rj89si1BhmMetEYKg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201408282206
+! Version: 201408290028
 !
-! Last modified: 2014-08-28 22:06 JST(UTC+0900)
+! Last modified: 2014-08-29 00:28 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4965,6 +4965,7 @@ _yahooads_
 ||amazonaws.com/*.cetrk.com/
 ||amazonaws.com/getsatisfaction.com/
 ||amazonaws.com/hd_streamer/
+||amazonaws.com/*.inspectlet.com/
 ||amazonaws.com/*.kissmetrics.com/
 ||amazonaws.com/*.pagefair.com/
 ||amazonaws.com/opbanditcdn/
@@ -6171,6 +6172,7 @@ _yahooads_
 ||hellobar.com^$third-party
 ||henrybucks.ru^
 ||heroclick.cn^$third-party
+||inspectletws.herokuapp.com^
 ||heure1.com^
 ||hey.lt^$third-party
 ||heyos.com^$third-party
@@ -6351,6 +6353,7 @@ _yahooads_
 ||inkomst.se.com^$popup
 ||insightexpress.com^$third-party
 ||insightexpressai.com^
+||inspectlet.com^$third-party
 ||integral-marketing.com^$third-party
 ||intellitxt.com^
 ||interclick.com^$third-party
