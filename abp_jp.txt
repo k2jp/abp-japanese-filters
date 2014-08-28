@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 8JGPHB0UCQdGzu+H+gkhmg
+! Checksum: kDIsKAJ3/n5zPWs75vCVxw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201408271449
+! Version: 201408282013
 !
-! Last modified: 2014-08-27 14:49 JST(UTC+0900)
+! Last modified: 2014-08-28 20:13 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -216,6 +216,10 @@
 @@||ct*.shinobi.jp^$document
 @@||spreadfirefox.jp/affiliates/
 @@||spreadthunderbird.com/files/affiliates/
+! False positives with images used with ^analytics- filter, at analytics.twitter.com, Aug 28, 2014
+@@||twimg.com/insights/images/analytics-
+! False positives with XHR used with ^analytics. filter, at analytics.twitter.com, Aug 28, 2014
+@@||analytics.twitter.com^$xmlhttprequest
 ! False positives with |http:*^ad- filter, Mar 20, 2014
 @@||urlvoid.com/update-report/
 ! False positives with analytics result pages, Oct 18th, 2012
