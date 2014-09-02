@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: O0P8Wp2mYpLn6KPaFf6A2g
+! Checksum: fW62vRc1uF8GV3DEe2qIUg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201408302053
-!
-! Last modified: 2014-08-30 20:53 JST(UTC+0900)
+! Version: 201409022118
+
+! Last modified: 2014-09-02 21:18 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -13,7 +13,8 @@
 ! Project owners: k2japan
 ! Project committers: looter, lostincarnation, tanahata
 ! Project contributors: 
-!
+
+
 ! ########## Temporary white list START ##########
 ! anime.biglobe.ne.jp uses "log" as history, which produce plenty of false positives 2011-09-22
 @@||anime.biglobe.ne.jp^*log.$object
@@ -981,7 +982,6 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 .tracking^
 .tracking_
 
-
 /1x1.$third-party
 /c.php?id=$~image,third-party
 /click?$popup
@@ -1943,7 +1943,6 @@ _tracking_
 
 ||bit.ly^$third-party
 
-
 ###PR
 ###PR0
 ###PR1
@@ -2436,8 +2435,15 @@ www.yahoo.co.jp###local
 ##a[href*="://adf.ly/"]
 ! ----- URL shortning Services ----- END -----
 
+! ===== Malicious objects reported at personal blogs ===== START =====
+! Angler Exploit Kit
+! [http://blogs.yahoo.co.jp/fireflyframer/32961477.html 日本の正規サイト複数改ざん？ Windowsパソコン対象にウイルス感染攻撃 - 無題な濃いログ - Yahoo!ブログ]
+! https://www.virustotal.com/ja/ip-address/85.17.12.236/information/
+||pw/*.html^$subdocument,third-party
+! ----- Malicious objects reported by Malwarebytes ----- END -----
+
 ! ===== Malicious objects reported by Malwarebytes ===== START =====
-! https://blog.malwarebytes.org/exploits-2/2014/08/shining-some-light-on-the-unknown-exploit-kit/
+! [https://blog.malwarebytes.org/exploits-2/2014/08/shining-some-light-on-the-unknown-exploit-kit/ Shining some light on the ‘Unknown’ Exploit Kit | Malwarebytes Unpacked]
 ||inpoucher.com^
 ||pizzanetp.com^
 ||sempikoa.com^
