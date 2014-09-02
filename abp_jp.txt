@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 8VFlUlRxocPIUYNWgXF+Gg
+! Checksum: RI8nDFq0z8YtWVrOSt+xXw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201409020602
-!
-! Last modified: 2014-09-02 06:02 JST(UTC+0900)
+! Version: 201409030059
+
+! Last modified: 2014-09-03 00:59 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -13,6 +13,7 @@
 ! Project owners: k2japan
 ! Project committers: looter, lostincarnation, tanahata
 ! Project contributors: 
+!
 !
 ! ########## Temporary white list START ##########
 ! Workaround to avoid a "ReferenceError: YMAP is not defined" false positive with the script ended with meaningless "?_t=pPc" like http://map.yahoo.co.jp/js/scroll.js?_t=pPc, using ^ppc^ Pay-Per-Click filter, reported via Issue Report, Jul 15, 2014
@@ -234,7 +235,7 @@
 ! False positives with jQuery, reported by 誤ブロック via blog comment, May 26, 2013
 @@||yandex.st/jquery/
 @@||yimg.*/combo/$script,stylesheet
-@@||yimg.*/combo?$script,stylesheet
+@@||yimg.*/combo?*&$script,stylesheet
 ! Layout collapse and some missing images because of the URL including /ad_partner/, Jan 18, 2012
 @@||s.yimg.jp/images/webowner/ad_partner/$domain=webowner.yahoo.co.jp
 ! False positives at analytics pages inside YouTube, reported via Issue Report, Feb 27, 2012
