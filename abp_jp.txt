@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: Hq0fLX01PdstQUhL/QT7sw
+! Checksum: LdFvu689DtfHwbWIKG9eSQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201409030359
+! Version: 201409042243
 
-! Last modified: 2014-09-03 03:59 JST(UTC+0900)
+! Last modified: 2014-09-04 22:43 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5127,6 +5127,8 @@ _yahooads_
 ||axf8.net^
 ||axia-hakusan.com^
 ||ad.axyzconductor.jp^
+|http://ay.gy^$popup
+|https://ay.gy^$popup
 ||ayads.co^
 ||azet.sk^$third-party
 ||azjmp.com^$popup
@@ -6423,6 +6425,8 @@ _yahooads_
 ||ixnp.com^$third-party
 ||ixtyted.ru^
 ||iznalik.ru^
+|http://j.gs^$popup
+|https://j.gs^$popup
 ||j-a-net.jp^$third-party
 ||jadedi.com^
 ||japanmetrix.jp^
@@ -7361,6 +7365,8 @@ _yahooads_
 ||px10.net^
 ||pya.cc/banner/bb_
 ||pzcdn.com^
+|http://q.gs^$popup
+|https://q.gs^$popup
 ||q1media.com^$third-party
 ||q1mediahydraplatform.com^$third-party
 ||qiyou.com^$third-party
