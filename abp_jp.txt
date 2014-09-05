@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: LdFvu689DtfHwbWIKG9eSQ
+! Checksum: ULCPzplDntVvGkvofwzvtw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201409042243
+! Version: 201409051950
 
-! Last modified: 2014-09-04 22:43 JST(UTC+0900)
+! Last modified: 2014-09-05 19:50 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4786,6 +4786,8 @@ _yahooads_
 ||adsfac.net^$third-party
 ||adsfac.sg^$third-party
 ||adsfac.us^$third-party
+||adsfirefly.com^
+||adsfirefly.com^$popup
 ||adshost2.com^
 ||adshostnet.com^
 ||adshot.de^$third-party
@@ -6263,6 +6265,8 @@ _yahooads_
 ||i2i.jp^$third-party
 ||i2idata.com^$third-party
 ||i2iserv.com^$third-party
+||iasrv.com^
+||iasrv.com^$popup
 ||ib-ibi.$third-party
 ||ibase.fr^
 ||icetraffic.com^
@@ -7489,6 +7493,8 @@ _yahooads_
 ||returso.com^
 ||reunice.com^
 ||s2.reutersmedia.net^$script
+||rev2pub.com^
+||rev2pub.com^$popup
 ||revfusion.net^
 ||revsci.net^$third-party
 ||rss-rank.com^$third-party
