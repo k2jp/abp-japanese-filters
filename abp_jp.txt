@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: ULCPzplDntVvGkvofwzvtw
+! Checksum: FeoEYnb7qIydb7XWptTPUQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201409051950
+! Version: 201409052350
 
-! Last modified: 2014-09-05 19:50 JST(UTC+0900)
+! Last modified: 2014-09-05 23:50 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -8307,7 +8307,8 @@ _yahooads_
 ||wowzio.net^$third-party
 ||vda.wp.pl^
 ||ker.www.wp.pl^
-||wtp101.com^
+||wpadsvr.com^
+||wpadsvr.com^$popup
 ||wptstatic.net/custom/
 ||wrenkontre.com^
 |http:*.ws.md^$third-party
@@ -8317,12 +8318,14 @@ _yahooads_
 ||wslinx.com^$third-party
 ||ad.wsod.com^
 ||wt-rotator.
+||wtp101.com^
 ||wts-rotator.
 ||wunderloop.net^
 ||wwop-love.com^
 ||wwv4ez0n.com^
 ||www.co.cc^$third-party
 ||wwwmobiroll.com^
+||wwwpromoter.com^$popup
 ||wwwpromoter.com^$third-party
 ||wysistat.com^$third-party
 ||wyunion.com^$third-party
