@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: Pbhukbu1+aLhswt7Cn/VEA
+! Checksum: 1Cd/Ox6sLyqoOtmXPukLUw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201409120126
+! Version: 201409120437
 
-! Last modified: 2014-09-12 01:26 JST(UTC+0900)
+! Last modified: 2014-09-12 04:37 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2033,6 +2033,7 @@
 /trackingAffilies.
 /TrafficBroker/*
 /trans_pixel.
+/trckdsp?
 ! /txt_ad-
 ! /txt_ad.
 ! /txt_ad^
@@ -5267,6 +5268,7 @@ _yahooads_
 ||bluetrackmedia.com^$third-party
 ||bmmetrix.com^
 ||bmnq.com^
+||bnvdrs.com^
 ||bnx.me^$third-party
 ||bobrilla.com^
 ||bobyvs.com^
@@ -5501,6 +5503,7 @@ _yahooads_
 ||club-xxx.net^$third-party
 ||clubxvid-gr.com^$popup
 ||cmcore.com^$third-party
+||cmptch.com^
 ||japan.cnet.com/media/*/banner/jinzai_*.gif
 ||mads.cnet.com^
 ||cnxad.com^$third-party
@@ -5616,6 +5619,7 @@ _yahooads_
 ||crystalmark.info/images/banner/
 ||csolution.jp^$third-party
 ||cszz.ru^
+||ctsrda.com^
 ||cubicleoffers.com^$third-party
 ||cudradi.ru^
 ||cupidon-webcam.com^
@@ -6046,6 +6050,7 @@ _yahooads_
 ||friendlyduck.com^$third-party
 ||frivole.net^
 ||frmclstr.net^
+||frngd.com^
 ||froggie-mm.net^$popup
 ||frontdb.com^
 ||fspot.net^$third-party
@@ -6091,6 +6096,7 @@ _yahooads_
 ||getsavin.com^$third-party
 ||getsoftfree.com^$popup
 ||gezidotojyk.org^
+||gfdcv.com^
 ||ghaires.com^
 ||gigafree.net/ga.$script
 ||gigatizer.com^
@@ -6250,6 +6256,7 @@ _yahooads_
 ||hotpepper.jp^$third-party
 ||houmekredit.ru^
 ||howitcanbe.ru^
+||hpdtsr.com^
 ||d.href.asia^
 ||hsappstatic.net^
 ||hscta.net^
