@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 7tzjJcWB9DWQHoVCeNle4Q
+! Checksum: y0h6g9N0PwPsBTNgQqsTfA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201409150143
+! Version: 201409150324
 
-! Last modified: 2014-09-15 01:43 JST(UTC+0900)
+! Last modified: 2014-09-15 03:24 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -298,6 +298,7 @@
 &adx_
 &aff_id=
 &aff_id=$popup
+&affichage=
 &affid=
 &affid=$popup
 &affiliate=$popup
@@ -1674,6 +1675,7 @@
 ! /cgi-bin/ad^
 ! /cgi-bin/ad_
 /cgi-bin/webtrend/*
+/choixPubJS.
 /ck*?cid=$third-party
 /click/body.php?id=*&hash=$popup
 /clicktracklog.
@@ -1736,6 +1738,7 @@
 |http:*/ea.$script
 |https:*/ea.$script
 /engineertype/images/update/sitebanner/*
+/etrack?action=
 /exitPopup.$script
 /ext.js?c=$third-party
 /external/*$domain=amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.de|amazon.es|amazon.fr|amazon.it
@@ -2060,6 +2063,7 @@
 /views.png?
 /vis_opt.$script
 /visionalist.$script
+/visionnagePub.
 /vl_code/*
 /vl1.$script,domain=mapion.co.jp
 /wad.$subdocument,third-party
@@ -2165,6 +2169,7 @@
 ?adx_
 ?aff_id=
 ?aff_id=$popup
+?affichage=
 ?affid=
 ?affid=$popup
 ! Commented out duplicated filters with ^affiliate, Mar 18, 2014
@@ -3148,6 +3153,10 @@
 ^easyInline.
 ^easyInline^
 ^easyInline_
+^ebzFormats-
+^ebzFormats.
+^ebzFormats^
+^ebzFormats_
 ^evercookie-
 ^evercookie.
 ^evercookie^
@@ -5213,9 +5222,9 @@ _yahooads_
 ||bcegovo.ru^
 ||beanscattering.jp^
 ||become.co.jp^$third-party
-||beead.fr^$third-party
+||beead.$third-party
 ||beencounter.com^$third-party
-||beezik.com^$third-party
+||beezik.$third-party
 ||beezup.com^$third-party
 ||begun.ru^$third-party
 ||belboon.com^$third-party
@@ -5848,6 +5857,7 @@ _yahooads_
 ||ebayrtm.com^
 ||ebis.ne.jp^$third-party
 ||ebuzzing.com^$third-party
+||ebz.io^
 ||ec-images.com^$third-party
 ||echasan.ru^
 ||ecnavi.jp/campaign/$third-party
@@ -8283,6 +8293,7 @@ _yahooads_
 ||wawa-studio.com^
 ||wayohoo.com^*-banner.
 ||wb-rotator.com^
+||we-spread.com^
 ||web-stat.com^$third-party
 ||web3-ads.com^
 ||web3-ads.com^$popup
