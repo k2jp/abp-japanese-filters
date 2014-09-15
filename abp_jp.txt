@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: V3KLHJoVLgrMDqL6alPo3w
+! Checksum: k+D+kvtinXlsE1DysU5f9w
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201409160438
+! Version: 201409160449
 
-! Last modified: 2014-09-16 04:38 JST(UTC+0900)
+! Last modified: 2014-09-16 04:49 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2356,18 +2356,50 @@
 ^adcounter.
 ^adcounter^
 ^adcounter_
-^adscount-
-^adscount.
-^adscount^
-^adscount_
-^adscounter-
-^adscounter.
-^adscounter^
-^adscounter_
-^adswf-
-^adswf.
-^adswf^
-^adswf_
+^adfarm-
+^adfarm.
+^adfarm^
+^adfarm_
+^adfarm0-
+^adfarm0.
+^adfarm0^
+^adfarm0_
+^adfarm1-
+^adfarm1.
+^adfarm1^
+^adfarm1_
+^adfarm2-
+^adfarm2.
+^adfarm2^
+^adfarm2_
+^adfarm3-
+^adfarm3.
+^adfarm3^
+^adfarm3_
+^adfarm4-
+^adfarm4.
+^adfarm4^
+^adfarm4_
+^adfarm5-
+^adfarm5.
+^adfarm5^
+^adfarm5_
+^adfarm6-
+^adfarm6.
+^adfarm6^
+^adfarm6_
+^adfarm7-
+^adfarm7.
+^adfarm7^
+^adfarm7_
+^adfarm8-
+^adfarm8.
+^adfarm8^
+^adfarm8_
+^adfarm9-
+^adfarm9.
+^adfarm9^
+^adfarm9_
 ^adframe-
 ^adframe.
 ^adframe^
@@ -2572,6 +2604,14 @@
 ^adscontext.
 ^adscontext^
 ^adscontext_
+^adscount-
+^adscount.
+^adscount^
+^adscount_
+^adscounter-
+^adscounter.
+^adscounter^
+^adscounter_
 ^adserving-
 ^adserving-$popup
 ^adserving.
@@ -2688,6 +2728,10 @@
 ^adsv.
 ^adsv^
 ^adsv_
+^adswf-
+^adswf.
+^adswf^
+^adswf_
 ^adsWrapper-
 ^adsWrapper.
 ^adsWrapper^
