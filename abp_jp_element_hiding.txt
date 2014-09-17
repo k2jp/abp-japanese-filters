@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 6oWW/m24pa7w5FL/2aTXog
+! Checksum: O0ONLFVc2PpJ7IoqLw8/YQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201409140633
+! Version: 201409170939
 
-! Last modified: 2014-09-14 06:33 JST(UTC+0900)
+! Last modified: 2014-09-17 09:39 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1608,7 +1608,6 @@ japan.cnet.com,japan.zdnet.com##.tieup_box
 japan.cnet.com,japan.zdnet.com##.tieup_list_box
 japan.cnet.com,japan.zdnet.com##a[href*="//japan.cnet.com/click/"]
 japan.cnet.com,japan.zdnet.com##a[href*="//japan.cnet.com/extra/"]
-japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/click/"]
 japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/click/"]
 japan.cnet.com,japan.zdnet.com##a[href*="//japan.zdnet.com/extra/"]
 codezine.jp###shoeisha_gnavi
