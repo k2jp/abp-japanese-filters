@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: GpLI6G6YYqtXOJx7mzykgQ
+! Checksum: mr2nj8XfBXES1RKL/VSk1Q
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201409160525
+! Version: 201409170937
 
-! Last modified: 2014-09-16 05:25 JST(UTC+0900)
+! Last modified: 2014-09-17 09:37 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1004,7 +1004,6 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 ! ?slot=
 ! ?tracking=$third-party
 
-^tracker.
 ^bnr-$third-party
 ^bnr.$third-party
 ^bnr^$third-party
@@ -2320,8 +2319,6 @@ www.yahoo.co.jp###local
 /ga.php^
 ! https://twitter.com/unixfreaxjp/status/441304810646548480
 /redir.php^$third-party
-! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-115i.html
-/rel.php^$third-party
 ! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-012cookiebombiframe.html
 /relay.php^$third-party
 ! https://twitter.com/unixfreaxjp/status/316813507653947392
@@ -2441,7 +2438,7 @@ www.yahoo.co.jp###local
 ! [http://blogs.yahoo.co.jp/fireflyframer/32961477.html 日本の正規サイト複数改ざん？ Windowsパソコン対象にウイルス感染攻撃 - 無題な濃いログ - Yahoo!ブログ]
 ! https://www.virustotal.com/ja/ip-address/85.17.12.236/information/
 ||pw/*.html^$subdocument,third-party
-! ----- Malicious objects reported by Malwarebytes ----- END -----
+! ----- Malicious objects reported by personal blogs ----- END -----
 
 ! ===== Malicious objects reported by Malwarebytes ===== START =====
 ! [https://blog.malwarebytes.org/exploits-2/2014/08/shining-some-light-on-the-unknown-exploit-kit/ Shining some light on the ‘Unknown’ Exploit Kit | Malwarebytes Unpacked]
