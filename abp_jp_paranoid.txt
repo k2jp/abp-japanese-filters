@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: mr2nj8XfBXES1RKL/VSk1Q
+! Checksum: YU87vGEpzpchRzggbxUPqg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201409170937
+! Version: 201409202107
 
-! Last modified: 2014-09-17 09:37 JST(UTC+0900)
+! Last modified: 2014-09-20 21:07 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2434,7 +2434,8 @@ www.yahoo.co.jp###local
 ! ----- URL shortning Services ----- END -----
 
 ! ===== Malicious objects reported at personal blogs ===== START =====
-! Angler Exploit Kit
+! [http://blog.dynamoo.com/2014/09/malicious-wordpress-injection-sending.html Dynamoo's Blog: Malicious WordPress injection sending to 178.62.254.78 and 176.58.100.98]
+16.html|$subdocument,third-party
 ! [http://blogs.yahoo.co.jp/fireflyframer/32961477.html 日本の正規サイト複数改ざん？ Windowsパソコン対象にウイルス感染攻撃 - 無題な濃いログ - Yahoo!ブログ]
 ! https://www.virustotal.com/ja/ip-address/85.17.12.236/information/
 ||pw/*.html^$subdocument,third-party
