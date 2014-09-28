@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: MpLPEoCsQFFDuzhn4f5e0A
+! Checksum: BYAnlbEG/SQfMuOii8hX9g
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201409282047
+! Version: 201409282059
 
-! Last modified: 2014-09-28 20:47 JST(UTC+0900)
+! Last modified: 2014-09-28 20:59 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -21,6 +21,8 @@
 @@||anime.biglobe.ne.jp^*log_$image
 ! False positives with images, reported via Issue Report, Jan 6, 2012
 @@||goal.com/files/images/stats/goal/$image
+! False positives with XHRs including ,ads, in the parameter, with ^ads^ filter in the Paranoid subscription, Sep 28, 2014
+@@||google.*/maps/_/js/k=maps.*,ads,$xmlhttprequest
 ! False positives with XHRs including ,log, in the parameter, with ^log^ filter in the Paranoid subscription, Sep 28, 2014
 @@||google.*/maps/_/js/k=maps.*,log,$xmlhttprequest
 ! Too many false FALSE POSITIVE reports, Mar 25, 2012
