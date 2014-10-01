@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: y8f26kYvudMNuqXDRHof8g
+! Checksum: qqCDf8dYrNI121msWPzoAg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410020132
+! Version: 201410020154
 
-! Last modified: 2014-10-02 01:32 JST(UTC+0900)
+! Last modified: 2014-10-02 01:54 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1903,6 +1903,7 @@
 ! /pop/*$popup
 ! merged into .php?zoneid=
 ! /pop.php?zoneid=
+/pop_packcpm.$popup
 /popad/*
 /popads/*
 /popundr.
@@ -6783,6 +6784,10 @@ _yahooads_
 ||live-lyrics.com^
 ||c.live.com^
 ||h.live.com^
+||liveadexchanger.com^
+||liveadexchanger.com^$popup
+||liveadoptimizer.com^
+||liveadoptimizer.com^$popup
 ||liveads.jp^$third-party
 ||anews.livedoor.biz^$third-party
 ||news4vip.livedoor.biz/rss$subdocument
@@ -8073,6 +8078,8 @@ _yahooads_
 ||thatsping.jp^
 ||the-adult-company.com^$popup
 ||the-adult-company.com^$third-party
+||theadgateway.com^
+||theadgateway.com^$popup
 ||theadultcompany.biz^
 ||thebrighttag.com^
 ||thefilter.com^$third-party
@@ -8121,6 +8128,8 @@ _yahooads_
 ||toroadvertisingmedia.com^
 ||torzak.com^
 ||total-media.net^
+||totaladperformance.com^
+||totaladperformance.com^$popup
 ||totango.com^$third-party
 ||toujoute.com^
 ||touslesfilmsx.com^
@@ -8600,6 +8609,8 @@ _yahooads_
 ||yieldlab.net^
 ||yieldmanager.com^$popup
 ||yieldmanager.com^$third-party
+||yieldtraffic.com^
+||yieldtraffic.com^$popup
 ||yigao.com^$third-party
 ||yimg.jp/bdv/
 ||yimg.jp/images/*/pr/
