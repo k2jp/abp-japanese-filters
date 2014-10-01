@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: JrFWxw4lrbgkAMEBA0jJLQ
+! Checksum: ERLBKLrQyR/Zc1J8BgfjMg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201409300110
+! Version: 201410011954
 
-! Last modified: 2014-09-30 01:10 JST(UTC+0900)
+! Last modified: 2014-10-01 19:54 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -47,8 +47,6 @@
 ! Workaround to avoid false positives when you test a new filter via Gmail config, reported by pooh via blog, Jun 16, 2012
 ! Another workaroud to avoid possible false positives when you try advanced search, reported by @mushroom080 via issue report, Mar 3, 2014
 @@||mail.google.com/mail/*?ui=*&search=adv^
-! False positives with combined scripts including ,adsense, in the parameters, with ^adsense^ filter, reported via blog, Sep 30, 2014
-@@||maps.gstatic.com/cat_js/*,$script
 ! A filter -ads^ causes a false positive with a [http://translate.google.com/translate/static/kcpbtI_-aDs/css/desktop_ltr.css css stylesheet] at translate.google.com and translate.google.co.jp, reported by @dullneko, July 18, 2012
 @@||translate.google.*/translate/static/*-aDs/css/*.$stylesheet
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=76&
@@ -176,6 +174,8 @@
 @@||accounts.google.com/ServiceLogin?service=$document
 ! False positives with a google plus image used for css sprite, reported by @zirweed, May 19, 2012
 @@||gstatic.com^*/Publisher/sprite$image
+! False positives with combined scripts including ,adsense, in the parameters at Google Map embeded pages, with ^adsense^ filter, reported via blog, Sep 30, 2014
+@@||maps.gstatic.com/cat_js/*,$script
 ! False positives with combined stylesheets at guardian.co.uk, reported via Issue Report, Feb 6, 2012
 @@||combo.guim.co.uk^
 ! False positives with combined scripts conflicting with _ads. filter and with further combined stylesheets, Aug 27, 2014
@@ -3584,6 +3584,10 @@
 ^OvertureCM.
 ^OvertureCM^
 ^OvertureCM_
+^pagoda-$third-party
+^pagoda.$third-party
+^pagoda^$third-party
+^pagoda_$third-party
 ^pagead-
 ^pagead.
 ^pagead^
@@ -7353,6 +7357,8 @@ _yahooads_
 ||p-advg.com^$third-party
 ||p-bxm.com^$third-party
 ||p-td.com^
+|http:*pagoda*.com^
+|https:*pagoda*.com^
 ||pageimage.net^
 ||paltip.com^$third-party
 ||parad7.ru^
