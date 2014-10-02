@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: Rhak0WZ3VPbaHxqgqX7nYA
+! Checksum: wVb0LDrBDYw2O9OumLCEbw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410030043
+! Version: 201410030112
 
-! Last modified: 2014-10-03 00:43 JST(UTC+0900)
+! Last modified: 2014-10-03 01:12 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4558,8 +4558,8 @@ _yahooads_
 ! ---------- URL Fragments END ----------
 ! 
 ! ########## Top Level Domains with path START ##########
-||info/*/javascript.js?hid=$third-party
 ||info/*.js?dn=*&isc=$third-party
+||info/*/javascript.js?hid=$third-party
 ||info/dealdo/event-report?$third-party
 ||info/opt_content.js?*partner=$third-party
 ||net/amz/$script,third-party
@@ -8653,6 +8653,8 @@ _yahooads_
 ||youku.com^*/js/popup.
 ||atm.youku.com^
 ||lstat.youku.com^
+||youradexchange.com^$popup
+||youradexchange.com^$third-party
 ||youtopry.com^
 ||youtube.com/annotations_invideo?
 ||youtube.com/get_video?
