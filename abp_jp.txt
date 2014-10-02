@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: qqCDf8dYrNI121msWPzoAg
+! Checksum: 7ANKx65rhI9llpE37xfQCA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410020154
+! Version: 201410030004
 
-! Last modified: 2014-10-02 01:54 JST(UTC+0900)
+! Last modified: 2014-10-03 00:04 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4557,10 +4557,14 @@ _yahooads_
 ||utm.
 ! ---------- URL Fragments END ----------
 ! 
-! ########## Top Level Domain optionally with path START ##########
+! ########## Top Level Domain with path START ##########
+||info/*/javascript.js?hid=$third-party
+||info/*.js?dn=*&isc=$third-party
+||info/dealdo/event-report?type=$third-party
+||info/opt_content.js?v=$third-party
 ||net/amz/$script,third-party
 ||net/sd/$script,third-party
-! ---------- Top Level Domain optionally with path END ----------
+! ---------- Top Level Domain with path END ----------
 ! 
 ! ########## Domains optionally with path START ##########
 ||46.105.39.177^
@@ -4574,6 +4578,7 @@ _yahooads_
 ||210.135.99.84^
 ||210.155.151.148^
 ||217.19.51.
+!
 ! Added malicious IP Addresses reported at http://unixfreaxjp.blogspot.jp/2013/08/ocjp-119kelihos.html and http://malwaremustdie.blogspot.jp/2013/08/the-quick-report-on-48hours-in-battle.html by [https://twitter.com/unixfreaxjp @unixfreaxjp] via Changelog wiki, Aug 9, 2013
 ! START
 ||58.0.83.121^
@@ -4611,6 +4616,7 @@ _yahooads_
 ||223.133.68.174^
 ! END
 ! Added malicious IP Addresses reported at http://unixfreaxjp.blogspot.jp/2013/08/ocjp-119kelihos.html and http://malwaremustdie.blogspot.jp/2013/08/the-quick-report-on-48hours-in-battle.html by [https://twitter.com/unixfreaxjp @unixfreaxjp] via Changelog wiki, Aug 9, 2013
+!
 ||00h10.com^
 ||0427d7.se^$popup
 ||08lkk.com/*/data/attachment/common/cf/
@@ -5294,6 +5300,7 @@ _yahooads_
 ||bbelements.com^$third-party
 ||bbs-ad.com^$third-party
 ||bcegovo.ru^
+||bcooljs.info^
 ||beanscattering.jp^
 ||become.co.jp^$third-party
 ||beead.$third-party
@@ -5458,7 +5465,7 @@ _yahooads_
 ||nad.cbs.co.kr^
 ||cbsinteractive.com/plugins/adp/
 ||cdn-image.com^
-||cdnbd.com^
+||cdnbd.
 ||cdneurope.com^
 ||cedexis-radar.net^
 ||cedexis.com^$third-party
@@ -6738,6 +6745,7 @@ _yahooads_
 ||les-malins-du-net.com^
 ||les-taux-des-credits.com^
 ||lesbiennes-x.net^
+||lesscdn.com^
 ||adv.letitbit.net^
 ||levexis.com^
 ||levisiochat.com^
@@ -7962,6 +7970,7 @@ _yahooads_
 ||speedrencontre.com^
 ||scarlet.spegene.com^
 ||spider-ad.jp^$third-party
+||spigtrdpjs.info^
 ||sponsorads.de^
 ||sponsorboost.com^$third-party
 ||spotxchange.com^$third-party
@@ -7969,6 +7978,7 @@ _yahooads_
 ||sprintrade.com^$third-party
 ||spylog.com^
 ||spylog.ru^
+||ssassets.com^
 ||ssfiles.com^
 ||ssl-services.com^
 ||red.st-hatena.com^
@@ -8497,6 +8507,7 @@ _yahooads_
 ||wwwmobiroll.com^
 ||wwwpromoter.com^$popup
 ||wwwpromoter.com^$third-party
+||wxdjs.info^
 ||wysistat.com^$third-party
 ||wyunion.com^$third-party
 ||x-asiatique.net^
