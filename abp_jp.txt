@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 7ANKx65rhI9llpE37xfQCA
+! Checksum: Rhak0WZ3VPbaHxqgqX7nYA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410030004
+! Version: 201410030043
 
-! Last modified: 2014-10-03 00:04 JST(UTC+0900)
+! Last modified: 2014-10-03 00:43 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -4557,14 +4557,14 @@ _yahooads_
 ||utm.
 ! ---------- URL Fragments END ----------
 ! 
-! ########## Top Level Domain with path START ##########
+! ########## Top Level Domains with path START ##########
 ||info/*/javascript.js?hid=$third-party
 ||info/*.js?dn=*&isc=$third-party
-||info/dealdo/event-report?type=$third-party
-||info/opt_content.js?v=$third-party
+||info/dealdo/event-report?$third-party
+||info/opt_content.js?*partner=$third-party
 ||net/amz/$script,third-party
 ||net/sd/$script,third-party
-! ---------- Top Level Domain with path END ----------
+! ---------- Top Level Domains with path END ----------
 ! 
 ! ########## Domains optionally with path START ##########
 ||46.105.39.177^
