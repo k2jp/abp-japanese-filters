@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: F8IC6XzG7PTLutMVVn3Dbw
+! Checksum: xMtw+bPBczvTgi83J32RQA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410050058
+! Version: 201410050340
 
-! Last modified: 2014-10-05 00:58 JST(UTC+0900)
+! Last modified: 2014-10-05 03:40 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -127,6 +127,9 @@
 ! ---------- Temporary white list END ----------
 
 ! ########## Default white list START ##########
+! False positives with combined stylesheets or scripts at Yahoo!
+@@.yimg.*/combo?*.css&$stylesheet
+@@.yimg.*/combo?*.js&$script
 @@/analytics/*$domain=dear.my.salesforce.com
 ! False positives with the WordPress lazyloading plugin, reported by Opera10years via hatena blog comment of k2jp, May 31, 2012
 @@/lazy-load/images/1x1.
@@ -247,9 +250,6 @@
 @@||yandex.st/highlightjs/
 ! False positives with jQuery, reported by 誤ブロック via blog comment, May 26, 2013
 @@||yandex.st/jquery/
-! Commented out because of duplicated with the following one, Sep 6, 2014
-! @@||yimg.*/combo/$script,stylesheet
-@@||yimg.*/combo?*&$script,stylesheet
 ! Layout collapse and some missing images because of the URL including /ad_partner/, Jan 18, 2012
 @@||s.yimg.jp/images/webowner/ad_partner/$domain=webowner.yahoo.co.jp
 ! False positives at analytics pages inside YouTube, reported via Issue Report, Feb 27, 2012
