@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: AIO/b9MGHUU5iILdFy3TUg
+! Checksum: qslWhb+kKP6wOdvuQvi6hA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410042138
+! Version: 201410042219
 
-! Last modified: 2014-10-04 21:38 JST(UTC+0900)
+! Last modified: 2014-10-04 22:19 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -6153,6 +6153,7 @@ _yahooads_
 ||foxadd.com^
 ||foxmetrics.com^$third-party
 ||foxnetworks.com^
+||foxydeal.com^$third-party
 ||fpcclicks.com^
 ||freakshare.com/yild.$script
 ||free-porn-vidz.com^
@@ -6579,6 +6580,7 @@ _yahooads_
 ||ivanie.com^
 ||ivantat.com^
 ||ivwbox.de^
+||iwebar.com^$third-party
 ||ixnp.com^$third-party
 ||ixtyted.ru^
 ||iznalik.ru^
