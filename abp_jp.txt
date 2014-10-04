@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: qslWhb+kKP6wOdvuQvi6hA
+! Checksum: F8IC6XzG7PTLutMVVn3Dbw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410042219
+! Version: 201410050058
 
-! Last modified: 2014-10-04 22:19 JST(UTC+0900)
+! Last modified: 2014-10-05 00:58 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -335,6 +335,8 @@
 &ClickID=
 &ClickID=$popup
 &clickTag=
+&dist_id=*&channel=$popup
+&dist_id=*&channel=$third-party
 &file=ads&
 &iad=
 |http:*?*&lp=*id=$popup
@@ -2225,6 +2227,8 @@
 ?ClickID=
 ?ClickID=$popup
 ?clickTAG=
+?dist_id=*&channel=$popup
+?dist_id=*&channel=$third-party
 ?file=ads&
 ?id_promo=
 ?mdscampaignid=$popup
@@ -5894,6 +5898,7 @@ _yahooads_
 ||douteure.com^
 ||down-flash.com^
 ||download.hr/modules/editor_pick/giveaway/
+||download7k.com^
 ||downloadchop.com^$popup
 ||doyadosearch.com^$third-party
 ||dpcdn.com^
@@ -5986,6 +5991,7 @@ _yahooads_
 ||emierete.com^
 ||emisses.com^
 ||emlitok.ru^
+||empire-apps.com^
 ||emploi-center.com^
 ||emploi-express.com^
 ||emv2.com^
@@ -6061,6 +6067,7 @@ _yahooads_
 ||extfeed.net^
 ||extra33.com^
 ||extreme-dm.com^
+||exyu-soft.com^
 ||eyewonder.com^$third-party
 ||ezbbs.net/*/sample*/img/
 ||ezlkflefig.ru^
@@ -6123,6 +6130,7 @@ _yahooads_
 ||find-a.jp^$third-party
 ||find-allyouneed.com^$third-party
 ||findpre.net^
+||fire-soft.com^
 ||firmernet.ru^
 ||fivecool.tv^
 ||flascom.com^
@@ -6387,6 +6395,7 @@ _yahooads_
 ||hsforms.net^
 ||hsoub.com^$third-party
 ||hsstatic.net^
+||htcsoft.net^
 ||huagu.com^$third-party
 ||hubapi.com^$third-party
 ||hubrus.com^$third-party
@@ -6534,6 +6543,7 @@ _yahooads_
 ||insightexpress.com^$third-party
 ||insightexpressai.com^
 ||inspectlet.com^$third-party
+||instant-download.net^
 ||integral-marketing.com^$third-party
 ||intellitxt.com^
 ||interclick.com^$third-party
@@ -6552,9 +6562,11 @@ _yahooads_
 ||ip-label.net^$third-party
 ||ipros.jp^$third-party
 ||direct.ips.co.jp^$third-party
+||irfsoft.com^
 ||irmeeting.ru^
 ||irs01.net^
 ||is686.com^$third-party
+||isafe-software.com^
 ||iservdata.com^
 ||ismedia.jp^*/welcome.$script
 ||ismedia.jp/oo/
@@ -6682,6 +6694,7 @@ _yahooads_
 ||kinwee.com^$third-party
 ||kissmetrics.com^$third-party
 ||kitcode.net^
+||kitkatsoft.net^
 ||kiwi.kz^$third-party
 ||kji.jp^$third-party
 ||klaviyo.com^$third-party
@@ -6698,6 +6711,7 @@ _yahooads_
 ||kontera.com^$third-party
 ||koocash.com^$third-party
 ||koviovius.com^
+||koyotsoft.org^
 ||kozaka.net^$third-party
 ||kranted.com^
 ||kromeleta.ru^
@@ -6713,6 +6727,7 @@ _yahooads_
 ||la-bonne-idee.com^
 ||la-meilleure-solution-credit.com^
 ||labadon.com^
+||labsoft.org^
 ||lacembre.com^
 ||lacemme.com^
 ||lacest.com^
@@ -6737,6 +6752,7 @@ _yahooads_
 ||le-support-rencontre.com^
 ||le-visio-chat.com^
 ||le-visiochat.com^
+||lead-soft.com^
 ||leadforce1.com^
 ||leadformix.com^$third-party
 ||leagueoflegends.com^$popup
@@ -7138,6 +7154,7 @@ _yahooads_
 ||mukipol.com^
 ||multicam-dating.com^
 ||multirdv.com^
+||mummysoft.com^
 ||musen-lan.com/speed/banner/
 ||mwbxxjpi3r.com^
 ||mxcdn.net^
@@ -7284,6 +7301,7 @@ _yahooads_
 ||nomura.co.jp/resource/image/sideparts/
 ||noproblemppc.com^$third-party
 ||noptes.ru^
+||notesoft.co^
 ||novamov.com^$third-party
 ||novostimira.$third-party
 ||novoteka.ru^$third-party
@@ -7313,6 +7331,7 @@ _yahooads_
 ||obtenir-de-l-argent.com^
 ||oclaserver.com^
 ||oclasrv.com^
+||oculussoft.net^
 ! Possibly false positive, commented out, Mar 3, 2012
 ! ||odnoklassniki.ru^*scriptToolbar.$script
 ||offermatica.com^
@@ -7663,6 +7682,7 @@ _yahooads_
 ||rencontrevisiochat.com^
 ||rencontrevoisines.com^
 ||repayac.com^
+||required-update.com^
 ||researchresults.com^$third-party
 ||reseaux-telecoms.
 ||ad.response.jp^
@@ -7774,6 +7794,7 @@ _yahooads_
 ||aagw.sdo.com^
 ||se-draguer.com^
 ||seagulltracer.com^$third-party
+||search-soft.com^
 ||search123.uk.com^
 ||searchatyou.com^
 ||searchdiscovered.com^$popup
@@ -7836,6 +7857,7 @@ _yahooads_
 ||sharedaddomain.com^
 ||sharereactor.com^$third-party
 ||sharethis.com^$third-party
+||sharksoft.net^
 ||shendu.cc^$third-party
 ||shibkoshu.ru^
 ||shinobi.jp/analyze/
@@ -7954,7 +7976,10 @@ _yahooads_
 ||socialbit.com^
 ||socialgrowthtechnologies.com^
 ||sociomantic.com^$third-party
+||sockosoft.com^
 ||sodomie-anale.biz^
+||softalo.com^
+||softonika.com^
 ||softpedia-static.com/images/afh/
 ||s2.softpedia-static.com/images/
 ||software-archiv.com^$third-party
@@ -7986,6 +8011,7 @@ _yahooads_
 ||scarlet.spegene.com^
 ||spider-ad.jp^$third-party
 ||spigtrdpjs.info^
+||splendidsoft.net^
 ||sponsorads.de^
 ||sponsorboost.com^$third-party
 ||spotxchange.com^$third-party
@@ -8121,6 +8147,7 @@ _yahooads_
 ||tierest.com^
 ||tifbs.net^
 ||timonom.com^
+||tiny-download.com^
 ||tinybucks.net^$popup
 ||tionline.ru^
 ||tiqcdn.com^
@@ -8135,6 +8162,7 @@ _yahooads_
 ||tlscdn.$popup
 ||tlvmedia.com^$third-party
 ||tns-counter.ru^
+||today-upgrade.com^
 ||todocasino.com^$third-party
 ||tofour.net^$third-party
 ||tokyo-np.co.jp/image/toshin_ryokou_banner.$image
@@ -8315,6 +8343,7 @@ _yahooads_
 ||valentinehookup.com^$popup
 ||valuecommerce.com^$third-party
 ||vatgia.com^
+||vava-soft.com^
 ||vcm.jp^$third-party
 ||vcmedia.vn^$third-party
 ||vdna-assets.com^
@@ -8354,6 +8383,7 @@ _yahooads_
 ||vietad.vn^$third-party
 ||vietalle.com^
 ||viewablemedia.net^
+||viewsoft.co^
 ||viglink.com^$third-party
 ||t.vimeo.com^
 ||vindicosuite.com^
@@ -8482,6 +8512,7 @@ _yahooads_
 ||winmytv.de^$popup
 ||winwin.co.il^$third-party
 ||ad.wiredvision.jp^
+||wise-soft.net^
 ||with2.net^$third-party
 ||wixawin.com^$third-party
 ||wizebar.com^$third-party
