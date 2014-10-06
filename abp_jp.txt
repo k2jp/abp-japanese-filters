@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: qZe4+NSqw8wsInsP/g+8kg
+! Checksum: zWzmBGOedy2NS9CbYTIYrg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410052136
+! Version: 201410062351
 
-! Last modified: 2014-10-05 21:36 JST(UTC+0900)
+! Last modified: 2014-10-06 23:51 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -6466,6 +6466,7 @@ _yahooads_
 ||atax.ign.com^
 ||ubt.ign.com^
 ||wrapper.ign.com^
+||igroavtomaty.com^
 ||iicdn.com^
 ||iid.jp^$third-party
 ||iida.jp^*blogparts/
@@ -7028,6 +7029,7 @@ _yahooads_
 ||megavideo.com/*/onhover.$script
 ||megavideo.com/mcad.
 ||megavideo.com/top.swf
+||megoslot.com^
 ||meinlist.com^
 ||mekamek.com^
 ||meltwaternews.com^$third-party
@@ -7066,6 +7068,7 @@ _yahooads_
 ! ||ads.mixi.jp^
 ||mixmarket.biz^$third-party
 ||mixpanel.com^$third-party
+||mixtraff.com^
 ||mizuhobank.co.jp^*/js/rotation.$script
 ||mk-style.com^$third-party
 ||mkfst.com^$third-party
@@ -7159,6 +7162,7 @@ _yahooads_
 ||rad.msn.com^
 ||udc.msn.com^
 ||mteasgrp.com^
+||mtrcss.com^
 ||mukipol.com^
 ||multicam-dating.com^
 ||multirdv.com^
@@ -7167,6 +7171,7 @@ _yahooads_
 ||mwbxxjpi3r.com^
 ||mxcdn.net^
 ||mxpnl.com^$third-party
+||mxtads.com^
 ||my-affiliate.com^$third-party
 ||my1.ru^
 ||myactivestats.com^
