@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: +roO3aqmpXX7Z2kHj1jmBQ
+! Checksum: EF4VvWlGI9BMy0iEAH9KSA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201409291903
+! Version: 201410061923
 
-! Last modified: 2014-09-29 19:03 JST(UTC+0900)
+! Last modified: 2014-10-06 19:23 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -62,10 +62,11 @@
 ! False positives with ||cachefly.net^$third-party loading Ext JS, Dec 6, 2013
 @@||extjs.cachefly.net^
 ! False positives with script and stylesheet to display a screenshot, using ^tag_$third-party, Jul 23, 2014
-@@||d1ztvzf22lmr1j.cloudfront.net^*^tag_$domain=crowdin.net
+@@||d1ztvzf22lmr1j.cloudfront.net^*^tag_$domain=crowdin.com|crowdin.net
 @@||clustrmaps.com/stats/$~third-party
 @@||sci.la.coocan.jp^*/log/
-! False positive at crowdin.net with a user-role configuration script with a filter ^tracker^
+! False positive at crowdin.com or crowdin.net with a user-role configuration script, using a ^tracker^ filter
+@@||crowdin.com/tracker/member_status
 @@||crowdin.net/tracker/member_status
 @@||evernote.com^*/Logger.
 ! False positive blocking detailed access data on SEO pages
