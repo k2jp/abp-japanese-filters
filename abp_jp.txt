@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: uwHJIID89rCCE7PX1JR7tA
+! Checksum: L/xc3fw2fr5W1RupK6iGSQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410122156
+! Version: 201410130259
 
-! Last modified: 2014-10-12 21:56 JST(UTC+0900)
+! Last modified: 2014-10-13 02:59 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -178,6 +178,8 @@
 ! False positive at config pages, reported via Issue Report, Feb 6, 2012
 @@||google.com/settings/$document
 @@||accounts.google.com/ServiceLogin?service=$document
+! False positives when browsing a source tree at code.google.com, Oct 13, 2014
+@@||code.google.com^*/source/dirfeed?$xmlhttprequest,domain=code.google.com
 ! False positives with a google plus image used for css sprite, reported by @zirweed, May 19, 2012
 @@||gstatic.com^*/Publisher/sprite$image
 ! False positives with combined scripts including ,adsense, in the parameters at Google Map embeded pages, with ^adsense^ filter, reported via blog, Sep 30, 2014
