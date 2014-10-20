@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: UNQwuXrbIM2GubPdUTTWCQ
+! Checksum: RbpHKc4LmcxmyPIxbHgTaQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410072212
+! Version: 201410210244
 
-! Last modified: 2014-10-07 22:12 JST(UTC+0900)
+! Last modified: 2014-10-21 02:44 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2391,12 +2391,13 @@ www.yahoo.co.jp###local
 ##a[href*="//jump.cx/"]
 ! ----- Obfuscated short URL links frequently used to hide malicious links on SNS ----- END -----
 
-! ===== Questionnaire or survey ===== START =====
+! ===== Questionnaire, survey or poll ===== START =====
 ||amazonaws.com/*.kissinsights.com/
 ||amazonaws.com/ki.js/
+||civicscience.com^$third-party
 ||ecustomeropinions.com^$third-party
 ||qualtrics.com^$third-party
-! ----- Questionnaire or survey ----- END -----
+! ----- Questionnaire, survey or poll ----- END -----
 
 ! ===== Replace contents or ADs dynamically ===== START =====
 ||toprelatedtopics.com^$third-party
