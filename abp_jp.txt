@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: nyp6SVf00aazrPxra10kzQ
+! Checksum: 146vTDWqdOxP1/ViqqL8cg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410230411
+! Version: 201410230456
 
-! Last modified: 2014-10-23 04:11 JST(UTC+0900)
+! Last modified: 2014-10-23 04:56 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1778,6 +1778,7 @@
 /gads.$script
 /gcs?v=
 /gdata/*$script,third-party
+/get-js?dc_id=
 /getad^
 /getmarquee^$domain=live.nicovideo.jp|www.nicovideo.jp
 ! Commented out duplicated filters, Feb 26, 2012
@@ -5885,6 +5886,7 @@ _yahooads_
 ||designedy.com^
 ||detaires.com^
 ||deteql.net^
+||dfwu1009.info^
 ||dial-amour.com^
 ||dialocam.com^
 ||dialsexy-messenger.com^
