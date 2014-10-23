@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 146vTDWqdOxP1/ViqqL8cg
+! Checksum: sVrWEXkvWN2TrBv7AHs3oQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410230456
+! Version: 201410240018
 
-! Last modified: 2014-10-23 04:56 JST(UTC+0900)
+! Last modified: 2014-10-24 00:18 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -6306,6 +6306,7 @@ _yahooads_
 ||glam.co.jp^$third-party
 ||glammedia.com^$third-party
 ||glanceguide.com^
+||glavrich.$third-party
 ||globaltakeoff.net^$third-party
 ||globe7.com^$third-party
 ||globeac.com^
@@ -6360,7 +6361,7 @@ _yahooads_
 ||gostats.com^$third-party
 ||gowildcasino.com^$popup
 ||gpotato.eu^$popup
-||glavrich.$third-party
+||gqgzasaodz.ru^
 ||gratuit-porno-xxx.com^
 ||gravity.com^$third-party
 ||gravure-dvd.net^
@@ -7389,6 +7390,7 @@ _yahooads_
 ||numerikart.com^
 ||numking.com^
 ||nummobile.com^
+||nxnxcaqicm.ru^
 ||nxtck.com^
 ||files.nyaa.eu/ab
 ||files.nyaa.se/ac
