@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: hpscZApVx0wGLC83zpnedQ
+! Checksum: cmWso3x3gBo1cvTqirQ35A
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410250607
+! Version: 201410251224
 
-! Last modified: 2014-10-25 06:07 JST(UTC+0900)
+! Last modified: 2014-10-25 12:24 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -186,7 +186,8 @@
 ! False positives with combined scripts including ,adsense, in the parameters at Google Map embeded pages, with ^adsense^ filter, reported via blog, Sep 30, 2014
 @@||maps.gstatic.com/cat_js/*,$script
 ! False positives with combined stylesheets at guardian.co.uk, reported via Issue Report, Feb 6, 2012
-@@||combo.guim.co.uk^
+! Adjusted to limit really combined files and the new domain, Oct 25, 2014
+@@||combo.guim.co.uk^*+$script,stylesheet,domain=theguardian.com
 ! False positives with combined scripts conflicting with _ads. filter and with further combined stylesheets, Aug 27, 2014
 @@||huffpost.com/assets/css.*?v=*%2C$stylesheet
 @@||huffpost.com/assets/js.*?v=*%2C$script
