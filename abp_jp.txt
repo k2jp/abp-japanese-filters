@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: Ii0XWZgi6rxjH5of9D7x+w
+! Checksum: oC6iQyoeW1pnJOBWEBFV4Q
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410260859
+! Version: 201410261244
 
-! Last modified: 2014-10-26 08:59 JST(UTC+0900)
+! Last modified: 2014-10-26 12:44 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5480,6 +5480,7 @@ _yahooads_
 ||bluetrackmedia.com^$third-party
 ||bmmetrix.com^
 ||bmnq.com^
+||bnmla.com^
 ||bnvdrs.com^
 ||bnx.me^$third-party
 ||bobrilla.com^
@@ -6050,6 +6051,9 @@ _yahooads_
 ||easyinline.com^$third-party
 ||rover.ebay.com^
 ||ebayrtm.com^
+||ebdr1.com^
+||ebdr2.com^
+||ebdr3.com^
 ||ebis.ne.jp^$third-party
 ||ebuzzing.com^$third-party
 ||ebz.io^
@@ -6227,6 +6231,7 @@ _yahooads_
 ||findpre.net^
 ||fire-soft.com^
 ||firmernet.ru^
+||first-impression.com^
 ||fivecool.tv^
 ||flascom.com^
 ||flashmediaportal.com^
@@ -6799,6 +6804,7 @@ _yahooads_
 ||kitkatsoft.net^
 ||kiwi.kz^$third-party
 ||kji.jp^$third-party
+||kkith.com^
 ||klaviyo.com^$third-party
 ||kliknik.com^$third-party
 ||ko-tube.com^$third-party
@@ -8188,6 +8194,7 @@ _yahooads_
 ||swebjs.info^
 ||sweet-adult.com^$popup
 ||swi-adserver.com^$third-party
+||swtog.com^
 ||swtresync.net^
 ||synapse-interactive.
 ||synasender.com^
@@ -8873,6 +8880,7 @@ _yahooads_
 ||zone-pratique.com^
 ||zone-voyance.com^
 ||zontrans.com^
+||zpk200.com^
 ||zqyxpllyma.ru^
 ||zwaar.org^
 ||zyumicher.ru^
