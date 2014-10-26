@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 6FhvN6tp3Q393R1e+rO4cQ
+! Checksum: QEyQfgtNDrNju8AoMHcxcQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410261255
+! Version: 201410270139
 
-! Last modified: 2014-10-26 12:55 JST(UTC+0900)
+! Last modified: 2014-10-27 01:39 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5504,6 +5504,8 @@ _yahooads_
 ! Moved to the Paranoid subscription to avoid false positives, Feb 1, 2014
 ! ||bootstrapcdn.com^$third-party
 ||bouncebidder.com^
+||bounceexchange.com^$third-party
+||bouncex.com^
 ||boxore.com^$third-party
 ||boyfriendtv.com^$third-party
 ||brainient.com^$third-party
@@ -6533,6 +6535,7 @@ _yahooads_
 ||iasrv.com^$popup
 ||ib-ibi.$third-party
 ||ibase.fr^
+||ibx1.net^
 ||icetraffic.com^
 ||ichijinsha.co.jp^$third-party
 ||icidating.com^
