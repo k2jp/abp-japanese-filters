@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: dz6GzHL68IXTc6MRyAGMZg
+! Checksum: fWX0MI3ZgyHZh2X6zkvWrg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410302100
+! Version: 201410302121
 
-! Last modified: 2014-10-30 21:00 JST(UTC+0900)
+! Last modified: 2014-10-30 21:21 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -296,7 +296,8 @@
 ##.footerBanners:not(body):not(input)
 ##.gAdsense:not(body):not(input)
 ##.googleAd:not(body):not(input)
-##.googleAds:not(body):not(input)
+! False positives at ニコニコ動画 GINZA hiding Movie title, tags and detail, Oct 30, 2014
+##.googleAds:not(body):not(input):not(#videoHeader):not(#videoInfo)
 ##.gsc-adBlock:not(body):not(input)
 ##.header-banner:not(body):not(input)
 ~photobucket.com##.headerAd:not(body):not(input)
