@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: uKl9CI1YqZg8gVZEyLGxqQ
+! Checksum: 0sMwVGvWPUlyezsBuSw3JQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410241934
+! Version: 201410301842
 
-! Last modified: 2014-10-24 19:34 JST(UTC+0900)
+! Last modified: 2014-10-30 18:42 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2500,6 +2500,7 @@ www.yahoo.co.jp###local
 /templates/system/index.php^$third-party
 /track.php^$third-party
 /traf.php^$subdocument,third-party
+/ungogo.$script,third-party
 /update.php^$third-party
 /upload/upload.php^$third-party
 /vc.php?go=$third-party
@@ -2509,6 +2510,10 @@ www.yahoo.co.jp###local
 ! /wp-content/upgrade/update.php^$third-party
 /wp-includes/class-wp-ajax.php^$third-party
 ^luxcash^$third-party
+16.khml|$subdocument,third-party
+17.html?b|$subdocument,third-party
+17.html?c|$subdocument,third-party
+17.html?n|$subdocument,third-party
 |http://*/vd/43;$third-party
 |https://*/vd/43;$third-party
 |http://*/vd/92;$third-party
@@ -2519,6 +2524,7 @@ www.yahoo.co.jp###local
 ||myftp.$third-party
 |http://*.no-ip.$third-party
 |https://*.no-ip.$third-party
+||easyfunguide.at^
 ||biz/barklasmendaf.cgi?$third-party
 ||biz/facebook.cgi?$third-party
 ||biz/gjgdyrzd77.cgi?$third-party
@@ -2606,6 +2612,7 @@ www.yahoo.co.jp###local
 ||xxuz.com^$third-party
 ||youdontcare.com^$third-party
 ||environmental-art.de^$third-party
+||milbrandt.de^$third-party
 ||xlsoccer.fr^$third-party
 ||ondio.in^$third-party
 ||info/balance.cgi?$third-party
