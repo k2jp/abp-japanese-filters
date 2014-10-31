@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: RzD1iet8FiCMjAsoCAqJZQ
+! Checksum: so3cVcYtHpwAj9kHmEZAJA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201410312130
+! Version: 201410312144
 
-! Last modified: 2014-10-31 21:30 JST(UTC+0900)
+! Last modified: 2014-10-31 21:44 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5142,6 +5142,7 @@ _yahooads_
 ||adpath.net^$third-party
 ||adperium.com^$third-party
 ||adplan-ds.com^$third-party
+||adprotected.com^$third-party
 ||adpv.com^$third-party
 ||adr.st^
 ||adreactor.com^$third-party
@@ -6678,6 +6679,7 @@ _yahooads_
 ||huffingtonpost.com/abpTest/
 ||localcontent.huffingtonpost.com^
 ||hugedi.com^
+||hulaga.net^
 ||hulu.*/cram.
 ||hulu.*/gc?
 ||hulu.*/guid.
@@ -7679,6 +7681,7 @@ _yahooads_
 ||optinproject.com^
 ||options365.com^$popup
 ||optmd.com^$third-party
+||optplay.com^$third-party
 ||orange-park.jp^$third-party
 ||orangeads.fr^
 ||oret.jp^$third-party
