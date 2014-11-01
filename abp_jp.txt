@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 05EOK+/gB8kdI3Zg1Jp4Pg
+! Checksum: q+DUeaCp8x5nl9IZea9Czg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201411020139
+! Version: 201411020156
 
-! Last modified: 2014-11-02 01:39 JST(UTC+0900)
+! Last modified: 2014-11-02 01:56 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5299,6 +5299,7 @@ _yahooads_
 ||acxiom-online.com^
 ||ad-cloud.jp^$third-party
 ||ad-hatena.jp^
+||ad-hub.biz^
 ||ad-link.jp^$third-party
 ||ad-maker.info^
 ||ad-mastering.net^
@@ -5381,6 +5382,7 @@ _yahooads_
 ||adgear.com^$third-party
 ||adhai.com^$third-party
 ||adhitzads.com^
+||adhub.ru^$third-party
 ||adimg.net^
 ||adingo.jp^$third-party
 ||adinterax.com^$third-party
@@ -5503,6 +5505,7 @@ _yahooads_
 ||adtgs.com^$popup
 ||adthink-media.com^
 ||adtracker.jp^
+||adtraff.ru^
 ||adtricity.com^
 ||adultadmedia.com^
 ||adultadmedia.com^$popup
@@ -5562,6 +5565,7 @@ _yahooads_
 ||adxite.com^$third-party
 ||adxpansion.com^$third-party
 ||adxpose.com^$third-party
+||adylalahb.ru^
 ||adzerk.$third-party
 ||aebn.net^$third-party
 ||aeriagames.com^$popup
@@ -8341,6 +8345,7 @@ _yahooads_
 ||rpxnow.com^$third-party
 ||rss.tc^$third-party
 ||rss2search.com^$third-party
+||rtbads.info^
 ||rtbidder.net^
 ||rtbinternet.com^
 ||rtbtraf.com^
