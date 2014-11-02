@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: ZEmM+Ef1pvmktn3aU6toVg
+! Checksum: 51mTpmXhYQDRzLY5fbv3lQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201411022209
+! Version: 201411022319
 
-! Last modified: 2014-11-02 22:09 JST(UTC+0900)
+! Last modified: 2014-11-02 23:19 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2171,6 +2171,7 @@
 /pixel.*?$image,object
 /pixel?
 /pixel2.
+/pjs/*.js?u=$third-party
 /playertracking/*
 /pma.$script,third-party
 /pop-over.
@@ -7620,6 +7621,7 @@ _yahooads_
 ||meetrics.$third-party
 ||megaclick.com^$third-party
 ||megagong.fr^$popup
+||megaplugin.ru^
 ||megaporn.com/*/onhover.$script
 ! Commented out to avoid false positives @ third-party embeded web sites. July 28, 2011
 ! ||megaupload.com^$third-party
@@ -8077,6 +8079,7 @@ _yahooads_
 ||pipe-ejac.net^
 ||pishton.ru^
 ||ad.pitattomatch.com^
+||pitdwnhmay.ru^
 ||ad.pitta.ne.jp^
 ||piwik-stat.com^
 ||pixhost.org/js/jquery_show$script
@@ -8897,6 +8900,7 @@ _yahooads_
 ||tuigoo.com^$third-party
 ||tumblr.com/analytics.
 ||turboloves.net^
+||turboplugin.ru^
 ||turn.com^$third-party
 ||countess.twitch.tv^
 ||scribe.twitter.com^
@@ -8907,6 +8911,7 @@ _yahooads_
 ||tynt.com^$third-party
 ||typekit.net/p.$image
 ||typiol.com^
+||tytbydettraff.ru^
 ||uchmuk.com^
 ||uclead.com^
 ||ucoz.$popup
@@ -9201,6 +9206,7 @@ _yahooads_
 ||wxdjs.info^
 ||wysistat.com^$third-party
 ||wyunion.com^$third-party
+||wzaxvlgdrb.ru^
 ||x-asiatique.net^
 ||x19network.com^
 ||xaid.jp^$third-party
