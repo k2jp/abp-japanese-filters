@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 39M/cncocV9lpBpq8Cl/rA
+! Checksum: wT4aB+mWnRLte8eXQUwWyQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201411022130
+! Version: 201411022153
 
-! Last modified: 2014-11-02 21:30 JST(UTC+0900)
+! Last modified: 2014-11-02 21:53 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5220,6 +5220,7 @@ _yahooads_
 ||track.47news.jp^
 ||4allclick.ru^
 ||4clvr.jp^
+||4dopolndomen.ru^
 ||4dsply.com^$third-party
 ||4dtrk.com^$third-party
 ||4jsdw9ta.com^
@@ -5980,6 +5981,7 @@ _yahooads_
 ||bposervers.com^
 ||brainient.com^$third-party
 ||brandreachsys.com^$third-party
+||brauserdopoln.ru^
 ||brazzers.com^$third-party
 ||brealtime.com^$third-party
 ||breedac.com^
@@ -6453,6 +6455,8 @@ _yahooads_
 ||domainadvertising.com^$third-party
 ||domainnamesales.com^$third-party
 ||domdex.com^
+||domen4ikdlyaplagina.ru^
+||domendlyadopoln.ru^
 ||dominasy.com^
 ||donagabriella.com^$popup
 ||donalise.com^
@@ -6871,6 +6875,7 @@ _yahooads_
 ||id.google.*/verify/
 ||video-stats.video.google.com^
 ||googleadservices.com^
+||googleplugin.ru^
 ||googlesyndication.com^
 ||googletagmanager.com^$third-party
 ||googletagservices.com^
@@ -6896,6 +6901,8 @@ _yahooads_
 ||gsspcln.jp^
 ||csi.gstatic.com^
 ||metric.gstatic.com^
+||gta-file-mod.ru^
+||gta-info-mod-script.ru^
 ||gublego.ru^
 ||gueur.com^
 ||gueurs.com^
@@ -7284,6 +7291,7 @@ _yahooads_
 ||kiwi.kz^$third-party
 ||kji.jp^$third-party
 ||kkith.com^
+||klassniy-site.ru^
 ||klaviyo.com^$third-party
 ||kliknik.com^$third-party
 ||ko-tube.com^$third-party
@@ -7302,6 +7310,7 @@ _yahooads_
 ||kozaka.net^$third-party
 ||kranted.com^
 ||kromeleta.ru^
+||krutoy-domen.ru^
 ||krxd.net^
 ||kryter.com^$third-party
 ||ksajgnylix.ru^
@@ -7832,6 +7841,7 @@ _yahooads_
 ||network-media.mobi^$third-party
 ||neudesicmediagroup.com^$third-party
 ||new-akiba.com/special/
+||newdopoln.ru^
 ||newrelic.com^$third-party
 ||news-us.*/html/
 ||news-us.*/ss/
@@ -8079,6 +8089,7 @@ _yahooads_
 ||plomihy.com^
 ||plse3604.com^
 ||plugin-x.com^$third-party
+||plugindlyakontakta.ru^
 ||plugrush.com^$third-party
 ||plymedia.com^$third-party
 ||pneus-en-ligne.com^
@@ -8263,6 +8274,7 @@ _yahooads_
 ||registre-rencontre.com^
 ||reinvigorate.net^$third-party
 ||reklama-port.com^
+||reklamadomen.ru^
 ||relax.ru^
 ||relexion-credit.com^
 ||remontvdome.com.ua^$popup
@@ -8526,6 +8538,7 @@ _yahooads_
 ||shorte.st^$third-party
 ||shoveac.com^
 ||showcase-tv.jp^
+||showdopoln.ru^
 ||showdysl.com^
 ||showede.com^
 ||shuffele.com^
@@ -8593,6 +8606,7 @@ _yahooads_
 ||sociomantic.com^$third-party
 ||sockosoft.com^
 ||sodomie-anale.biz^
+||soft-portal-45.ru^
 ||softalo.com^
 ||softonika.com^
 ||softpedia-static.com/images/afh/
@@ -8830,6 +8844,7 @@ _yahooads_
 ||traders.co.jp/trial/10img/
 ||traffic-exchange.tv^$third-party
 ||traffic.ru^$third-party
+||trafficandrei.ru^
 ||trafficbroker.com^$third-party
 ||trafficfactory.biz^$third-party
 ||trafficgate.net^$third-party
@@ -8898,6 +8913,8 @@ _yahooads_
 ||uimserv.net^
 ||ukrotsel.ru^
 ||ultimedia.com^$third-party
+||ultradomendop.ru^
+||ultradopoln.ru^
 ||ultrapay.net^$third-party
 ||underclick.ru^
 ||underclick.ru^$popup
@@ -9038,6 +9055,7 @@ _yahooads_
 ||vitalads.net^$third-party
 ||vitruvianleads.com^$third-party
 ||vk.com^$domain=~vk.com|~vkontakte.ru
+||vkappcollection.ru^
 ||vklsjdnfsdkjb.net^
 ||vkontakte.ru^$domain=~vk.com|~vkontakte.ru
 ||vmi.it^$popup
@@ -9159,6 +9177,7 @@ _yahooads_
 ||ker.www.wp.pl^
 ||wpadsvr.com^
 ||wpadsvr.com^$popup
+||wpinspirerchat.ru^
 ||wptstatic.net/custom/
 ||wrenkontre.com^
 |http:*.ws.md^$third-party
