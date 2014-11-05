@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: qcZpgCDWCguKENP0scYdVQ
+! Checksum: e0i5XwsDMVvzXhZUC6e0rw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201411060106
+! Version: 201411060133
 
-! Last modified: 2014-11-06 01:06 JST(UTC+0900)
+! Last modified: 2014-11-06 01:33 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5472,6 +5472,7 @@ _yahooads_
 ||adsbyisocket.com^
 ||adscale.de^$third-party
 ||adserve.com^$third-party
+||adserver.org^
 ||adserver01.de^$third-party
 ||adserverplus.com^
 ! Dropped a third-party option because adwares or malwares open it directly, Apr 2, 2012
@@ -5499,6 +5500,7 @@ _yahooads_
 ||adspot-rich.info^$third-party
 ||adsrotator.net^
 ||adsrvmedia.net^
+||adsrvr.org^
 ||adstarter.ru^
 ||adsupply.com^$third-party
 ||adsurve.com^
@@ -5515,6 +5517,7 @@ _yahooads_
 ||adtgs.com^$popup
 ||adthink-media.com^
 ||adtracker.jp^
+||adtradedesk.com^
 ||adtraff.ru^
 ||adtricity.com^
 ||adultadmedia.com^
