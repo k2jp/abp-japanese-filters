@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: d0avnGqaQar7YZwWy/gdLg
+! Checksum: y6E22R3TasKrHrlMtGWU8w
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201411071627
+! Version: 201411071639
 
-! Last modified: 2014-11-07 16:27 JST(UTC+0900)
+! Last modified: 2014-11-07 16:39 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5280,6 +5280,7 @@ _yahooads_
 ||ableday.com^
 ||about.co.kr^$third-party
 ||abusieux.com^
+||acads.net^
 ||accanalyze.com^$third-party
 ||acces-charme.com^$third-party
 ||acces-videos.com^
@@ -5287,6 +5288,7 @@ _yahooads_
 ||accessport.jp^$third-party
 ||accesstrade.net^$third-party
 ||accompagnement-pret.com^
+||acdcadz.com^
 ||aceadsys.net^$popup
 ||aceadsys.net^$third-party
 ||acestream.net^$third-party
@@ -5430,8 +5432,10 @@ _yahooads_
 ||admoon.net^$third-party
 ||admulti.com^$third-party
 ||adnetinteractive.com^$third-party
+||adnets.info^
 ||adnetwork.net^$third-party
 ||adnetwork.vn^
+||adnetworkme.com^
 ||adnetworks.co.jp^$third-party
 ||adnetxchange.com^
 ||adnico.net^
@@ -5540,6 +5544,7 @@ _yahooads_
 |https://adv6*.ru^
 |http://adv8*.ru^
 |https://adv8*.ru^
+||advantagz.com^
 ||advd69.net^
 ||advenueplatform.com^$third-party
 ||adversalservers.com^$third-party
@@ -8324,6 +8329,7 @@ _yahooads_
 ||rencontrevisio.com^
 ||rencontrevisiochat.com^
 ||rencontrevoisines.com^
+||repadnet.com^
 ||repayac.com^
 ||required-update.com^
 ||res-x.com^
@@ -8390,6 +8396,7 @@ _yahooads_
 ||rtbtraf.com^
 ||rtoaster.jp^
 ||ru4.com^$third-party
+||rubiconadnet.com^
 ||rubiconproject.com^$third-party
 ||rue-des-credits.com^
 ||runadtag.com^
