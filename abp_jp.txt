@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: y6E22R3TasKrHrlMtGWU8w
+! Checksum: Cq5tJ4qngWfKqNUEYGY78g
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201411071639
+! Version: 201411081503
 
-! Last modified: 2014-11-07 16:39 JST(UTC+0900)
+! Last modified: 2014-11-08 15:03 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5691,14 +5691,15 @@ _yahooads_
 ||ws.amazon.$third-party
 ||sis.amazon.com^
 ||amazonaws.com^$popup
-||amazonaws.com/af-bdaz/
-||amazonaws.com/ai-img/
 ||amazonaws.com/*.cetrk.com/
-||amazonaws.com/getsatisfaction.com/
-||amazonaws.com/hd_streamer/
 ||amazonaws.com/*.inspectlet.com/
 ||amazonaws.com/*.kissmetrics.com/
 ||amazonaws.com/*.pagefair.com/
+||amazonaws.com/af-bdaz/
+||amazonaws.com/ai-img/
+||amazonaws.com/getsatisfaction.com/
+||amazonaws.com/hd_streamer/
+||amazonaws.com/lps
 ||amazonaws.com/opbanditcdn/
 ||amazonaws.com/opentag/
 ||amazonaws.com/saaspulse-cdn/
