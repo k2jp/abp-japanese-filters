@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: A0wKERS/7mE39MgldAU3Bw
+! Checksum: jeG1cZA2K5XrquZd+n+DWg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201411161926
+! Version: 201411161950
 
-! Last modified: 2014-11-16 19:26 JST(UTC+0900)
+! Last modified: 2014-11-16 19:50 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5759,6 +5759,7 @@ _yahooads_
 ||anniere.com^
 ||anniers.com^
 ||annoncescouples.com^
+||annual-survey.com^$popup
 ||anonym.to^$third-party
 ||anonymousdmp.com^$third-party
 ||antek.ws^
@@ -6163,6 +6164,7 @@ _yahooads_
 ||clicktale.net^$third-party
 ||clicktrace.info^
 ||clicktracks.com^$third-party
+||clickztrak.com^$popup
 ||clicmanager.fr^$third-party
 ||cliennes.com^
 ||clierets.com^
@@ -6409,6 +6411,7 @@ _yahooads_
 ||dating-express.net^
 ||datingdiscret.com^
 ||datingfactory.com^$third-party
+||datingguideline.com^$popup
 ||datinglabel.com^
 ||datorsi.ru^
 ||datropy.com^$third-party
@@ -6417,6 +6420,7 @@ _yahooads_
 ||ddestiny.ru^$third-party
 ||dealply.$third-party
 ||deals-way.com^$third-party
+||dealswired.com^$popup
 ||deconnade.com^
 ||dedicatedmedia.com^$third-party
 ||dedicatednetworks.com^$third-party
@@ -7791,6 +7795,9 @@ _yahooads_
 ||movie-file.net^$third-party
 ||moviebox.com^$third-party
 ||movies-access.com^
+||moxieads.com^$popup
+||moxieseek.com^$popup
+||moxietrax.com^$popup
 ||mplxtms.com^
 ||mradx.net^
 ||mreco.jp^
@@ -7824,8 +7831,10 @@ _yahooads_
 ||musen-lan.com/speed/banner/
 ||mwbxxjpi3r.com^
 ||mxcdn.net^
+||mxmobitrk.com^$popup
 ||mxpnl.com^$third-party
 ||mxtads.com^
+||mxtrac.com^$popup
 ||my-affiliate.com^$third-party
 ||my1.ru^
 ||myactivestats.com^
@@ -8838,6 +8847,7 @@ _yahooads_
 ||thesettlersonline.fr^$popup
 ||thetrafficstat.net^
 ||thewheelof.com^
+||thinkscore.com^$popup
 ||thumpac.com^
 ||ticketchic.com^
 ||tidaltv.com^$third-party
@@ -9289,6 +9299,7 @@ _yahooads_
 ||ad.xrea.com^
 ||ax.xrea.com^$third-party
 ||imgj.xrea.com/xa.
+||xredirects.com^$popup
 ||xrosview.com^$third-party
 ||xt918.com^$third-party
 ||xtendmedia.com^$popup
