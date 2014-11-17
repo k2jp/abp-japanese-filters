@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: q4jNJZTbNhAeb3Wv3Opj+A
+! Checksum: AR4tUQ5emEQpkgoZAwlObQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201411172000
+! Version: 201411172034
 
-! Last modified: 2014-11-17 20:00 JST(UTC+0900)
+! Last modified: 2014-11-17 20:34 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1683,6 +1683,7 @@
 /acc_random=
 /acclog.
 /acctag.
+/acttr?p=*&m=*&t=$third-party
 ! /ad-image/*
 ! /ad-images/*
 ! /ad-navi/ga/*
@@ -2027,6 +2028,7 @@
 /external/*$domain=amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.de|amazon.es|amazon.fr|amazon.it
 /fc.php?script=
 /fc2se.$script,domain=fc2.com
+/flash/gajsp*.swf?$object
 /flashbanner.swf
 /ga_social_tracking.$script
 /gads.$script
@@ -6362,6 +6364,7 @@ _yahooads_
 ||curancience.com^
 ||custom-click.com^$third-party
 ||custom-click.net^$third-party
+||cvkgpq.com^
 ||cxense.com^$third-party
 ||cxmolk.com^
 ||cxpublic.com^
@@ -8724,6 +8727,7 @@ _yahooads_
 ||spylog.com^
 ||spylog.ru^
 ||srdrvp.com^
+||srshql.com^
 ||ssassets.com^
 ||ssfiles.com^
 ||ssl-services.com^
@@ -8959,6 +8963,7 @@ _yahooads_
 ||truste.com^$third-party
 ||tsingera.ru^
 ||ttfean.com^
+||ttinline.com^$third-party
 ||tubejs.info^
 ||tubemogul.com^$third-party
 ||tuigoo.com^$third-party
