@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: ypPVOvO02Es8Hkhr1vsRLw
+! Checksum: Z6UqueRvuWAEn6o/AGzthQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201411221641
+! Version: 201411221702
 
-! Last modified: 2014-11-22 16:41 JST(UTC+0900)
+! Last modified: 2014-11-22 17:02 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2059,7 +2059,7 @@
 /gsrs^$script,third-party
 /header_bnr_
 /headline.$script,domain=gizmodo.jp|kotaku.jp|lifehacker.jp
-/hist_count.$~image
+/hist_count.
 /hserver/*
 /html.ng/*
 /html/click/*
@@ -2299,7 +2299,7 @@
 ! /stat.$domain=~ameblo.jp|~ameba.jp
 ! /stat^
 ! /stat_
-/statcounter.$~image
+/statcounter.
 /statisticsPlugin.
 /storage.$object,third-party
 /sujqori.
@@ -5222,7 +5222,7 @@ _yahooads_
 ||29bca6cb72a665c8.se^
 ||29bca6cb72a665c8.se^$popup
 ||2ch.io/getf.cgi?
-||count.2ch.net^$~image
+||count.2ch.net^
 ||find.2ch.net/*_banner_
 ||2leep.com^$third-party
 ||2mdn.net^$popup
@@ -6738,7 +6738,7 @@ _yahooads_
 ||aimg.fc2.com^
 ||analyzer*.fc2.com*/ana/
 ||analyzer*.fc2.com/analyzercook.
-||counter*.fc2.com^$~image
+||counter*.fc2.com^
 ||media.fc2.com^
 ||media3.fc2.com^
 ||fc2web.com^$third-party
@@ -7727,7 +7727,7 @@ _yahooads_
 ||c1.microsoft.com^
 ||midlemee.ru^
 ||mieuxchoisir.com^
-||millioncounter.com^$~image
+||millioncounter.com^
 ||miniinthebox.com^$popup
 ||minisalopes.com^
 ||ministerial5.com^$third-party
@@ -8293,7 +8293,7 @@ _yahooads_
 ||r1fclick.com^
 ! Commented out a vague filter to avoid false positives, reported via Issue Repoort, Mar 11, 2014
 ! ||rackcdn.com^$third-party
-||radarurl.com^$~image,domain=~radarurl.com
+||radarurl.com^,domain=~radarurl.com
 ||radeant.com^$popup
 ||radeant.com^$third-party
 ||radikal.ru^$third-party
@@ -8580,15 +8580,15 @@ _yahooads_
 ||dumbo.shinobi.jp^
 ||nsm.shinobi.jp^
 ||axad.shinobi.jp^
-||ba1.shinobi.jp^$~image
-||ba2.shinobi.jp^$~image
-||ba3.shinobi.jp^$~image
-||ba4.shinobi.jp^$~image
-||ba5.shinobi.jp^$~image
-||ba6.shinobi.jp^$~image
-||ba7.shinobi.jp^$~image
-||ba8.shinobi.jp^$~image
-||ba9.shinobi.jp^$~image
+||ba1.shinobi.jp^
+||ba2.shinobi.jp^
+||ba3.shinobi.jp^
+||ba4.shinobi.jp^
+||ba5.shinobi.jp^
+||ba6.shinobi.jp^
+||ba7.shinobi.jp^
+||ba8.shinobi.jp^
+||ba9.shinobi.jp^
 ||bar1.shinobi.jp^
 ||bar2.shinobi.jp^
 ||bar3.shinobi.jp^
@@ -8598,29 +8598,29 @@ _yahooads_
 ||bar7.shinobi.jp^
 ||bar8.shinobi.jp^
 ||bar9.shinobi.jp^
-||ct1.shinobi.jp^$~image
-||ct2.shinobi.jp^$~image
-||ct3.shinobi.jp^$~image
-||ct4.shinobi.jp^$~image
-||ct5.shinobi.jp^$~image
-||ct6.shinobi.jp^$~image
-||ct7.shinobi.jp^$~image
-||ct8.shinobi.jp^$~image
-||ct9.shinobi.jp^$~image
+||ct1.shinobi.jp^
+||ct2.shinobi.jp^
+||ct3.shinobi.jp^
+||ct4.shinobi.jp^
+||ct5.shinobi.jp^
+||ct6.shinobi.jp^
+||ct7.shinobi.jp^
+||ct8.shinobi.jp^
+||ct9.shinobi.jp^
 ||omt.shinobi.jp^
 ||rcm.shinobi.jp^
 ||samurai.shinobi.jp^
 ||st.shinobi.jp^
-||vis1.shinobi.jp^$~image
-||vis2.shinobi.jp^$~image
-||vis3.shinobi.jp^$~image
-||vis4.shinobi.jp^$~image
-||vis5.shinobi.jp^$~image
-||vis6.shinobi.jp^$~image
-||vis7.shinobi.jp^$~image
-||vis8.shinobi.jp^$~image
-||vis9.shinobi.jp^$~image
-||shinystat.com^$~image
+||vis1.shinobi.jp^
+||vis2.shinobi.jp^
+||vis3.shinobi.jp^
+||vis4.shinobi.jp^
+||vis5.shinobi.jp^
+||vis6.shinobi.jp^
+||vis7.shinobi.jp^
+||vis8.shinobi.jp^
+||vis9.shinobi.jp^
+||shinystat.com^
 ||shop-japan.com^$third-party
 ||shopping-search.jp^$third-party
 ||shorte.st^$third-party
