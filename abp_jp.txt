@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: lueTUA8NvgixWaYYNUHjGw
+! Checksum: htSZJoMiy0ixUpSx8YxL+g
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201411230639
+! Version: 201411230653
 
-! Last modified: 2014-11-23 06:39 JST(UTC+0900)
+! Last modified: 2014-11-23 06:53 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -872,17 +872,29 @@
 -impression_id^
 -impression_id_
 -landing-$popup
+-landing-$third-party
 -landing.$popup
+-landing.$third-party
 -landing^$popup
+-landing^$third-party
 -landing_$popup
+-landing_$third-party
 -landingpage-$popup
+-landingpage-$third-party
 -landingpage.$popup
+-landingpage.$third-party
 -landingpage^$popup
+-landingpage^$third-party
 -landingpage_$popup
+-landingpage_$third-party
 -landingpages-$popup
+-landingpages-$third-party
 -landingpages.$popup
+-landingpages.$third-party
 -landingpages^$popup
+-landingpages^$third-party
 -landingpages_$popup
+-landingpages_$third-party
 -linkad-
 -linkad.
 -linkad^
@@ -1510,17 +1522,29 @@
 .jeuxofferts.
 .kissinsights.com/
 .landing-$popup
+.landing-$third-party
 .landing.$popup
+.landing.$third-party
 .landing^$popup
+.landing^$third-party
 .landing_$popup
+.landing_$third-party
 .landingpage-$popup
+.landingpage-$third-party
 .landingpage.$popup
+.landingpage.$third-party
 .landingpage^$popup
+.landingpage^$third-party
 .landingpage_$popup
+.landingpage_$third-party
 .landingpages-$popup
+.landingpages-$third-party
 .landingpages.$popup
+.landingpages.$third-party
 .landingpages^$popup
+.landingpages^$third-party
 .landingpages_$popup
+.landingpages_$third-party
 .megavod.
 .metrics-
 .metrics.
@@ -3902,17 +3926,29 @@
 ^koukoku^
 ^koukoku_
 ^landing-$popup
+^landing-$third-party
 ^landing.$popup
+^landing.$third-party
 ^landing^$popup
+^landing^$third-party
 ^landing_$popup
+^landing_$third-party
 ^landingpage-$popup
+^landingpage-$third-party
 ^landingpage.$popup
+^landingpage.$third-party
 ^landingpage^$popup
+^landingpage^$third-party
 ^landingpage_$popup
+^landingpage_$third-party
 ^landingpages-$popup
+^landingpages-$third-party
 ^landingpages.$popup
+^landingpages.$third-party
 ^landingpages^$popup
+^landingpages^$third-party
 ^landingpages_$popup
+^landingpages_$third-party
 ^liadsuite-
 ^liadsuite.
 ^liadsuite^
@@ -4842,17 +4878,29 @@ _impression_id^
 _impression_id_
 _jack.$image,object,domain=4gamer.net
 _landing-$popup
+_landing-$third-party
 _landing.$popup
+_landing.$third-party
 _landing^$popup
+_landing^$third-party
 _landing_$popup
+_landing_$third-party
 _landingpage-$popup
+_landingpage-$third-party
 _landingpage.$popup
+_landingpage.$third-party
 _landingpage^$popup
+_landingpage^$third-party
 _landingpage_$popup
+_landingpage_$third-party
 _landingpages-$popup
+_landingpages-$third-party
 _landingpages.$popup
+_landingpages.$third-party
 _landingpages^$popup
+_landingpages^$third-party
 _landingpages_$popup
+_landingpages_$third-party
 _metrics-
 _metrics.
 _metrics^
@@ -5066,6 +5114,7 @@ _yahooads_
 ||kanasoku.*/thumb/
 ||krxd.
 ||landing.$popup
+||landing.$third-party
 ||log.$third-party
 ||log0.
 |http://lp.$popup
