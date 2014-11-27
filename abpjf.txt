@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: rb1dczMxKLJ6tbM4s8dwbw
+! Checksum: PA6ZCUTTpIa+HyTYaKb0+Q
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201411280556
+! Version: 201411280614
 
-! Last modified: 2014-11-28 05:56 JST(UTC+0900)
+! Last modified: 2014-11-28 06:14 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5462,6 +5462,7 @@ _yahooads_
 ||adfox.ru^$third-party
 ||adfunky.com^$third-party
 ||adgear.com^$third-party
+||adgoup.com^
 ||adhai.com^$third-party
 ||adhitzads.com^
 ||adhub.ru^$third-party
@@ -5517,6 +5518,7 @@ _yahooads_
 ||adobedtm.com^
 ||adobetag.com^
 ||adocean.pl^
+||adonly.com^$third-party
 ||adonweb.ru^$third-party
 ||adorika.$popup
 ||adorika.$third-party
@@ -5587,6 +5589,7 @@ _yahooads_
 ||adtdp.com^$third-party
 ||adtech.de^$popup
 ||adtech.de^$third-party
+||adtechone.com^
 ||adtechus.com^$third-party
 ||adtegrity.net^
 ||adtgs.com^
@@ -6943,6 +6946,7 @@ _yahooads_
 ||glammedia.com^$third-party
 ||glanceguide.com^
 ||glavrich.$third-party
+||gloadmarket.com^
 ||globaltakeoff.net^$third-party
 ||globe7.com^$third-party
 ||globeac.com^
