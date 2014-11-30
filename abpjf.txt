@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: TgzKEHAUYHSafm8nAPbdHQ
+! Checksum: HqOz6XrdYxdhXAcPxRAxog
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201411280631
+! Version: 201411301024
 
-! Last modified: 2014-11-28 06:31 JST(UTC+0900)
+! Last modified: 2014-11-30 10:24 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5421,6 +5421,7 @@ _yahooads_
 ||ad4game.com^$third-party
 ||ad6media.fr^$popup
 ||ad6media.fr^$third-party
+||adaccess.$third-party
 ||adadvisor.net^$third-party
 ||adap.tv^$third-party
 ||adapter-mon-credit.com^
@@ -5569,7 +5570,7 @@ _yahooads_
 ||adskape.ru^$third-party
 ||adsmarket.com^
 ||adsmarket.com^$popup
-||adsmarketplace.com^
+||adsmarketplace.
 ||adsmeda.com^
 ||adsonar.com^$third-party
 ||adspeed.$third-party
@@ -5655,6 +5656,7 @@ _yahooads_
 ||adwires.com^$third-party
 ||adwolf.ru^$third-party
 ||adxad.jp^$third-party
+||adxcore.com^
 ||adxite.com^$popup
 ||adxite.com^$third-party
 ||adxpansion.com^$third-party
