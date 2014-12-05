@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: HAoSx/6BqUU/kGRWpAFTzw
+! Checksum: AKeXEJy2NndD4gb9rX/d3A
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201412051333
+! Version: 201412051353
 
-! Last modified: 2014-12-05 13:33 JST(UTC+0900)
+! Last modified: 2014-12-05 13:53 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5360,7 +5360,9 @@ _yahooads_
 ||a-ranking.org^$third-party
 ||a-static.com^
 ||a2pub.com^
+||a3pub.com^
 ||a433.com^$third-party
+||a5pub.com^
 ||a8.net^$third-party
 ||a9.com^$third-party
 ||aad73c550c.se^
@@ -5640,6 +5642,7 @@ _yahooads_
 ||adtgs.com^
 ||adtgs.com^$popup
 ||adthink-media.com^
+||adtrace.org^
 ||adtracker.jp^
 ||adtradedesk.com^
 ||adtraff.ru^
@@ -5795,6 +5798,7 @@ _yahooads_
 ! False positives with stylesheet, Jan 4, 2013
 ! ||pts.allabout.co.jp^
 ||allanalpass.com^
+||allmyvideos.$third-party
 ||smart.allocine.fr^
 ||smart2.allocine.fr^
 ||allosponsor.com^$third-party
@@ -6031,6 +6035,7 @@ _yahooads_
 ||beencounter.com^$third-party
 ||beezik.$third-party
 ||beezup.com^$third-party
+||beforescence.com^
 ||begun.ru^$third-party
 ||belboon.com^$third-party
 ||belboon.de^
@@ -7894,6 +7899,7 @@ _yahooads_
 ||moceanads.com^
 ||moceanmobile.$third-party
 ||mochiads.com^$third-party
+||modelegating.com^
 ||mofos.com^$third-party
 ||mojivainc.com^
 ||mokkori-drive.net^$popup
@@ -8190,11 +8196,13 @@ _yahooads_
 ! Dropped a third-party option because adwares or malwares open it directly, Apr 2, 2012
 ||openadserving.com^
 ||openadserving.com^$popup
+||openetray.com^
 ||openmace.net^$popup
 ||openstat.net^$third-party
 ||openx.$third-party
 ||openxenterprise.com^
 ||servedby.openxmarket.
+||operatical.com^
 ||opirata2.com^
 ||opt.ne.jp^$third-party
 ||optify.net^$third-party
@@ -8480,6 +8488,7 @@ _yahooads_
 ||regiedepub.com^
 ||regisg.com^
 ||registre-rencontre.com^
+||regurgical.com^
 ||reinvigorate.net^$third-party
 ||reklama-port.com^
 ||reklamadomen.ru^
@@ -8526,6 +8535,7 @@ _yahooads_
 ||rss-rank.com^$third-party
 ||rssad.jp^$third-party
 ||research-artisan.com^$third-party
+||resideral.com^
 ||retargetly.com^
 ||retokho.ru^
 ||reussissonsensemble.fr^
