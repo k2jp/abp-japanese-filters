@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: qunCi4je97dY+EyOceoXSQ
+! Checksum: vsX5hMrkyvZApVW6/RZPcg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201412051004
+! Version: 201412051214
 
-! Last modified: 2014-12-05 10:04 JST(UTC+0900)
+! Last modified: 2014-12-05 12:14 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5123,6 +5123,7 @@ _yahooads_
 ||campaign7.
 ||campaign8.
 ||campaign9.
+||creative.ad1*m.com^$script,third-party
 ||displayads.
 ||dosugcz.
 |http://dw.c$script
@@ -5439,6 +5440,26 @@ _yahooads_
 ||ad128m.com^$popup
 ||ad129m.com^
 ||ad129m.com^$popup
+||ad130m.com^
+||ad130m.com^$popup
+||ad131m.com^
+||ad131m.com^$popup
+||ad132m.com^
+||ad132m.com^$popup
+||ad133m.com^
+||ad133m.com^$popup
+||ad134m.com^
+||ad134m.com^$popup
+||ad135m.com^
+||ad135m.com^$popup
+||ad136m.com^
+||ad136m.com^$popup
+||ad137m.com^
+||ad137m.com^$popup
+||ad138m.com^
+||ad138m.com^$popup
+||ad139m.com^
+||ad139m.com^$popup
 ||ad2games.com^$third-party
 ||ad4game.com^$popup
 ||ad4game.com^$third-party
