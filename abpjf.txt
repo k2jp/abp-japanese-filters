@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: JrH0VsgQjPBPYxcgY/kG5A
+! Checksum: HAoSx/6BqUU/kGRWpAFTzw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201412051308
+! Version: 201412051333
 
-! Last modified: 2014-12-05 13:08 JST(UTC+0900)
+! Last modified: 2014-12-05 13:33 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -6188,6 +6188,7 @@ _yahooads_
 ||casino.com^$popup
 ||casinobonusdeal.com^$third-party
 ||castellol.com^
+||casterpretic.com^
 ||cbapp.com^
 ||cbox.ws^$third-party
 ||file.cbs.co.kr^
@@ -6383,6 +6384,7 @@ _yahooads_
 ||conseil-emprunt.com^
 ||conseil-rencontre.com^
 ||conseils-pret.com^
+||construment.com^
 ||contactsin.
 ||content.ad^$third-party
 ||contentabc.com^
@@ -6558,6 +6560,7 @@ _yahooads_
 ||designedy.com^
 ||detaires.com^
 ||deteql.net^
+||detroposal.com^
 ||dfwu1009.info^
 ||dial-amour.com^
 ||dialocam.com^
@@ -6952,6 +6955,7 @@ _yahooads_
 ||gebezis.ru^
 ||geede.info^
 ||gekimedia.net^
+||gemineering.com^
 ||gemius.pl^
 ||gendai.net/img/banner/
 ||geniee.$third-party
@@ -7417,6 +7421,7 @@ _yahooads_
 ||jswrite.com^
 ||jsyringe.com^
 ||ju2g8tzj.com^
+||judicated.com^
 ||jugao.com^$third-party
 ||jugem.jp/ad/
 ||ad.jugem.jp^
@@ -7570,6 +7575,7 @@ _yahooads_
 ||lifescript.com^$popup
 ||lifestats.ru^
 ||liftdna.com^$third-party
+||ligational.com^
 ||ligatus.com^$third-party
 ||lightningcast.
 ||lijit.com^$third-party
@@ -8251,6 +8257,7 @@ _yahooads_
 ||pgmediaserve.com^
 ||pharmacyonlinefeed.com^
 ||pheedo.jp^$third-party
+||philosophere.com^
 ||picadmedia.com^
 ||picbucks.com^$popup
 ||picleet.com/*_picleet.$script
@@ -8595,6 +8602,7 @@ _yahooads_
 ||sakuralive.com^$popup
 ||sakuralive.com^$third-party
 ||sale-promo.ru^$third-party
+||saltamendors.com^
 ||samiana.com^
 ||samuraiworks.com^$third-party
 ||adcl.sankei.co.jp^
@@ -8636,6 +8644,7 @@ _yahooads_
 ||securerequestform.com^$third-party
 ||securespy.net^
 ||securestudies.com^
+||securitain.com^
 ||a1.security-next.com^
 ||seertul.com^
 ||seesaa.jp/match/
@@ -8850,6 +8859,7 @@ _yahooads_
 ||specificclick.net^
 ||specificmedia.com^$third-party
 ||specisez.com^
+||spectato.com^
 ||speedrencontre.com^
 ||scarlet.spegene.com^
 ||spider-ad.jp^$third-party
