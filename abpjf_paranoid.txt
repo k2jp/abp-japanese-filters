@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: fL6WdWZvMI8bVot15RrjPg
+! Checksum: pqYAofUM2pFkkEye4FM9mw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Paranoid filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201411271931
+! Version: 201412072024
 
-! Last modified: 2014-11-27 19:31 JST(UTC+0900)
+! Last modified: 2014-12-07 20:24 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3954,6 +3954,7 @@ www.yahoo.co.jp###local
 ! ===== Obfuscated short URL links with banner AD images used to avoid adblocking ===== START =====
 ##a[href*="//bit.ly/"] > img
 ##a[href*="//goo.gl/"] > img
+##a[href*="//j.mp/"] > img
 ! ----- Obfuscated short URL links with banner AD images used to avoid adblocking ----- END -----
 
 ! ===== Obfuscated short URL links frequently used to hide malicious links on SNS ===== START =====
