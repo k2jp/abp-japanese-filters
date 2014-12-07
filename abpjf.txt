@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: VAR3tzfiCkHSK4qrwuTJuA
+! Checksum: BrsBCfrIge2kPFE55emr3w
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201412051411
+! Version: 201412072046
 
-! Last modified: 2014-12-05 14:11 JST(UTC+0900)
+! Last modified: 2014-12-07 20:46 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -7622,6 +7622,7 @@ _yahooads_
 ||adv.livedoor.com^
 ||click.livedoor.com^
 ||livedoor.com/js/selectionSearch.$script
+||livedoor.com/plugins/news/topics.$script
 ||livedoor.com/xml/banner.
 ||livedoor.jp/js/c.$script
 ||livedoor.jp/js/c2.$script
