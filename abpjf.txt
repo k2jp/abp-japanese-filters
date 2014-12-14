@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: Ur2rfEVbijl1SlGC5oRolw
+! Checksum: ALBYcaT+rH9ZYstxXRT1fA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201412142121
+! Version: 201412142158
 
-! Last modified: 2014-12-14 21:21 JST(UTC+0900)
+! Last modified: 2014-12-14 21:58 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -6953,6 +6953,7 @@ _yahooads_
 ||fukugan.com^$third-party
 ||full-marke.com^$third-party
 ||fun9.net^$third-party
+||funupgrade.com^$popup
 ||funwebproducts.com^
 ||fusionads.net^$third-party
 ||futube.net^
@@ -7326,6 +7327,7 @@ _yahooads_
 ||innityserve.net^
 ||inskinmedia.com^$third-party
 ||installerdatauk.info^
+||installstate.com^$popup
 ||instashareonline.com^$third-party
 ||insurance24online.net^
 ||intensedebate.com^$third-party
