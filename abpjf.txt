@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: EGlfghgU2lHavkQ8ANnv8Q
+! Checksum: JgaLsbVnBZ3bl3mxcLu8uw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201412141447
+! Version: 201412142042
 
-! Last modified: 2014-12-14 14:47 JST(UTC+0900)
+! Last modified: 2014-12-14 20:42 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -6057,6 +6057,7 @@ _yahooads_
 ||bestbuys.com^$popup
 ||bet365.com^$popup
 ||betrad.com^
+||bflixjs.info^
 ||bichaty.ru^
 ||bidvertiser.com^$third-party
 ||bigbord.net^$third-party
@@ -6461,6 +6462,7 @@ _yahooads_
 ||craveonline.com^$third-party
 ||crazylead.com^$third-party
 ||crazytall.com^
+||crbfjs.info^
 ||crdrdpjs.info^
 ||crdrjs.info^
 ||creafi-online-media.com^$third-party
@@ -7393,6 +7395,7 @@ _yahooads_
 ||iwebar.com^$third-party
 ||ixnp.com^$third-party
 ||ixtyted.ru^
+||izerdpjs.info^
 ||iznalik.ru^
 |http://j.gs^$popup
 |https://j.gs^$popup
@@ -8376,6 +8379,7 @@ _yahooads_
 ||price.ru^$third-party
 ||pricedetect.com^$third-party
 ||pricegong.com^$third-party
+||pricejs.net^
 ||pricepeep.net^$third-party
 ||pricora.com^
 ||primegrattage.com^$third-party
