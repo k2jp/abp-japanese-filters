@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: CSjKoxA5VuPAorDubWsx3w
+! Checksum: tjOurnuxkiZE66hqCgy4ow
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201412132100
+! Version: 201412141257
 
-! Last modified: 2014-12-13 21:00 JST(UTC+0900)
+! Last modified: 2014-12-14 12:57 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -6062,6 +6062,7 @@ _yahooads_
 ||biglobe.ne.jp/img/bn/
 ||go.biglobe.ne.jp^
 ||bigmir.net^$third-party
+||binaryprofessional.com$popup
 ||bing.com/c.$image,object
 ||bing.com/fd/ls/
 ||binlayer.com^$third-party
@@ -6104,6 +6105,7 @@ _yahooads_
 ||bluelithium.com^
 ||bluetrackmedia.com^$popup
 ||bluetrackmedia.com^$third-party
+||bluetradingonline.net$popup
 ||bmmetrix.com^
 ||bmnq.com^
 ||bnmla.com^
@@ -6122,6 +6124,7 @@ _yahooads_
 ||bonne-affaire-du-web.com^
 ||bonne-affaire-vip.com^
 ||bonsplanscoquins.com^
+||bonuspop.com$popup
 ||bonzai-life.com^$third-party
 ||bonzuna.com^$popup
 ||boo-box.com^$third-party
@@ -6420,6 +6423,7 @@ _yahooads_
 ||boxz.cools4u.com^
 ||coolsor.ru^
 ||copercato.com^
+||copytraderpro.com$popup
 ||coquine.org^
 ||coquines-webcam.com^
 ||coremetrics.com^$third-party
@@ -6519,6 +6523,7 @@ _yahooads_
 ||dailymotion.com/sense/
 ||dailymotion.com/track/
 ||sense.dailymotion.com^
+||dailyprofitmethod.org$popup
 ||dailyvideorewards.com^$popup
 ||actracer.daiwahouse.co.jp^
 ||dallavel.com^
@@ -6580,6 +6585,7 @@ _yahooads_
 ||diamond.jp/mwimgs/f/b/
 ||diamond.jp^*/welcome.$script
 ||didoga.ru^
+||diegrossechance.net$popup
 ||dificaux.com^
 ||digitalworld.fr^
 ||dimestore.com^
@@ -6971,6 +6977,7 @@ _yahooads_
 ||genorithm.com^
 ||feel.geo.jp^
 ||geoplugin.net^
+||germanbankersecrets.org$popup
 ||gestionpub.com^$third-party
 ||getchu.com/*banner^
 ||getclicky.com^$third-party
@@ -7085,6 +7092,7 @@ _yahooads_
 ||gueur.com^
 ||gueurs.com^
 ||guide-des-bonnes-affaires.com^
+||gulfoption.net$popup
 ||gumgum.com^$third-party
 ||gunggo.com^$third-party
 ||gutto.jp^$third-party
