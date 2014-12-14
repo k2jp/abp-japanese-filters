@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 6ZCaLhWOCXOb3Lz1Rw/p8A
+! Checksum: 3P2bhnpA01dVFtKpS345rA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201412142203
+! Version: 201412142229
 
-! Last modified: 2014-12-14 22:03 JST(UTC+0900)
+! Last modified: 2014-12-14 22:29 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -6894,11 +6894,13 @@ _yahooads_
 ||financialcontent.com^$third-party
 ||find-a.jp^$third-party
 ||find-allyouneed.com^$third-party
+||findmybrowser.net$popup
 ||findpre.net^
 ||fire-soft.com^
 ||firmernet.ru^
 ||first-impression.com^
 ||fivecool.tv^
+||fixpcnow.net$popup
 ||flascom.com^
 ||flashmediaportal.com^
 ||flashtalking.com^$third-party
@@ -7342,6 +7344,8 @@ _yahooads_
 ||insightexpressai.com^
 ||inspectlet.com^$third-party
 ||instant-download.net^
+||instant-pc-repair.com$popup
+||instantflashupdate.com$popup
 ||integral-marketing.com^$third-party
 ||intel.com/content/dam/www/global/wap/
 ||intel.com/Service/api/loguser/
@@ -8379,6 +8383,7 @@ _yahooads_
 ||precisionclick.com^$third-party
 ||predictad.com^$third-party
 ||premiumcollect.com^$third-party
+||premiumcomputerupgrades.org$popup
 ||premiumhdv.com^$third-party
 ||price.ru^$third-party
 ||pricedetect.com^$third-party
@@ -9206,10 +9211,14 @@ _yahooads_
 ||untily.com^
 |http:*.up.ru^
 |https:*.up.ru^
+||update-software.net$popup
+||updatemybrowser.net$popup
 ||updaterspro.com^$popup
 ||updaterspro.com^$third-party
+||upgradesrv.net$popup
 ||uploadstation.com/styles/popup.
 ||urchin.com^$third-party
+||urgent-pc.info$popup
 ||urlcash.$popup
 ||urlcash.$third-party
 ||usagc.org^$third-party
