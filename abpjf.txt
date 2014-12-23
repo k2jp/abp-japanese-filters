@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: ORtKUyD/7wX/AfntgupxBw
+! Checksum: d2ElJqePJDspX0n4+LoowA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201412232053
+! Version: 201412232122
 
-! Last modified: 2014-12-23 20:53 JST(UTC+0900)
+! Last modified: 2014-12-23 21:22 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5920,6 +5920,7 @@ _yahooads_
 ||apmebf.com^
 ||apmmedia.net^$third-party
 ||apocence.com^
+||app-data.net^
 ||appgiga.jp/files/*/sample
 ||appgiga.jp/files/*/eb3e7affbcbcddd74b2c6125a008d5f2.jpg
 ||appier.net^
@@ -5933,6 +5934,7 @@ _yahooads_
 ||applipromotion.com^$third-party
 ||appnext.com^$third-party
 ||appround.biz^$third-party
+||apps-stats.com^
 ||apreces.com^
 ||aprelite.com^
 ||aprement.com^
@@ -6498,6 +6500,7 @@ _yahooads_
 ||criteo.net^
 ||cross-a.net^$third-party
 ||crosspixel.net^$third-party
+||crossrider.com^$third-party
 ||crowdscience.com^$third-party
 ||crsspxl.com^$third-party
 ||crtinv.com^
@@ -8029,6 +8032,7 @@ _yahooads_
 ||myactivestats.com^
 ||myadsrv04.com^
 ||myadsrv04.com^$popup
+||myappsdata.com^
 ||myasoril.ru^
 ||mybet.com^$third-party
 ||track*.mybloglog.com^$third-party
@@ -8300,6 +8304,7 @@ _yahooads_
 ||parad7.ru^
 ||pardot.com^$third-party
 ||parsely.com^$third-party
+||partner-apps.com^
 ||partypoker.$popup
 ||pas-rahav.com^$third-party
 ||pasadserver.com^$third-party
@@ -8950,6 +8955,7 @@ _yahooads_
 ||srshql.com^
 ||srstrkr.com^
 ||srstrkr.com^$popup
+||srvmystats.com^
 ||ssassets.com^
 ||ssfiles.com^
 ||ssl-services.com^
