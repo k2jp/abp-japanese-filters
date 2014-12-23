@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 8yLGl8CaFgapD0/JHxbwKg
+! Checksum: TQR4U+JMLtx9+BD9m5kFpg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201412232319
+! Version: 201412240057
 
-! Last modified: 2014-12-23 23:19 JST(UTC+0900)
+! Last modified: 2014-12-24 00:57 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -22,6 +22,8 @@
 @@.mp4?*&affiliateid=
 ! Added to avoid a never-ending "loading..." gif
 @@/history/external/*$domain=amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.de|amazon.es|amazon.fr|amazon.it
+! Workaroud to avoid false positives with existing ^analytics- filter, Dec 24, 2014
+@@/static/coffee/compiled/modules/clean/analytics-vflrGf3Yu.$script,domain=dropbox.com
 ! False positives with theme css by adaptivethemes.com, Jun 11, 2012
 @@_Ad/css/theme/
 ! False positives with Ameblo skin named "colors_ad" or "ad_viva-cutieblog", reported via Issue Report, Jan 12, 2012, Dec 29, 2011, Apr 11, 2014
