@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 4crXI7+ZNYW+mqI2sqBMxA
+! Checksum: N3/w8xNRcsIVGYL92cLZGw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201412232236
+! Version: 201412232314
 
-! Last modified: 2014-12-23 22:36 JST(UTC+0900)
+! Last modified: 2014-12-23 23:14 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -6048,6 +6048,7 @@ _yahooads_
 ||barnebys.co.uk/widget/
 ||barraien.com^
 ||baryekhi.ru^
+||basebanner.com^
 ||batilo.de^$third-party
 ||batitse.ru^
 ||baynote.net^
@@ -6209,6 +6210,7 @@ _yahooads_
 ||camlibertine.com^
 ||camlibertines.com^
 ||camlol.com^
+||campaignism.com^
 ||campect.com^
 ||campeut.com^
 ||camseduction.com^
@@ -6434,6 +6436,7 @@ _yahooads_
 ||conternet.com^
 ||contextrtb.com^
 ||contextweb.com^$third-party
+||continular.com^
 ||contlist.com^
 ||contrat-de-pret.com^
 ||conversioncounter.jp^$third-party
@@ -6448,6 +6451,7 @@ _yahooads_
 ||conviva.com^$third-party
 ||livepass.conviva.com^
 ||banpro.in.coocan.jp^$third-party
+||coolad9.com^
 ||boxz.cools4u.com^
 ||coolsor.ru^
 ||copercato.com^
@@ -7839,6 +7843,7 @@ _yahooads_
 ||medialand.ru^$third-party
 ||mediamer.org^
 ||mediaplex.com^$third-party
+||mediapricingengine.com^
 ||mediarich.cc^$third-party
 ||mediarich.ru^
 ||mediarich.us^$third-party
@@ -8073,6 +8078,7 @@ _yahooads_
 ||nakanohito.jp^
 ||nan-net.com^$third-party
 ||nan.co.jp^$third-party
+||nanoadbite.com^
 ||nasads.com^
 ||nasecure.com^
 ||nastydollars.com^$third-party
@@ -8417,6 +8423,7 @@ _yahooads_
 ||preact.io^$third-party
 ||precisionclick.com^$third-party
 ||predictad.com^$third-party
+||predictormedia.com^
 ||premiumcollect.com^$third-party
 ||premiumcomputerupgrades.org$popup
 ||premiumhdv.com^$third-party
@@ -8733,6 +8740,7 @@ _yahooads_
 ||sekindo.com^$third-party
 ||selection-credit.com^
 ||selection-malin.com^
+||semanticprofiler.com^
 ||semater.com^
 ||sendapplicationget.com^
 ||senkevich-sl.net^
@@ -9057,6 +9065,7 @@ _yahooads_
 ||tempo-credit.com^
 ||tenoad.com^$third-party
 ||tenso.com^$third-party
+||teracreative.com^
 ||terigal.ru^
 ||teromil.com^
 ||teser.net^
@@ -9077,6 +9086,7 @@ _yahooads_
 ||theloungenet.com^$third-party
 ||themediaplanets.com^$third-party
 ||thesettlersonline.fr^$popup
+||thespatialists.com^
 ||thetrafficstat.net^
 ||thevideo.me^$popup
 ||thewheelof.com^
