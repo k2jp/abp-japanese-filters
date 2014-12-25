@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: TQR4U+JMLtx9+BD9m5kFpg
+! Checksum: ruXzzrlNGUr8klb9NmRHyw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201412240057
+! Version: 201412251202
 
-! Last modified: 2014-12-24 00:57 JST(UTC+0900)
+! Last modified: 2014-12-25 12:02 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -894,6 +894,14 @@
 -landing^$third-party
 -landing_$popup
 -landing_$third-party
+-landings-$popup
+-landings-$third-party
+-landings.$popup
+-landings.$third-party
+-landings^$popup
+-landings^$third-party
+-landings_$popup
+-landings_$third-party
 -landingpage-$popup
 -landingpage-$third-party
 -landingpage.$popup
@@ -1548,6 +1556,14 @@
 .landing^$third-party
 .landing_$popup
 .landing_$third-party
+.landings-$popup
+.landings-$third-party
+.landings.$popup
+.landings.$third-party
+.landings^$popup
+.landings^$third-party
+.landings_$popup
+.landings_$third-party
 .landingpage-$popup
 .landingpage-$third-party
 .landingpage.$popup
@@ -2172,6 +2188,26 @@
 |https:*/lp/$popup
 |http:*/lp/$third-party
 |https:*/lp/$third-party
+/lp0/*$popup
+/lp0/*$third-party
+/lp1/*$popup
+/lp1/*$third-party
+/lp2/*$popup
+/lp2/*$third-party
+/lp3/*$popup
+/lp3/*$third-party
+/lp4/*$popup
+/lp4/*$third-party
+/lp5/*$popup
+/lp5/*$third-party
+/lp6/*$popup
+/lp6/*$third-party
+/lp7/*$popup
+/lp7/*$third-party
+/lp8/*$popup
+/lp8/*$third-party
+/lp9/*$popup
+/lp9/*$third-party
 /lpresources/js/*
 /makePCookie_
 /marquee/*$domain=live.nicovideo.jp|www.nicovideo.jp
@@ -3975,6 +4011,14 @@
 ^landing^$third-party
 ^landing_$popup
 ^landing_$third-party
+^landings-$popup
+^landings-$third-party
+^landings.$popup
+^landings.$third-party
+^landings^$popup
+^landings^$third-party
+^landings_$popup
+^landings_$third-party
 ^landingpage-$popup
 ^landingpage-$third-party
 ^landingpage.$popup
@@ -4935,6 +4979,14 @@ _landing^$popup
 _landing^$third-party
 _landing_$popup
 _landing_$third-party
+_landings-$popup
+_landings-$third-party
+_landings.$popup
+_landings.$third-party
+_landings^$popup
+_landings^$third-party
+_landings_$popup
+_landings_$third-party
 _landingpage-$popup
 _landingpage-$third-party
 _landingpage.$popup
@@ -5166,12 +5218,72 @@ _yahooads_
 ||krxd.
 ||landing.$popup
 ||landing.$third-party
+||landing0.$popup
+||landing0.$third-party
+||landing1.$popup
+||landing1.$third-party
+||landing2.$popup
+||landing2.$third-party
+||landing3.$popup
+||landing3.$third-party
+||landing4.$popup
+||landing4.$third-party
+||landing5.$popup
+||landing5.$third-party
+||landing6.$popup
+||landing6.$third-party
+||landing7.$popup
+||landing7.$third-party
+||landing8.$popup
+||landing8.$third-party
+||landing9.$popup
+||landing9.$third-party
 ||log.$third-party
 ||log0.
 |http://lp.$popup
 |https://lp.$popup
 |http://lp.$third-party
 |https://lp.$third-party
+|http://lp0.$popup
+|https://lp0.$popup
+|http://lp0.$third-party
+|https://lp0.$third-party
+|http://lp1.$popup
+|https://lp1.$popup
+|http://lp1.$third-party
+|https://lp1.$third-party
+|http://lp2.$popup
+|https://lp2.$popup
+|http://lp2.$third-party
+|https://lp2.$third-party
+|http://lp3.$popup
+|https://lp3.$popup
+|http://lp3.$third-party
+|https://lp3.$third-party
+|http://lp4.$popup
+|https://lp4.$popup
+|http://lp4.$third-party
+|https://lp4.$third-party
+|http://lp5.$popup
+|https://lp5.$popup
+|http://lp5.$third-party
+|https://lp5.$third-party
+|http://lp6.$popup
+|https://lp6.$popup
+|http://lp6.$third-party
+|https://lp6.$third-party
+|http://lp7.$popup
+|https://lp7.$popup
+|http://lp7.$third-party
+|https://lp7.$third-party
+|http://lp8.$popup
+|https://lp8.$popup
+|http://lp8.$third-party
+|https://lp8.$third-party
+|http://lp9.$popup
+|https://lp9.$popup
+|http://lp9.$third-party
+|https://lp9.$third-party
 ||mads.
 ||maxymiser.$third-party
 ||metrics.
