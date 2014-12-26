@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: P9ORye7CSsg96+v/9Obr9w
+! Checksum: Am9wjfJQLS9rOvFJ4HahBQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201412262112
+! Version: 201412262155
 
-! Last modified: 2014-12-26 21:12 JST(UTC+0900)
+! Last modified: 2014-12-26 21:55 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -1531,6 +1531,8 @@
 .dfp9^$third-party
 .dfp9_$script,subdocument
 .dfp9_$third-party
+.engine?id=
+.engine?$third-party
 .evercookie-
 .evercookie.
 .evercookie^
@@ -7000,6 +7002,7 @@ _yahooads_
 ||fedrobi.ru^
 ||feedjit.com^$third-party
 ||feedsweep.com^$third-party
+||feljack.com^
 ||fetchback.com^$third-party
 ||fetish-sexe.biz^
 ||fidel.to^$popup
