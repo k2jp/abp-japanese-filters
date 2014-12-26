@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: ruXzzrlNGUr8klb9NmRHyw
+! Checksum: auhjSyRdrdSyN2snIabk6A
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201412251202
+! Version: 201412261813
 
-! Last modified: 2014-12-25 12:02 JST(UTC+0900)
+! Last modified: 2014-12-26 18:13 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5244,46 +5244,26 @@ _yahooads_
 |https://lp.$popup
 |http://lp.$third-party
 |https://lp.$third-party
-|http://lp0.$popup
-|https://lp0.$popup
-|http://lp0.$third-party
-|https://lp0.$third-party
-|http://lp1.$popup
-|https://lp1.$popup
-|http://lp1.$third-party
-|https://lp1.$third-party
-|http://lp2.$popup
-|https://lp2.$popup
-|http://lp2.$third-party
-|https://lp2.$third-party
-|http://lp3.$popup
-|https://lp3.$popup
-|http://lp3.$third-party
-|https://lp3.$third-party
-|http://lp4.$popup
-|https://lp4.$popup
-|http://lp4.$third-party
-|https://lp4.$third-party
-|http://lp5.$popup
-|https://lp5.$popup
-|http://lp5.$third-party
-|https://lp5.$third-party
-|http://lp6.$popup
-|https://lp6.$popup
-|http://lp6.$third-party
-|https://lp6.$third-party
-|http://lp7.$popup
-|https://lp7.$popup
-|http://lp7.$third-party
-|https://lp7.$third-party
-|http://lp8.$popup
-|https://lp8.$popup
-|http://lp8.$third-party
-|https://lp8.$third-party
-|http://lp9.$popup
-|https://lp9.$popup
-|http://lp9.$third-party
-|https://lp9.$third-party
+://lp0.$popup
+://lp0.$third-party
+://lp1.$popup
+://lp1.$third-party
+://lp2.$popup
+://lp2.$third-party
+://lp3.$popup
+://lp3.$third-party
+://lp4.$popup
+://lp4.$third-party
+://lp5.$popup
+://lp5.$third-party
+://lp6.$popup
+://lp6.$third-party
+://lp7.$popup
+://lp7.$third-party
+://lp8.$popup
+://lp8.$third-party
+://lp9.$popup
+://lp9.$third-party
 ||mads.
 ||maxymiser.$third-party
 ||metrics.
