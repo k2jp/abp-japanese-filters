@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: GEqqzzttdjV3Ze7EqfDceQ
+! Checksum: ILiXQ14QlDnr/kwSMhP+Rg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201501041634
+! Version: 201501042009
 
-! Last modified: 2015-01-04 16:34 JST(UTC+0900)
+! Last modified: 2015-01-04 20:09 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2048,6 +2048,7 @@
 /dac1.download.akamai.com/*$popup
 /dart.$script
 ! /data/js/ad
+/dealdo/event-report?$third-party
 /delivery/?zoneid=
 /delivery/?zoneid=$popup
 /delivery/afr.
@@ -2076,6 +2077,7 @@
 /dmm.$script
 /do2icnk.
 /docodoco?
+/e?type^$third-party
 /elqcfg.$script
 /elqimg.$script
 /elqimg2.$script
@@ -2152,6 +2154,7 @@
 |http:*/is_sc_$script
 |https:*/is_sc_$script
 /ivw/CP/*
+/javascript.js^$script,third-party
 |http:*/js.ng/
 |https:*/js.ng/
 |http:*/js/dw.js
@@ -2247,6 +2250,7 @@
 /OmnitureSWF.
 /omuniture/*
 ! this cause javascript to stop: /oo/$domain=zai.diamond.jp
+/opt_content.js^$script,third-party
 /overtureAd.
 /OvertureSS.
 /owa.$script
@@ -5323,9 +5327,6 @@ _yahooads_
 ! ########## Top Level Domains with path START ##########
 ||com/jquery/text.$script,third-party
 ||info/*.js?dn=*&isc=$third-party
-||info/*/javascript.js?hid=$third-party
-||info/dealdo/event-report?$third-party
-||info/opt_content.js?*partner=$third-party
 ||net/amz/$script,third-party
 ||net/sd/$script,third-party
 ! ---------- Top Level Domains with path END ----------
@@ -6086,6 +6087,7 @@ _yahooads_
 ||autoblog.com/traffic/
 ||autocentre.ua^$third-party
 ||automatic-link.net^
+||autotjs.info^
 ||av-comparatives.org/images/banners/
 ! ||av-down-14.com^
 ! ||av-down-17.com^
@@ -6175,6 +6177,7 @@ _yahooads_
 ||besonders.ru^$third-party
 ||bestadbid.com^
 ||bestbuys.com^$popup
+||bestoffersjs.info^
 ||bet365.com^$popup
 ||betrad.com^
 ||bflixjs.info^
@@ -6239,6 +6242,7 @@ _yahooads_
 ||bnvdrs.com^
 ||bnx.me^$third-party
 ||bobrilla.com^
+||bobrjs.info^
 ||bobyvs.com^
 ||bombermine.com/i/misc/
 ||bon-plan-rencontres.net^
@@ -6676,6 +6680,7 @@ _yahooads_
 ||datropy.com^$third-party
 ||daum.net^$subdocument,third-party
 ||davarello.com^
+||dcbfjs.info^
 ||ddestiny.ru^$third-party
 ||dealally.com^$popup
 ||dealply.$third-party
@@ -6709,6 +6714,7 @@ _yahooads_
 ||detroposal.com^
 ||dfwu1009.info^
 ||dial-amour.com^
+||dialjssearch.me^
 ||dialocam.com^
 ||dialsexy-messenger.com^
 ||dialwebcam.fr^
@@ -6793,6 +6799,7 @@ _yahooads_
 ||drk7.jp^$third-party
 ||drontres.com^
 ||dropdowndeals.com^$third-party
+||dropinsavingsjs.info^
 ||drowle.com^
 ||drugwow.ru^
 ||dt00.net^
@@ -7088,6 +7095,7 @@ _yahooads_
 ||funwebproducts.com^
 ||fusionads.net^$third-party
 ||futube.net^
+||fututbjs.info^
 ||fwmrm.net^
 ||gagacon.com^
 ||gagenez.com^
@@ -7241,6 +7249,7 @@ _yahooads_
 ||gwallet.com^$third-party
 ||gx101.com^
 ||gyutto.jp/data/*banner_img^$third-party
+||hahojs.info^
 ||hananokai.tv^
 ||adcreative.hangame.co.jp^
 ||hannist.com^
@@ -7351,6 +7360,7 @@ _yahooads_
 ||i2i.jp^$third-party
 ||i2idata.com^$third-party
 ||i2iserv.com^$third-party
+||iabfjs.info^
 ||iasrv.com^
 ||iasrv.com^$popup
 ||ib-ibi.$third-party
@@ -7422,11 +7432,13 @@ _yahooads_
 ||imagevenue.com/interstitial.
 ||imdb.com^*/scriptloader.
 ||imdb.com/rd/
+||imedjs.info^
 ||imgcandy.net/banner
 ||imgcarry.com^$third-party
 ||imgchili.com^*/showa.$script
 ||imgfarm.com^
 ||imgshots.com^$third-party
+||imitinjs.info^
 ||imkor.me^
 ||imlive.com^$third-party
 ||impannon.com^
@@ -7660,6 +7672,7 @@ _yahooads_
 ||koyotsoft.org^
 ||kozaka.net^$third-party
 ||kranted.com^
+||krbfjs.info^
 ||kromeleta.ru^
 ||krutoy-domen.ru^
 ||krxd.net^
@@ -7669,6 +7682,8 @@ _yahooads_
 ||ku6cdn.com/pv/
 ||kuaiche.com^
 ||kuruten.jp^$third-party
+||kuryoaspjs.info^
+||kurysbjs.info^
 ||kusham.net^
 ||kutsulog.net^$third-party
 ||kyoto-np.co.jp/koukoku/
@@ -7970,6 +7985,7 @@ _yahooads_
 ||meetrics.$third-party
 ||megaclick.com^$third-party
 ||megagong.fr^$popup
+||megainjs.info^
 ||megaplugin.ru^
 ||megaporn.com/*/onhover.$script
 ! Commented out to avoid false positives @ third-party embeded web sites. July 28, 2011
@@ -8031,6 +8047,8 @@ _yahooads_
 ||mlstat.com^
 ||mmaaxx.com^$popup
 ||mmaaxx.com^$third-party
+||mntrlfjs.info^
+||mntrtbjs.info^
 ||moatads.com^
 ||mob2web.com^
 ||moba8.net^$third-party
@@ -8200,6 +8218,7 @@ _yahooads_
 ||net-tool.net^
 ||netaatoz.jp/rss
 ||netaffiliation.$third-party
+||netajs.info^
 ||netavenir.com^$third-party
 ||netaxle.com^$third-party
 ||netdna.com^$third-party
@@ -8322,6 +8341,7 @@ _yahooads_
 ! ||o-o.preferred.
 ||obnale.ru^
 ||obtenir-de-l-argent.com^
+||obvdjs.info^
 ||oclaserver.com^
 ||oclasrv.com^
 ||oculussoft.net^
@@ -8424,6 +8444,7 @@ _yahooads_
 ||pay-hit.com^$third-party
 ||paytopass.com^
 ||pclicks.com^$third-party
+||pderjs.info^
 ||pdmayt.com^
 ||peep-live-show.com^
 ||peepsrv.com^
@@ -8440,6 +8461,7 @@ _yahooads_
 ||pharmacyonlinefeed.com^
 ||pheedo.jp^$third-party
 ||philosophere.com^
+||phodojs.info^
 ||picadmedia.com^
 ||picbucks.com^$popup
 ||picleet.com/*_picleet.$script
@@ -8533,7 +8555,7 @@ _yahooads_
 ||price.ru^$third-party
 ||pricedetect.com^$third-party
 ||pricegong.com^$third-party
-||pricejs.net^
+||pricejs.
 ||pricepeep.net^$third-party
 ||pricora.com^
 ||primegrattage.com^$third-party
@@ -8648,6 +8670,7 @@ _yahooads_
 ||realclick.cn^
 ||realclick.co.kr^$third-party
 ||reali.st^$third-party
+||realjs.info^
 ||realmedia.com^$third-party
 ||realvu.net^$third-party
 ||reasulty.com^
@@ -8658,6 +8681,7 @@ _yahooads_
 ||redavu.ru^
 ||redirecting.ws^
 ||redirectingat.com^$third-party
+||redsinjs.info^
 ||redtram.com^$third-party
 ||reduxmedia.com^$third-party
 ||reembed.com^$third-party
@@ -8695,6 +8719,7 @@ _yahooads_
 ||rencontrevoisines.com^
 ||repadnet.com^
 ||repayac.com^
+||requestautocomplete.com^
 ||required-update.com^
 ||res-x.com^
 ||researchresults.com^$third-party
@@ -8738,6 +8763,7 @@ _yahooads_
 ||ripre.jp^$third-party
 ||ritlweb.com/jad.
 ||rk.com^$third-party
+||rklyjs.info^
 ||rlcdn.com^
 ||rmbn.$third-party
 ||rmdown.com/pc1.$image,object
@@ -8803,6 +8829,7 @@ _yahooads_
 ||sayyac.net^
 ||sbiall.com^
 ||ad2.sbisec.co.jp^
+||sbitinjs.info^
 ||sbs-ad.com^$third-party
 ||ad.scadnet.com^
 ||scanmedios.com^
@@ -8887,6 +8914,10 @@ _yahooads_
 ||sexy-ch.com^
 ||sexycool.net^
 ||sfr.fr^$popup
+||sgbfjs.info^
+||sgpctrjs.info^
+||shakjs.info^
+||shaktbjs.info^
 ||shareasale.com^$third-party
 ||sharecash.org^$third-party
 ||shareaholic.com^$third-party
@@ -9053,6 +9084,7 @@ _yahooads_
 ||speedrencontre.com^
 ||scarlet.spegene.com^
 ||spider-ad.jp^$third-party
+||spigpcjs.info^
 ||spigtrdpjs.info^
 ||splendidsoft.net^
 ||sponsorads.de^
@@ -9093,6 +9125,7 @@ _yahooads_
 ||steelhousemedia.com^$third-party
 ||stickeraction.com^$third-party
 ||stocknavigator.ru^$third-party
+||storepm.com^
 ||storycam.com^
 ||stratigent.com^$third-party
 ||streamate.$third-party
@@ -9118,6 +9151,7 @@ _yahooads_
 ||sv2.biz^
 ||svlu.net^
 ||swcs.jp^$third-party
+||swebdpjs.info^
 ||swebjs.info^
 ||sweet-adult.com^$popup
 ||swi-adserver.com^$third-party
@@ -9306,6 +9340,7 @@ _yahooads_
 ||trustadnetwork.net^
 ||trustclick.ne.jp^
 ||truste.com^$third-party
+||trustedwebjs.info^
 ||tsingera.ru^
 ||ttfean.com^
 ||ttinline.com^$third-party
@@ -9417,6 +9452,8 @@ _yahooads_
 ||valuecommerce.com^$third-party
 ||vatgia.com^
 ||vava-soft.com^
+||vbatdpjs.info^
+||vbattbjs.info^
 ||vcm.jp^$third-party
 ||vcmedia.vn^$third-party
 ||vdna-assets.com^
@@ -9488,6 +9525,7 @@ _yahooads_
 ||visualwebsiteoptimizer.com^$third-party
 ||vitalads.net^$third-party
 ||vitruvianleads.com^$third-party
+||vizejs.info^
 ||vk.com^$domain=~vk.com|~vkontakte.ru
 ||vkappcollection.ru^
 ||vklsjdnfsdkjb.net^
