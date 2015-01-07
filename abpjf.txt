@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: VJ57bGp+5QgWj/Lxleafcg
+! Checksum: MM3wM78mY5KX7LQKbJOjTA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201501062010
+! Version: 201501072243
 
-! Last modified: 2015-01-06 20:10 JST(UTC+0900)
+! Last modified: 2015-01-07 22:43 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -968,6 +968,7 @@
 -promoted.
 -promoted^
 -promoted_
+-redirect?target=*&caid=*&zpid=$popup
 -retarget-
 -retarget.
 -retarget^
@@ -9290,6 +9291,7 @@ _yahooads_
 ||tracking101.com^
 ||tracksitetraffic1.com^
 ||trackstatsnow.com^
+||trackvoluum.com^$popup
 ||trackwind.com^$third-party
 ||trackword.biz^$third-party
 ||trackword.net^$third-party
@@ -9332,6 +9334,7 @@ _yahooads_
 ||triggit.com^$third-party
 ||tripadvisor.com/WidgetEmbed-
 ||trk4.com^$third-party
+||trkads.net^$popup
 ||trklnks.com^$popup
 ||trklnks.com^$third-party
 ||trophees-cio.com^
