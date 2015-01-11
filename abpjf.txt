@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: e8wD7bAkoQEom9LjMuqhig
+! Checksum: I/4pBUe+Bt1X4A7tLYW3Jw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201501072256
+! Version: 201501112033
 
-! Last modified: 2015-01-07 22:56 JST(UTC+0900)
+! Last modified: 2015-01-11 20:33 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5385,6 +5385,7 @@ _yahooads_
 ! END
 ! Added malicious IP Addresses reported at http://unixfreaxjp.blogspot.jp/2013/08/ocjp-119kelihos.html and http://malwaremustdie.blogspot.jp/2013/08/the-quick-report-on-48hours-in-battle.html by [https://twitter.com/unixfreaxjp @unixfreaxjp] via Changelog wiki, Aug 9, 2013
 !
+||*-aaa.net^$third-party
 ||00h10.com^
 ||0427d7.se^$popup
 ||08lkk.com/*/data/attachment/common/cf/
@@ -8472,6 +8473,7 @@ _yahooads_
 ||pict-navi.net/dounavitopimg/
 ||pict-navi.net/img/
 ||pictela.net^
+||pijoto.net^
 ||pillendienst.com^$third-party
 ! ||ads.pimote.net^
 ||ping33.com^
@@ -8821,6 +8823,7 @@ _yahooads_
 ||sakuralive.com^$third-party
 ||sale-promo.ru^$third-party
 ||saltamendors.com^
+||salusprotector.com^
 ||samiana.com^
 ||samuraiworks.com^$third-party
 ||adcl.sankei.co.jp^
