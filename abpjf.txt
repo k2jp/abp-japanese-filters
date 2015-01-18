@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: h9tV26sohtddXQEBFz9apA
+! Checksum: Vi4ZytzNwVOj6mDFBSB9EA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201501172037
+! Version: 201501182023
 
-! Last modified: 2015-01-17 20:37 JST(UTC+0900)
+! Last modified: 2015-01-18 20:23 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5472,6 +5472,8 @@ _yahooads_
 ||6dad.com^$third-party
 ||711av.com^$third-party
 ||77tracking.com^$third-party
+||777-gambling.org^
+||777-games.org^
 ||777seo.com^$third-party
 ||777town.net^$popup
 ||7794.com^$third-party
@@ -5651,6 +5653,7 @@ _yahooads_
 ||adgear.com^$third-party
 ||adgoup.com^
 ||adhai.com^$third-party
+||adhelper.org^
 ||adhitzads.com^
 ||adhub.ru^$third-party
 ||adimg.net^
@@ -7270,6 +7273,7 @@ _yahooads_
 ||hannist.com^
 ||happymail.co.jp^$third-party
 ||hardsextubepremium.com^$third-party
+||hareljann.com^
 ||harrenmedianetwork.com^$third-party
 ||ad.hatena.ne.jp^
 ||counter.hatena.ne.jp^$domain=~counter.hatena.ne.jp
