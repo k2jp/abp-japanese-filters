@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: Vi4ZytzNwVOj6mDFBSB9EA
+! Checksum: 76Rj48ltVJcbs6dR+gsl1w
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201501182023
+! Version: 201501182137
 
-! Last modified: 2015-01-18 20:23 JST(UTC+0900)
+! Last modified: 2015-01-18 21:37 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -5453,6 +5453,7 @@ _yahooads_
 ||3c45d848d99.se^$popup
 ||3file.info^
 ||3gl.net^
+||404bucks.com^$third-party
 ||47news.jp/js/randam_
 ||track.47news.jp^
 ||4allclick.ru^
@@ -6134,6 +6135,7 @@ _yahooads_
 ||azjmp.com^$popup
 ||azorza.ru^
 ||b-click.net^$third-party
+||b-software.net^
 ||b10f.jp^$third-party
 ||b5m.com^$popup
 ||ba2b687.se^
@@ -6318,6 +6320,7 @@ _yahooads_
 ||c8.net.ua^$third-party
 ||ca-mpr.jp^
 ||cachand.com^
+||colo.cachefly.net^
 ||cadsvc.com^
 ||calamel.jp^$third-party
 ||cam-a-cam.com^
@@ -6531,6 +6534,7 @@ _yahooads_
 ||com-net.info^$popup
 ||comclick.com^
 ||come.cc^$third-party
+||compassmediapixel.com^
 ||compete.com^$third-party
 ||computerworld.jp/cgi-bin/pa?r=
 ||comscore.com^$third-party
@@ -6976,6 +6980,7 @@ _yahooads_
 ||exgfnetwork.com^
 ||exhib-rencontre.com^
 ||exitemoi.com^
+||exitmonetization.com^$third-party
 ||exoclick.com^$popup
 ||exoclick.com^$third-party
 ||exoplanetwar.com^$third-party
@@ -7486,44 +7491,45 @@ _yahooads_
 ||informer.com^$third-party
 ||infosecisland.com/bannershow/zone/
 ||infoseek.co.jp/ajax/js/ashiato-$script
+||infoseek.co.jp/bin/
+||iswimg.hp.infoseek.co.jp^
+||ax*.www.infoseek.co.jp/bin/
+||topics.news.www.infoseek.co.jp^$subdocument
 ||infostatsvc.com^
+||infotop.$third-party
+||inkomst.se.com^$popup
 ||innity.com^$third-party
 ||innity.net^
 ||innityserve.net^
-||inskinmedia.com^$third-party
-||installerdatauk.info^
-||installstate.com^$popup
-||instashareonline.com^$third-party
-||insurance24online.net^
-||intensedebate.com^$third-party
-||intergi.com^$third-party
-||iswimg.hp.infoseek.co.jp^
-||infoseek.co.jp/bin/
-||topics.news.www.infoseek.co.jp^$subdocument
-||ax*.www.infoseek.co.jp/bin/
-||infotop.$third-party
-||inkomst.se.com^$popup
 ||insightexpress.com^$third-party
 ||insightexpressai.com^
+||inskinmedia.com^$third-party
 ||inspectlet.com^$third-party
+||installerdatauk.info^
+||installstate.com^$popup
 ||instant-download.net^
 ||instant-pc-repair.com$popup
 ||instantflashupdate.com$popup
+||instashareonline.com^$third-party
+||insurance24online.net^
 ||integral-marketing.com^$third-party
 ||intel.com/content/dam/www/global/wap/
 ||intel.com/Service/api/loguser/
 ||appusage.intel.com^
 ||downloadcenter.intel.com/inc/javascript/downloadcenter.min.$script
 ||intellitxt.com^
+||intensedebate.com^$third-party
 ||interclick.com^$third-party
 ||intercom.io^$third-party
 ||intercomcdn.com^
 ||interestably.com^
+||intergi.com^$third-party
 ||interieu.com^
 ||internet-yadro.com^$third-party
 ||interstats.org^
 ||interstore.sk^$third-party
 ||interworksmedia.co.kr^$third-party
+||intextual.com^$third-party
 ||investing.com/takeover_
 ||invitemedia.com^$third-party
 ||ioam.de^
@@ -8130,6 +8136,7 @@ _yahooads_
 ||mouseflow.com^$third-party
 ||movie-file.net^$third-party
 ||moviebox.com^$third-party
+||movieclip.com^$third-party
 ||movies-access.com^
 ||moxieads.com^$popup
 ||moxieseek.com^$popup
@@ -9181,6 +9188,7 @@ _yahooads_
 ||swebjs.info^
 ||sweet-adult.com^$popup
 ||swi-adserver.com^$third-party
+||swiki.com^$third-party
 ||swtog.com^
 ||swtresync.net^
 ||synapse-interactive.
@@ -9454,6 +9462,7 @@ _yahooads_
 ! Integrated into ||ox-i. , Jun 2, 2012
 ! ||ox-i.ustream.tv
 ||usualmedia.com^
+||usadserver.com^
 ||utamap.com/banner/
 ||utamap.com/cgi-sys/Count.
 ||access.utamap.com^
