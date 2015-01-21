@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: L4zz6ZqykZgfN7QgZbYkIg
+! Checksum: 8/jPIhtbVpGxZwk5y42BMQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201501212116
+! Version: 201501212310
 
-! Last modified: 2015-01-21 21:16 JST(UTC+0900)
+! Last modified: 2015-01-21 23:10 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -223,6 +223,8 @@
 @@||store.nike.com^*?assets=$script,stylesheet
 ! A false positive with dynamic header script, using the |http:*^ad_ filter, reported by MASA, Jun 10, 2013
 @@||nikkei.com/dx/async/async.do/ae=P_CM_HEADERJS_TOP;
+! False positives with harmless popup used with ^popup.$popup, reported by 神楽 via blog, Jan 21, 2015
+@@||pangya.jp/popup.html?src=$popup
 @@||researchmap.jp^*/counter/$stylesheet
 ! False positive with domain names to investigate, like adv-first.ru, June 17, 2014
 @@||robtex.com^*/advisory/
