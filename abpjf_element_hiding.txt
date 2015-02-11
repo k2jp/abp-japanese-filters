@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 7/uUMOnGHnBx+e3mlT8/Vg
+! Checksum: /yGTieFvM1aL9uGqG6EetQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Element-hiding filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201501192014
+! Version: 201502120348
 
-! Last modified: 2015-01-19 20:14 JST(UTC+0900)
+! Last modified: 2015-02-12 03:48 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -2125,7 +2125,7 @@ yahoo.co.jp##[class*="pos-"]
 yahoo.co.jp##[class^="pr300"]
 yahoo.co.jp##[class^="prCenter"]
 blogs.yahoo.co.jp##a.blog_IMp
-search.yahoo.co.jp##.ss
+account.edit.yahoo.co.jp##form[action^="/ccc_"][action$="reg"]
 finance.yahoo.com###yfi_ysm
 finance.yahoo.com###ygma
 finance.yahoo.com##.yfi_ysm
@@ -2143,6 +2143,7 @@ mail.yahoo.co.jp##[id^="jpwelcomeym"]:not(body):not(input)
 mail.yahoo.co.jp##[class$="topfilled"]
 quote.yahoo.co.jp##img[src="//i.yimg.jp/images/clear.gif"]
 quote.yahoo.co.jp##p[class$="lrec"]
+search.yahoo.co.jp##.ss
 yomiuri.co.jp##a[href*="/adv/"]
 yomiuri.co.jp##[class*="-txtad-"]
 youtube.com###feed-pyv-container
