@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: smc3hrkyulvBb4SSE6Twiw
+! Checksum: Qtc0H2Zvi8IX4ER34PoZQw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
-! Version: 201503141923
+! Version: 201503141938
 
-! Last modified: 2015-03-14 19:23 JST(UTC+0900)
+! Last modified: 2015-03-14 19:38 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons 3.0 BY-SA: http://creativecommons.org/licenses/by-sa/3.0/
@@ -3769,6 +3769,10 @@
 ^fc2ad.
 ^fc2ad^
 ^fc2ad_
+^fc2web-
+^fc2web.
+^fc2web^
+^fc2web_
 ^fingerprint-$script
 ^fingerprint.$script
 ^fingerprint^$script
@@ -7029,6 +7033,10 @@ _yahooads_
 ||tracking.fathomseo.com^
 ||fbchatplus.com^
 ||fc2-master.sakura.ne.jp^$third-party
+||fc2.com^*/footer-
+||fc2.com^*/footer.
+||fc2.com^*/footer^
+||fc2.com^*/footer_
 ||fc2.com^*/random.$script
 ||fc2.com^*janre.$script
 ||fc2.com/ad/
@@ -7038,7 +7046,6 @@ _yahooads_
 ||fc2.com/js/cdom.$script
 ||fc2.com/dctanalyzer.
 ||fc2.com/exchange.
-||fc2.com/footer/footer.php?
 ||fc2.com/header.php?
 ||fc2.com/image/powered
 ||fc2.com/pv.$image,object
@@ -7051,7 +7058,6 @@ _yahooads_
 ||hypost.fc2.com^
 ||media.fc2.com^
 ||media3.fc2.com^
-||fc2web.com^$third-party
 ||fdgeen.com^
 ||featuredusers.com^$third-party
 ||fedrobi.ru^
