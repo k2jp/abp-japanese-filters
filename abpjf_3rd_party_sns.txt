@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: qqg7IXO805DxcWLxSMGV+w
+! Checksum: 9KtltjswHQtlhWDElOZukA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese 3rd party SNS filters (ONLY for advanced Japanese users: check Support Policy below)
 ! Expires: 6 hours
-! Version: 201503261933
+! Version: 201503301937
 
-! Last modified: 2015-03-26 19:33 JST(UTC+0900)
+! Last modified: 2015-03-30 19:37 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -22,6 +22,7 @@
 ! ---------- Default white list END ----------
 ||bufferapp.com^$third-party
 ||d7x5nblzs94me.cloudfront.net^
+||evernote.com^$third-party
 ||facebook.$domain=~facebook.com
 ||fbcdn-$domain=~facebook.com
 ||fbcdn.$domain=~facebook.com
@@ -31,6 +32,7 @@
 ||plus.google.com^$third-party
 ||plusone.google.com^$third-party
 ||share.gree.jp^
+||instapaper.com^$third-party
 ||jiathis.com^$third-party
 ||licdn.com^$domain=~linkedin.com
 ||media.line.naver.jp^$third-party
