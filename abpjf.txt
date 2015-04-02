@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: a46PbUzpPVMFfrcqv37/Zg
+! Checksum: RroyHV+06fJ/uUh/1YLpfg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for advanced Japanese users: check Support Policy below)
 ! Expires: 6 hours
-! Version: 201504011147
+! Version: 201504021324
 
-! Last modified: 2015-04-01 11:47 JST(UTC+0900)
+! Last modified: 2015-04-02 13:24 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -304,6 +304,7 @@
 &admeld_
 &adpds_
 &AdPlan=
+&adpos=
 &adprovider=
 &adprovider=$popup
 &adsize=
@@ -2529,6 +2530,7 @@
 ?adid=$popup
 ?adpds_
 ?AdPlan=
+?adpos=
 ?adprovider=
 ?adprovider=$popup
 ?adsize=
@@ -6454,6 +6456,7 @@ _yahooads_
 ||clickability.com^$third-party
 ||clickanalyzer.jp^$third-party
 ||clickbank.net^
+||clickdealer.$third-party
 ||clickdensity.com^$third-party
 ||clickequations.net^$third-party
 ||clickmedias.com^
@@ -8124,6 +8127,7 @@ _yahooads_
 ||moatads.com^
 ||mob2web.com^
 ||moba8.net^$third-party
+||mobair.com^$third-party
 ||mobalives.com^
 ||mobalives.com^$popup
 ||mobapeople.com^
@@ -8133,6 +8137,7 @@ _yahooads_
 ||mobbobr.com^
 ||mobicont.com^
 ||mobicow.com^$third-party
+||mobidealer.$third-party
 ||mobidump.com^
 ||mobifiesta.com^$popup
 ||mobifobi.com^
@@ -9106,6 +9111,7 @@ _yahooads_
 ||skinected.com^$third-party
 ||skyglue.com^$third-party
 ||slidesharecdn.com^*/proCtaBox.
+
 ||slopeac.com^
 ||slsdlkgjlksdg.net^
 ||sm-miracle.com^$third-party
@@ -9395,9 +9401,11 @@ _yahooads_
 ||traffic.ru^$third-party
 ||trafficandrei.ru^
 ||trafficbroker.com^$third-party
+||trafficdna.com^$third-party
 ||trafficfactory.biz^$third-party
 ||trafficgate.net^$third-party
 ||traffichaus.com^
+||traffichunt.com^$third-party
 ||trafficjunky.net^$third-party
 ||trafficmp.com^$third-party
 ||trafficrevenue.net^$third-party
@@ -9435,6 +9443,7 @@ _yahooads_
 ||tsingera.ru^
 ||ttfean.com^
 ||ttinline.com^$third-party
+
 ||tubejs.info^
 ||tubemogul.com^$third-party
 ||tuigoo.com^$third-party
