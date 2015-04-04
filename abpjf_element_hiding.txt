@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: nla9QpHUsR5fYzoS00Qvjg
+! Checksum: nkBoghVB0yKPSsiGFRu/ww
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Element-hiding filters (ONLY for advanced Japanese users: check Support Policy below)
 ! Expires: 6 hours
-! Version: 201504021107
+! Version: 201504041535
 
-! Last modified: 2015-04-02 11:07 JST(UTC+0900)
+! Last modified: 2015-04-04 15:35 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1985,6 +1985,7 @@ seo-stats.net###sidebar
 seo-stats.net##.sidebar
 slashdot.jp###a2rl
 slashdot.jp##.na2rel
+slideshare.net###user_survey_cta
 slideshare.net##.medRecBottom2
 slideshare.net##.noAdForLead
 softpedia.com###hp_ess
