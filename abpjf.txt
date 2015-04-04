@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: ZcnzVSeKL/P5xfxag3DplA
+! Checksum: E3XjnciQHc2jgyJTj50q3Q
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for advanced Japanese users: check Support Policy below)
 ! Expires: 6 hours
-! Version: 201504022221
+! Version: 201504042120
 
-! Last modified: 2015-04-02 22:21 JST(UTC+0900)
+! Last modified: 2015-04-04 21:20 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1004,7 +1004,7 @@
 -sponsored.
 -sponsored^
 -sponsored_
-! Commented out to avoid false positives on static: 2011-09-07
+! Commented out to avoid false positives with "static": 2011-09-07
 ! -stat-
 ! -stat.
 ! -stat^
@@ -1671,7 +1671,7 @@
 .sponsored.
 .sponsored^
 .sponsored_
-! Commented out to avoid false positives on static: 2011-09-07
+! Commented out to avoid false positives with "static": 2011-09-07
 ! .stat-
 ! .stat.
 ! .stat^
@@ -2393,7 +2393,9 @@
 /sOmni.
 /spacer.*?$image,object
 /srv/delivery.
-! Commented out to avoid false positives on static: 2011-09-07
+/server/delivery/*
+/server/delivery/*$popup
+! Commented out to avoid false positives with "static": 2011-09-07
 ! /stat-
 ! /stat.$domain=~ameblo.jp|~ameba.jp
 ! /stat^
@@ -5133,7 +5135,7 @@ _sponsored-
 _sponsored.
 _sponsored^
 _sponsored_
-! Commented out to avoid false positives on static: 2011-09-07
+! Commented out to avoid false positives with "static": 2011-09-07
 ! _stat-
 ! _stat.
 ! _stat^
@@ -5334,7 +5336,7 @@ _yahooads_
 ://rotator.
 ://rotator.$popup
 ://smetrics.
-! Commented out to avoid false positives on static: 2011-09-07
+! Commented out to avoid false positives with "static": 2011-09-07
 ! ://stat.$domain=~ameblo.jp|~ameba.jp
 ://static.*00.*/apps/$script,third-party
 ://static.*00.*/data/$xmlhttprequest,third-party
@@ -6660,6 +6662,7 @@ _yahooads_
 ||credit-reflexe.com^
 ||creditduweb.net^
 ||credits-taux-reduits.com^
+||creoads.com^$third-party
 ||criteo.com^$third-party
 ||criteo.net^
 ||cross-a.net^$third-party
@@ -9932,6 +9935,7 @@ _yahooads_
 ||lstat.youku.com^
 ||youradexchange.com^$popup
 ||youradexchange.com^$third-party
+||youradslab.com^
 ||youtopry.com^
 ||youtube.com/annotations_invideo?
 ||youtube.com/get_video?
