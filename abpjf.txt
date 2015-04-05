@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 3uHaH6cIV6P2TICu2ffBBw
+! Checksum: Mz2Qkzh8Wc+rIFB3gqMTjg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for advanced Japanese users: check Support Policy below)
 ! Expires: 6 hours
-! Version: 201504051841
+! Version: 201504051904
 
-! Last modified: 2015-04-05 18:41 JST(UTC+0900)
+! Last modified: 2015-04-05 19:04 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -6564,8 +6564,15 @@ _yahooads_
 ||cliennes.com^
 ||clierets.com^
 ||clievise.com^
+||clkads.com^$popup
 ||clkads.com^$third-party
+||clkbid.com^$popup
+||clkbid.com^$third-party
+||clkmon.com^$popup
 ||clkmon.com^$third-party
+||clkoffers.com^$popup
+||clkoffers.com^$third-party
+||clkrev.com^$popup
 ||clkrev.com^$third-party
 ||clo-saison.com^
 ||cloakac.com^
@@ -7614,6 +7621,8 @@ _yahooads_
 ||imrworldwide.com^$third-party
 ||in-text.jp^
 ||incielle.com^
+||inclk.com^$popup
+||inclk.com^$third-party
 ||incmd06.com^
 ||inctivee.com^
 ||indeed.com^$third-party
