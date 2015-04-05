@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: rKfVFxPusQPScwk89Y3mOw
+! Checksum: BWphzFcs96W50xEaKDBjcw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for advanced Japanese users: check Support Policy below)
 ! Expires: 6 hours
-! Version: 201504051200
+! Version: 201504051206
 
-! Last modified: 2015-04-05 12:00 JST(UTC+0900)
+! Last modified: 2015-04-05 12:06 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4049,6 +4049,86 @@
 ^landing^$third-party
 ^landing_$popup
 ^landing_$third-party
+^landing0-$popup
+^landing0-$third-party
+^landing0.$popup
+^landing0.$third-party
+^landing0^$popup
+^landing0^$third-party
+^landing0_$popup
+^landing0_$third-party
+^landing1-$popup
+^landing1-$third-party
+^landing1.$popup
+^landing1.$third-party
+^landing1^$popup
+^landing1^$third-party
+^landing1_$popup
+^landing1_$third-party
+^landing2-$popup
+^landing2-$third-party
+^landing2.$popup
+^landing2.$third-party
+^landing2^$popup
+^landing2^$third-party
+^landing2_$popup
+^landing2_$third-party
+^landing3-$popup
+^landing3-$third-party
+^landing3.$popup
+^landing3.$third-party
+^landing3^$popup
+^landing3^$third-party
+^landing3_$popup
+^landing3_$third-party
+^landing4-$popup
+^landing4-$third-party
+^landing4.$popup
+^landing4.$third-party
+^landing4^$popup
+^landing4^$third-party
+^landing4_$popup
+^landing4_$third-party
+^landing5-$popup
+^landing5-$third-party
+^landing5.$popup
+^landing5.$third-party
+^landing5^$popup
+^landing5^$third-party
+^landing5_$popup
+^landing5_$third-party
+^landing6-$popup
+^landing6-$third-party
+^landing6.$popup
+^landing6.$third-party
+^landing6^$popup
+^landing6^$third-party
+^landing6_$popup
+^landing6_$third-party
+^landing7-$popup
+^landing7-$third-party
+^landing7.$popup
+^landing7.$third-party
+^landing7^$popup
+^landing7^$third-party
+^landing7_$popup
+^landing7_$third-party
+^landing8-$popup
+^landing8-$third-party
+^landing8.$popup
+^landing8.$third-party
+^landing8^$popup
+^landing8^$third-party
+^landing8_$popup
+^landing8_$third-party
+^landing9-$popup
+^landing9-$third-party
+^landing9.$popup
+^landing9.$third-party
+^landing9^$popup
+^landing9^$third-party
+^landing9_$popup
+^landing9_$third-party
 ^landings-$popup
 ^landings-$third-party
 ^landings.$popup
