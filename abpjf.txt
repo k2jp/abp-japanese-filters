@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 5MymuCHiFwfPeDHWOi4+qw
+! Checksum: o/q+tL+ndwiaPpzQQr2xKw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for advanced Japanese users: check Support Policy below)
 ! Expires: 6 hours
-! Version: 201504062156
+! Version: 201504062204
 
-! Last modified: 2015-04-06 21:56 JST(UTC+0900)
+! Last modified: 2015-04-06 22:04 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -6028,6 +6028,7 @@ _yahooads_
 ||apikozakanet-a.akamaihd.net^
 ||apiscantacknet-a.akamaihd.net^
 ||appnext-a.akamaihd.net^
+||asrv-a.akamaihd.net^
 ||canvas*-a.akamaihd.net^
 ||cdncache-a.akamaihd.net^
 ||cdncache1-a.akamaihd.net^
@@ -6751,6 +6752,7 @@ _yahooads_
 ||crazylead.com^$third-party
 ||crazytall.com^
 ||crbfjs.info^
+||crbsjs.info^
 ||crdrdpjs.info^
 ||crdrjs.info^
 ||creafi-online-media.com^$third-party
@@ -7519,6 +7521,7 @@ _yahooads_
 ||b4x6p9m7*.hwcdn.net^
 ||b6q3i6c7*.hwcdn.net^
 ||c3d7h8i5*.hwcdn.net^
+||d2a8a4q9*.hwcdn.net^
 ||e4r5k5v8*.hwcdn.net^
 ||i5n8q4p6*.hwcdn.net^
 ||k4j4s7i3*.hwcdn.net^
