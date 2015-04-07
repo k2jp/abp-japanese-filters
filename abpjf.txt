@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: IGSmMRl1RKmZUZAVeW6Plw
+! Checksum: lGukrgifX0Cbb0R1upm0Iw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for advanced Japanese users: check Support Policy below)
 ! Expires: 6 hours
-! Version: 201504071329
+! Version: 201504071345
 
-! Last modified: 2015-04-07 13:29 JST(UTC+0900)
+! Last modified: 2015-04-07 13:45 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -5683,46 +5683,46 @@ _yahooads_
 |http://ad0*.ru^
 |https://ad0*.ru^
 ||ad1.ru^$third-party
-||ad120m.com^
-||ad120m.com^$popup
-||ad121m.com^
-||ad121m.com^$popup
-||ad122m.com^
-||ad122m.com^$popup
-||ad123m.com^
-||ad123m.com^$popup
-||ad124m.com^
-||ad124m.com^$popup
-||ad125m.com^
-||ad125m.com^$popup
-||ad126m.com^
-||ad126m.com^$popup
-||ad127m.com^
-||ad127m.com^$popup
-||ad128m.com^
-||ad128m.com^$popup
-||ad129m.com^
-||ad129m.com^$popup
-||ad130m.com^
-||ad130m.com^$popup
-||ad131m.com^
-||ad131m.com^$popup
-||ad132m.com^
-||ad132m.com^$popup
-||ad133m.com^
-||ad133m.com^$popup
-||ad134m.com^
-||ad134m.com^$popup
-||ad135m.com^
-||ad135m.com^$popup
-||ad136m.com^
-||ad136m.com^$popup
-||ad137m.com^
-||ad137m.com^$popup
-||ad138m.com^
-||ad138m.com^$popup
-||ad139m.com^
-||ad139m.com^$popup
+||ad120m.
+||ad120m.$popup
+||ad121m.
+||ad121m.$popup
+||ad122m.
+||ad122m.$popup
+||ad123m.
+||ad123m.$popup
+||ad124m.
+||ad124m.$popup
+||ad125m.
+||ad125m.$popup
+||ad126m.
+||ad126m.$popup
+||ad127m.
+||ad127m.$popup
+||ad128m.
+||ad128m.$popup
+||ad129m.
+||ad129m.$popup
+||ad130m.
+||ad130m.$popup
+||ad131m.
+||ad131m.$popup
+||ad132m.
+||ad132m.$popup
+||ad133m.
+||ad133m.$popup
+||ad134m.
+||ad134m.$popup
+||ad135m.
+||ad135m.$popup
+||ad136m.
+||ad136m.$popup
+||ad137m.
+||ad137m.$popup
+||ad138m.
+||ad138m.$popup
+||ad139m.
+||ad139m.$popup
 ||ad2games.com^$third-party
 ||ad4game.com^$popup
 ||ad4game.com^$third-party
