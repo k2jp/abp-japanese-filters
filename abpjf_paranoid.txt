@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: p5OrbKJUiM2RScXNB+r84g
+! Checksum: nkPyO1zxNZmuaRnbMtRNwQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Paranoid filters (ONLY for advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201504071432
+! Version: 201504102307
 
-! Last modified: 2015-04-07 14:32 JST(UTC+0900)
+! Last modified: 2015-04-10 23:07 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -78,10 +78,11 @@
 @@||indeep76.com^$elemhide
 @@||data.jma.go.jp^*/stats
 @@||mixi.jp^*/popup
-! False positive with ^stats- paranoid filter at statistics page of each addon, Nov 29, 2013
-@@||mozilla.net/media/*/stats-min.
 ! False positive with -stats. paranoid filter at crash-stats.mozilla.com, Dec 21, 2014
 @@||crash-stats.mozilla.com^
+! False positive with ^stats- paranoid filter at statistics page of each addon, Nov 29, 2013
+! False positive again with ^stats- paranoid filter at statistics page of each addon, Apr 10, 2015
+@@||mozilla.net^*/stats-min.$script,stylesheet,domain=mozilla.org
 @@||nimg.jp/images/1x1.$image
 @@||netdna-cdn.com/jquery-
 ! @@||robtex.com^$elemhide
