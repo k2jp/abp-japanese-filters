@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: iOHUZhv3xNvMyaO4awEwNw
+! Checksum: tgk0gUORPQBKU/GZvxTykA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201504172049
+! Version: 201504172217
 
-! Last modified: 2015-04-17 20:49 JST(UTC+0900)
+! Last modified: 2015-04-17 22:17 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2364,6 +2364,7 @@
 /rakulog.$script
 /ranking/js/*$third-party
 /RealMedia/*
+/report_queries?engine=$third-party
 ! /res/js/ad-
 ! /res/js/ad.
 ! /res/js/ad^
@@ -2399,6 +2400,7 @@
 /sa/infospace.
 /sbi_recommend.$script
 /scjs/*
+/scripts/sj_$script,third-party
 /sd/apps/*$popup
 /sd/apps/*$third-party
 /sdc.js
@@ -8667,6 +8669,7 @@ _yahooads_
 ||ourstats.de^$third-party
 ||ousns.com^
 ||outbrain.com^$third-party
+||outfluenza.com^
 ||outwitch.com^
 ||overclockers.co.uk/home_banners/
 ||overture.com^$third-party
