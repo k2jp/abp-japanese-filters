@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 8+2T8uChACfJJgK6JWDqrQ
+! Checksum: x0J7MdqdOZoQyJPs0gR9gA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY for advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201504181933
+! Version: 201504182139
 
-! Last modified: 2015-04-18 19:33 JST(UTC+0900)
+! Last modified: 2015-04-18 21:39 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -8482,6 +8482,7 @@ _yahooads_
 ! ||netdna-cdn.com^$third-party
 ||netdna-cdn.com/scores/
 ||adperformance.netdna-cdn.com
+||petametricsinc.netdna-cdn.com^
 ||s2hd-plugincom-maynemyltf.netdna-ssl.com^
 ||netgy.com^$third-party
 ||netmng.com^$third-party
@@ -8717,6 +8718,7 @@ _yahooads_
 ! False positives at goal.com with eplayer modules, May 18, 2012
 ! ||performgroup.com^$third-party
 ||periodicodeldia.com^$popup
+||petametrics.com^
 ||pgmediaserve.com^
 ||pharmacyonlinefeed.com^
 ||pheedo.jp^$third-party
