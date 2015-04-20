@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: PASQlQIa0uLXNe2xxkQJOg
+! Checksum: 10QvC70SOSXBVI81fZTcdQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201504182241
+! Version: 201504201925
 
-! Last modified: 2015-04-18 22:41 JST(UTC+0900)
+! Last modified: 2015-04-20 19:25 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2162,6 +2162,7 @@
 /getmarquee.$domain=live.nicovideo.jp|www.nicovideo.jp
 /getmarquee^$domain=live.nicovideo.jp|www.nicovideo.jp
 /getmarquee_$domain=live.nicovideo.jp|www.nicovideo.jp
+/google.html?cb=$subdocument
 ! Commented out duplicated filters, Feb 26, 2012
 ! /google_ads-
 ! /google_ads.
@@ -6870,6 +6871,7 @@ _yahooads_
 ||d2pass.com^$third-party
 ||d9ae99824.se^
 ||d9ae99824.se^$popup
+||da-ads.com^
 ||daccroi.com^
 ||daccrois.com^
 ||daccroit.com^
