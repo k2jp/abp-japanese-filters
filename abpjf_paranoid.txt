@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 6J7hYhZBXusm4ZR40/sjBA
+! Checksum: TWoclH2nCsZFTFL1mFi1fQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201504182241
+! Version: 201504280207
 
-! Last modified: 2015-04-18 22:41 JST(UTC+0900)
+! Last modified: 2015-04-28 02:07 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4089,16 +4089,16 @@ www.yahoo.co.jp###local
 17.html?b|$subdocument,third-party
 17.html?c|$subdocument,third-party
 17.html?n|$subdocument,third-party
-|http://*/vd/43;$third-party
-|https://*/vd/43;$third-party
-|http://*/vd/92;$third-party
-|https://*/vd/92;$third-party
+|http:*/vd/43;$third-party
+|https:*/vd/43;$third-party
+|http:*/vd/92;$third-party
+|https:*/vd/92;$third-party
 ||click.$third-party
 ||ddns.$third-party
 ||dyndns.$third-party
 ||myftp.$third-party
-|http://*.no-ip.$third-party
-|https://*.no-ip.$third-party
+|http:*.no-ip.$third-party
+|https:*.no-ip.$third-party
 ||easyfunguide.at^
 ||biz/barklasmendaf.cgi?$third-party
 ||biz/facebook.cgi?$third-party
