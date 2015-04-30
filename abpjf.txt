@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: fztXKbiLHsM7r2/ODgAd1g
+! Checksum: JFNOAs43dUnsQHcv3d43Yg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201504280200
+! Version: 201504302153
 
-! Last modified: 2015-04-28 02:00 JST(UTC+0900)
+! Last modified: 2015-04-30 21:53 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -54,6 +54,7 @@
 @@||translate.google.*/translate/static/*-aDs/css/*.$stylesheet
 ! False positives with the |https:*?*&ip=$third-party filter at YouTube and embedded pages, reported by baq via blog comment
 @@||googlevideo.com/videoplayback?*&ip=
+@@||googlevideo.com/videoplayback?*?ip=
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=76&
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=77&
 ! ^urchin. filter causes false positives with the Japanese Amazon external audio player at web-cache.chocomaru.com, reporeted by 鳥 via blog, May 12, 2013
