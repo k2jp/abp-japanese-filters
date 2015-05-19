@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: efU8fm/Wfkbe+0+DQm0HXw
+! Checksum: OsqNaZLe9ufKr2wN8NuFsA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201505191933
+! Version: 201505192002
 
-! Last modified: 2015-05-19 19:33 JST(UTC+0900)
+! Last modified: 2015-05-19 20:02 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -7323,6 +7323,7 @@ _yahooads_
 ||focus-marketing.net^$third-party
 ||follolin.com^$third-party
 ||footballmedia.com^$third-party
+||footprintlive.com^$third-party
 ! ||ads.forbes.com^
 ||foreveryboxzip.net^
 ||forexwebtools.com^$third-party
@@ -8002,6 +8003,7 @@ _yahooads_
 ||le-visio-chat.com^
 ||le-visiochat.com^
 ||lead-soft.com^
+||leadboxer.com^$third-party
 ||leadforce1.com^
 ||leadformix.com^$third-party
 ||leagueoflegends.com^$popup
@@ -8686,6 +8688,7 @@ _yahooads_
 ||openetray.com^
 ||openmace.net^$popup
 ||openstat.net^$third-party
+||opentracker.net^$third-party
 ||openx.$third-party
 ||openxenterprise.com^
 ||servedby.openxmarket.
