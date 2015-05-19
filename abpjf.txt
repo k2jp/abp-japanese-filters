@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 1uL4ZNrscOGZOULVAcF2XA
+! Checksum: 5L14wdeFtnFRYVEZMsO8jg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201505160332
+! Version: 201505191336
 
-! Last modified: 2015-05-16 03:32 JST(UTC+0900)
+! Last modified: 2015-05-19 13:36 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -8854,6 +8854,7 @@ _yahooads_
 ||premiumcollect.com^$third-party
 ||premiumcomputerupgrades.org$popup
 ||premiumhdv.com^$third-party
+||prf.hn^
 ||price.ru^$third-party
 ||pricedetect.com^$third-party
 ||pricegong.com^$third-party
@@ -10125,7 +10126,7 @@ _yahooads_
 ||yimg.*/images/*/pr/
 ||yimg.*/images/account/sp/*/reg/ccc/
 ||yimg.*/images/analytics/
-! Moved to the Paranoid subscription to avoid a false positive blocking loading comments on each news at headlines.yahoo.co.jp. I think this is a tight-coupled bug because the filter is correctly blocking loggings. YAHOO JAPAN is essentially responsible for fixing it, May 16, 2015
+! Moved to the Paranoid subscription to avoid a false positive blocking loading comments on each news at headlines.yahoo.co.jp. I think this is a tight-coupled bug because the filter is correctly blocking beacons or loggings. YAHOO JAPAN is essentially responsible for fixing it, May 16, 2015
 ! ||yimg.*/images/ds/
 ||yimg.*/images/listing/
 ||yimg.*/images/market/
