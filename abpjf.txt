@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: rZ2HOcePBp5HjBK9Qy0O8Q
+! Checksum: fHcP0BuKz3M1i6Y3a0c6uA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201505192034
+! Version: 201505201416
 
-! Last modified: 2015-05-19 20:34 JST(UTC+0900)
+! Last modified: 2015-05-20 14:16 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -8223,6 +8223,7 @@ _yahooads_
 ||mate-sa-cam.com^
 ||mateast.com^
 ||matesacam.com^
+||matrixinner.info^
 ||mature-salope.com^
 ||matures-rencontre.com^
 ||maxforta.com^
@@ -8741,6 +8742,7 @@ _yahooads_
 ||pasadserver.com^$third-party
 ||pass4sex.net^
 ||passion.com^$third-party
+||pastaleads.com^$third-party
 ||pastilon.com^
 ||pay-click.ru^$third-party
 ||pay-hit.com^$third-party
