@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: fHcP0BuKz3M1i6Y3a0c6uA
+! Checksum: Bg/3v9dJ7sSAwJpcN/UKNQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201505201416
+! Version: 201505221326
 
-! Last modified: 2015-05-20 14:16 JST(UTC+0900)
+! Last modified: 2015-05-22 13:26 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2285,6 +2285,7 @@
 /meebo.$script
 /?merchant=$third-party
 /metrika/*
+/min.inject.js?id=$third-party
 /moat-$script
 /moatad.$script
 /moatcontent.$script
@@ -4078,6 +4079,14 @@
 ^InjectPopunderAd.
 ^InjectPopunderAd^
 ^InjectPopunderAd_
+^injectScript-$third-party
+^injectScript.$third-party
+^injectScript^$third-party
+^injectScript_$third-party
+^injectScripts-$third-party
+^injectScripts.$third-party
+^injectScripts^$third-party
+^injectScripts_$third-party
 ^intellitxt-
 ^intellitxt.
 ^intellitxt^
@@ -7217,6 +7226,7 @@ _yahooads_
 ||adimpkwd.excite.co.jp^
 ||nc-log.excite.co.jp^
 ||p4p.excite.co.jp^
+||exciteco.com^
 ||excitemoi.com^
 ||exelator.com^
 ||exgfnetwork.com^
@@ -8553,6 +8563,7 @@ _yahooads_
 ||newsweekjapan.jp/images/common/sideAd.$image,object
 ||newzia.jp^$third-party
 ||nexac.com^
+||nfobeat.com^
 ||ngbn.net^$third-party
 ||bc.nhk.jp^
 ||nhncorp.jp^$third-party
@@ -9072,6 +9083,7 @@ _yahooads_
 ||richthof.com^
 ||rides.ac^$third-party
 ||right-ads.com^$third-party
+||rightlyads.in^
 ||rikiki.biz^
 ||rinad.jp^$third-party
 ||ringtonepartner.com^
