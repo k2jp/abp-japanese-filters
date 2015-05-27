@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: Bg/3v9dJ7sSAwJpcN/UKNQ
+! Checksum: xj4PdZi0AVmZlJ6tZhDDGg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201505221326
+! Version: 201505271455
 
-! Last modified: 2015-05-22 13:26 JST(UTC+0900)
+! Last modified: 2015-05-27 14:55 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -228,6 +228,8 @@
 @@||researchmap.jp^*/counter/$stylesheet
 ! False positive with domain names to investigate, like adv-first.ru, June 17, 2014
 @@||robtex.com^*/advisory/
+! False positives with combined scripts or stylesheets conflicting with ^teaser^ filter, May 27, 2015
+@@||s-msft.com/Combined.*?resources=*,$script,stylesheet,domain=microsoft.com
 ! False positive with combined stylesheet with the ^ads. filter, reported via Issue Report, Sep 16, 2014
 @@||salon.com/combo/css?*&$stylesheet
 ! False positive with combined JavaScript with the -ads.$domain=~retweet-ads.net filter, reported via Issue Report, Sep 16, 2014
