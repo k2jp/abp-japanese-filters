@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 15DD8EuklWfS5AAzx+aWMw
+! Checksum: SGhN0dPKdJh/UU97D07KBA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201506152127
+! Version: 201506152132
 
-! Last modified: 2015-06-15 21:27 JST(UTC+0900)
+! Last modified: 2015-06-15 21:32 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1985,7 +1985,8 @@
 /adlantis^
 /adlantis_
 /AdLantisLoader.
-/AdLoader.
+! Commented out the duplicated filter with ^adLoader. , Jun 15, 2015
+! /AdLoader.
 /admanager.
 /admodoki.
 /adpds_deliver/*
@@ -3043,6 +3044,10 @@
 ^adListings.
 ^adListings^
 ^adListings_
+^adLoader-
+^adLoader.
+^adLoader^
+^adLoader_
 ^adlog-
 ^adlog.
 ^adlog^
