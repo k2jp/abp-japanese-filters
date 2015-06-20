@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: I2EMzdLYAOjtkBJKPSKi6A
+! Checksum: ZKEWhmgkOkKn1maFKTlhHA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201506180116
+! Version: 201506202232
 
-! Last modified: 2015-06-18 01:16 JST(UTC+0900)
+! Last modified: 2015-06-20 22:32 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -178,7 +178,8 @@
 @@||google.com/adsense/$document
 @@||google.com/analytics/$document
 ! False positive at config pages, reported via Issue Report, Feb 6, 2012
-@@||google.com/settings/$document
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! @@||google.com/settings/$document
 @@||accounts.google.com/ServiceLogin?service=$document
 ! False positives when browsing a source tree at code.google.com, Oct 13, 2014
 @@||code.google.com^*/source/dirfeed?$xmlhttprequest,domain=code.google.com
@@ -294,14 +295,15 @@
 ! &ad_size=
 ! &ad_type=
 ! &ad_url=
-&adcall-
-&adcall.
-&adcall^
-&adcall_
-&adconfig-
-&adconfig.
-&adconfig^
-&adconfig_
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! &adcall-
+! &adcall.
+! &adcall^
+! &adcall_
+! &adconfig-
+! &adconfig.
+! &adconfig^
+! &adconfig_
 &adid=
 &adid=$popup
 &admeld_
@@ -313,11 +315,12 @@
 &adsize=
 &adslot=
 &adsmarket=
-&adsource-
-&adsource.
-&adsource^
-&adsource_
-&adSpace=
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! &adsource-
+! &adsource.
+! &adsource^
+! &adsource_
+! &adSpace=
 ! Commented out a duplicated filter with ^adtype^, Jan 20, 2014
 ! &adtype=
 ! Commented out a duplicated filter with ^adv^, Oct 9, 2013
@@ -325,16 +328,19 @@
 ! Commented out a duplicated filter with ^advertiser^, Jan 1, 2014
 ! &advertiser=
 &advTile=
-&adx-
-&adx.
-&adx^
-&adx_
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! &adx-
+! &adx.
+! &adx^
+! &adx_
 &aff_id=
-&aff_id=$popup
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! &aff_id=$popup
 &affichage=
 &affid=
 &affid=$popup
-&affiliate=$popup
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! &affiliate=$popup
 &affiliateid=
 &affiliateid=$popup
 &AffliateReferenceID=$popup
@@ -361,7 +367,8 @@
 &clickTag=
 &dist_id=*&channel=$popup
 &dist_id=*&channel=$third-party
-&file=ads&
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! &file=ads&
 &iad=
 |http:*?*&ip=$third-party
 |https:*?*&ip=$third-party
@@ -371,7 +378,8 @@
 &lpid=
 &lpid=$popup
 &lpip=
-&mediaslot=
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! &mediaslot=
 &noadult=
 &offer=$popup
 &offer_id=$popup
@@ -381,9 +389,11 @@
 &partner_id=$third-party
 &PartnerID=$popup
 &PartnerID=$third-party
-&pop_under=$popup
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! &pop_under=$popup
 &popundersPerIP=
-&promo_type=
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! &promo_type=
 &Pub_ID=
 &Pub_ID=$popup
 &PubID=
@@ -1741,7 +1751,8 @@
 .yahooads^
 .yahooads_
 /?a=RTA-
-/?affiliate=*&campaignid=*^$popup
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! /?affiliate=*&campaignid=*^$popup
 ! false positive at lifehacker.com 2011-09-30
 ! /?op=ajax_userstate&
 /?sov=$popup
@@ -2060,7 +2071,8 @@
 /betting-$popup
 /bin/ll?$third-party
 ! /blog_ads/*
-/blog_ppv/*
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! /blog_ppv/*
 /blogroll.
 /bmv10.$script
 /bmv10f.$script
@@ -2165,7 +2177,8 @@
 /gcs?v=
 /gdata/*$script,third-party
 /get-js?dc_id=
-/getad^
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! /getad^
 /getmarquee-$domain=live.nicovideo.jp|www.nicovideo.jp
 /getmarquee.$domain=live.nicovideo.jp|www.nicovideo.jp
 /getmarquee^$domain=live.nicovideo.jp|www.nicovideo.jp
@@ -2176,7 +2189,8 @@
 ! /google_ads.
 ! /google_ads^
 ! /google_ads_
-/google_analytics.
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! /google_analytics.
 /google_footer.$script,subdocument
 /google_side.$script,subdocument
 /google_top.$script,subdocument
@@ -2248,7 +2262,8 @@
 /kanasoku/rss.
 /lcslog.$script
 /leaderboard_SWF
-/lg.php?bannerid=
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! /lg.php?bannerid=
 /lightningcast-
 /linkshare/*
 /linktracking.$script
@@ -2348,7 +2363,8 @@
 ! merged into .php?zoneid=
 ! /pop.php?zoneid=
 /pop_packcpm.
-/pop_packcpm.$popup
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! /pop_packcpm.$popup
 /popad/*
 /popads/*
 /popundr.
@@ -2572,8 +2588,9 @@
 ;clk=
 ! |http:*=ad&
 ! |https:*=ad&
-=adtext.
-=advertisement&
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! =adtext.
+! =advertisement&
 =INSERT%5fRANDOM%5fNUMBER%5fHERE^
 =INSERT%5fSECTION%5fCODE%5fHERE^
 =INSERT_RANDOM_NUMBER_HERE^
@@ -2590,14 +2607,15 @@
 ! ?ad_size=
 ! ?ad_type=
 ! ?ad_unit=
-?adcall-
-?adcall.
-?adcall^
-?adcall_
-?adconfig-
-?adconfig.
-?adconfig^
-?adconfig_
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ?adcall-
+! ?adcall.
+! ?adcall^
+! ?adcall_
+! ?adconfig-
+! ?adconfig.
+! ?adconfig^
+! ?adconfig_
 ?adid=
 ?adid=$popup
 ?adpds_
@@ -2608,18 +2626,19 @@
 ?adsize=
 ?adslot=
 ?adsmarket=
-?adsource-
-?adsource.
-?adsource^
-?adsource_
-?adthink-
-?adthink.
-?adthink^
-?adthink_
-?adthinkmedia-
-?adthinkmedia.
-?adthinkmedia^
-?adthinkmedia_
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ?adsource-
+! ?adsource.
+! ?adsource^
+! ?adsource_
+! ?adthink-
+! ?adthink.
+! ?adthink^
+! ?adthink_
+! ?adthinkmedia-
+! ?adthinkmedia.
+! ?adthinkmedia^
+! ?adthinkmedia_
 ?adunitid=
 ! Commented out a duplicated filter with ^adv^ filter, Oct 9, 2013
 ! ?adv=
@@ -2630,12 +2649,14 @@
 ! ?advertstream^
 ! ?advertstream_
 ?advTile=
-?adx-
-?adx.
-?adx^
-?adx_
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ?adx-
+! ?adx.
+! ?adx^
+! ?adx_
 ?aff_id=
-?aff_id=$popup
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ?aff_id=$popup
 ?affichage=
 ?affid=
 ?affid=$popup
@@ -2665,14 +2686,15 @@
 ?campaignCode=$popup
 ?campaignID=
 ?campaignID=$popup
-?cellcast-media-
-?cellcast-media.
-?cellcast-media^
-?cellcast-media_
-?cellcastmedia-
-?cellcastmedia.
-?cellcastmedia^
-?cellcastmedia_
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ?cellcast-media-
+! ?cellcast-media.
+! ?cellcast-media^
+! ?cellcast-media_
+! ?cellcastmedia-
+! ?cellcastmedia.
+! ?cellcastmedia^
+! ?cellcastmedia_
 ?click=$third-party
 ?Click_ID=
 ?Click_ID=$popup
@@ -2681,7 +2703,8 @@
 ?clickTAG=
 ?dist_id=*&channel=$popup
 ?dist_id=*&channel=$third-party
-?file=ads&
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ?file=ads&
 ?id_promo=
 |http:*?ip=$third-party
 |https:*?ip=$third-party
@@ -2690,13 +2713,15 @@
 ?lpid=$popup
 ?lpip=
 ?mdscampaignid=$popup
-?mediaslot=
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ?mediaslot=
 ?metric=
 ?netafftrack=
-?numerik-art-
-?numerik-art.
-?numerik-art^
-?numerik-art_
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ?numerik-art-
+! ?numerik-art.
+! ?numerik-art^
+! ?numerik-art_
 ?offer=$popup
 ?offer_id=$popup
 ?partner=$popup
@@ -2705,7 +2730,8 @@
 ?partner_id=$third-party
 ?PartnerID=$popup
 ?PartnerID=$third-party
-?promo_type=
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ?promo_type=
 ?Pub_ID=
 ?Pub_ID=$popup
 ?PubID=
@@ -4131,7 +4157,8 @@
 ^jsads.
 ^jsads^
 ^jsads_
-^js^app^analytics^
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ^js^app^analytics^
 ^js^banner-
 ^js^banner.
 ^js^banner^
@@ -5390,45 +5417,52 @@ _yahooads.
 _yahooads^
 _yahooads_
 ://ad-cdn.
-|http://ad.
-|https://ad.
-://ad0.
-://ad1.
-://ad2.
-://ad3.
-://ad4.
-://ad5.
-://ad6.
-://ad7.
-://ad8.
-://ad9.
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! |http://ad.
+! |https://ad.
+! ://ad0.
+! ://ad1.
+! ://ad2.
+! ://ad3.
+! ://ad4.
+! ://ad5.
+! ://ad6.
+! ://ad7.
+! ://ad8.
+! ://ad9.
 ://adcl.
-://adimg.
-://ads.
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ://adimg.
+! ://ads.
 ://ads0.
 ://ads1.
-://ads2.
-://ads3.
-://ads4.
-://ads5.
-://ads6.
-://ads7.
-://ads8.
-://ads9.
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ://ads2.
+! ://ads3.
+! ://ads4.
+! ://ads5.
+! ://ads6.
+! ://ads7.
+! ://ads8.
+! ://ads9.
 ://adcdn.
-://adserver.
-://adserving.
-://adv.
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ://adserver.
+! ://adserving.
+! ://adv.
 ://aff-images.
-://affiliate.
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ://affiliate.
 ://affiliates.
 ://amazlink.$third-party
-://analysis.$third-party
-://analytics.$third-party
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ://analysis.$third-party
+! ://analytics.$third-party
 ://analyze.$third-party
 |http://ax-d.
 |https://ax-d.
-://beacon.
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ://beacon.
 |http://c.*/c.$image,object
 |https://c.*/c.$image,object
 ://campaign.
@@ -5456,28 +5490,29 @@ _yahooads_
 ://image.*/bnr.gif?$third-party
 ://kanasoku.*/thumb/
 ://krxd.
-://landing.$popup
-://landing.$third-party
-://landing0.$popup
-://landing0.$third-party
-://landing1.$popup
-://landing1.$third-party
-://landing2.$popup
-://landing2.$third-party
-://landing3.$popup
-://landing3.$third-party
-://landing4.$popup
-://landing4.$third-party
-://landing5.$popup
-://landing5.$third-party
-://landing6.$popup
-://landing6.$third-party
-://landing7.$popup
-://landing7.$third-party
-://landing8.$popup
-://landing8.$third-party
-://landing9.$popup
-://landing9.$third-party
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ://landing.$popup
+! ://landing.$third-party
+! ://landing0.$popup
+! ://landing0.$third-party
+! ://landing1.$popup
+! ://landing1.$third-party
+! ://landing2.$popup
+! ://landing2.$third-party
+! ://landing3.$popup
+! ://landing3.$third-party
+! ://landing4.$popup
+! ://landing4.$third-party
+! ://landing5.$popup
+! ://landing5.$third-party
+! ://landing6.$popup
+! ://landing6.$third-party
+! ://landing7.$popup
+! ://landing7.$third-party
+! ://landing8.$popup
+! ://landing8.$third-party
+! ://landing9.$popup
+! ://landing9.$third-party
 ://log.$third-party
 ://log0.
 |http://lp.$popup
@@ -5506,7 +5541,8 @@ _yahooads_
 ://lp9.$third-party
 ://mads.
 ://maxymiser.$third-party
-://metrics.
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ://metrics.
 ://ocp.
 ://openadext.
 ://openxmarket.$third-party
@@ -5517,7 +5553,8 @@ _yahooads_
 |https://ox-i.
 ://phpadsnew.
 ://ppund.$third-party
-://promo.
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ://promo.
 ://promo0.
 ://promo1.
 ://promo2.
@@ -5539,8 +5576,9 @@ _yahooads_
 ://static.*00.*/apps/$script,third-party
 ://static.*00.*/data/$xmlhttprequest,third-party
 ://static.*00.*/partnerconfig/$script,third-party
-://survey.$third-party
-://surveys.$third-party
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ://survey.$third-party
+! ://surveys.$third-party
 ://tealium.
 ://telemetry.$third-party
 ://tizer.
@@ -5766,8 +5804,9 @@ _yahooads_
 ||actuvoyance.com^
 ||acwebconnecting.com^$third-party
 ||acxiom-online.com^
-|http://ad-ch.jp^
-|https://ad-ch.jp^
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! |http://ad-ch.jp^
+! |https://ad-ch.jp^
 ||ad-cloud.jp^$third-party
 ||ad-hatena.jp^
 ||ad-hub.biz^
@@ -5780,8 +5819,9 @@ _yahooads_
 ||ad-sys.com^$third-party
 ||ad-traffic.jp^
 ||ad-trak2.jp^$third-party
-|http:*.ad-v.jp^
-|https:*.ad-v.jp^
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! |http:*.ad-v.jp^
+! |https:*.ad-v.jp^
 ||ad-ya.net^
 |http:*.ad.ru^$third-party
 |https:*.ad.ru^$third-party
@@ -6036,7 +6076,8 @@ _yahooads_
 ||adultrewardsurvey.com^$popup
 ||adultrewardsurvey.com^$third-party
 ||adurr.com^
-||adv-adserver.com^$third-party
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||adv-adserver.com^$third-party
 ||adv-first.ru^
 |http://adv2*.ru^
 |https://adv2*.ru^
@@ -6123,7 +6164,8 @@ _yahooads_
 ||a-img.afpbb.com^
 ||afterdownload.com^$third-party
 ||afy11.net^
-||ag-affiliate.com^$third-party
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||ag-affiliate.com^$third-party
 ||agag.tw^$third-party
 ||agift-ad.com^$third-party
 ||agilemedia.jp^$third-party
@@ -6211,7 +6253,8 @@ _yahooads_
 ||amazonaws.com^$popup
 ||amazonaws.com/*.cetrk.com/
 ||amazonaws.com/*.inspectlet.com/
-||amazonaws.com/*.kissinsights.com/
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||amazonaws.com/*.kissinsights.com/
 ||amazonaws.com/*.kissmetrics.com/
 ||amazonaws.com/*.megacpm.com/
 ||amazonaws.com/*.pagefair.com/
@@ -6240,7 +6283,8 @@ _yahooads_
 ||videosfr.s3.amazonaws.com^
 ||amazon-cornerstone.com^
 ||ameba.jp/adcross/
-||ameba.jp/analytics/
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||ameba.jp/analytics/
 ||ameba.jp/common_style/js/user/dropdown*$script
 ||act.ameba.jp^
 ||ad.ameba.jp^
@@ -6278,9 +6322,11 @@ _yahooads_
 ||anuntis.info^
 ||info.aol.jp^$third-party
 ||aolcdn.com^*/banner/
-||aolcdn.com^*/beacon.
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||aolcdn.com^*/beacon.
 ||aolcdn.com^*/moat/
-||aolcdn.com/ads/
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||aolcdn.com/ads/
 ||aolcdn.com/js/mg1.$script
 ||aolcdn.com/js/mg2.$script
 ||aondenamoro.com^
@@ -6293,7 +6339,8 @@ _yahooads_
 ||appgiga.jp/files/*/sample
 ||appgiga.jp/files/*/eb3e7affbcbcddd74b2c6125a008d5f2.jpg
 ||appier.net^
-||apple.com/metrics/
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||apple.com/metrics/
 ||autolinkmaker.itunes.apple.com^$third-party
 ||metrics.apple.com^
 ||securemetrics.apple.com^
@@ -6467,8 +6514,9 @@ _yahooads_
 ||bigcommerce.com^$third-party
 ||biglion.ru^$popup
 ||biglion.ru^$third-party
-||biglobe.ne.jp/affiliate/
-||biglobe.ne.jp/beacon/
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||biglobe.ne.jp/affiliate/
+! ||biglobe.ne.jp/beacon/
 ||biglobe.ne.jp/img/bn/
 ||go.biglobe.ne.jp^
 ||bigmir.net^$third-party
@@ -6965,7 +7013,8 @@ _yahooads_
 ||dailymotion.com*/masscast/
 ||dailymotion.com/behavior/
 ||dailymotion.com/history/
-||dailymotion.com/logger/
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||dailymotion.com/logger/
 ||dailymotion.com/sense/
 ||dailymotion.com/track/
 ||sense.dailymotion.com^
@@ -6976,7 +7025,8 @@ _yahooads_
 ||dapper.net^
 ||daredac.com^
 ||dartimyl.com^
-||data-ero-advertising.com^
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||data-ero-advertising.com^
 ||datacardbar.info^
 ||datafastguru.info^
 ||datamind.ru^$third-party
@@ -7122,9 +7172,11 @@ _yahooads_
 ||dt08.net^
 ||dti-ranker.com^$third-party
 ||dtiblog.com/aa/
-||dtiblog.com/blog_ppv/
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||dtiblog.com/blog_ppv/
 ||dtiblog.com/dti_se.$script
-||dtiblog.com/hist_count.
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||dtiblog.com/hist_count.
 ||dtiblog.com/pr_ad/
 ||dtiblog.com/pv.
 ||dtiblog.com/search.$image
@@ -7228,7 +7280,8 @@ _yahooads_
 ||eqads.com^$third-party
 ||eravage.com^
 ||ergodob.ru^
-||ero-advertising.com^$third-party
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||ero-advertising.com^$third-party
 ||ero-tube.jp^$third-party
 ||erovation.com^$third-party
 ||erovinmo.com^
@@ -7427,7 +7480,8 @@ _yahooads_
 ||gagnifie.com^
 ||galleyn.com^
 ||gambling-france.com^$third-party
-||game-advertising-online.com^$third-party
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||game-advertising-online.com^$third-party
 ||game8.vn^$third-party
 ||gameforge.de^$third-party
 ||gameoftraffic.com^
@@ -7969,7 +8023,8 @@ _yahooads_
 ||kadtd.com^
 ||kakaku.com^*/Rdm
 ||kakaku.com/images/rex-card/
-||kakaku.com/script/analytics/
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||kakaku.com/script/analytics/
 ||kakaku.com/script/kakakuad/
 ||kakaku.com/tracker.py/
 ||fp.kakaku.com^
@@ -8035,7 +8090,8 @@ _yahooads_
 ||kurysbjs.info^
 ||kusham.net^
 ||kutsulog.net^$third-party
-||kyoto-np.co.jp/koukoku/
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||kyoto-np.co.jp/koukoku/
 ||la-bonne-idee.com^
 ||la-meilleure-solution-credit.com^
 ||labadon.com^
@@ -8224,7 +8280,8 @@ _yahooads_
 ||ludostart.com^
 ||luisardo.com^
 ||luminate.com^$third-party
-||luocbao.com/adv/
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||luocbao.com/adv/
 ||luredac.com^
 ||luxadv.com^
 ||luxcdn.com^
@@ -8276,7 +8333,8 @@ _yahooads_
 ||marketo.com^$third-party
 ||marketo.net^$third-party
 ||mathtag.com^$third-party
-||marsflag.com/adimg/
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||marsflag.com/adimg/
 ||master-quiz.nl^$popup
 ||masudel.com^
 ||match.com^$third-party
@@ -8511,7 +8569,8 @@ _yahooads_
 ||mxpnl.com^$third-party
 ||mxtads.com^
 ||mxtrac.com^$popup
-||my-affiliate.com^$third-party
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||my-affiliate.com^$third-party
 ||my1.ru^
 ||myactivestats.com^
 ||myadsrv04.com^
@@ -9016,9 +9075,11 @@ _yahooads_
 ||rakuten.co.jp/com/img/home/t.$image,object
 ||rakuten.co.jp/common00/
 ||rakuten.co.jp/content/news/bunner/
-||rakuten.co.jp/js/adjs/
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||rakuten.co.jp/js/adjs/
 ||rakuten.co.jp/js/catalyst/
-||rakuten.co.jp/js/p_code.$script
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||rakuten.co.jp/js/p_code.$script
 ||rakuten.co.jp/js/pr/
 ||rakuten.co.jp/share/wat/
 ||afl.rakuten.co.jp/hsb/
@@ -9206,7 +9267,8 @@ _yahooads_
 ||samiana.com^
 ||samuraiworks.com^$third-party
 ||adcl.sankei.co.jp^
-||smp.sankei.co.jp/js/analytics/
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||smp.sankei.co.jp/js/analytics/
 ||sarenza.com^$popup
 ||sascentral.com^
 ||savevalet.com^$third-party
@@ -9430,8 +9492,9 @@ _yahooads_
 ||snapze.com^
 ||snyu.com^$third-party
 ||so-net.ne.jp/advertisement
-||so-net.ne.jp/omn-js/
-||so-net.ne.jp/tv/advertisement/
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||so-net.ne.jp/omn-js/
+! ||so-net.ne.jp/tv/advertisement/
 ||so-net.ne.jp/tv/gtv/img/banner/
 ||smr.so-net.ne.jp^
 ||socdm.com^
@@ -9497,7 +9560,8 @@ _yahooads_
 ||red.st-hatena.com^
 ||st00.net^
 ||standadv.com^
-||star-advertising.com^
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||star-advertising.com^
 ||starwebnet.com^
 ||stat24.com^$third-party
 ||statcounter.com^$third-party
@@ -9548,7 +9612,8 @@ _yahooads_
 ||swebdpjs.info^
 ||swebjs.info^
 ||sweet-adult.com^$popup
-||swi-adserver.com^$third-party
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||swi-adserver.com^$third-party
 ||swiki.com^$third-party
 ||swtog.com^
 ||swtresync.net^
@@ -9750,7 +9815,8 @@ _yahooads_
 ||tubejs.info^
 ||tubemogul.com^$third-party
 ||tuigoo.com^$third-party
-||tumblr.com/analytics.
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||tumblr.com/analytics.
 ||turboloves.net^
 ||turboplugin.ru^
 ||turn.com^$third-party
@@ -9864,8 +9930,9 @@ _yahooads_
 ||vcm.jp^$third-party
 ||vcmedia.vn^$third-party
 ||vdna-assets.com^
-||vector.co.jp/adinfo/
-||vector.co.jp/advertise/
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||vector.co.jp/adinfo/
+! ||vector.co.jp/advertise/
 ||vector.co.jp/vpack/*banner
 ||veinteractive.com^$third-party
 ||velmedia.net^
@@ -9969,7 +10036,8 @@ _yahooads_
 ||we-spread.com^
 ||web-stat.com^$third-party
 ||web3-ads.com^
-||web3-ads.com^$popup
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||web3-ads.com^$popup
 ||webantenna.info^$third-party
 ||webcam-facile.com^
 ||webcam-folie.com^
@@ -10014,7 +10082,8 @@ _yahooads_
 ||widgeo.net^$third-party
 ||wigetmedia.com^$popup
 ||wigetmedia.com^$third-party
-||wikia-beacon.com/__track/
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||wikia-beacon.com/__track/
 ! Commented out to avoid a false positive with combined script loader, reported via Issue Report, Sep 8, 2014
 ! ||wikimedia.org/*.wikipedia.org/load.php?*&modules=ext.centralNotice.
 ||meta.wikimedia.org/wiki/Special:
@@ -10133,8 +10202,9 @@ _yahooads_
 ||yahoo.*/mc/md.$subdocument
 ||amp.yahoo.
 ||analytics.yahoo.$third-party
-||by.analytics.yahoo.
-||by.i.analytics.yahoo.
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||by.analytics.yahoo.
+! ||by.i.analytics.yahoo.
 ||bn.auctions.yahoo.
 ||b9.yahoo.
 ||b90.yahoo.
@@ -10163,7 +10233,8 @@ _yahooads_
 ||pclick.yahoo.
 ||wa.marketingsolutions.yahoo.
 ||ov.yahoo.
-||rtb.pclick.yahoo.
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||rtb.pclick.yahoo.
 ||geo.query.yahoo.
 ||rd.yahoo.
 ||rtb.pclick.secure.yahoo.
@@ -10207,7 +10278,8 @@ _yahooads_
 ||yimg.*/bdv/
 ||yimg.*/images/*/pr/
 ||yimg.*/images/account/sp/*/reg/ccc/
-||yimg.*/images/analytics/
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||yimg.*/images/analytics/
 ! Moved to the Paranoid subscription to avoid a false positive blocking loading comments on each news at headlines.yahoo.co.jp. I think this is a tight-coupled bug because the filter is correctly blocking beacons or loggings. YAHOO JAPAN is essentially responsible for fixing it, May 16, 2015
 ! ||yimg.*/images/ds/
 ||yimg.*/images/listing/
@@ -10258,7 +10330,8 @@ _yahooads_
 !False Positives with dammy 1x1 placeholders for css spriting
 ! ||ytimg.com/yt/img/pixel-
 ! ||ytimg.com^*/swfbin/ad-
-||ytimg.com^*/swfbin/ad3-
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||ytimg.com^*/swfbin/ad3-
 ||ytimg.com^*_background_$image,object
 ||ytimg.com^*_banner.$image,object
 ||ytimg.com^*_banner_$image,object
@@ -10269,7 +10342,8 @@ _yahooads_
 ||zanox.com^$third-party
 ||zanox.ws^
 ||api.zanox.
-||zanox-affiliate.de^$third-party
+! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
+! ||zanox-affiliate.de^$third-party
 ||zdenochary.com^
 ||bwp.zdnet.com^
 ||japan.zdnet.com/media/*/banner/jinzai_*.gif
