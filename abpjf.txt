@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: b+ZBChPZCTve8wzYYlg1xA
+! Checksum: dPJ6OBirsJ12HNeduHfD+A
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201506281351
+! Version: 201506240327
 
-! Last modified: 2015-06-28 13:51 JST(UTC+0900)
+! Last modified: 2015-06-24 03:27 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -267,9 +267,8 @@
 @@||yandex.st/jquery/
 ! False positives with combined stylesheets or scripts at Yahoo!
 ! Merged and limited the domain, Oct 25 and 26, 2014
-@@.yimg.*/combo?*&$script,stylesheet,domain=yahoo.co.jp|yahoo.com
-! False positives with combined stylesheets or scripts at flickr.com acquired by Yahoo!, Jun 28, 2015
-@@.yimg.com/*/combo/*?*&$script,stylesheet,domain=flickr.com
+! Added support for flickr.com acquired by Yahoo!, Jun 09, 2015
+@@.yimg.*/combo?*&$script,stylesheet,domain=flickr.com|yahoo.co.jp|yahoo.com
 ! Layout collapse and some missing images because of the URL including /ad_partner/, Jan 18, 2012
 @@||s.yimg.jp/images/webowner/ad_partner/$domain=webowner.yahoo.co.jp
 ! False positives at analytics pages inside YouTube, reported via Issue Report, Feb 27, 2012
