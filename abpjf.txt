@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: O2aTDY7qCXSkEWEiLF/aBg
+! Checksum: zLNbotPaHTqFK6JCDEZxbw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201507091522
+! Version: 201507100059
 
-! Last modified: 2015-07-09 15:22 JST(UTC+0900)
+! Last modified: 2015-07-10 00:59 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -6153,6 +6153,7 @@ _yahooads_
 ||afdads.com^$third-party
 ||affaires-vip.com^
 ||affarity.com^
+||affbox.net^
 ||affbuzzads.com^
 ||afficent.com^
 ||affidate.com^
@@ -6165,6 +6166,7 @@ _yahooads_
 ||affinity.com^$third-party
 ||affinitymatrix.com^
 ||affiz.net^
+||afflinks.org^
 ||afilio.com.br^
 ||afisapo.com^$third-party
 ||afpbb.com^*banner
@@ -6687,6 +6689,7 @@ _yahooads_
 ||cdnbd.
 ||cdnbf.net^$third-party
 ||cdneurope.com^
+||cdnpps.us^
 ||cedexis-radar.net^
 ||cedexis.com^$third-party
 ||ceepq.com^
@@ -6712,6 +6715,7 @@ _yahooads_
 ||chat2fou.
 ||chatty.fish^$third-party
 ||chaudevoisine.com^
+||cheapito.com^
 ||checkm8.com^$third-party
 ||cheernuts.com^$third-party
 ||chem-station.com/blog/images*banner$image
@@ -7776,6 +7780,7 @@ _yahooads_
 ||icmapp.com^$popup
 ||icmwebserv.com^$popup
 ||iconosquare.com^$third-party
+||icontent.us^
 ||icqadvert.org^$third-party
 ||ideaxidea.com/*_banner.
 ||idee-malins-du-net.com^
@@ -8234,6 +8239,7 @@ _yahooads_
 ||liverail.com^$third-party
 ||liveundnackt.com^$third-party
 ||liveuniversenetwork.com^
+||lnkr.us^
 ||lnkrdr.com^$third-party
 ||loading-delivery1.com^$popup
 ||loading-resource.com^
@@ -8439,6 +8445,7 @@ _yahooads_
 ||mestersquiz.com^$popup
 ||metanetwork.com^$third-party
 ||meteo-locale-gratuite.fr^
+||metrext.com^
 ||metrigo.com^$third-party
 ||mgid.com^$popup
 ||mgid.com^$third-party
@@ -8521,6 +8528,7 @@ _yahooads_
 ||mon-devis-pret.com^
 ||mon-pret-adapte.com^
 ||monetate.net^
+||monetizus.com^
 ||money4ads.com^
 ||mongoosemetrics.com^$third-party
 ||monroo.com^$third-party
@@ -9705,6 +9713,7 @@ _yahooads_
 ||thevideo.me^$popup
 ||thewheelof.com^
 ||thinkscore.com^$popup
+||thisadsfor.us^
 ||thumpac.com^
 ||ticketchic.com^
 ||tidaltv.com^$third-party
@@ -9804,6 +9813,7 @@ _yahooads_
 ||travian.$popup
 ||trekmedia.net^
 ||tremormedia.com^
+||trendtext.eu^
 ||treprime.com^
 ||trialpay.com^$third-party
 ||tribalfusion.com^$third-party
