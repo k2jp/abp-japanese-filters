@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 4ZKE5avAo+8nWKDmCduNiw
+! Checksum: jQAT1j8ujh3CcgDsXsmauw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201507081450
+! Version: 201507091435
 
-! Last modified: 2015-07-08 14:50 JST(UTC+0900)
+! Last modified: 2015-07-09 14:35 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -8579,6 +8579,7 @@ _yahooads_
 ||mxcdn.net^
 ||mxmobitrk.com^$popup
 ||mxpnl.com^$third-party
+||mxptint.net^
 ||mxtads.com^
 ||mxtrac.com^$popup
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
