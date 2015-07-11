@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: YlXE5gHx8gC43PWCd/fZmw
+! Checksum: d3+AVEZvFqUIYjFI65Mjrw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201507111104
+! Version: 201507111124
 
-! Last modified: 2015-07-11 11:04 JST(UTC+0900)
+! Last modified: 2015-07-11 11:24 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -5687,6 +5687,8 @@ _yahooads_
 ||18koreanav.com^$third-party
 ||1channel.ch/pop.$script
 ||1phads.com^
+||1tmg.info^
+||1tmg2.info^
 ||20d625b48e.se^
 ||20d625b48e.se^$popup
 ||20serve.com^
@@ -8128,6 +8130,7 @@ _yahooads_
 ||banner.lardi-trans.com^
 ||largelydi.com^
 ||latexfive.info^
+||latexseven.info^
 ||latexsix.info^
 ||latienda.tv^$third-party
 ||lavantat.com^
