@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: sIsG8HnvWF6te3gFu9BtQw
+! Checksum: kYX2l1E2hiMdcO7cgVkyVA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201507130143
+! Version: 201507202211
 
-! Last modified: 2015-07-13 01:43 JST(UTC+0900)
+! Last modified: 2015-07-20 22:11 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2471,6 +2471,7 @@
 /sitejack/*
 /sites/richscripts/*
 /sitestratos/ss_
+/slash7.$script,third-party
 /slider/*$subdocument,third-party
 ! /smart_ad/*
 /smate.html$subdocument
@@ -6840,6 +6841,7 @@ _yahooads_
 ||d5phz18u4wuww.cloudfront.net^
 ||d7p9czrvs14ne.cloudfront.net^
 ||d8rk54i4mohrb.cloudfront.net^
+||d9nbmxmbhbtmj.cloudfront.net^
 ||dc8na2hxrj29i.cloudfront.net^
 ||dd6zx4ibq538k.cloudfront.net^
 ||ddrn6tjst80qg.cloudfront.net^
@@ -9502,6 +9504,7 @@ _yahooads_
 ||skimresources.$third-party
 ||skinected.com^$third-party
 ||skyglue.com^$third-party
+||slash-7.com^$third-party
 ||slidesharecdn.com^*/proCtaBox.
 ||slimspots.com^$third-party
 ||slopeac.com^
