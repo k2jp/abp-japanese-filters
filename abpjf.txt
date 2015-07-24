@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: uVyM9z5RyrAJtsJ8QYssHw
+! Checksum: eQ18OLBfa0QHH7Khd2oO5w
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201507250308
+! Version: 201507250328
 
-! Last modified: 2015-07-25 03:08 JST(UTC+0900)
+! Last modified: 2015-07-25 03:28 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -5977,6 +5977,46 @@ _yahooads_
 ||admixer.net^$third-party
 ||admob.com^$third-party
 ||admoon.net^$third-party
+||admtpmp120.
+||admtpmp120.$popup
+||admtpmp121.
+||admtpmp121.$popup
+||admtpmp122.
+||admtpmp122.$popup
+||admtpmp123.
+||admtpmp123.$popup
+||admtpmp124.
+||admtpmp124.$popup
+||admtpmp125.
+||admtpmp125.$popup
+||admtpmp126.
+||admtpmp126.$popup
+||admtpmp127.
+||admtpmp127.$popup
+||admtpmp128.
+||admtpmp128.$popup
+||admtpmp129.
+||admtpmp129.$popup
+||admtpmp130.
+||admtpmp130.$popup
+||admtpmp131.
+||admtpmp131.$popup
+||admtpmp132.
+||admtpmp132.$popup
+||admtpmp133.
+||admtpmp133.$popup
+||admtpmp134.
+||admtpmp134.$popup
+||admtpmp135.
+||admtpmp135.$popup
+||admtpmp136.
+||admtpmp136.$popup
+||admtpmp137.
+||admtpmp137.$popup
+||admtpmp138.
+||admtpmp138.$popup
+||admtpmp139.
+||admtpmp139.$popup
 ||admulti.com^$third-party
 ||adnetinteractive.com^$third-party
 ||adnets.info^
