@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: Zot1MstdPybZkFpYOkG6IQ
+! Checksum: wgXaZq3k6TWxx4M/UBq4hg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201507250052
+! Version: 201507250128
 
-! Last modified: 2015-07-25 00:52 JST(UTC+0900)
+! Last modified: 2015-07-25 01:28 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -7304,6 +7304,7 @@ _yahooads_
 ||eqads.com^$third-party
 ||eravage.com^
 ||ergodob.ru^
+||ergoledo.com^
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
 ! ||ero-advertising.com^$third-party
 ||ero-tube.jp^$third-party
