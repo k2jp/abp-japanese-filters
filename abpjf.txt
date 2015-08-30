@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: +FOjuFvZS5gc9rqe2JXStA
+! Checksum: lbj+JP+j4Kvuv9+6dO7AzQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201508290219
+! Version: 201508301330
 
-! Last modified: 2015-08-29 02:19 JST(UTC+0900)
+! Last modified: 2015-08-30 13:30 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3115,6 +3115,10 @@
 ^adOverture.
 ^adOverture^
 ^adOverture_
+^adp-$script,subdocument,third-party
+^adp.$script,subdocument,third-party
+^adp^$script,subdocument,third-party
+^adp_$script,subdocument,third-party
 ^adparts-
 ^adparts.
 ^adparts^
@@ -9449,6 +9453,7 @@ _yahooads_
 ||selection-credit.com^
 ||selection-malin.com^
 ||semanticprofiler.com^
+||semasio.net^
 ||semater.com^
 ||sendapplicationget.com^
 ||senkevich-sl.net^
@@ -10304,6 +10309,7 @@ _yahooads_
 ||xmlrequest.info^
 ||xoliter.com^
 ||xparadiz.com^
+||xplosion.de^$third-party
 ||xrea.com/ad_
 ||ad.xrea.com^
 ||ax.xrea.com^$third-party
