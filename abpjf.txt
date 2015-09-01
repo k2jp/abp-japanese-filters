@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 9DOeeVkfi/y+lncSzS2fOg
+! Checksum: ZEeUhC7FtuxJPf5VlYksAg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201508311147
+! Version: 201509011156
 
-! Last modified: 2015-08-31 11:47 JST(UTC+0900)
+! Last modified: 2015-09-01 11:56 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9768,6 +9768,8 @@ _yahooads_
 ||tacdn.com^$domain=~tripadvisor.ca|~tripadvisor.co|~tripadvisor.co.id|~tripadvisor.co.uk|~tripadvisor.com|~tripadvisor.com.au|~tripadvisor.com.br|~tripadvisor.com.gr|~tripadvisor.com.mx|~tripadvisor.com.my|~tripadvisor.com.sg|~tripadvisor.com.tr|~tripadvisor.com.tw|~tripadvisor.es|~tripadvisor.fr|~tripadvisor.ie|~tripadvisor.in|~tripadvisor.it|~tripadvisor.jp|~tripadvisor.ma|~tripadvisor.net|~tripadvisor.nl|~tripadvisor.org|~tripadvisor.se
 ||tacoda.net^$third-party
 ||tafla.ru^
+! Third-party redirecting scripts, reported at http://labs.sucuri.net/?note=2015-08-31 , Sep 01, 2015
+||tag-cloud-generator.com^
 ||takealldir.ru^
 ||takensparks.com^$third-party
 ||tanzuki.net^
