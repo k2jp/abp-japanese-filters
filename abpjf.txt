@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: RyS1+imPipahsq/Mt9NMzg
+! Checksum: pjlklPUW6MHeSABKxErRUg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201509051905
+! Version: 201509051909
 
-! Last modified: 2015-09-05 19:05 JST(UTC+0900)
+! Last modified: 2015-09-05 19:09 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9899,12 +9899,12 @@ _yahooads_
 ||trade7.ru^$third-party
 ||tradedoubler.com^$third-party
 ||tradepub.com^$third-party
-||traders.co.jp/image/banner/
-||traders.co.jp/images/bn/
-||traders.co.jp/images/relative/
-||traders.co.jp/seminar/img/
-||traders.co.jp/special/postal/img/
-||traders.co.jp/trial/
+||traders.co.jp/image/banner/$domain=traders.co.jp
+||traders.co.jp/images/bn/$domain=traders.co.jp
+||traders.co.jp/images/relative/$domain=traders.co.jp
+||traders.co.jp/seminar/img/$domain=traders.co.jp
+||traders.co.jp/special/postal/img/$domain=traders.co.jp
+||traders.co.jp/trial/$domain=traders.co.jp
 ||tradetracker.$third-party
 ||trafex.net^
 ||traffic-exchange.tv^$third-party
