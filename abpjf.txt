@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: NzhNyz8xLkpLHnNNHRvH+w
+! Checksum: adW7i2TsV6PAuxM+NREz2g
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201509061854
+! Version: 201509070021
 
-! Last modified: 2015-09-06 18:54 JST(UTC+0900)
+! Last modified: 2015-09-07 00:21 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -7304,6 +7304,7 @@ _yahooads_
 ||duga.jp^$third-party
 ||dukascopy.com^$popup
 ||dukascopy.com/ad
+||dumedia.ru^$third-party
 ||durasite.net^$third-party
 ||dwin1.com^
 ||dxlive.com^$third-party
@@ -9232,6 +9233,7 @@ _yahooads_
 ||razil.jp^$third-party
 ||ad.rbbtoday.com^
 ||count.rbc.ru^$third-party
+||rbnt.org^
 ||rdrtrk.com^$third-party
 ||rdvmaghreb.com^
 ||re-cherche.com^
@@ -9365,6 +9367,7 @@ _yahooads_
 ||rtbads.info^
 ||rtbidder.net^
 ||rtbinternet.com^
+||rtbsystem.com^$third-party
 ||rtbtraf.com^
 ||rtoaster.jp^
 ||ru4.com^$third-party
