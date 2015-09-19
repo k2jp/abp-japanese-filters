@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: tbu5T0A/WGnMcLN1SsFt1w
+! Checksum: cUWLBYyzNljHqa+5QptUkA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201509191939
+! Version: 201509191942
 
-! Last modified: 2015-09-19 19:39 JST(UTC+0900)
+! Last modified: 2015-09-19 19:42 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4506,6 +4506,9 @@ www.yahoo.co.jp###local
 ! ----- Malicious objects like Hidden iframes and encoded javascripts reported at http://labs.sucuri.net/ ----- END -----
 
 ! ===== Notorious TLDs ===== START =====
+! [Malware-Traffic-Analysis.net - 2015-09-18 - Nuclear EK from EK 178.62.72.26 - oaacderesftu.tk](http://malware-traffic-analysis.net/2015/09/18/index.html)
+|http:*.tk^$third-party
+|https:*.tk^$third-party
 ! [Unconventional Malvertising Attack Uses New Tricks | Malwarebytes Unpacked](https://blog.malwarebytes.org/malvertising-2/2015/09/unconventional-malvertising-attack-uses-new-tricks/)
 ||xyz^$third-party
 ! ----- Notorious TLDs ----- END -----
