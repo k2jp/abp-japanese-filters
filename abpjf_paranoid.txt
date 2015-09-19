@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: q28RtsQDUnMDmixMmPCU/g
+! Checksum: tbu5T0A/WGnMcLN1SsFt1w
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201509142003
+! Version: 201509191939
 
-! Last modified: 2015-09-14 20:03 JST(UTC+0900)
+! Last modified: 2015-09-19 19:39 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3883,34 +3883,6 @@ www.yahoo.co.jp###local
 ?geo=$third-party
 ! ----- geoip ----- END -----
 
-! ===== Malicious objects reported at https://twitter.com/unixfreaxjp by @unixfreaxjp ===== START =====
-! https://twitter.com/unixfreaxjp/status/318023174589661185
-! https://twitter.com/unixfreaxjp/status/318028022051635202
-.html?h=$subdocument,third-party
-! https://twitter.com/unixfreaxjp/status/316889112219090945
-! https://twitter.com/unixfreaxjp/status/316892076216311808
-! https://twitter.com/unixfreaxjp/status/318410595777007616
-.html?i=$subdocument,third-party
-! https://twitter.com/unixfreaxjp/status/441304810646548480
-/apilink/api.php^
-! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-115i.html
-/clik.php^$third-party
-! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-011-iframe.html
-/dtd.php^$third-party
-! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-114.html
-/esd.php^$third-party
-! https://twitter.com/unixfreaxjp/status/318633389789966337
-/ga.php^
-! https://twitter.com/unixfreaxjp/status/441304810646548480
-/redir.php^$third-party
-! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-012cookiebombiframe.html
-/relay.php^$third-party
-! https://twitter.com/unixfreaxjp/status/316813507653947392
-/rss/*$script,subdocument
-! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-115i.html
-/traf.php^$third-party
-! ----- Malicious objects reported at https://twitter.com/unixfreaxjp by @unixfreaxjp ----- END -----
-
 ! ===== Link generator ===== START =====
 ||excite.co.jp/feed/news/js/$script
 ||zenback.jp^$third-party
@@ -3951,77 +3923,33 @@ www.yahoo.co.jp###local
 ||zopim.com^$third-party
 ! ----- Live chat or Online support ----- END -----
 
-! ===== Notorious CDN ===== START =====
-||bootstrapcdn.com^$third-party
-! http://google.com/safebrowsing/diagnostic?site=cachefly.net
-! http://www.siteadvisor.com/sites/cachefly.net/msgpage
-! http://www.robtex.com/dns/cachefly.net.html#blacklists
-||cachefly.net^$third-party
-! http://www.google.com/safebrowsing/diagnostic?hl=ja&site=netdna-cdn.com
-||netdna-cdn.com^$third-party
-! ----- Notorious CDN ----- END -----
-
-! ===== Obfuscated short URL links with banner AD images used to avoid adblocking ===== START =====
-##a[href*="//bit.ly/"] > img
-##a[href*="//goo.gl/"] > img
-##a[href*="//j.mp/"] > img
-! ----- Obfuscated short URL links with banner AD images used to avoid adblocking ----- END -----
-
-! ===== Obfuscated short URL links frequently used to hide malicious links on SNS ===== START =====
-##a[href*="//jump.cx/"]
-! ----- Obfuscated short URL links frequently used to hide malicious links on SNS ----- END -----
-
-! ===== Questionnaire, survey or poll ===== START =====
-||amazonaws.com/*.kissinsights.com/
-||amazonaws.com/ki.js/
-||civicscience.com^$third-party
-||ecustomeropinions.com^$third-party
-||google.com/insights/consumersurveys/
-||researchintel.com^
-||qualtrics.com^$third-party
-! ----- Questionnaire, survey or poll ----- END -----
-
-! ===== Replace contents or ADs dynamically ===== START =====
-||toprelatedtopics.com^$third-party
-! ----- Replace contents or ADs dynamically ----- END -----
-
-! ===== Search keyword tapping, including re-search overlay ===== START =====
-/search_frame.$script
-||excite.co.jp/jp/succession/front/scroll.$script
-||biglobe.ne.jp/searchbox.$script
-||biglobe.ne.jp/searchengine.$script
-||search.livedoor.com/research/
-||livedoor.jp/js*/research_$script
-||livedoor.jp/js/*search_frame.$script
-||seesaa.jp/js/trace_searcher.$script
-||so-net.ne.jp/search/javascripts/research/
-! ----- Search keyword tapping, including re-search overlay ----- END -----
-
-! ===== Selected text event hijacking ===== START =====
-/apture.$script
-||apture.com^$third-party
-||so-net.ne.jp/_common/js/select_search.$script
-! ----- Selected text event hijacking ----- END -----
-
-! ===== Third-party scripts which manage user feedback ===== START =====
-||disqus.com^$third-party
-||disquscdn.com^
-||fyre.co^$third-party
-||livefyre.com^$third-party
-||uservoice.com^$third-party
-! ----- Third-party scripts which manage user feedback ----- END -----
-
-! ===== Toolbar ===== START =====
-||conduit.com^$third-party
-||wibiya.com^$third-party
-! ----- Toolbar ----- END -----
-
-! ===== URL shortning Services ===== START =====
-##a[href*=".9-1.jp"]
-||adf.ly^$popup
-||adf.ly^$third-party
-##a[href*="://adf.ly/"]
-! ----- URL shortning Services ----- END -----
+! ===== Malicious objects reported at https://twitter.com/unixfreaxjp by @unixfreaxjp ===== START =====
+! https://twitter.com/unixfreaxjp/status/318023174589661185
+! https://twitter.com/unixfreaxjp/status/318028022051635202
+.html?h=$subdocument,third-party
+! https://twitter.com/unixfreaxjp/status/316889112219090945
+! https://twitter.com/unixfreaxjp/status/316892076216311808
+! https://twitter.com/unixfreaxjp/status/318410595777007616
+.html?i=$subdocument,third-party
+! https://twitter.com/unixfreaxjp/status/441304810646548480
+/apilink/api.php^
+! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-115i.html
+/clik.php^$third-party
+! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-011-iframe.html
+/dtd.php^$third-party
+! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-114.html
+/esd.php^$third-party
+! https://twitter.com/unixfreaxjp/status/318633389789966337
+/ga.php^
+! https://twitter.com/unixfreaxjp/status/441304810646548480
+/redir.php^$third-party
+! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-012cookiebombiframe.html
+/relay.php^$third-party
+! https://twitter.com/unixfreaxjp/status/316813507653947392
+/rss/*$script,subdocument
+! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-115i.html
+/traf.php^$third-party
+! ----- Malicious objects reported at https://twitter.com/unixfreaxjp by @unixfreaxjp ----- END -----
 
 ! ===== Malicious objects reported at personal blogs ===== START =====
 ! [http://blog.dynamoo.com/2014/09/malicious-wordpress-injection-sending.html Dynamoo's Blog: Malicious WordPress injection sending to 178.62.254.78 and 176.58.100.98]
@@ -4576,6 +4504,83 @@ www.yahoo.co.jp###local
 ||googlanalytics.ws^$third-party
 ||mypets.ws^$third-party
 ! ----- Malicious objects like Hidden iframes and encoded javascripts reported at http://labs.sucuri.net/ ----- END -----
+
+! ===== Notorious TLDs ===== START =====
+! [Unconventional Malvertising Attack Uses New Tricks | Malwarebytes Unpacked](https://blog.malwarebytes.org/malvertising-2/2015/09/unconventional-malvertising-attack-uses-new-tricks/)
+||xyz^$third-party
+! ----- Notorious TLDs ----- END -----
+
+! ===== Notorious CDN ===== START =====
+||bootstrapcdn.com^$third-party
+! http://google.com/safebrowsing/diagnostic?site=cachefly.net
+! http://www.siteadvisor.com/sites/cachefly.net/msgpage
+! http://www.robtex.com/dns/cachefly.net.html#blacklists
+||cachefly.net^$third-party
+! http://www.google.com/safebrowsing/diagnostic?hl=ja&site=netdna-cdn.com
+||netdna-cdn.com^$third-party
+! ----- Notorious CDN ----- END -----
+
+! ===== Obfuscated short URL links with banner AD images used to avoid adblocking ===== START =====
+##a[href*="//bit.ly/"] > img
+##a[href*="//goo.gl/"] > img
+##a[href*="//j.mp/"] > img
+! ----- Obfuscated short URL links with banner AD images used to avoid adblocking ----- END -----
+
+! ===== Obfuscated short URL links frequently used to hide malicious links on SNS ===== START =====
+##a[href*="//jump.cx/"]
+! ----- Obfuscated short URL links frequently used to hide malicious links on SNS ----- END -----
+
+! ===== Questionnaire, survey or poll ===== START =====
+||amazonaws.com/*.kissinsights.com/
+||amazonaws.com/ki.js/
+||civicscience.com^$third-party
+||ecustomeropinions.com^$third-party
+||google.com/insights/consumersurveys/
+||researchintel.com^
+||qualtrics.com^$third-party
+! ----- Questionnaire, survey or poll ----- END -----
+
+! ===== Replace contents or ADs dynamically ===== START =====
+||toprelatedtopics.com^$third-party
+! ----- Replace contents or ADs dynamically ----- END -----
+
+! ===== Search keyword tapping, including re-search overlay ===== START =====
+/search_frame.$script
+||excite.co.jp/jp/succession/front/scroll.$script
+||biglobe.ne.jp/searchbox.$script
+||biglobe.ne.jp/searchengine.$script
+||search.livedoor.com/research/
+||livedoor.jp/js*/research_$script
+||livedoor.jp/js/*search_frame.$script
+||seesaa.jp/js/trace_searcher.$script
+||so-net.ne.jp/search/javascripts/research/
+! ----- Search keyword tapping, including re-search overlay ----- END -----
+
+! ===== Selected text event hijacking ===== START =====
+/apture.$script
+||apture.com^$third-party
+||so-net.ne.jp/_common/js/select_search.$script
+! ----- Selected text event hijacking ----- END -----
+
+! ===== Third-party scripts which manage user feedback ===== START =====
+||disqus.com^$third-party
+||disquscdn.com^
+||fyre.co^$third-party
+||livefyre.com^$third-party
+||uservoice.com^$third-party
+! ----- Third-party scripts which manage user feedback ----- END -----
+
+! ===== Toolbar ===== START =====
+||conduit.com^$third-party
+||wibiya.com^$third-party
+! ----- Toolbar ----- END -----
+
+! ===== URL shortning Services ===== START =====
+##a[href*=".9-1.jp"]
+||adf.ly^$popup
+||adf.ly^$third-party
+##a[href*="://adf.ly/"]
+! ----- URL shortning Services ----- END -----
 
 
 ! ---------- Annoyance type END ----------
