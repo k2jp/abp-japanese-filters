@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: cUWLBYyzNljHqa+5QptUkA
+! Checksum: isQJJY2ybgFmgtYkBuwcxA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR advanced Japanese users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201509191942
+! Version: 201509280057
 
-! Last modified: 2015-09-19 19:42 JST(UTC+0900)
+! Last modified: 2015-09-28 00:57 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4565,13 +4565,14 @@ www.yahoo.co.jp###local
 ||so-net.ne.jp/_common/js/select_search.$script
 ! ----- Selected text event hijacking ----- END -----
 
-! ===== Third-party scripts which manage user feedback ===== START =====
+! ===== Third-party manager of user feedback like comments ===== START =====
 ||disqus.com^$third-party
 ||disquscdn.com^
 ||fyre.co^$third-party
 ||livefyre.com^$third-party
+||spot.im^$third-party
 ||uservoice.com^$third-party
-! ----- Third-party scripts which manage user feedback ----- END -----
+! ----- Third-party manager of user feedback like comments ----- END -----
 
 ! ===== Toolbar ===== START =====
 ||conduit.com^$third-party
