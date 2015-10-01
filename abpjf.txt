@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: wQBmSK7r958Q+Ecgd+m7LQ
+! Checksum: jQM+GmL15owJyidVHngRiQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and advanced users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201509302001
+! Version: 201510011912
 
-! Last modified: 2015-09-30 20:01 JST(UTC+0900)
+! Last modified: 2015-10-01 19:12 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -7967,6 +7967,7 @@ _yahooads_
 ||imdb.com^*/scriptloader.
 ||imdb.com/rd/
 ||imedjs.info^
+||imgboard.net^$third-party
 ||imgcandy.net/banner
 ||imgcarry.com^$third-party
 ||imgchili.com^*/showa.$script
@@ -10079,6 +10080,7 @@ _yahooads_
 ||utilieur.com^
 ||utrehter.com^
 ||utube28.com^$third-party
+||v-bates.com^$third-party
 ||v2cigs.com^$third-party
 ||v976zk4.com^$popup
 ||vador.com^$popup
@@ -10089,10 +10091,6 @@ _yahooads_
 ||vftion.com^
 ||viafoura.net^$third-party
 ||virtsex.net^
-||waladon.com^
-||wedgeac.com^
-||weropiy.com^
-||v-bates.com^$third-party
 ||wf1.vagos.es^
 ||valentinehookup.com^$popup
 ||valuecommerce.com^$third-party
@@ -10194,6 +10192,7 @@ _yahooads_
 ||wa-dan.com/article/images/title.$image,object
 ||wa-track.com^$third-party
 ||wahoha.com^
+||waladon.com^
 ||wapolabs.com/revplat/
 ||warfacco.com^
 ||washingtonpost.com^*/ad/
@@ -10244,7 +10243,9 @@ _yahooads_
 ||webtrendslive.com^$third-party
 ||adult-monster.webwindow.jp^$third-party
 ||wec.co.kr^$third-party
+||wedgeac.com^
 ||wekiss.com^$third-party
+||weropiy.com^
 ||wespoland.jp^$third-party
 ||wh5kb0u4.com^
 ||whaleads.com^
@@ -10253,6 +10254,7 @@ _yahooads_
 ||whoson.com^$third-party
 ||widdit.com^$third-party
 ||widgeo.net^$third-party
+||wife-board.net^$third-party
 ||wigetmedia.com^$popup
 ||wigetmedia.com^$third-party
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
