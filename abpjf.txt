@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 8t+AhxQSlfG/s5DhVihNhQ
+! Checksum: V9AhEqnueywxkC8j1uFYgw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and advanced users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201510012228
+! Version: 201510012256
 
-! Last modified: 2015-10-01 22:28 JST(UTC+0900)
+! Last modified: 2015-10-01 22:56 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9346,6 +9346,7 @@ _yahooads_
 ||s2.reutersmedia.net^$script
 ||rev2pub.com^
 ||rev2pub.com^$popup
+||revcontent.com^$third-party
 ||revfusion.net^
 ||revsci.net^$third-party
 ||rss-rank.com^$third-party
