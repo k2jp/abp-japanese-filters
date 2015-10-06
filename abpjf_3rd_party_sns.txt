@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: rboqk7NETqWPZbdgIzRQDw
+! Checksum: PWcvFAhHCrGnNFuvzxP2wg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese 3rd party SNS filters (ONLY FOR Japanese and advanced users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201510062047
+! Version: 201510062055
 
-! Last modified: 2015-10-06 20:47 JST(UTC+0900)
+! Last modified: 2015-10-06 20:55 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -20,10 +20,22 @@
 ! example) https://api.twitter.com/1/statuses/show.json?callback=...
 @@||api.twitter.com^*/statuses/show.json?
 ! ---------- Default white list END ----------
+-fbconnect-$domain=~facebook.com
+-fbconnect.$domain=~facebook.com
+-fbconnect^$domain=~facebook.com
+-fbconnect_$domain=~facebook.com
+.fbconnect-$domain=~facebook.com
+.fbconnect.$domain=~facebook.com
+.fbconnect^$domain=~facebook.com
+.fbconnect_$domain=~facebook.com
 ^fbconnect-$domain=~facebook.com
 ^fbconnect.$domain=~facebook.com
 ^fbconnect^$domain=~facebook.com
 ^fbconnect_$domain=~facebook.com
+_fbconnect-$domain=~facebook.com
+_fbconnect.$domain=~facebook.com
+_fbconnect^$domain=~facebook.com
+_fbconnect_$domain=~facebook.com
 ||bufferapp.com^$third-party
 ||d7x5nblzs94me.cloudfront.net^
 ||evernote.com^$third-party
