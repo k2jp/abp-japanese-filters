@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: bN+PQfwtsuZbm0fCbbKXFg
+! Checksum: 5vNwZ/9dZYhMEZMVPfCq0A
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and advanced users: read Support Policy)
 ! Expires: 6 hours
-! Version: 201510062223
+! Version: 201510081918
 
-! Last modified: 2015-10-06 22:23 JST(UTC+0900)
+! Last modified: 2015-10-08 19:18 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3709,10 +3709,10 @@
 ^become.$third-party
 ^become^$third-party
 ^become_$third-party
-^blockadblock-
-^blockadblock.
-^blockadblock^
-^blockadblock_
+^blockadblock-$domain=~github.com
+^blockadblock.$domain=~github.com
+^blockadblock^$domain=~github.com
+^blockadblock_$domain=~github.com
 ^bnr^pr-
 ^bnr^pr.
 ^bnr^pr^
@@ -3964,10 +3964,10 @@
 ^framead.
 ^framead^
 ^framead_
-^fuckadblock-
-^fuckadblock.
-^fuckadblock^
-^fuckadblock_
+^fuckadblock-$domain=~github.com
+^fuckadblock.$domain=~github.com
+^fuckadblock^$domain=~github.com
+^fuckadblock_$domain=~github.com
 ^gatrack-
 ^gatrack.
 ^gatrack^
