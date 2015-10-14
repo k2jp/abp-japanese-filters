@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: D1cvhousVUef/+bd9FwGuQ
+! Checksum: 6fn2Xpu5O7ZwYZLfHisjaw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and advanced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201510131230
+! Version: 201510142027
 
-! Last modified: 2015-10-13 12:30 JST(UTC+0900)
+! Last modified: 2015-10-14 20:27 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2162,6 +2162,7 @@
 /delivery/spc_
 /demdex.$script
 /DigiChat/*$third-party
+/display.php?k=*&h=*&ban=*&r=*&iid=$popup
 /dmm.$script
 /do2icnk.
 /docodoco?
@@ -9212,6 +9213,8 @@ _yahooads_
 ||pubsqrd.com^$third-party
 ||pubted.com^
 ||pulse360.com^$third-party
+||pureadexchange.com^
+||pureadexchange.com^$popup
 ||pus2011.com^
 ||pussycash.com^$third-party
 ||putags.com^
@@ -9961,6 +9964,8 @@ _yahooads_
 ||trackword.net^$third-party
 ||tractionize.com^
 ||trade7.ru^$third-party
+||tradeadexchange.com^
+||tradeadexchange.com^$popup
 ||tradedoubler.com^$third-party
 ||tradepub.com^$third-party
 ||traders.co.jp/image/banner/$domain=traders.co.jp
