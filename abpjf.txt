@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: UkUh6j8cM5II74riDMyznw
+! Checksum: z2pCc9rbwGr9lecLwdUOWw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and advanced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201510171259
+! Version: 201510172217
 
-! Last modified: 2015-10-17 12:59 JST(UTC+0900)
+! Last modified: 2015-10-17 22:17 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2318,6 +2318,8 @@
 /lp9/*$popup
 /lp9/*$third-party
 /lpresources/js/*
+/lt?guid=*&gender=*&zip=
+/lt?sid=*&gender=*&zip=
 /makePCookie_
 /marquee/*$domain=live.nicovideo.jp|www.nicovideo.jp
 /marqueeplayer.$domain=live.nicovideo.jp|www.nicovideo.jp
@@ -6445,6 +6447,7 @@ _yahooads_
 ||widgets.amung.us/pro.$script
 ||anal-profond.net^
 ||anchorfree.net^$third-party
+||andomedia.com^
 ||angel-group.net^$third-party
 ||angel-live.com^$third-party
 ||anisen.biz^$third-party
@@ -10010,6 +10013,7 @@ _yahooads_
 ||tribalfusion.com^$third-party
 ||triggit.com^$third-party
 ||tripadvisor.com/WidgetEmbed-
+||tritondigital.com^$third-party
 ||trk4.com^$third-party
 ||trkads.net^$popup
 ||trklnks.com^$popup
