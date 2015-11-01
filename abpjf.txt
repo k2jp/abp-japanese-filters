@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: UAaNDnBLbDkBK2j39sjNNw
+! Checksum: cIJ/VDC6rCGJOygZWoqadQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and advanced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201510291643
+! Version: 201511012338
 
-! Last modified: 2015-10-29 16:43 JST(UTC+0900)
+! Last modified: 2015-11-01 23:38 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -5555,6 +5555,27 @@ _yahooads_
 ! ://analysis.$third-party
 ! ://analytics.$third-party
 ://analyze.$third-party
+://analyze0.$third-party
+://analyze1.$third-party
+://analyze2.$third-party
+://analyze3.$third-party
+://analyze4.$third-party
+://analyze5.$third-party
+://analyze6.$third-party
+://analyze7.$third-party
+://analyze8.$third-party
+://analyze8.$third-party
+://analyzer.$third-party
+://analyzer0.$third-party
+://analyzer1.$third-party
+://analyzer2.$third-party
+://analyzer3.$third-party
+://analyzer4.$third-party
+://analyzer5.$third-party
+://analyzer6.$third-party
+://analyzer7.$third-party
+://analyzer8.$third-party
+://analyzer8.$third-party
 |http://ax-d.
 |https://ax-d.
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
