@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: /nJSJVVLAqUrAQWE+RJCbw
+! Checksum: qi0sfo1WmZEEF17xPgiUWg
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and advanced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201511142154
+! Version: 201511150102
 
-! Last modified: 2015-11-14 21:54 JST(UTC+0900)
+! Last modified: 2015-11-15 01:02 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -5871,6 +5871,7 @@ _yahooads_
 ||777seo.com^$third-party
 ||777town.net^$popup
 ||7794.com^$third-party
+||77978.xn--q9jyb4c^
 ||7ebadd87.xyz^
 ||7sur7-credit.com^
 ||7vws1j1j.com^
@@ -5886,6 +5887,7 @@ _yahooads_
 ||888media.net^$third-party
 ||888poker.$popup
 ||8cnd.com^$third-party
+||8mm.shiksha^
 ||99widgets.com/counters/
 ||9sport.net^$third-party
 ||9ts3tpia.com^
@@ -6631,6 +6633,7 @@ _yahooads_
 |http://ay.gy^$popup
 |https://ay.gy^$popup
 ||ayads.co^
+||azerty.solutions^
 ||azet.sk^$third-party
 ||azjmp.com^$popup
 ||azorza.ru^
@@ -6947,6 +6950,7 @@ _yahooads_
 ||clickotmedia.com^$third-party
 ||clickozavr.com^$third-party
 ||clickreport.com^$third-party
+||clicks4ads.com^$third-party
 ||clicksor.com^$third-party
 ||clicksvenue.com^$third-party
 ||clicktale.net^$third-party
@@ -7132,6 +7136,7 @@ _yahooads_
 ||couponsvc.com^
 ||covcasi.ru^
 ||cpalead.com^$third-party
+||cpasbien.$third-party
 ||cpatext.ru^$third-party
 ||cpm360.com^$third-party
 ||cpmadvisors.com^
@@ -7460,6 +7465,7 @@ _yahooads_
 ||eloqua.com^$third-party
 ||email-cadeaux.com^
 ||email-match.com^$third-party
+||emea.pub^
 ||emediate.eu^
 ||emierete.com^
 ||emisses.com^
@@ -7515,6 +7521,7 @@ _yahooads_
 ||etransac.net^
 ||eurogrand.com^$popup
 ||eurolive.com^$third-party
+||europacash.com^$third-party
 ||evendividualita.com^
 ||everestads.net^
 ||everestjs.net^
@@ -8575,6 +8582,7 @@ _yahooads_
 ||mature-salope.com^
 ||matures-rencontre.com^
 ||maxforta.com^
+||maxidivx.com^
 ||maxlab.ru^$third-party
 ||maxmind.com^$third-party
 ||mbanner.net^$third-party
@@ -8621,6 +8629,7 @@ _yahooads_
 ||meebocdn.net^$domain=~meebo.com
 ||meendocash.com^$third-party
 ||meetactually.com^
+||meetaffiliate.com^$third-party
 ||meetmars.com^
 ||meetme-tonight.info^$third-party
 ||meetrics.$third-party
@@ -8796,6 +8805,7 @@ _yahooads_
 ||mukipol.com^
 ||multicam-dating.com^
 ||multirdv.com^
+||mumbai-invest.email^
 ||mummysoft.com^
 ||musclelight.com^
 ||musen-lan.com/speed/banner/
@@ -9695,6 +9705,7 @@ _yahooads_
 ||showede.com^
 ||shuffele.com^
 ||siftscience.com^$third-party
+||silvercdn.ryukyu^
 ||silveregg.net^$third-party
 ||similarad.com^
 ||similardeals.net^$third-party
@@ -9845,6 +9856,7 @@ _yahooads_
 ||storepm.com^
 ||storycam.com^
 ||stratigent.com^$third-party
+||stream4stream.com^
 ||streamate.$third-party
 ||streamstreaming.com^$third-party
 ||striere.com^
@@ -9864,6 +9876,7 @@ _yahooads_
 ||surphace.com^$third-party
 ||surveymonkey.com^$third-party
 ||surveyscout.com^$popup
+||sushis.kim^
 ||suteki-tool.com/pr
 ||suumo.com/front/gazo/banner/$domain=suumo.jp
 ||suumo.jp/jj/jjcommon/sc/$domain=suumo.jp
@@ -9935,6 +9948,7 @@ _yahooads_
 ||teromil.com^
 ||terraclicks.com^
 ||terraclicks.com^$popup
+||torriderencontre.com^
 ||teser.net^
 ||test-2010.com^
 ||testmocean.com^
