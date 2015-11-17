@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: qi0sfo1WmZEEF17xPgiUWg
+! Checksum: AWQGnWmrzqMYGtpKhgmc1A
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and advanced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201511150102
+! Version: 201511180345
 
-! Last modified: 2015-11-15 01:02 JST(UTC+0900)
+! Last modified: 2015-11-18 03:45 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9282,6 +9282,8 @@ _yahooads_
 ||pubsqrd.com^$third-party
 ||pubted.com^
 ||pulse360.com^$third-party
+||pulseadnetwork.com^
+||pulseadnetwork.com^$popup
 ||pureadexchange.com^
 ||pureadexchange.com^$popup
 ||pus2011.com^
@@ -10225,6 +10227,8 @@ _yahooads_
 ||vemba.com^$third-party
 ||ventite.com^
 ||ventivmedia.com^$third-party
+||venturead.com^
+||venturead.com^$popup
 ||veo-pay.
 ||veoh.com/webplayed.
 ||veoh.com/?cmd=
