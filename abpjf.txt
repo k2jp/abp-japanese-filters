@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: v5srEuXy4JLV3nMU3YA3pQ
+! Checksum: 34T2m9dnCcyWn5pRP3IX+w
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and advanced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201511230238
+! Version: 201511230304
 
-! Last modified: 2015-11-23 02:38 JST(UTC+0900)
+! Last modified: 2015-11-23 03:04 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -7302,6 +7302,7 @@ _yahooads_
 ||digitalworld.fr^
 ||dimestore.com^
 ||dimprive.com^
+||dingoads.info^$popup
 ||directaclick.com^
 ||directadvert.ru^$third-party
 ||directerp.ru^
@@ -7949,6 +7950,7 @@ _yahooads_
 ||hulu.*/viewed/
 ||t-ak.hulu.com^
 ||t2.hulu.com^
+||huluads.info^$popup
 ||huluim.com/images/_.$image,object
 ||humanredirect.ru^
 ||hunt4tunes.com^$popup
@@ -8226,6 +8228,7 @@ _yahooads_
 ||jsutils.net^
 ||jswrite.com^
 ||jsyringe.com^
+||jtads.info^$popup
 ||ju2g8tzj.com^
 ||judicated.com^
 ||jugao.com^$third-party
@@ -9240,6 +9243,7 @@ _yahooads_
 ||precisionclick.com^$third-party
 ||predictad.com^$third-party
 ||predictormedia.com^
+||premads.info^$popup
 ||premiumcollect.com^$third-party
 ||premiumcomputerupgrades.org$popup
 ||premiumhdv.com^$third-party
@@ -9634,6 +9638,8 @@ _yahooads_
 ||sexy-ch.com^
 ||sexycool.net^
 ||sfr.fr^$popup
+||sgad.info^$popup
+||sgads.info^$popup
 ||sgbfjs.info^
 ||sgpctrjs.info^
 ||shakjs.info^
@@ -9761,6 +9767,7 @@ _yahooads_
 ||smartbn.ru^$third-party
 ||smartclicksystem.com^
 ||smi2.ru^$third-party
+||smkads.info^$popup
 ||smowtion.com^$third-party
 ||smrtlnks.com^$third-party
 ||smspartnerprogramm.com^$third-party
