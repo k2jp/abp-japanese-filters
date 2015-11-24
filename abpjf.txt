@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: /uyTtIj4P0+y+BQ/nKs2Tw
+! Checksum: BIaeK/RG++4tNJbnf15ifQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and advanced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201511250750
+! Version: 201511250835
 
-! Last modified: 2015-11-25 07:50 JST(UTC+0900)
+! Last modified: 2015-11-25 08:35 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2082,7 +2082,6 @@
 ! /avw.php?zoneid=
 /axyzsdk.$script
 /banads/*
-/banner_$image,object,domain=fc2.com
 /banner140.$third-party
 /bannerLinkClickHandle?
 /barisokunews^$third-party
@@ -3684,14 +3683,15 @@
 ^azlink.$script,subdocument
 ^azlink^$script,subdocument
 ^azlink_$script,subdocument
-^banner-$script,object-subrequest,subdocument
 ^banner-$popup
-^banner.$script,object-subrequest,subdocument
+^banner-$script,object-subrequest,subdocument
 ^banner.$popup
-^banner^$script,object-subrequest,subdocument
+^banner.$script,object-subrequest,subdocument
 ^banner^$popup
-^banner_$script,object-subrequest,subdocument
+^banner^$script,object-subrequest,subdocument
+^banner_$image,object,domain=fc2.com
 ^banner_$popup
+^banner_$script,object-subrequest,subdocument
 ^banner_iframe-
 ^banner_iframe.
 ^banner_iframe^
