@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: frJ27ipekklEFc0YcSsKSQ
+! Checksum: /uyTtIj4P0+y+BQ/nKs2Tw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and advanced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201511232259
+! Version: 201511250750
 
-! Last modified: 2015-11-23 22:59 JST(UTC+0900)
+! Last modified: 2015-11-25 07:50 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -5788,6 +5788,7 @@ _yahooads_
 ! Added malicious IP Addresses reported at http://unixfreaxjp.blogspot.jp/2013/08/ocjp-119kelihos.html and http://malwaremustdie.blogspot.jp/2013/08/the-quick-report-on-48hours-in-battle.html by [https://twitter.com/unixfreaxjp @unixfreaxjp] via Changelog wiki, Aug 9, 2013
 !
 ||*-aaa.net^$third-party
+||*-mmm.net^$popup
 ||00h10.com^
 ||0427d7.se^$popup
 ||08lkk.com/*/data/attachment/common/cf/
