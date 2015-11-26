@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: oYzVGqg6lPU04ixOwGULCg
+! Checksum: 8FbjioJxE/ZtrAs3b1NKzQ
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and advanced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201511270303
+! Version: 201511270319
 
-! Last modified: 2015-11-27 03:03 JST(UTC+0900)
+! Last modified: 2015-11-27 03:19 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1754,9 +1754,8 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 /cnt.
 /flashCookie.$third-party
 /index.js^$third-party
+/javascript.js^$third-party
 |http:*/js.js^$third-party
-! [Reader&#8217;s Digest and other WordPress Sites Compromised, Push Angler EK | Malwarebytes Unpacked](https://blog.malwarebytes.org/online-security/2015/11/readers-digest-and-other-wordpress-sites-compromised-push-angler-ek/)
-/script.js^$third-party
 /log.php?id=$third-party
 /mtag_
 /null.$third-party
@@ -1764,6 +1763,8 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 /pixel.$third-party,domain=~pcgameshardware.de|~avatar.yahoo.co.jp
 /pop.$third-party
 /pops.$third-party
+! [Reader&#8217;s Digest and other WordPress Sites Compromised, Push Angler EK | Malwarebytes Unpacked](https://blog.malwarebytes.org/online-security/2015/11/readers-digest-and-other-wordpress-sites-compromised-push-angler-ek/)
+/script.js^$third-party
 /spacer.$third-party
 
 =male&
