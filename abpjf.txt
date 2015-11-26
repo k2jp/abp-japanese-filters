@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: WpWFs3w0tbzut0pqqhuIfQ
+! Checksum: hKuKu09INPXb4pDIbl7xbA
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and advanced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201511270047
+! Version: 201511270118
 
-! Last modified: 2015-11-27 00:47 JST(UTC+0900)
+! Last modified: 2015-11-27 01:18 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -690,6 +690,14 @@
 -adtype.
 -adtype^
 -adtype_
+-adunit-
+-adunit.
+-adunit^
+-adunit_
+-adunits-
+-adunits.
+-adunits^
+-adunits_
 -adv-
 -adv.
 -adv^
@@ -1355,6 +1363,14 @@
 .adtype.
 .adtype^
 .adtype_
+.adunit-
+.adunit.
+.adunit^
+.adunit_
+.adunits-
+.adunits.
+.adunits^
+.adunits_
 .adv-
 .adv.
 .adv^
@@ -3468,6 +3484,14 @@
 ^adtype.
 ^adtype^
 ^adtype_
+^adunit-
+^adunit.
+^adunit^
+^adunit_
+^adunits-
+^adunits.
+^adunits^
+^adunits_
 ^adv-
 ^adv.
 ^adv^
@@ -5095,6 +5119,14 @@ _adtype-
 _adtype.
 _adtype^
 _adtype_
+_adunit-
+_adunit.
+_adunit^
+_adunit_
+_adunits-
+_adunits.
+_adunits^
+_adunits_
 _adv-
 _adv.
 _adv^
