@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: eAF2jBQTDkEXinwAqrEasA
+! Checksum: p96jK9rfjc5jL9ryTMtZGw
 ! Homepage: https://code.google.com/p/adblock-plus-japanese-filter/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and advanced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201511270313
+! Version: 201511270322
 
-! Last modified: 2015-11-27 03:13 JST(UTC+0900)
+! Last modified: 2015-11-27 03:22 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2279,9 +2279,11 @@
 |https:*/is_sc_$script
 /ivw/CP/*
 /java/bowser.$script,third-party
+/javascript.js^$subdocument,third-party
 ! Fake third-party jQuery reported at https://blog.malwarebytes.org/exploits-2/2015/05/unusual-exploit-kit-targets-chinese-users-part-1/
 /jquery.js^$subdocument,third-party
 /jquery.min.js^$subdocument,third-party
+|http:*/js.js^$subdocument,third-party
 |http:*/js.ng/
 |https:*/js.ng/
 |http:*/js/dw.js
@@ -2477,6 +2479,7 @@
 /sa/infospace.
 /sbi_recommend.$script
 /scjs/*
+/script.js^$subdocument,third-party
 /scripts/sj_$script,third-party
 /sd/apps/*$popup
 /sd/apps/*$third-party
