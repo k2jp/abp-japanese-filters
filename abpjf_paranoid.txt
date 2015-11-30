@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: 3M24xKxe++pbakcyjZt5cw
+! Checksum: D7Dw2EcuAI9g41scnkUgvA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201511282128
+! Version: 201511301827
 
-! Last modified: 2015-11-28 21:28 JST(UTC+0900)
+! Last modified: 2015-11-30 18:27 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3966,7 +3966,7 @@ www.yahoo.co.jp###local
 ! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-012cookiebombiframe.html
 /relay.php^$third-party
 ! https://twitter.com/unixfreaxjp/status/316813507653947392
-/rss/*$script,subdocument
+/rss/*$object,script,subdocument
 ! http://unixfreaxjp.blogspot.jp/2013/07/ocjp-115i.html
 /traf.php^$third-party
 ! ----- Malicious objects reported at https://twitter.com/unixfreaxjp by @unixfreaxjp ----- END -----
@@ -3992,7 +3992,7 @@ www.yahoo.co.jp###local
 -android.org^$third-party
 .html?m=$third-party
 .html?p=$third-party
-.php?id^$script,subdocument,third-party
+.php?id^$object,script,subdocument,third-party
 /0403.php^third-party
 /404.php^$third-party
 /abuset.php^$third-party
