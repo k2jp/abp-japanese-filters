@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: GLHiXrj960uJUnerkOUvmQ
+! Checksum: IVXFYU6Y2L4t7w2KVFv7tg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201512010634
+! Version: 201512010651
 
-! Last modified: 2015-12-01 06:34 JST(UTC+0900)
+! Last modified: 2015-12-01 06:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2408,8 +2408,9 @@
 /playertracking/*
 /pma.$script,third-party
 /pooltag/*$third-party
-/pop-over.
 ! /pop/*$popup
+/pop-imp/*
+/pop-over.
 ! merged into .php?zoneid=
 ! /pop.php?zoneid=
 /pop_packcpm.
@@ -9280,6 +9281,7 @@ _yahooads_
 ||popmyads.com^$popup
 ||popmyads.com^$third-party
 ||poponclick.com^$third-party
+||popped.biz^
 ||popularscreensavers.com^
 ||popunder.$third-party
 ||popundr.
