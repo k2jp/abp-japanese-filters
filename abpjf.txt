@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: ZFi/KUzoVp6xCENmyiiLBQ
+! Checksum: GLHiXrj960uJUnerkOUvmQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201512010614
+! Version: 201512010634
 
-! Last modified: 2015-12-01 06:14 JST(UTC+0900)
+! Last modified: 2015-12-01 06:34 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1795,11 +1795,11 @@
 /__utm.
 /_a_cast.$script
 /_search.js^$third-party
-/1x1.*?$image,object
+/1x1.*?$image,object,subdocument
 /180x180.gif^$~third-party
 /194964.$image
 /194964/*$image
-/200_200.$image,object,domain=premium.nikkeibp.co.jp
+/200_200.$image,object,subdocument,domain=premium.nikkeibp.co.jp
 /A-affiliate2/*
 ! /aan/*/ad/*
 /aan/*/amazon/*
@@ -2259,8 +2259,8 @@
 /iframe_btn_banner?
 /iframe_cm_
 /image.ng/*
-/images/lansweeper.$image,object
-/images/SE2Banner.$image,object
+/images/lansweeper.$image,object,subdocument
+/images/SE2Banner.$image,object,subdocument
 /img/p_banner.
 /img/p_banner/*
 /img/pr_.$domain=diamond.jp
@@ -2270,7 +2270,7 @@
 /imp-$third-party
 /imp?$third-party
 /impression?$third-party
-/impression_measure.*?$image,object
+/impression_measure.*?$image,object,subdocument
 /inc_$script,domain=gizmodo.jp|kotaku.jp|lifehacker.jp
 ! /inc_ad_
 /includes/js/js.$script
@@ -2322,7 +2322,7 @@
 ! /live_ad_
 /load_lcs.$script
 /log1.
-/logwrite.$image,object
+/logwrite.$image,object,subdocument
 |http:*/lp/$popup
 |https:*/lp/$popup
 |http:*/lp/$third-party
@@ -2397,11 +2397,11 @@
 /partner/click/*$popup
 /pcad.
 /pcads.
-/ping.*?$image,object
+/ping.*?$image,object,subdocument
 /piwik.$image,third-party
 /piwik.$script
-/pix.*?$image,object
-/pixel.*?$image,object
+/pix.*?$image,object,subdocument
+/pixel.*?$image,object,subdocument
 /pixel?
 /pixel2.
 /pjs/*.js?u=$third-party
@@ -2517,7 +2517,7 @@
 /side_bnn.
 /side_bnn1.
 /side_bnn2.
-/sideparts/b_joy_$image,object
+/sideparts/b_joy_$image,object,subdocument
 /site_stats/*
 /sitejack/*
 /sites/richscripts/*
@@ -2529,7 +2529,7 @@
 /snare.js
 /sOmni.
 /social.$script,domain=gizmodo.jp|kotaku.jp|lifehacker.jp
-/spacer.*?$image,object
+/spacer.*?$image,object,subdocument
 /srv/delivery.
 /server/delivery/*
 /server/delivery/*$popup
@@ -2814,7 +2814,7 @@
 ?trackerid=$popup
 ?trackid=
 ?trackid=$popup
-?url=$image,object,domain=fc2.com
+?url=$image,object,subdocument,domain=fc2.com
 ! ?view=ad&
 ! Merged with ^yad^, Aug 14, 2014
 ! ?yad=
@@ -3726,7 +3726,7 @@
 ^banner.$script,object-subrequest,subdocument
 ^banner^$popup
 ^banner^$script,object-subrequest,subdocument
-^banner_$image,object,domain=fc2.com
+^banner_$image,object,subdocument,domain=fc2.com
 ^banner_$popup
 ^banner_$script,object-subrequest,subdocument
 ^banner_iframe-
@@ -4114,19 +4114,19 @@
 ! ^image^ad.
 ! ^image^ad^
 ! ^image^ad_
-^image^ad120.$image,object
-^image^ad125.$image,object
-^image^ad160.$image,object
-^image^ad180.$image,object
-^image^ad234.$image,object
-^image^ad240.$image,object
-^image^ad250.$image,object
-^image^ad300.$image,object
-^image^ad336.$image,object
-^image^ad468.$image,object
-^image^ad720.$image,object
-^image^ad728.$image,object
-^image^ad88.$image,object
+^image^ad120.$image,object,subdocument
+^image^ad125.$image,object,subdocument
+^image^ad160.$image,object,subdocument
+^image^ad180.$image,object,subdocument
+^image^ad234.$image,object,subdocument
+^image^ad240.$image,object,subdocument
+^image^ad250.$image,object,subdocument
+^image^ad300.$image,object,subdocument
+^image^ad336.$image,object,subdocument
+^image^ad468.$image,object,subdocument
+^image^ad720.$image,object,subdocument
+^image^ad728.$image,object,subdocument
+^image^ad88.$image,object,subdocument
 ! Commented out duplicated filters, Feb 26, 2012
 ! ^image^ads-
 ! ^image^ads^
@@ -4141,19 +4141,19 @@
 ! ^images^ad.
 ! ^images^ad^
 ! ^images^ad_
-^images^ad120.$image,object
-^images^ad125.$image,object
-^images^ad160.$image,object
-^images^ad180.$image,object
-^images^ad234.$image,object
-^images^ad240.$image,object
-^images^ad250.$image,object
-^images^ad300.$image,object
-^images^ad336.$image,object
-^images^ad468.$image,object
-^images^ad720.$image,object
-^images^ad728.$image,object
-^images^ad88.$image,object
+^images^ad120.$image,object,subdocument
+^images^ad125.$image,object,subdocument
+^images^ad160.$image,object,subdocument
+^images^ad180.$image,object,subdocument
+^images^ad234.$image,object,subdocument
+^images^ad240.$image,object,subdocument
+^images^ad250.$image,object,subdocument
+^images^ad300.$image,object,subdocument
+^images^ad336.$image,object,subdocument
+^images^ad468.$image,object,subdocument
+^images^ad720.$image,object,subdocument
+^images^ad728.$image,object,subdocument
+^images^ad88.$image,object,subdocument
 ! Commented out duplicated filters, Feb 26, 2012
 ! ^images^ads-
 ! ^images^ads^
@@ -4171,19 +4171,19 @@
 ! ^img^ad.
 ! ^img^ad^
 ! ^img^ad_
-^img^ad120.$image,object
-^img^ad125.$image,object
-^img^ad160.$image,object
-^img^ad180.$image,object
-^img^ad234.$image,object
-^img^ad240.$image,object
-^img^ad250.$image,object
-^img^ad300.$image,object
-^img^ad336.$image,object
-^img^ad468.$image,object
-^img^ad720.$image,object
-^img^ad728.$image,object
-^img^ad88.$image,object
+^img^ad120.$image,object,subdocument
+^img^ad125.$image,object,subdocument
+^img^ad160.$image,object,subdocument
+^img^ad180.$image,object,subdocument
+^img^ad234.$image,object,subdocument
+^img^ad240.$image,object,subdocument
+^img^ad250.$image,object,subdocument
+^img^ad300.$image,object,subdocument
+^img^ad336.$image,object,subdocument
+^img^ad468.$image,object,subdocument
+^img^ad720.$image,object,subdocument
+^img^ad728.$image,object,subdocument
+^img^ad88.$image,object,subdocument
 ! Commented out duplicated filters, Feb 26, 2012
 ! ^img^ads-
 ! ^img^ads^
@@ -4201,19 +4201,19 @@
 ! ^imgs^ad.
 ! ^imgs^ad^
 ! ^imgs^ad_
-^imgs^ad120.$image,object
-^imgs^ad125.$image,object
-^imgs^ad160.$image,object
-^imgs^ad180.$image,object
-^imgs^ad234.$image,object
-^imgs^ad240.$image,object
-^imgs^ad250.$image,object
-^imgs^ad300.$image,object
-^imgs^ad336.$image,object
-^imgs^ad468.$image,object
-^imgs^ad720.$image,object
-^imgs^ad728.$image,object
-^imgs^ad88.$image,object
+^imgs^ad120.$image,object,subdocument
+^imgs^ad125.$image,object,subdocument
+^imgs^ad160.$image,object,subdocument
+^imgs^ad180.$image,object,subdocument
+^imgs^ad234.$image,object,subdocument
+^imgs^ad240.$image,object,subdocument
+^imgs^ad250.$image,object,subdocument
+^imgs^ad300.$image,object,subdocument
+^imgs^ad336.$image,object,subdocument
+^imgs^ad468.$image,object,subdocument
+^imgs^ad720.$image,object,subdocument
+^imgs^ad728.$image,object,subdocument
+^imgs^ad88.$image,object,subdocument
 ! Commented out duplicated filters, Feb 26, 2012
 ! ^imgs^ads-
 ! ^imgs^ads^
@@ -5394,7 +5394,7 @@ _impression_id.
 _impression_id^
 _impression_id_
 _inj_pixel.$script
-_jack.$image,object,domain=4gamer.net
+_jack.$image,object,subdocument,domain=4gamer.net
 _landing-$popup
 _landing-$third-party
 _landing.$popup
@@ -5643,8 +5643,8 @@ _yahooads_
 |https://ax-d.
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
 ! ://beacon.
-|http://c.*/c.$image,object
-|https://c.*/c.$image,object
+|http://c.*/c.$image,object,subdocument
+|https://c.*/c.$image,object,subdocument
 ://campaign.
 ://campaign0.
 ://campaign1.
@@ -7128,7 +7128,7 @@ _yahooads_
 ! ||ads.com.com^
 ||dw.com.com^$third-party
 ||dw-eu.com.com^$third-party
-||img.com.com/b.$image,object
+||img.com.com/b.$image,object,subdocument
 ||rok.com.com^
 ||com-net.info^$popup
 ||comclick.com^
@@ -7651,7 +7651,7 @@ _yahooads_
 ||fc2.com/exchange.
 ||fc2.com/header.php?
 ||fc2.com/image/powered
-||fc2.com/pv.$image,object
+||fc2.com/pv.$image,object,subdocument
 ||fc2.com/video/html/getHtml5Impression.html?
 ||affiliate.fc2.com^
 ||aimg.fc2.com^
@@ -7733,9 +7733,9 @@ _yahooads_
 ||freedownloadsoft.net^
 ||freett.com/_Freett/
 ||banners.freett.com^
-||freenew.net^*/after-download-$image,object
-||freenew.net/res/img/*720_90.$image,object
-||freenew.net/res/img/*728X90.$image,object
+||freenew.net^*/after-download-$image,object,subdocument
+||freenew.net/res/img/*720_90.$image,object,subdocument
+||freenew.net/res/img/*728X90.$image,object,subdocument
 ||relart.fresheye.com^
 ||frestime.com^
 ||friendlyduck.com^$third-party
@@ -8008,7 +8008,7 @@ _yahooads_
 ||t-ak.hulu.com^
 ||t2.hulu.com^
 ||huluads.info^$popup
-||huluim.com/images/_.$image,object
+||huluim.com/images/_.$image,object,subdocument
 ||humanredirect.ru^
 ||hunt4tunes.com^$popup
 ||hurra.com^$third-party
@@ -8215,7 +8215,7 @@ _yahooads_
 ||itmedia.co.jp/*/fyi/
 ||itmedia.co.jp/*/pr_mobileshop
 ||itmedia.co.jp/css/fl$script
-||itmedia.co.jp/*/licenseonline$image,object
+||itmedia.co.jp/*/licenseonline$image,object,subdocument
 ||itmedia.co.jp^*/sa.$script
 ||itmedia.co.jp^*/sa_*.$script
 ||dlv.itmedia.jp^
@@ -8318,7 +8318,7 @@ _yahooads_
 ||kakaku.com/script/kakakuad/
 ||kakaku.com/tracker.py/
 ||fp.kakaku.com^
-||img.kakaku.com/images/*/set/bn_$image,object
+||img.kakaku.com/images/*/set/bn_$image,object,subdocument
 ||notice.kakaku.com^
 ||kaktuz.com^$third-party
 ||kan3.info^
@@ -8981,8 +8981,8 @@ _yahooads_
 ||newsinc.com^$third-party
 ||newstaticclientstack.com^
 ||newswatch.$third-party
-||newsweekjapan.jp/images/common/rectangle_$image,object
-||newsweekjapan.jp/images/common/sideAd.$image,object
+||newsweekjapan.jp/images/common/rectangle_$image,object,subdocument
+||newsweekjapan.jp/images/common/sideAd.$image,object,subdocument
 ||newzia.jp^$third-party
 ||nexac.com^
 ||nfobeat.com^
@@ -9003,8 +9003,8 @@ _yahooads_
 ||api.uad.nicovideo.jp^$domain=~uad.nicovideo.jp
 ||nielsen.com^$third-party
 ||nifty.com^*/match_com-module-
-||business.nifty.com/articles/*/banner/$image,object
-||business.nifty.com^*/bm/*/rec-$image,object
+||business.nifty.com/articles/*/banner/$image,object,subdocument
+||business.nifty.com^*/bm/*/rec-$image,object,subdocument
 ||business.nifty.com^*/js/common.$script
 ||business.nifty.com^*/json/*?update=
 ||tag.nifty.com^
@@ -9026,8 +9026,8 @@ _yahooads_
 ||nikkeibp.co.jp^*/rPR_
 ||nikkeibp.co.jp^*/welcome$script
 ||nikkeibp.co.jp^*_campaign_
-||nikkeibp.co.jp/images/*/banner/$image,object
-||nikkeibp.co.jp/images/*/itprostore.$image,object
+||nikkeibp.co.jp/images/*/banner/$image,object,subdocument
+||nikkeibp.co.jp/images/*/itprostore.$image,object,subdocument
 ||nikkeibp.co.jp/img/rpt/
 ||bizad.nikkeibp.co.jp^
 ||nimg.jp^*/searchformflash/
@@ -9400,7 +9400,7 @@ _yahooads_
 ||rakuten.co.jp^*/liquidbanner/
 ||rakuten.co.jp^*/message/flash/
 ||rakuten.co.jp/camp/
-||rakuten.co.jp/com/img/home/t.$image,object
+||rakuten.co.jp/com/img/home/t.$image,object,subdocument
 ||rakuten.co.jp/common00/
 ||rakuten.co.jp/content/news/bunner/
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
@@ -9543,7 +9543,7 @@ _yahooads_
 ||rklyjs.info^
 ||rlcdn.com^
 ||rmbn.$third-party
-||rmdown.com/pc1.$image,object
+||rmdown.com/pc1.$image,object,subdocument
 ||rmgserving.com^
 ||robimobi.com^
 ||robotrix.ru^
@@ -9634,7 +9634,7 @@ _yahooads_
 ||searchonline24.com^
 ||searchpeack.com^$popup
 ||secret-de-cindy.com^
-||secunia.com/?action=fetch&filename=*_banner$image,object
+||secunia.com/?action=fetch&filename=*_banner$image,object,subdocument
 ||secure-content-delivery.com^
 ||secure-locked.com^$third-party
 ||secure-softwaremanager.com^
@@ -10379,7 +10379,7 @@ _yahooads_
 ||vizury.com^$third-party
 ||w55c.net^$third-party
 ||w5radass.com^
-||wa-dan.com/article/images/title.$image,object
+||wa-dan.com/article/images/title.$image,object,subdocument
 ||wa-track.com^$third-party
 ||wahoha.com^
 ||waladon.com^
@@ -10701,9 +10701,9 @@ _yahooads_
 ! ||ytimg.com^*/swfbin/ad-
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
 ! ||ytimg.com^*/swfbin/ad3-
-||ytimg.com^*_background_$image,object
-||ytimg.com^*_banner.$image,object
-||ytimg.com^*_banner_$image,object
+||ytimg.com^*_background_$image,object,subdocument
+||ytimg.com^*_banner.$image,object,subdocument
+||ytimg.com^*_banner_$image,object,subdocument
 ||yuftabu.ru^
 ||yustitum.ru^
 ||yyv.co^$popup

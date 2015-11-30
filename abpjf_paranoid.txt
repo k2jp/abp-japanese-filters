@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: WXT1u3fsflvCrWKrfmg00A
+! Checksum: jmuDOmloEkiQSYAzkBLlww
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201511301831
+! Version: 201512010634
 
-! Last modified: 2015-11-30 18:31 JST(UTC+0900)
+! Last modified: 2015-12-01 06:34 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1775,29 +1775,29 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 ! ?slot=
 ! ?tracking=$third-party
 
-^bnr-$image,object
+^bnr-$image,object,subdocument
 ^bnr-$third-party
-^bnr.$image,object
+^bnr.$image,object,subdocument
 ^bnr.$third-party
-^bnr^$image,object
+^bnr^$image,object,subdocument
 ^bnr^$third-party
-^bnr_$image,object
+^bnr_$image,object,subdocument
 ^bnr_$third-party
-^banner-$image,object
+^banner-$image,object,subdocument
 ^banner-$third-party
-^banner.$image,object
+^banner.$image,object,subdocument
 ^banner.$third-party
-^banner^$image,object
+^banner^$image,object,subdocument
 ^banner^$third-party
-^banner_$image,object
+^banner_$image,object,subdocument
 ^banner_$third-party
-^banners-$image,object
+^banners-$image,object,subdocument
 ^banners-$third-party
-^banners.$image,object
+^banners.$image,object,subdocument
 ^banners.$third-party
-^banners^$image,object
+^banners^$image,object,subdocument
 ^banners^$third-party
-^banners_$image,object
+^banners_$image,object,subdocument
 ^banners_$third-party
 ^click-$script,object-subrequest,subdocument
 ^click.$script,object-subrequest,subdocument
@@ -3836,9 +3836,9 @@ live.nicovideo.jp###watch_zapping_box
 
 ! ===== seiga.nicovideo.jp digital book ADs 2012-08-11 ===== START =====
 ! Commented out a too strict filter, Oct 21, 2013
-! ||lohas.nicoseiga.jp//material/$image,object
+! ||lohas.nicoseiga.jp//material/$image,object,subdocument
 ! Commented out a too strict filter, Oct 21, 2013
-! ||seiga.nicovideo.jp/book/static/img/book/$image,object
+! ||seiga.nicovideo.jp/book/static/img/book/$image,object,subdocument
 seiga.nicovideo.jp###book_area_container
 seiga.nicovideo.jp###book_ranking_box
 seiga.nicovideo.jp###illust_block_event
