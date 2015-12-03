@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: nYi3UUl4Mwlsk8HFmjNQMg
+! Checksum: DlGG11fgovazlR8LqGsTuw
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201512030633
+! Version: 201512040103
 
-! Last modified: 2015-12-03 06:33 JST(UTC+0900)
+! Last modified: 2015-12-04 01:03 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -167,8 +167,8 @@
 @@||hydra-media.cursecdn.com/*.gamepedia.com*/a/ad/$image,domain=gamepedia.com
 ! Exception for its own site logo, May 31, 2013
 @@||distrowatch.com/images/jruiakuzm/dwbanner.$image
-! False positives with movie player (Daily Motion Player?) used with ^dmp.$object,script,subdocument,third-party filter, Jul 25, 2015
-@@||dmcdn.net/playerv*/dmp.$script,domain=dailymotion.com
+! False positives with movie player (Daily Motion Player?) used with ^dmp.$object,script,subdocument,third-party filter, Jul 25, 2015 and Dec 04, 2015
+@@||dmcdn.net/playerv*/dmp.$object,script,domain=dailymotion.com
 ! False positives with images on third-party domains, reported via Issue Report, Nov 23, 2015
 @@||pics.dmm.co.jp^$image
 ! False positives with product zooming, reported by @tanahata via Issue Report
