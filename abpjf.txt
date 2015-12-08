@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: IOGruSqd3Ly5O1vYQulKTw
+! Checksum: qXfvUBPmN/vJd8PCBT8N4Q
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201512090014
+! Version: 201512090047
 
-! Last modified: 2015-12-09 00:14 JST(UTC+0900)
+! Last modified: 2015-12-09 00:47 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -7609,6 +7609,8 @@ _yahooads_
 ||evidon.com^
 ||ewoss.net^$third-party
 ||exacttarget.com^$third-party
+||exasharetab.com^
+||exasharetab.com^$popup
 ||rep.exblog.jp^
 ||excalatom.com^
 ||exchangecash.de^$third-party
@@ -7897,6 +7899,8 @@ _yahooads_
 ||googletagservices.com^
 ||goojue.com^
 ||gorillanation.com^$third-party
+||gornewtab.com^
+||gornewtab.com^$popup
 ||goroost.com^$third-party
 ||gosquared.com^$third-party
 ||gostats.com^$third-party
@@ -10257,6 +10261,8 @@ _yahooads_
 ||updaterspro.com^$popup
 ||updaterspro.com^$third-party
 ||upgradesrv.net$popup
+||uploadedtab.com^
+||uploadedtab.com^$popup
 ||uploadstation.com/styles/popup.
 ||urchin.com^$third-party
 ||urgent-pc.info$popup
@@ -10719,6 +10725,8 @@ _yahooads_
 ||youtube.com/set_awesome?
 ||s.youtube.com^
 ||s2.youtube.com^
+||youwatchtab.com^
+||youwatchtab.com^$popup
 !False Positives with dammy 1x1 placeholders for css spriting
 ! ||ytimg.com/yt/img/pixel-
 ! ||ytimg.com^*/swfbin/ad-
