@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: m4AsNlN8ka5XhbTFM2X6vA
+! Checksum: UqTbzolp85wy+CujOZuEKQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201512112040
+! Version: 201512140010
 
-! Last modified: 2015-12-11 20:40 JST(UTC+0900)
+! Last modified: 2015-12-14 00:10 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -8745,6 +8745,7 @@ _yahooads_
 ||megainjs.info^
 ||megaplugin.ru^
 ||megapopads.com^
+||megapopads.com^$popup
 ||megaporn.com/*/onhover.$script
 ! Commented out to avoid false positives @ third-party embeded web sites. July 28, 2011
 ! ||megaupload.com^$third-party
