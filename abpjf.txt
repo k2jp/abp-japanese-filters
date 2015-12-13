@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: UqTbzolp85wy+CujOZuEKQ
+! Checksum: aWgdlFQGV6vX+a22kTnJJA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201512140010
+! Version: 201512140024
 
-! Last modified: 2015-12-14 00:10 JST(UTC+0900)
+! Last modified: 2015-12-14 00:24 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -6294,6 +6294,7 @@ _yahooads_
 ! Dropped a third-party option because adwares or malwares open it directly, Apr 2, 2012
 ||adserverpub.com^
 ||adserverpub.com^$popup
+||adservone.com^$popup
 ||adsfac.eu^$third-party
 ||adsfac.net^$third-party
 ||adsfac.sg^$third-party
