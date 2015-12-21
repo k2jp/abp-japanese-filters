@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: L+SwqU2cgE+rOaNLmq+X1w
+! Checksum: SowLpYttyJHrbd5ubCnPag
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201512182132
+! Version: 201512212123
 
-! Last modified: 2015-12-18 21:32 JST(UTC+0900)
+! Last modified: 2015-12-21 21:23 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -10784,6 +10784,16 @@ _yahooads_
 ||zenback.jp^*tracking$third-party
 ||zergnet.com^$third-party
 ||zero.kz^
+||zeroredirect.com^
+||zeroredirect1.com^
+||zeroredirect2.com^
+||zeroredirect3.com^
+||zeroredirect4.com^
+||zeroredirect5.com^
+||zeroredirect6.com^
+||zeroredirect7.com^
+||zeroredirect8.com^
+||zeroredirect9.com^
 ||zeusclicks.com^
 ||zigotop.com^
 ||zilionfast.in^
