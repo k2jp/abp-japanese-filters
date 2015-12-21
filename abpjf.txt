@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: SowLpYttyJHrbd5ubCnPag
+! Checksum: dqasTdY0LLfpQxBw2gBvjQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201512212123
+! Version: 201512212349
 
-! Last modified: 2015-12-21 21:23 JST(UTC+0900)
+! Last modified: 2015-12-21 23:49 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -363,6 +363,7 @@
 &banner=
 &banner_link=
 &banner_url=
+&bidType=
 &campaign=
 &campaign=$popup
 &campaign_Code=
@@ -432,6 +433,7 @@
 &trackid=
 &trackid=$popup
 ! &view=ad&
+&voluumdata=
 ! Merged with ^yad^, Aug 14, 2014
 ! &yad=
 &zone_id=
@@ -2377,6 +2379,7 @@
 ! False Positive at zenback.itmedia.co.jp reported by A&G via blog 2011-01-30
 ! /newzia/*
 /njoks_$script
+/null/null/*/Redirect.rb^
 /omn-js/*
 /omni-$script
 /omni.$script
@@ -5698,6 +5701,7 @@ _yahooads_
 ://creative.$third-party
 ://creatives.$third-party
 ://d.*/l/load.js^$script,third-party
+://d.*/r/rd.html^
 ://delivery.$third-party
 ://displayads.
 ://dosugcz.
@@ -9219,6 +9223,7 @@ _yahooads_
 ||pageimage.net^
 |http:*pagoda*.com^
 |https:*pagoda*.com^
+||go.palmodeal.com^
 ||paltip.com^$third-party
 ||parad7.ru^
 ||pardot.com^$third-party
