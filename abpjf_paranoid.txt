@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: jmuDOmloEkiQSYAzkBLlww
+! Checksum: 7EGvCy00CJ0BFJICgDjgbg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201512010634
+! Version: 201512242020
 
-! Last modified: 2015-12-01 06:34 JST(UTC+0900)
+! Last modified: 2015-12-24 20:20 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3445,28 +3445,6 @@ _tracking9_
 ://ct7.
 ://ct8.
 ://ct9.
-://log.
-://log0.
-://log1.
-://log2.
-://log3.
-://log4.
-://log5.
-://log6.
-://log7.
-://log8.
-://log9.
-://logger.
-://logger0.
-://logger1.
-://logger2.
-://logger3.
-://logger4.
-://logger5.
-://logger6.
-://logger7.
-://logger8.
-://logger9.
 ://pixel.
 ://pixel0.
 ://pixel1.
@@ -3479,63 +3457,8 @@ _tracking9_
 ://pixel8.
 ://pixel9.
 ://ru:8080^$third-party
-://slot.
-://slot0.
-://slot1.
-://slot2.
-://slot3.
-://slot4.
-://slot5.
-://slot6.
-://slot7.
-://slot8.
-://slot9.
-://stats.
-://stats0.
-://stats1.
-://stats2.
-://stats3.
-://stats4.
-://stats5.
-://stats6.
-://stats7.
-://stats8.
-://stats9.
 ://statistics.
 ://storage.$third-party
-://track.
-://track0.
-://track1.
-://track2.
-://track3.
-://track4.
-://track5.
-://track6.
-://track7.
-://track8.
-://track9.
-://tracker.
-://tracker0.
-://tracker1.
-://tracker2.
-://tracker3.
-://tracker4.
-://tracker5.
-://tracker6.
-://tracker7.
-://tracker8.
-://tracker9.
-://tracking.
-://tracking0.
-://tracking1.
-://tracking2.
-://tracking3.
-://tracking4.
-://tracking5.
-://tracking6.
-://tracking7.
-://tracking8.
-://tracking9.
 
 ||bit.ly^$third-party
 
