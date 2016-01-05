@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: ap5lLljHbYtZLhKV0zQtpw
+! Checksum: tQSSDnv7LG7510zRZTUz0w
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201601060206
+! Version: 201601060215
 
-! Last modified: 2016-01-06 02:06 JST(UTC+0900)
+! Last modified: 2016-01-06 02:15 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -675,9 +675,13 @@
 -adserver9^
 -adserver9_
 -adstype-
+-adstype-$popup
 -adstype.
+-adstype.$popup
 -adstype^
+-adstype^$popup
 -adstype_
+-adstype_$popup
 -adthink-
 -adthink.
 -adthink^
@@ -695,9 +699,13 @@
 -adtracker^
 -adtracker_
 -adtype-
+-adtype-$popup
 -adtype.
+-adtype.$popup
 -adtype^
+-adtype^$popup
 -adtype_
+-adtype_$popup
 -adunit-
 -adunit.
 -adunit^
@@ -1352,9 +1360,13 @@
 .adserver9^
 .adserver9_
 .adstype-
+.adstype-$popup
 .adstype.
+.adstype.$popup
 .adstype^
+.adstype^$popup
 .adstype_
+.adstype_$popup
 .adthink-
 .adthink.
 .adthink^
@@ -1372,9 +1384,13 @@
 .adtracker^
 .adtracker_
 .adtype-
+.adtype-$popup
 .adtype.
+.adtype.$popup
 .adtype^
+.adtype^$popup
 .adtype_
+.adtype_$popup
 .adunit-
 .adunit.
 .adunit^
@@ -3462,9 +3478,13 @@
 ^adstream^
 ^adstream_
 ^adstype-
+^adstype-$popup
 ^adstype.
+^adstype.$popup
 ^adstype^
+^adstype^$popup
 ^adstype_
+^adstype_$popup
 ^adsystem-
 ^adsystem.
 ^adsystem^
@@ -3518,9 +3538,13 @@
 ^adtracker^
 ^adtracker_
 ^adtype-
+^adtype-$popup
 ^adtype.
+^adtype.$popup
 ^adtype^
+^adtype^$popup
 ^adtype_
+^adtype_$popup
 ^adunit-
 ^adunit.
 ^adunit^
@@ -5173,9 +5197,13 @@ _adsource.
 _adsource^
 _adsource_
 _adstype-
+_adstype-$popup
 _adstype.
+_adstype.$popup
 _adstype^
+_adstype^$popup
 _adstype_
+_adstype_$popup
 _adthink-
 _adthink.
 _adthink^
@@ -5193,9 +5221,13 @@ _adtracker.
 _adtracker^
 _adtracker_
 _adtype-
+_adtype-$popup
 _adtype.
+_adtype.$popup
 _adtype^
+_adtype^$popup
 _adtype_
+_adtype_$popup
 _adunit-
 _adunit.
 _adunit^
