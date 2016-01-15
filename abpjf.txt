@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: moJH6C6N7cRSUWCgF5FI+w
+! Checksum: hYCL69OQ0QOstcZORsTcmw
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201601130043
+! Version: 201601152126
 
-! Last modified: 2016-01-13 00:43 JST(UTC+0900)
+! Last modified: 2016-01-15 21:26 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -10857,8 +10857,8 @@ _yahooads_
 ||japan.zdnet.com/media/*/banner/jinzai_*.gif
 ||adcl.japan.zdnet.com^
 ||zed.com^$third-party
+||zedo.com^
 ||zedo.com^$popup
-||zedo.com^$third-party
 ||zemanta.com^$third-party
 ||zenaps.com^
 ||zenback.jp^*tracking$third-party
