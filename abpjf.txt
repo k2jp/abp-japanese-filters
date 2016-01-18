@@ -1,11 +1,11 @@
 [Adblock Plus 2.3.1]
-! Checksum: VU9q5j+J5nhGqe/p/VsYMQ
+! Checksum: ZS6uz3Aax2OXJi2qeAOP8g
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201601152152
+! Version: 201601182035
 
-! Last modified: 2016-01-15 21:52 JST(UTC+0900)
+! Last modified: 2016-01-18 20:35 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -5885,6 +5885,14 @@ _yahooads_
 ://tizer9.
 ://utm.
 ||iad.$domain=~iad.co.jp
+!
+||*-aaa.net^$third-party
+||*-mmm.net^
+||*-mmm.net^$popup
+||*tab.com/?*&subid=
+||*tab.com/click.gif?landing_id=*&placement_id=
+||*tab.com/watch?key=
+||*tab.com/watch?key=$popup
 ! ---------- URL Fragments END ----------
 ! 
 ! ########## Top Level Domains with path START ##########
@@ -5945,12 +5953,6 @@ _yahooads_
 ! END
 ! Added malicious IP Addresses reported at http://unixfreaxjp.blogspot.jp/2013/08/ocjp-119kelihos.html and http://malwaremustdie.blogspot.jp/2013/08/the-quick-report-on-48hours-in-battle.html by [https://twitter.com/unixfreaxjp @unixfreaxjp] via Changelog wiki, Aug 9, 2013
 !
-||*-aaa.net^$third-party
-||*-mmm.net^
-||*-mmm.net^$popup
-||*tab.com/click.gif?landing_id=*&placement_id=
-||*tab.com/watch?key=
-||*tab.com/watch?key=$popup
 ||00h10.com^
 ||0427d7.se^$popup
 ||08lkk.com/*/data/attachment/common/cf/
@@ -8993,6 +8995,8 @@ _yahooads_
 ||mummysoft.com^
 ||musclelight.com^
 ||musen-lan.com/speed/banner/
+||musicboxnewtab.com^
+||musicboxnewtab.com^$popup
 ||mwbxxjpi3r.com^
 ||mxcdn.net^
 ||mxmobitrk.com^$popup
