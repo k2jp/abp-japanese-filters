@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: 1RqzvSt2PzcG7DaG4T7hrg
+! Checksum: doNeKPe4OZnMV23mqCvO1g
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201602052013
+! Version: 201602090444
 
-! Last modified: 2016-02-05 20:13 JST(UTC+0900)
+! Last modified: 2016-02-09 04:44 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2581,6 +2581,7 @@
 /sujqori.
 /swf_flv_play_pre.$object
 ! /t2cn_ad.
+/Tag.a1b^
 /Tag.engine^$third-party
 /tag?zone_
 ! Commented out duplicated filters, Feb 16, 2013
@@ -9967,6 +9968,7 @@ _yahooads_
 ||slidesharecdn.com^*/proCtaBox.$domain=slideshare.net
 ||slimspots.com^
 ||slopeac.com^
+||slopeaota.com^
 ||slsdlkgjlksdg.net^
 ||sm-miracle.com^$third-party
 ||smaclick.com^$third-party
