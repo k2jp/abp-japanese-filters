@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: brKjNmdURhfFBgEpQWnWJA
+! Checksum: GArYnz6ry9fPz+1ZIwOcew
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201602100336
+! Version: 201602100356
 
-! Last modified: 2016-02-10 03:36 JST(UTC+0900)
+! Last modified: 2016-02-10 03:56 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -947,6 +947,10 @@
 -fingerprint.$script
 -fingerprint^$script
 -fingerprint_$script
+-heatmap-$third-party
+-heatmap.$third-party
+-heatmap^$third-party
+-heatmap_$third-party
 -impression_id-
 -impression_id.
 -impression_id^
@@ -1628,6 +1632,10 @@
 .fingerprint.$script
 .fingerprint^$script
 .fingerprint_$script
+.heatmap-$third-party
+.heatmap.$third-party
+.heatmap^$third-party
+.heatmap_$third-party
 .histats.$third-party
 .impact-ad.jp^$third-party
 .impression_id-
@@ -4173,10 +4181,10 @@
 ^googleadsense.
 ^googleadsense^
 ^googleadsense_
-^heatmap-$script
-^heatmap.$script
-^heatmap^$script
-^heatmap_$script
+^heatmap-$third-party
+^heatmap.$third-party
+^heatmap^$third-party
+^heatmap_$third-party
 ^iframeAd-
 ^iframeAd.
 ^iframeAd^
@@ -5493,6 +5501,10 @@ _google_afc.
 _google_afc^
 _google_afc_
 _gtracking.$script
+_heatmap-$third-party
+_heatmap.$third-party
+_heatmap^$third-party
+_heatmap_$third-party
 _iframeBanner-
 _iframeBanner.
 _iframeBanner^
