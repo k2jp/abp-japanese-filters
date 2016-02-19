@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: dYNxDj91YYFdZyEdWAdOyg
+! Checksum: jUj4c/2w28Zrs4dUkZxGGw
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201602122301
+! Version: 201602200145
 
-! Last modified: 2016-02-12 23:01 JST(UTC+0900)
+! Last modified: 2016-02-20 01:45 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -98,6 +98,8 @@
 @@||twitter.com^*_count=
 ! Flase positives with twitter user images caused with _banners^$third-party, Sep 28, 2012
 @@||twimg.com/profile_banners/$image
+! False positives with ^count^ filter at torflow.uncharted.software, Feb 20, 2016
+@@||torflow.uncharted.software/*?count=$domain=torflow.uncharted.software
 ! False positives at VirusTotal statistics pages 2011-11-29
 @@||virustotal.com/stats/
 @@||virustotal.hispasecsistemas.netdna-cdn.com/js/stats-$script
