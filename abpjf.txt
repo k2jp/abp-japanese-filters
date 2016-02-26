@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: 8ksfWv7bNpof0k5oWw1jRA
+! Checksum: RrcecF8wxo325OiZz5XSNg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201602252131
+! Version: 201602270056
 
-! Last modified: 2016-02-25 21:31 JST(UTC+0900)
+! Last modified: 2016-02-27 00:56 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -7558,7 +7558,7 @@ _yahooads_
 ||dose2jeux.com^
 ||dotomi.com^$third-party
 ||doubleclick.net^$third-party
-||doublepimp.com^$third-party
+||doublepimp.com^
 ||doubleverify.com^$third-party
 ||douteure.com^
 ||down-flash.com^
