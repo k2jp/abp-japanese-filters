@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: J/V2mjL6svYdvVuHraA0TQ
+! Checksum: dUGgwD04TBAkdy5oXi33bg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201603012308
+! Version: 201603012348
 
-! Last modified: 2016-03-01 23:08 JST(UTC+0900)
+! Last modified: 2016-03-01 23:48 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9206,6 +9206,16 @@ _yahooads_
 ! ||nimg.jp/swf/appli/ cause false positives at app.nicovideo.jp
 ||nimg.jp/swf/appli/$domain=~app.nicovideo.jp
 ||nizigenero.com^$third-party
+||nl00.net^
+||nl01.net^
+||nl02.net^
+||nl03.net^
+||nl04.net^
+||nl05.net^
+||nl06.net^
+||nl07.net^
+||nl08.net^
+||nl09.net^
 ||nnlian.info^$third-party
 ||nnn.ru^$third-party
 ||noblok.com^
