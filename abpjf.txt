@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: Pk0Oq56G+LWgLThxUA+NhA
+! Checksum: ls/4qDk1U9Gg8AWWnVptJw
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201603062335
+! Version: 201603070041
 
-! Last modified: 2016-03-06 23:35 JST(UTC+0900)
+! Last modified: 2016-03-07 00:41 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -7246,6 +7246,7 @@ _yahooads_
 ||dtym7iokkjlif.cloudfront.net^
 ||dyau9xqp8gzji.cloudfront.net^
 ||dyx64winab0s2.cloudfront.net^
+||cloudsdns.net^
 ||cltrda.com^
 ||club-ama.com^$third-party
 ||club-xxx.net^$third-party
@@ -7437,6 +7438,7 @@ _yahooads_
 ||actracer.daiwahouse.co.jp^
 ||dallavel.com^
 ||dapper.net^
+||darangi.ru^
 ||daredac.com^
 ||dartimyl.com^
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
@@ -8202,6 +8204,7 @@ _yahooads_
 ||iconosquare.com^$third-party
 ||icontent.us^
 ||icqadvert.org^$third-party
+||ictowaz.ru^
 ||idcfcloud.com^*/pageviews?$third-party
 ||ideaxidea.com/*_banner.
 ||idee-malins-du-net.com^
