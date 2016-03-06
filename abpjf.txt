@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: djh4KxHR0NJY4axE34x24A
+! Checksum: eh+kLKXWgPSkRTbQO5EkhQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201603070105
+! Version: 201603070123
 
-! Last modified: 2016-03-07 01:05 JST(UTC+0900)
+! Last modified: 2016-03-07 01:23 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9482,6 +9482,7 @@ _yahooads_
 ||pornografish.com^$third-party
 ||pornravage.com^
 ||porntrafic.com^
+||pornwave.com^
 ||postrelease.com^
 ||ppc-direct.com^$third-party
 ||ppro.de^
@@ -9507,6 +9508,7 @@ _yahooads_
 ||primewire.ag/external.
 ||printitgreen.com^$third-party
 ||prisma-presse.com^$third-party
+||prmobiles.com^
 ||pro-du-shopping.com^
 ||pro-market.net^
 ||profficed.com^
@@ -9523,6 +9525,9 @@ _yahooads_
 ||proncar.ru^
 ||propellerpops.com^
 ||propermediadeals.com^
+||prpops.com^
+||prscripts.com^
+||prwidgets.com^
 ||ptengine.jp^$third-party
 ||ptmind.com^$third-party
 ||pub2srv.com^
@@ -9660,6 +9665,7 @@ _yahooads_
 ||relax.ru^
 ||relexion-credit.com^
 ||remontvdome.com.ua^$popup
+||removeadblock.com^
 ||rencontre-en-direct.com^
 ||rencontre-maintenant.com^
 ||rencontre-tres-facile.com^
@@ -10024,6 +10030,7 @@ _yahooads_
 ||smartclicksystem.com^
 ||smi2.ru^$third-party
 ||smkads.info^$popup
+||smopy.com^
 ||smowtion.com^$third-party
 ||smrtlnks.com^$third-party
 ||smspartnerprogramm.com^$third-party
@@ -10248,6 +10255,7 @@ _yahooads_
 ||thewheelof.com^
 ||thinkscore.com^$popup
 ||thisadsfor.us^
+||thumbcropper.com^
 ||thumpac.com^
 ||ticketchic.com^
 ||tidaltv.com^$third-party
