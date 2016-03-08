@@ -1,12 +1,12 @@
 [Adblock Plus 2.7.1]
-! Checksum: HqxvfqBUt2yjovUaqbo+dg
+! Checksum: dGo2ivfyItLjmOVsvUj/1g
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201603081408
+! Version: 201603081557
 ! Redirect: https://bit.ly/11QrCfx
 !
-! Last modified: 2016-03-08 14:08 JST(UTC+0900)
+! Last modified: 2016-03-08 15:57 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2190,7 +2190,6 @@
 /containertag?containerId=$third-party
 /convcast.$script
 /Conversion.engine?pid=
-/crdr/javascript.$script,third-party
 /csi?v=
 /csm-base/*$domain=amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.de|amazon.es|amazon.fr|amazon.it
 /ctxengine/*$third-party
@@ -2323,7 +2322,7 @@
 |https:*/is_sc_$script
 /ivw/CP/*
 /java/bowser.$script,third-party
-/javascript.js^$subdocument,third-party
+/javascript.js^$$script,subdocument,third-party
 ! Fake third-party jQuery reported at https://blog.malwarebytes.org/exploits-2/2015/05/unusual-exploit-kit-targets-chinese-users-part-1/
 /jquery.js^$subdocument,third-party
 /jquery.min.js^$subdocument,third-party
