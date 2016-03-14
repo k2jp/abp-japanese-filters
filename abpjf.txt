@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: sLvyn0EJnSh4JC1sdRlfaQ
+! Checksum: 0ZD106hPzBRa9pxdXwuTDA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201603150433
+! Version: 201603150455
 !
-! Last modified: 2016-03-15 04:33 JST(UTC+0900)
+! Last modified: 2016-03-15 04:55 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9652,6 +9652,8 @@ _yahooads_
 ||redavu.ru^
 ||redirecting.ws^
 ||redirectingat.com^$third-party
+||redirectvoluum.com^
+||redirectvoluum.com^$popup
 ||redsinjs.info^
 ||redtram.com^$third-party
 ||reduxmedia.com^$third-party
@@ -10320,6 +10322,7 @@ _yahooads_
 ||tracksitetraffic1.com^
 ||trackstatsnow.com^
 ||trackstormalert.com^$third-party
+||trackvoluum.com^
 ||trackvoluum.com^$popup
 ||trackwind.com^$third-party
 ||trackword.biz^$third-party
