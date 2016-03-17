@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: 7Fsgg6iyqiYWs7gf16N+qQ
+! Checksum: mG3w155B87hch+8nkLs5nw
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201603162134
+! Version: 201603172141
 !
-! Last modified: 2016-03-16 21:34 JST(UTC+0900)
+! Last modified: 2016-03-17 21:41 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -401,6 +401,7 @@
 &noadult=
 &offer=$popup
 &offer_id=$popup
+&optout=$third-party
 &partner=$popup
 &partner=$third-party
 &partner_id=$popup
@@ -5882,6 +5883,7 @@ _yahooads_
 ://reklamer.
 ://rotator.
 ://rotator.$popup
+://satori.$third-party
 ://smetrics.
 ! Commented out to avoid false positives with "static": 2011-09-07
 ! ://stat.$domain=~ameblo.jp|~ameba.jp
@@ -9856,6 +9858,7 @@ _yahooads_
 ||seesaa.jp/match/
 ||match.seesaa.jp^
 ||seethisinaction.com^$third-party
+||segs.jp^
 ||sekihi.net/parts/$third-party
 ||sekindo.com^$popup
 ||sekindo.com^$third-party
