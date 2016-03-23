@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: 9Mg3K2/q51iifI0Ak84UNA
+! Checksum: /5NY6zypwT/tJ7hLfoHaWg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Element-hiding filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201603220149
+! Version: 201603231900
 !
-! Last modified: 2016-03-22 01:49 JST(UTC+0900)
+! Last modified: 2016-03-23 19:00 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -550,6 +550,7 @@
 ##a[href*="//exaf.jp/"]
 ##a[href*=".exct.net"]
 ##a[href*=".g363.com/"]
+##a[href*=".goodgamestudios.com/?w="]
 ##a[href*=".google."][href*="/aclk?sa="]
 ##a[href*=".google."][href*="%2Faclk%3Fsa%3D"]
 ##a[href*=".googlesyndication.com/aclk?sa="]
