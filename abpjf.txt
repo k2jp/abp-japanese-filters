@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: N+5oB+UuznxfxePQLM/U0Q
+! Checksum: 7tRRq866tN25sSrs7ezpog
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201604020046
+! Version: 201604020052
 !
-! Last modified: 2016-04-02 00:46 JST(UTC+0900)
+! Last modified: 2016-04-02 00:52 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -6862,6 +6862,7 @@ _yahooads_
 ||pos.baidu.com^
 ||wm.baidu.com^
 ||ban-ban-boin.com^$popup
+||bandelcot.com^
 ||bandoo.com^$popup
 ||bangluck.co.jp/blog-parts/
 ||bangmychick.com^$third-party
@@ -10083,6 +10084,7 @@ _yahooads_
 ||sonicomusica.com^$third-party
 ||sonobi.com^$third-party
 ||sontere.com^
+||soosooka.com^
 ||sopital.com^
 ||sourdi.com^
 ||souzer.com^$third-party
@@ -10204,6 +10206,7 @@ _yahooads_
 ||taboolasyndication.com^
 ||tacdn.com^$domain=~tripadvisor.ca|~tripadvisor.co|~tripadvisor.co.id|~tripadvisor.co.uk|~tripadvisor.com|~tripadvisor.com.au|~tripadvisor.com.br|~tripadvisor.com.gr|~tripadvisor.com.mx|~tripadvisor.com.my|~tripadvisor.com.sg|~tripadvisor.com.tr|~tripadvisor.com.tw|~tripadvisor.es|~tripadvisor.fr|~tripadvisor.ie|~tripadvisor.in|~tripadvisor.it|~tripadvisor.jp|~tripadvisor.ma|~tripadvisor.net|~tripadvisor.nl|~tripadvisor.org|~tripadvisor.se
 ||tacoda.net^$third-party
+||tacrater.com^
 ||tafla.ru^
 ! Third-party redirecting scripts, reported at http://labs.sucuri.net/?note=2015-08-31 , Sep 01, 2015
 ||tag-cloud-generator.com^
