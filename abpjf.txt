@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: kktxru0mXaSFVsp9WrlpVA
+! Checksum: 2imzFUri64xEUhMzcOx5tg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201604020008
+! Version: 201604020029
 !
-! Last modified: 2016-04-02 00:08 JST(UTC+0900)
+! Last modified: 2016-04-02 00:29 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -6035,6 +6035,7 @@ _yahooads_
 ||37see.com^$third-party
 ||3c45d848d99.se^
 ||3c45d848d99.se^$popup
+||3dspk.com^
 ||3file.info^
 ||3gl.net^
 ||3lift.com^
@@ -6045,7 +6046,7 @@ _yahooads_
 ||4clvr.jp^
 ||4dopolndomen.ru^
 ||4dsply.com^
-||4dtrk.com^$third-party
+||4dtrk.com^
 ||4jsdw9ta.com^
 ||5068.com^$third-party
 ||users.51.la^
@@ -8688,7 +8689,7 @@ _yahooads_
 ||liveundnackt.com^$third-party
 ||liveuniversenetwork.com^
 ||lnkr.us^
-||lnkrdr.com^$third-party
+||lnkrdr.com^
 ||loading-delivery1.com^$popup
 ||loading-resource.com^
 ||loading321.com^
@@ -9635,7 +9636,7 @@ _yahooads_
 ||ad.rbbtoday.com^
 ||count.rbc.ru^$third-party
 ||rbnt.org^
-||rdrtrk.com^$third-party
+||rdrtrk.com^
 ||rdvmaghreb.com^
 ||re-cherche.com^
 ||reachword.com^$third-party
@@ -9990,6 +9991,7 @@ _yahooads_
 ||showede.com^
 ||shuffele.com^
 ||siftscience.com^$third-party
+||signetter.com^
 ||silvercdn.ryukyu^
 ||silveregg.net^$third-party
 ||similarad.com^
