@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: Oa21N/zccn7mQvCU8CjzoA
+! Checksum: 4l+JK+NYSi7xvWOW/0GTQQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201604030113
+! Version: 201604072313
 !
-! Last modified: 2016-04-03 01:13 JST(UTC+0900)
+! Last modified: 2016-04-07 23:13 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1699,7 +1699,7 @@
 .numerik-art^
 .numerik-art_
 .openx.$third-party
-.owa.$script
+.owa.$script,domain=~outlook.live.com
 .pagead-
 .pagead.
 .pagead^
@@ -2435,7 +2435,7 @@
 /opt_content.js^$script,third-party
 /overtureAd.
 /OvertureSS.
-/owa.$script
+/owa.$script,domain=~outlook.live.com
 /OxBannerService/*
 /p.e-words.jp/type
 /p_code.$script
