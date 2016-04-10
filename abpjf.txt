@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: wXzrxEaAwawDpBQME7noRw
+! Checksum: k4IALBRpbYjYlgmWtS4aEw
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201604100823
+! Version: 201604110557
 !
-! Last modified: 2016-04-10 08:23 JST(UTC+0900)
+! Last modified: 2016-04-11 05:57 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -6937,6 +6937,7 @@ _yahooads_
 ||bat.bing.com^
 ||binlayer.com^$third-party
 ||binmedia.ru^$third-party
+||biskerando.com^
 ||bitocean.info^
 ||bixmarketing.ru^
 ||bizographics.com^$third-party
@@ -7004,6 +7005,7 @@ _yahooads_
 ||boostsaves.com^
 ! Moved to the Paranoid subscription to avoid false positives, Feb 1, 2014
 ! ||bootstrapcdn.com^$third-party
+||bop-bop-bam.com^
 ||bouncebidder.com^
 ||bounceexchange.com^$third-party
 ||bouncex.com^
@@ -7788,6 +7790,7 @@ _yahooads_
 ||facebookofsex.com^$third-party
 ||faciles-rencontres.com^
 ||fairfax.com.au^$third-party
+||fandelcot.com^
 ||fastclick.net^
 ||fastdiscountz.com^$third-party
 ||fastestjs.info^
@@ -8573,6 +8576,7 @@ _yahooads_
 ||laly-filmsx.com^
 ||land.to/ad/
 ||ad.land.to^
+||landelcut.com^
 ||langueur.com^
 ||banner.lardi-trans.com^
 ||largelydi.com^
@@ -9165,6 +9169,7 @@ _yahooads_
 ||bwp.news.com^
 ||news-credit.com^
 ||news-postseven.com/img*/banner/
+||newsadst.com^
 ||newsgator.com^
 ||newsinc.com^$third-party
 ||newstaticclientstack.com^
@@ -9433,6 +9438,7 @@ _yahooads_
 ||pingoo.jp^$third-party
 ||pinoyfullmovies.com^$third-party
 ||log.pinterest.com^
+||pip-pip-pop.com^
 ||pipe-ejac.net^
 ||pishton.ru^
 ||ad.pitattomatch.com^
@@ -9503,6 +9509,7 @@ _yahooads_
 ||pornravage.com^
 ||porntrafic.com^
 ||pornwave.com^
+||portkingric.net^
 ||postrelease.com^
 ||ppc-direct.com^$third-party
 ||ppro.de^
@@ -9748,6 +9755,7 @@ _yahooads_
 ||rfnd.me^$third-party
 ||rhtag.com^
 ||rhythmxchange.com^
+||ric-ric-rum.com^
 ||richmediaadspot.info^$third-party
 ||richrelevance.$third-party
 ||richthof.com^
@@ -9823,6 +9831,7 @@ _yahooads_
 ||salusprotector.com^
 ||samiana.com^
 ||samuraiworks.com^$third-party
+||samvinva.info^
 ||adcl.sankei.co.jp^
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
 ! ||smp.sankei.co.jp/js/analytics/
@@ -10305,6 +10314,7 @@ _yahooads_
 ||tlbn.org^$third-party
 ||tldadserv.com^$third-party
 ||tlddomainparking.com^
+||tlootas.org^
 ||tlscdn.
 ||tlscdn.$popup
 ||tlvmedia.com^$third-party
@@ -10467,6 +10477,7 @@ _yahooads_
 ||unionsky.cn^$third-party
 ||unionsky2.cn^
 ||unitag.jp^$third-party
+||unoblotto.net^
 ||unthem.com^
 ||untily.com^
 |http:*.up.ru^
