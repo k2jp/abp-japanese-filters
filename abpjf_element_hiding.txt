@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: /5NY6zypwT/tJ7hLfoHaWg
+! Checksum: 1tfmO5ouqm4SxRmqAEVyeg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Element-hiding filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201603231900
+! Version: 201604112257
 !
-! Last modified: 2016-03-23 19:00 JST(UTC+0900)
+! Last modified: 2016-04-11 22:57 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1617,6 +1617,7 @@ cgdigg.com##.sview + br + div
 chartpark.com##td[valign="middle"][align="center"]
 chosunonline.com###infotext
 chosunonline.com###postsub > .ad300x250
+classmethod.jp##a[href*="/?from="]
 cnet.com##a[href*="//offers.cnet.com/redir?"]
 cnet.com##a[href*="//adlog.com.com"]
 ! False Positive: download link
