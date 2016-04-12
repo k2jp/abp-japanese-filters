@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: k4IALBRpbYjYlgmWtS4aEw
+! Checksum: 57MHtdqrjzIfHE2+ghfZQg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201604110557
+! Version: 201604120454
 !
-! Last modified: 2016-04-11 05:57 JST(UTC+0900)
+! Last modified: 2016-04-12 04:54 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9277,6 +9277,7 @@ _yahooads_
 ||files.nyaa.se/b*.$image,domain=nyaa.se
 ||files.nyaa.se/c*.$image,domain=nyaa.se
 ||files.nyaa.se/d*.$image,domain=nyaa.se
+||files.nyaa.se/e*.$image,domain=nyaa.se
 ! Commented out a YouTube HTML5 false positive filter, reported as Issue 22. 2011-08-09
 ! ||o-o.preferred.
 ||obnale.ru^
