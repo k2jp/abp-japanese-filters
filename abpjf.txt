@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: ab666e0D5yQQJSh+adwldg
+! Checksum: cVq6xakevP7lLOyTCiy84A
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201604190353
+! Version: 201604190416
 !
-! Last modified: 2016-04-19 03:53 JST(UTC+0900)
+! Last modified: 2016-04-19 04:16 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -235,6 +235,7 @@
 @@||store.nike.com^*?assets=$script,stylesheet
 ! A false positive with dynamic header script, using the |http:*^ad_ filter, reported by MASA, Jun 10, 2013
 @@||nikkei.com/dx/async/async.do/ae=P_CM_HEADERJS_TOP;
+@@||files.nyaa.se^*-$image,domain=nyaa.se
 ! False positives with harmless popup used with ^popup.$popup, reported by 神楽 via blog, Jan 21, 2015
 @@||pangya.jp/popup.html?src=$popup
 @@||researchmap.jp^*/counter/$stylesheet
@@ -9273,7 +9274,7 @@ _yahooads_
 ||nummobile.com^
 ||nxnxcaqicm.ru^
 ||nxtck.com^
-||files.nyaa.se/*.jpg|$image,domain=nyaa.se
+||files.nyaa.se^$image,domain=nyaa.se
 ! Commented out a YouTube HTML5 false positive filter, reported as Issue 22. 2011-08-09
 ! ||o-o.preferred.
 ||obnale.ru^
