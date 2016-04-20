@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: 4+O4MLvuruS/7oI76CzrZA
+! Checksum: 6AfCMSov3cuzdUpWKTT9aQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201604200408
+! Version: 201604210412
 !
-! Last modified: 2016-04-20 04:08 JST(UTC+0900)
+! Last modified: 2016-04-21 04:12 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -237,6 +237,7 @@
 @@||nikkei.com/dx/async/async.do/ae=P_CM_HEADERJS_TOP;
 @@||files.nyaa.se/sukebei-download.$image,domain=nyaa.se
 @@||files.nyaa.se/sukebei-txt.$image,domain=nyaa.se
+@@||files.nyaa.se/topbar.$image,domain=nyaa.se
 @@||files.nyaa.se/topgradient.$image,domain=nyaa.se
 @@||files.nyaa.se/www-download.$image,domain=nyaa.se
 @@||files.nyaa.se/www-txt.$image,domain=nyaa.se
