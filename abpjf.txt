@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: ZVtairPKo4VpLQcCpRehhw
+! Checksum: lo6gmLe97MlQD/qa13UTiQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201605070006
+! Version: 201605070044
 !
-! Last modified: 2016-05-07 00:06 JST(UTC+0900)
+! Last modified: 2016-05-07 00:44 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3331,6 +3331,14 @@
 ^ads9.
 ^ads9^
 ^ads9_
+^adscript-
+^adscript.
+^adscript^
+^adscript_
+^adscripts-
+^adscripts.
+^adscripts^
+^adscripts_
 ^adscontext-
 ^adscontext.
 ^adscontext^
@@ -6227,6 +6235,7 @@ _yahooads_
 ||adbooth.com^$popup
 ||adbooth.com^$third-party
 ||adbrite.com^$third-party
+||adbroker.de^$third-party
 ||adbull.com^$third-party
 ||adbutterfly.com^$third-party
 ||adcash.com^$popup
@@ -6427,6 +6436,7 @@ _yahooads_
 ||adsmeda.com^
 ||adsonar.com^$third-party
 ||adspeed.$third-party
+||adspirit.$third-party
 ||adsplats.com^$popup
 ||adsplats.com^$third-party
 ||adspot-rich.info^$third-party
