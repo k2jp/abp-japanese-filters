@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: dC/sTADwaC0d1aiRDpbczw
+! Checksum: PD824NsdYdipi6484Yy0dA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201604070321
+! Version: 201605140641
 !
-! Last modified: 2016-04-07 03:21 JST(UTC+0900)
+! Last modified: 2016-05-14 06:41 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4476,11 +4476,12 @@ www.yahoo.co.jp###local
 ||netdna-cdn.com^$third-party
 ! ----- Notorious CDN ----- END -----
 
-! ===== Obfuscated short URL links with banner AD images used to avoid adblocking ===== START =====
+! ===== Banner AD images with obfuscated short URL links to avoid adblocking ===== START =====
 ##a[href*="//bit.ly/"] > img
 ##a[href*="//goo.gl/"] > img
+##a[href*="//j.gs/"] > img
 ##a[href*="//j.mp/"] > img
-! ----- Obfuscated short URL links with banner AD images used to avoid adblocking ----- END -----
+! ----- Banner AD images with obfuscated short URL links to avoid adblocking ----- END -----
 
 ! ===== Obfuscated short URL links frequently used to hide malicious links on SNS ===== START =====
 ##a[href*="//jump.cx/"]
@@ -4533,12 +4534,12 @@ www.yahoo.co.jp###local
 ||wibiya.com^$third-party
 ! ----- Toolbar ----- END -----
 
-! ===== URL shortning Services ===== START =====
+! ===== URL shortener ===== START =====
 ##a[href*=".9-1.jp"]
 ||adf.ly^$popup
 ||adf.ly^$third-party
 ##a[href*="://adf.ly/"]
-! ----- URL shortning Services ----- END -----
+! ----- URL shortener ----- END -----
 
 
 ! ---------- Annoyance type END ----------
