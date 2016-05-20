@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: 6K4t9/AIOc3P8Tm0HcRd8w
+! Checksum: r3WE0BDdWjKVeQXX2unU+w
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201605202313
+! Version: 201605202335
 !
-! Last modified: 2016-05-20 23:13 JST(UTC+0900)
+! Last modified: 2016-05-20 23:35 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -136,6 +136,8 @@
 
 ! ########## Default white list START ##########
 @@/analytics/*$domain=dear.my.salesforce.com
+! False positive with the CONTINE DOWNLOAD button used with ^trialpay^ filter, May 20, 2016
+@@/images/trialpay/download_btn.$image
 ! False positives with the WordPress lazyloading plugin, reported by Opera10years via hatena blog comment of k2jp, May 31, 2012
 @@/lazy-load/images/1x1.
 @@//player.ooyala.com^
