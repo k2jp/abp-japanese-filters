@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: /tEPVvYGdqU0bNZgjx6S0w
+! Checksum: bZYqSsYUR17322raFzkgwA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201605240307
+! Version: 201605240327
 !
-! Last modified: 2016-05-24 03:07 JST(UTC+0900)
+! Last modified: 2016-05-24 03:27 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -7583,6 +7583,7 @@ _yahooads_
 ||dmm.com^$domain=~dmm.co.jp|~dmm.com
 ||dmm.com/lp/$popup
 ||aqua.dmm.co.jp^
+||dmpcounter.com^
 ||dmtracker.com^$third-party
 ||dmtry.com^
 ||dn888.com^
@@ -9349,6 +9350,7 @@ _yahooads_
 ||onclicktop.com^$popup
 ||one2one-sexy.com^
 ||one2onesexy.com^
+||onedmp.com^
 ||onenetworkdirect.$third-party
 ||onestat.com^$third-party
 ||onetad.com^$third-party
@@ -10400,6 +10402,7 @@ _yahooads_
 ||trackfox2.com^$popup
 ||tracking.to^
 ||tracking101.com^
+||tracknson.com^
 ||tracksitetraffic1.com^
 ||trackstatsnow.com^
 ||trackstormalert.com^$third-party
