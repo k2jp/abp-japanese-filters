@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: DvfuInuqqYC2kcD8iFqQWA
+! Checksum: axm9j5D8FSMuekeC3SMkEw
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Element-hiding filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201605161916
+! Version: 201605250452
 !
-! Last modified: 2016-05-16 19:16 JST(UTC+0900)
+! Last modified: 2016-05-25 04:52 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1890,9 +1890,11 @@ mywot.com##.popup__container
 download.hr###mediaget_box
 download.hr##.AddCenterRight
 download.hr##.file_infoleft
+download.hr##.give_slogan
 download.hr##a[href*="//get.down2desk.com/"]
-download.hr##a[href*="//giveaway.download.hr/"]
-download.hr##a[href*="//media.download.hr/"]
+download.hr##a[href*="//discount.download.hr"]
+download.hr##a[href*="//giveaway.download.hr"]
+download.hr##a[href*="//media.download.hr"]
 download.hr##a[href*="hotfile.com/dl/"]
 download.hr##a[href*="mediaget.com/torrent.php?r="]
 download.hr##a[href*="myotherdrive.com/dyn/file/"]
