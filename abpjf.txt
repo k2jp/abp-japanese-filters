@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: 47jV0O2/+7xm7p7YXoSjww
+! Checksum: dJeOGC3kn5TPGj7PaH10gw
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201605240329
+! Version: 201605262127
 !
-! Last modified: 2016-05-24 03:29 JST(UTC+0900)
+! Last modified: 2016-05-26 21:27 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -549,6 +549,10 @@
 -ad9^$popup
 -ad9_
 -ad9_$popup
+-adcombo-
+-adcombo.
+-adcombo^
+-adcombo_
 -adframe-
 -adframe.
 -adframe^
@@ -581,6 +585,10 @@
 -adplus.
 -adplus^
 -adplus_
+-adpop-
+-adpop.
+-adpop^
+-adpop_
 -adriver-
 -adriver.
 -adriver^
@@ -1234,6 +1242,10 @@
 .ad9^$popup
 .ad9_
 .ad9_$popup
+.adcombo-
+.adcombo.
+.adcombo^
+.adcombo_
 .adframe-
 .adframe.
 .adframe^
@@ -1267,6 +1279,10 @@
 .adplus.
 .adplus^
 .adplus_
+.adpop-
+.adpop.
+.adpop^
+.adpop_
 .adriver-
 .adriver.
 .adriver^
@@ -2192,6 +2208,7 @@
 /choixPubJS.
 /ck*?cid=$third-party
 /click/body.php?id=*&hash=$popup
+/click?impid=*&bidid=
 /clicktracklog.
 /cloudflare.$script,third-party
 /cnet_scode.
@@ -3034,6 +3051,10 @@
 ^adclient.
 ^adclient^
 ^adclient_
+^adcombo-
+^adcombo.
+^adcombo^
+^adcombo_
 ^adconfig-
 ^adconfig.
 ^adconfig^
@@ -3266,6 +3287,10 @@
 ^adplus.
 ^adplus^
 ^adplus_
+^adpop-
+^adpop.
+^adpop^
+^adpop_
 ^AdPortalWebService^
 ^adReport-
 ^adReport.
@@ -5098,6 +5123,10 @@ _ad9^
 _ad9^$popup
 _ad9_
 _ad9_$popup
+_adcombo-
+_adcombo.
+_adcombo^
+_adcombo_
 _adframe-
 _adframe.
 _adframe^
@@ -5134,6 +5163,10 @@ _adplus-
 _adplus.
 _adplus^
 _adplus_
+_adpop-
+_adpop.
+_adpop^
+_adpop_
 _adriver-
 _adriver.
 _adriver^
