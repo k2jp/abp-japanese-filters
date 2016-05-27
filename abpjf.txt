@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: TDTlDg/sPmXcG5DRV3cDEg
+! Checksum: GW5dzlCaMIa0lID06LDZuQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201605262254
+! Version: 201605272139
 !
-! Last modified: 2016-05-26 22:54 JST(UTC+0900)
+! Last modified: 2016-05-27 21:39 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2208,7 +2208,7 @@
 /choixPubJS.
 /ck*?cid=$third-party
 /click/body.php?id=*&hash=$popup
-/click?impid=*&bidid=
+/click?impid=
 /clicktracklog.
 /cloudflare.$script,third-party
 /cnet_scode.
@@ -5972,7 +5972,7 @@ _yahooads_
 ||*-mmm.net^
 ||*-mmm.net^$popup
 ||*tab.com/?*&subid=
-||*tab.com/click.gif?landing_id=*&placement_id=
+||*tab.com/click.gif?landing_id=
 ||*tab.com/watch?key=
 ||*tab.com/watch?key=$popup
 ! ---------- URL Fragments END ----------
