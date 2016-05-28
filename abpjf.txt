@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: GW5dzlCaMIa0lID06LDZuQ
+! Checksum: o/XUyjl1Zs8Bn0xrvFmpCA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201605272139
+! Version: 201605290256
 !
-! Last modified: 2016-05-27 21:39 JST(UTC+0900)
+! Last modified: 2016-05-29 02:56 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -6483,6 +6483,7 @@ _yahooads_
 ||adsrvr.org^
 ||adstager.com^
 ||adstarter.ru^
+||adsterramail.com^
 ||adstract.com^$popup
 ||adsupply.com^$third-party
 ||adsupplyads.
@@ -7463,6 +7464,7 @@ _yahooads_
 ||crystalmark.info/images/banner/
 ||csolution.jp^$third-party
 ||cszz.ru^
+||ctresbien.net^
 ||ctsrda.com^
 ||ctx-traffic.com^
 ||cubicleoffers.com^$third-party
@@ -9166,6 +9168,7 @@ _yahooads_
 ||myrdrcts.com^
 ||myroitracking.com^
 ||fimserve.myspace.com^
+||mystreamdelivery.xyz^
 ||mysupercheap.com^$third-party
 ||mythings.com^$third-party
 ||mythingsmedia.
