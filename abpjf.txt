@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: +pSyfbsf+F02mdS2gi9tVw
+! Checksum: xlCWa0xOVzPNrXzPJEzBOA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201605310850
+! Version: 201605310913
 !
-! Last modified: 2016-05-31 08:50 JST(UTC+0900)
+! Last modified: 2016-05-31 09:13 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -7555,6 +7555,7 @@ _yahooads_
 ||deguiste.com^
 ||delivery45.com^$third-party
 ||delivery49.com^
+||deliverydom.com^
 ||demandbase.com^$third-party
 ||demanier.com^
 ||demdex.net^$third-party
