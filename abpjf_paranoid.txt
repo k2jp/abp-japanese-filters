@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: /Z++HNzF8YpHx7NZ/dWq8w
+! Checksum: /gv+/dPLLVXLwiRH8sQ1hQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201605202251
+! Version: 201606030726
 !
-! Last modified: 2016-05-20 22:51 JST(UTC+0900)
+! Last modified: 2016-06-03 07:26 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3914,7 +3914,7 @@ www.yahoo.co.jp###local
 ||webinarster.com^
 ! ----- Malicious objects reported by Malwarebytes ----- END -----
 
-! ===== Malicious objects like Hidden iframes or encoded javascripts reported at http://labs.sucuri.net/ ===== START =====
+! ===== Malicious objects like hidden iframes, conditional redirections or encoded javascripts, reported at http://labs.sucuri.net/ ===== START =====
 -android.org^$third-party
 .html?m=$third-party
 .html?p=$third-party
@@ -4441,6 +4441,8 @@ www.yahoo.co.jp###local
 ||osnova-telecom.ru^$third-party
 ||podluzhnyi.ru^$third-party
 ||sex-obzor.ru^$third-party
+||traf-extractor.ru^
+||web-redirect.ru^
 ||epac.to^$third-party
 ||1gb.ua^$third-party
 ||us/ggoaivi.cgi?$third-party
@@ -4451,7 +4453,7 @@ www.yahoo.co.jp###local
 ||myfw.us^$third-party
 ||googlanalytics.ws^$third-party
 ||mypets.ws^$third-party
-! ----- Malicious objects like Hidden iframes and encoded javascripts reported at http://labs.sucuri.net/ ----- END -----
+! ----- Malicious objects like hidden iframes, conditional redirections or encoded javascripts, reported at http://labs.sucuri.net/ ----- END -----
 
 ! ===== Notorious TLDs ===== START =====
 ! [Magnitude Exploit Kit Activity Increases Via Malvertising Attacks | Malwarebytes Unpacked](https://blog.malwarebytes.org/exploits-2/2015/11/magnitude-exploit-kit-activity-increases-via-malvertising-attacks/)
