@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: O93CWQ4qL+Xav4NjXz8+Og
+! Checksum: KpolhtDAbERTXIHRDJfGew
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201606020412
+! Version: 201606050214
 !
-! Last modified: 2016-06-02 04:12 JST(UTC+0900)
+! Last modified: 2016-06-05 02:14 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -10208,7 +10208,18 @@ _yahooads_
 ||specificmedia.com^$third-party
 ||specisez.com^
 ||spectato.com^
+||speednetwork0.com^
 ||speednetwork1.com^
+||speednetwork10.com^
+||speednetwork11.com^
+||speednetwork12.com^
+||speednetwork13.com^
+||speednetwork14.com^
+||speednetwork15.com^
+||speednetwork16.com^
+||speednetwork17.com^
+||speednetwork18.com^
+||speednetwork19.com^
 ||speednetwork2.com^
 ||speednetwork3.com^
 ||speednetwork4.com^
