@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: iGYPopPK9VwKxyNQDsdUpg
+! Checksum: rmPJghYbBvdRTJ6lBCRpOA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201606120653
+! Version: 201606140105
 !
-! Last modified: 2016-06-12 06:53 JST(UTC+0900)
+! Last modified: 2016-06-14 01:05 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -8787,7 +8787,17 @@ _yahooads_
 ||liveuniversenetwork.com^
 ||lnkr.us^
 ||lnkrdr.com^
+||loading-delivery0.com^
+||loading-delivery1.com^
 ||loading-delivery1.com^$popup
+||loading-delivery2.com^
+||loading-delivery3.com^
+||loading-delivery4.com^
+||loading-delivery5.com^
+||loading-delivery6.com^
+||loading-delivery7.com^
+||loading-delivery8.com^
+||loading-delivery9.com^
 ||loading-resource.com^
 ||loading321.com^
 ||loadk.net^
