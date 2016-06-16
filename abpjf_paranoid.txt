@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: /gv+/dPLLVXLwiRH8sQ1hQ
+! Checksum: reYV2JMPSvJTPvO51ow5rw
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201606030726
+! Version: 201606162155
 !
-! Last modified: 2016-06-03 07:26 JST(UTC+0900)
+! Last modified: 2016-06-16 21:55 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4460,8 +4460,7 @@ www.yahoo.co.jp###local
 |http:*.pw^$third-party
 |https:*.pw^$third-party
 ! [A Look At A Neutrino EK Distributor | Malwarebytes Labs](https://blog.malwarebytes.org/threat-analysis/exploits-threat-analysis/2016/04/a-look-at-a-neutrino-ek-distributor/)
-|http:*.top^$third-party
-|https:*.top^$third-party
+||top^$third-party
 ! [Malware-Traffic-Analysis.net - 2015-09-18 - Nuclear EK from EK 178.62.72.26 - oaacderesftu.tk](http://malware-traffic-analysis.net/2015/09/18/index.html)
 |http:*.tk^$third-party
 |https:*.tk^$third-party
