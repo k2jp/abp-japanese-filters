@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: Pe24YjBrk6h1PSH/tBjygA
+! Checksum: WYPAYo26Kc7ftW0EBIUULg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201606200648
+! Version: 201606200752
 !
-! Last modified: 2016-06-20 06:48 JST(UTC+0900)
+! Last modified: 2016-06-20 07:52 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -7235,6 +7235,7 @@ _yahooads_
 ||click-medias.com^
 ||click2cash.lt^$third-party
 ||clickability.com^$third-party
+||clickadu.com^
 ||clickanalyzer.jp^$third-party
 ||clickbank.net^
 ||clickdealer.$third-party
@@ -10515,10 +10516,12 @@ _yahooads_
 ||trafficfactory.biz^$third-party
 ||trafficgate.net^$third-party
 ||traffichaus.com^
+||trafficholder.com^
 ||traffichunt.com^$third-party
 ||trafficjunky.net^$third-party
 ||trafficmp.com^$third-party
 ||trafficrevenue.net^$third-party
+||trafficshop.com^
 ||trafficstars.com^$third-party
 ||trafficsway.com^
 ||traffiliate.com^$third-party
