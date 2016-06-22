@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: yHzfPeFWtE6DVbyGaSpq9Q
+! Checksum: Ck9nhiGVh4wPCGkbx5g3KA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201606210351
+! Version: 201606230134
 !
-! Last modified: 2016-06-21 03:51 JST(UTC+0900)
+! Last modified: 2016-06-23 01:34 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -7348,6 +7348,7 @@ _yahooads_
 ||cmptch.com^
 ||japan.cnet.com/media/*/banner/jinzai_*.gif
 ||mads.cnet.com^
+||cntrafficpro.com^
 ||cnxad.com^$third-party
 ||cnzz.com^$third-party
 |http:*co-co-co.co^$popup
@@ -8080,6 +8081,7 @@ _yahooads_
 ||glavrich.$third-party
 ||gloadmarket.com^
 ||globaltakeoff.net^$third-party
+||globaltraffico.com^
 ||globe7.com^$third-party
 ||globeac.com^
 ||globosearcher.ru^
@@ -10517,9 +10519,11 @@ _yahooads_
 ||trafficgate.net^$third-party
 ||traffichaus.com^
 ||trafficholder.com^
+||traffichouse.com^
 ||traffichunt.com^$third-party
 ||trafficjunky.net^$third-party
 ||trafficmp.com^$third-party
+||trafficreps.com^
 ||trafficrevenue.net^$third-party
 ||trafficshop.com^
 ||trafficstars.com^$third-party
