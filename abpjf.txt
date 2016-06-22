@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: Ck9nhiGVh4wPCGkbx5g3KA
+! Checksum: U/CAXOLKi12pDqHranz5wg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201606230134
+! Version: 201606230234
 !
-! Last modified: 2016-06-23 01:34 JST(UTC+0900)
+! Last modified: 2016-06-23 02:34 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2290,6 +2290,7 @@
 /fc.php?script=
 /fc2se.$script,domain=fc2.com
 /flash/gajsp*.swf?$object
+/flash.e.swf^$third-party
 /flashbanner.swf
 /ga_social_tracking.$script
 /gads.$script
@@ -10160,6 +10161,7 @@ _yahooads_
 ||skinected.com^$third-party
 ||skyglue.com^$third-party
 ||slash-7.com^$third-party
+||slfpu.com^
 ! Commented out to avoid ugly layout collapse, Feb 19, 2016
 ! ||slidesharecdn.com^*/combined_experiments.$domain=slideshare.net
 ||slidesharecdn.com^*/combined_player_clipping.$domain=slideshare.net
@@ -10326,6 +10328,7 @@ _yahooads_
 ||supertura.com^
 ||supremeadserver.com^
 ||supremeadsonline.com^
+||supuv2.com^
 ||surphace.com^$third-party
 ||surveymonkey.com^$third-party
 ||surveyscout.com^$popup
