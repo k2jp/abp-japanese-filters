@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: visyubHazs7KORmPxiZKqg
+! Checksum: r/b3L1ZsDXm2JL/I8E55rg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201607012141
+! Version: 201607012339
 !
-! Last modified: 2016-07-01 21:41 JST(UTC+0900)
+! Last modified: 2016-07-01 23:39 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2688,6 +2688,8 @@
 /wad.$subdocument,third-party
 /wanalytics-
 /wanalytics/*
+/watch?key=$document
+/watch?key=$popup
 /webtrack.
 /webtrends-
 ! Added to avoid false positives at logicool.co.jp . It does NOT have appropriate error handling. This end in "dcsMultiTrack is not defined "...
@@ -5983,8 +5985,6 @@ _yahooads_
 ||*-mmm.net^$popup
 ||*tab.com/?*&subid=
 ||*tab.com/click.gif?landing_id=
-||*tab.com/watch?key=
-||*tab.com/watch?key=$popup
 ! ---------- URL Fragments END ----------
 ! 
 ! ########## Top Level Domains with path START ##########
