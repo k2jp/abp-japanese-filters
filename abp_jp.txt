@@ -4,7 +4,7 @@
 ! Title: ABP Japanese filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
 ! Version: 201411250631
-! Redirect: http://bit.ly/11QrCfx
+! Redirect: https://bit.ly/11QrCfx
 
 ! Last modified: 2014-11-25 06:31 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog

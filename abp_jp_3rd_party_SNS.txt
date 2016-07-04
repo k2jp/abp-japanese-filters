@@ -4,7 +4,7 @@
 ! Title: ABP Japanese 3rd party SNS filters (ONLY for Japanese: see Support Policy)
 ! Expires: 6 hours
 ! Version: 201411250632
-! Redirect: http://bit.ly/11QYLIY
+! Redirect: https://bit.ly/11QYLIY
 
 ! Last modified: 2014-11-25 06:32 JST(UTC+0900)
 ! Change log: https://code.google.com/p/adblock-plus-japanese-filter/wiki/FilterChangeLog
