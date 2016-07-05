@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: reYV2JMPSvJTPvO51ow5rw
+! Checksum: uLklomZk7nH2YyOS0PsW6Q
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201606162155
+! Version: 201607051937
 !
-! Last modified: 2016-06-16 21:55 JST(UTC+0900)
+! Last modified: 2016-07-05 19:37 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -89,6 +89,10 @@
 ! False positive with /index.js^$third-party filter makting thumbnail images blank at [www.nicovideo.jp/video_top], Jun 14, 2015
 @@||nimg.jp/scripts/pages/index.js?$domain=www.nicovideo.jp
 @@||netdna-cdn.com/jquery-
+! False positives with the existing ^stats^ filter on the [RaiGit Usage Statistics page](http://rawgit.com/stats), Jul 05, 2016
+@@||rawgit.com/api/stats?$domain=rawgit.com
+! False positives with the existing ^stats.$domain=~beta.babelzilla.org and ^stats- filters on the [RaiGit Usage Statistics page](http://rawgit.com/stats), Jul 05, 2016
+@@||cdn.rawgit.com/rgrove/rawgit/*/stats$domain=rawgit.com
 ! @@||robtex.com^$elemhide
 @@||siteadvisor.com^$elemhide
 @@||tbs.co.jp^*_stats.$stylesheet
