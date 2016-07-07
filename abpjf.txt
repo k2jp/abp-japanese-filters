@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: zPlBKurHtfE/9zXlru1j6Q
+! Checksum: 9FtKNW8YZDkag/5xTtTm9Q
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201607072337
+! Version: 201607080234
 !
-! Last modified: 2016-07-07 23:37 JST(UTC+0900)
+! Last modified: 2016-07-08 02:34 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2153,6 +2153,7 @@
 /ana2/icon.
 /ana2/processor.
 /analys.$script
+/analytic.php?id=$third-party
 /analyticsengine/*$third-party
 /analyticsid.
 /aolvidmetrics/*
@@ -9795,6 +9796,7 @@ _yahooads_
 ||realitytraffic.com^
 ||realjs.info^
 ||realmedia.com^$third-party
+||realstatistics.
 ||realtime.co^$third-party
 ||realvu.net^$third-party
 ||reasulty.com^
