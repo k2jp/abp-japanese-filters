@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: uLklomZk7nH2YyOS0PsW6Q
+! Checksum: t27JAUvHes6k1zClwzhxpQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201607051937
+! Version: 201607090415
 !
-! Last modified: 2016-07-05 19:37 JST(UTC+0900)
+! Last modified: 2016-07-09 04:15 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3934,12 +3934,15 @@ www.yahoo.co.jp###local
 /feed/frames.php?uid=$third-party
 /feed/xml.php?*&uid=$third-party
 /feed/xml.php?uid=$third-party
+/?folio=$document
 /gate.php?f=$third-party
 /gifimg.php^$third-party
+/go.php?sid=$document
 /go.php?sid=$third-party
 /googlestat.php^$script,third-party
 /hand.php?id=$third-party
 /iframetracker.php^
+/in.cgi?$document
 /in.cgi?$third-party
 /index.php?click=
 /jpg.php^$third-party
@@ -4292,6 +4295,7 @@ www.yahoo.co.jp###local
 ||ru/immediatevalueweb.cgi?$third-party
 ||ru/implementationdepository.cgi?$third-party
 ||ru/impressionscostofownership.cgi?$third-party
+||ru/indigo?$document
 ||ru/indigo?$third-party
 ||ru/inferencefailing.cgi?$third-party
 ||ru/infinity?$third-party
