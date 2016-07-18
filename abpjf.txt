@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: B37zJfsTcvh5+m30EyZbpw
+! Checksum: Q+0jpdtnwQge7fv82Vxd0g
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201607120125
+! Version: 201607190301
 !
-! Last modified: 2016-07-12 01:25 JST(UTC+0900)
+! Last modified: 2016-07-19 03:01 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1030,6 +1030,14 @@
 -numerik-art.
 -numerik-art^
 -numerik-art_
+-packcpm-
+-packcpm-$document
+-packcpm.
+-packcpm.$document
+-packcpm^
+-packcpm^$document
+-packcpm_
+-packcpm_$document
 -pagead-
 -pagead.
 -pagead^
@@ -1728,6 +1736,14 @@
 .numerik-art_
 .openx.$third-party
 .owa.$script,domain=~outlook.live.com|~outlook.office365.com
+.packcpm-
+.packcpm-$document
+.packcpm.
+.packcpm.$document
+.packcpm^
+.packcpm^$document
+.packcpm_
+.packcpm_$document
 .pagead-
 .pagead.
 .pagead^
@@ -1872,7 +1888,10 @@
 /194964.$image
 /194964/*$image
 /200_200.$image,object,subdocument,domain=premium.nikkeibp.co.jp
+/a/display.php?k=
+/a/display.php?k=$document
 /a/display.php?r=
+/a/display.php?r=$document
 /A-affiliate2/*
 ! /aan/*/ad/*
 /aan/*/amazon/*
@@ -2497,7 +2516,8 @@
 /pop-over.
 ! merged into .php?zoneid=
 ! /pop.php?zoneid=
-/pop_packcpm.
+! merged into _packcpm. Jul 19, 2016
+! /pop_packcpm.
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
 ! /pop_packcpm.$popup
 /popad/*
@@ -4653,6 +4673,14 @@
 ^OvertureCM.
 ^OvertureCM^
 ^OvertureCM_
+^packcpm-
+^packcpm-$document
+^packcpm.
+^packcpm.$document
+^packcpm^
+^packcpm^$document
+^packcpm_
+^packcpm_$document
 ^pagoda-$third-party
 ^pagoda.$third-party
 ^pagoda^$third-party
@@ -5646,6 +5674,14 @@ _overture-
 _overture.
 _overture^
 _overture_
+_packcpm-
+_packcpm-$document
+_packcpm.
+_packcpm.$document
+_packcpm^
+_packcpm^$document
+_packcpm_
+_packcpm_$document
 _pagead-
 _pagead.
 _pagead^
@@ -5778,6 +5814,7 @@ _yahooads-
 _yahooads.
 _yahooads^
 _yahooads_
+
 ://ad-cdn.
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
 ! |http://ad.
@@ -5989,13 +6026,8 @@ _yahooads_
 ://tizer8.
 ://tizer9.
 ://utm.
+
 ||iad.$domain=~iad.co.jp
-!
-||*-aaa.net^$third-party
-||*-mmm.net^
-||*-mmm.net^$popup
-||*tab.com/?*&subid=
-||*tab.com/click.gif?landing_id=
 ! ---------- URL Fragments END ----------
 ! 
 ! ########## Top Level Domains with path START ##########
@@ -6057,6 +6089,14 @@ _yahooads_
 ! END
 ! Added malicious IP Addresses reported at http://unixfreaxjp.blogspot.jp/2013/08/ocjp-119kelihos.html and http://malwaremustdie.blogspot.jp/2013/08/the-quick-report-on-48hours-in-battle.html by [https://twitter.com/unixfreaxjp @unixfreaxjp] via Changelog wiki, Aug 9, 2013
 !
+||*-aaa.net^$third-party
+||*-mmm.net^
+||*-mmm.net^$popup
+||*adexchange.com^$document
+||*adexchange.com^$popup
+||*tab.com/?*&subid=
+||*tab.com/click.gif?landing_id=
+
 ||00h10.com^
 ||0427d7.se^$popup
 ||08lkk.com/*/data/attachment/common/cf/
@@ -9240,6 +9280,8 @@ _yahooads_
 ||nan-net.com^$third-party
 ||nan.co.jp^$third-party
 ||nanoadbite.com^
+||nanoadexchange.com^
+||nanoadexchange.com^$popup
 ||nasads.com^
 ||nasecure.com^
 ||nastydollars.com^$third-party
