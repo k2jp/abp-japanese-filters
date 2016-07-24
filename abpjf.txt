@@ -243,6 +243,8 @@
 @@||files.nyaa.se/topgradient.$image,domain=nyaa.se
 @@||files.nyaa.se/www-download.$image,domain=nyaa.se
 @@||files.nyaa.se/www-txt.$image,domain=nyaa.se
+@@||files.nyaa.se/sukebei-*.$image,domain=nyaa.se
+@@||files.nyaa.se/www-*.$image,domain=nyaa.se
 ! False positives with harmless popup used with ^popup.$popup, reported by 神楽 via blog, Jan 21, 2015
 @@||pangya.jp/popup.html?src=$popup
 @@||researchmap.jp^*/counter/$stylesheet
