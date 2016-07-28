@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: t27JAUvHes6k1zClwzhxpQ
+! Checksum: yQzZxeUfhYR0mLasKFzbPg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201607090415
+! Version: 201607290852
 !
-! Last modified: 2016-07-09 04:15 JST(UTC+0900)
+! Last modified: 2016-07-29 08:52 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3754,7 +3754,8 @@ nicovideo.jp##.ichiba
 ! False positive at live.nicovideo.jp , Menu on the right top doesn't respond... 2011-11-20
 ! ||simg.jp/public/inc/watch_cb.$script
 ||simg.jp/public/inc/watch.$script
-||simg.jp/public/inc/common_cb.$script
+! Commented out the existing Paranoid filter used for blocking combined scripts including ADs and UTM, to fix the unresponsive time-shift reservation button, July 29, 2016
+! ||simg.jp/public/inc/common_cb.$script
 ||simg.jp/public/inc/user-press-tool.$script
 ! ----- nicovideo.jp probably useless scripts 2011-11-13 ----- EXPERIMENTAL ----- END -----
 
