@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: YMz7WdeeiJeKcXDyvwRlwQ
+! Checksum: iDxO0DuHWvi3IkjpGX0+vw
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201608012354
+! Version: 201608050700
 !
-! Last modified: 2016-08-01 23:54 JST(UTC+0900)
+! Last modified: 2016-08-05 07:00 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -6730,6 +6730,8 @@ _yahooads_
 ||hdsrc-a.akamaihd.net^
 ||intext-a.akamaihd.net^
 ||middlerush-a.akamaihd.net^
+||ntvassets-a.akamaihd.net^
+||ntvimg-a.akamaihd.net^
 ||serviceama-a.akamaihd.net^
 ||razorweb-a.akamaihd.net^
 ||akibablog.net/lilbox/
@@ -9446,6 +9448,7 @@ _yahooads_
 ||nsk-sys.com^$third-party
 ||ad.nttnavi.co.jp^
 ||ad.ntv.co.jp^
+||ntv.io^
 ||ntvk1.ru^
 ||nuggad.net^$third-party
 ||nukumori.tv^$third-party
