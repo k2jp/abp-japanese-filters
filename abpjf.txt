@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: oqIe29eTWKH7bFOK+A7b7g
+! Checksum: 2LqrgVeOjsy96WVtjc1z9g
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201608200157
+! Version: 201608200210
 !
-! Last modified: 2016-08-20 01:57 JST(UTC+0900)
+! Last modified: 2016-08-20 02:10 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -10751,8 +10751,10 @@ _yahooads_
 ||uploadstation.com/styles/popup.
 ||urchin.com^$third-party
 ||urgent-pc.info$popup
+||urlcash.$document
 ||urlcash.$popup
 ||urlcash.$third-party
+||urlgalleries.net^
 ||usagc.org^$third-party
 ||usercycle.com^$third-party
 ! nakanohito.jp is no longer active and alternative userlocal.jp does not share public data. That is why the third-party userlocal.jp is blocked, Mar 29, 2014
