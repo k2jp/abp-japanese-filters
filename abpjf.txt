@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: q3yPgfpTaQzkyqdCbxXW9Q
+! Checksum: WhJ2ubGSuKf0LIb6m5lzqQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201608202344
+! Version: 201608240118
 !
-! Last modified: 2016-08-20 23:44 JST(UTC+0900)
+! Last modified: 2016-08-24 01:18 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -6287,6 +6287,7 @@ _yahooads_
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
 ! |http://ad-ch.jp^
 ! |https://ad-ch.jp^
+! ||ad-arata.com^$third-party
 ||ad-cloud.jp^$third-party
 ||ad-hatena.jp^
 ||ad-hub.biz^
@@ -6776,6 +6777,7 @@ _yahooads_
 ||aliexpress.com^
 ||aliexpress.com^$popup
 ||alimama.cn^$third-party
+||alistcloud.com^
 ||allabout.co.jp/js/aa/
 ||allabout.co.jp/js/gm/
 ||allabout.co.jp/js/mtx/
