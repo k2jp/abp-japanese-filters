@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: GCPN2vHfH39eqDjl+SjtMw
+! Checksum: U0hZwuDBbZMfctD1/iwqYQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201608240224
+! Version: 201608250249
 !
-! Last modified: 2016-08-24 02:24 JST(UTC+0900)
+! Last modified: 2016-08-25 02:49 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -11189,6 +11189,7 @@ _yahooads_
 ! Even though this filter is commented out, the beacon server ybx.yahoo.co.jp is still blocked ;-)
 ! ||yimg.*/images/rapid/
 ||yimg.*/images/settlecomtd/yjbfp/
+||yimg.*/images/ycd/
 ||yimg.*/images/yjcard/$domain=yahoo.co.jp|yahoo.com
 ||yimg.*/js/geov*.$script
 ||yimg.*/lib/*/cs_$script
