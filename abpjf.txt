@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: U0hZwuDBbZMfctD1/iwqYQ
+! Checksum: gbmZY1OmbBoXC5EOCH/f2w
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201608250249
+! Version: 201608260132
 !
-! Last modified: 2016-08-25 02:49 JST(UTC+0900)
+! Last modified: 2016-08-26 01:32 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -7190,7 +7190,7 @@ _yahooads_
 ||brealtime.com^$third-party
 ||breedac.com^
 ! Note: Probably, blocking the whole domain is too strict, Apr 29, 2012
-||brightcove.com^$third-party
+||brightcove.$third-party
 ||brightcove.com/1pix.
 ||brightonclick.com^
 ||brilig.com^$third-party
