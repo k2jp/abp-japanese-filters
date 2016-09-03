@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: zcb8I9Go09OrjIKf2H5+rQ
+! Checksum: X0Qw2AIgXNx1qxuNRgVbIg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201608142230
+! Version: 201609040558
 !
-! Last modified: 2016-08-14 22:30 JST(UTC+0900)
+! Last modified: 2016-09-04 05:58 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3554,43 +3554,43 @@ _tracking9_
 ! ##a[onClick*="pageTracker"]:not([href$=".asc"]):not([href$=".bz2"]):not([href$=".checksums"]):not([href$=".deb"]):not([href$=".dmg"]):not([href$=".exe"]):not([href$=".json"]):not([href$=".mar"]):not([href$=".pdf"]):not([href$=".pkg"]):not([href$=".tbz"]):not([href$=".txt"]):not([href$=".xpi"]):not([href$=".zip"]):not([href*=".asc?"]):not([href*=".bz2?"]):not([href*=".checksums?"]):not([href*=".deb?"]):not([href*=".dmg?"]):not([href*=".exe?"]):not([href*=".json?"]):not([href*=".mar?"]):not([href*=".pdf?"]):not([href*=".pkg?"]):not([href*=".tbz?"]):not([href*=".txt?"]):not([href*=".xpi?"]):not([href*=".zip?"])
 ! ##a[onclick*="pageTracker"]:not([href$=".asc"]):not([href$=".bz2"]):not([href$=".checksums"]):not([href$=".deb"]):not([href$=".dmg"]):not([href$=".exe"]):not([href$=".json"]):not([href$=".mar"]):not([href$=".pdf"]):not([href$=".pkg"]):not([href$=".tbz"]):not([href$=".txt"]):not([href$=".xpi"]):not([href$=".zip"]):not([href*=".asc?"]):not([href*=".bz2?"]):not([href*=".checksums?"]):not([href*=".deb?"]):not([href*=".dmg?"]):not([href*=".exe?"]):not([href*=".json?"]):not([href*=".mar?"]):not([href*=".pdf?"]):not([href*=".pkg?"]):not([href*=".tbz?"]):not([href*=".txt?"]):not([href*=".xpi?"]):not([href*=".zip?"])
 
-##[id^="pickup"]:not(body):not(input):not(.article-module)
-##[id$="Pickup"]:not(body):not(input)
-##[id$="pickup"]:not(body):not(input):not(.article-module)
-! ##[id^="PR-"]:not(body):not(input)
-! ##[id^="PR_"]:not(body):not(input)
-! ##[id^="pr-"]:not(body):not(input):not([id="pr-root"]):not([class^="dct-"])
-! ~books.com.tw##[id^="pr_"]:not(body):not(input)
-! ##[id*="-PR-"]:not(body):not(input)
-! ##[id*="-pr-"]:not(body):not(input)
-! ##[id*="_PR_"]:not(body):not(input)
-! ##[id*="_pr_"]:not(body):not(input)
-! ##[id$="-PR"]:not(body):not(input)
-! ~kakaku.com##[id$="-pr"]:not(body):not(input)
-! ##[id$="_PR"]:not(body):not(input)
-! ##[id$="_pr"]:not(body):not(input)
-##[id*="PROMO"]:not(body):not(input)
-~transifex.com##[id*="promo"]:not(body):not(input):not(#secpromo)
+##[id^="pickup"]:not(:root):not(body):not(input):not(.article-module)
+##[id$="Pickup"]:not(:root):not(body):not(input)
+##[id$="pickup"]:not(:root):not(body):not(input):not(.article-module)
+! ##[id^="PR-"]:not(:root):not(body):not(input)
+! ##[id^="PR_"]:not(:root):not(body):not(input)
+! ##[id^="pr-"]:not(:root):not(body):not(input):not([id="pr-root"]):not([class^="dct-"])
+! ~books.com.tw##[id^="pr_"]:not(:root):not(body):not(input)
+! ##[id*="-PR-"]:not(:root):not(body):not(input)
+! ##[id*="-pr-"]:not(:root):not(body):not(input)
+! ##[id*="_PR_"]:not(:root):not(body):not(input)
+! ##[id*="_pr_"]:not(:root):not(body):not(input)
+! ##[id$="-PR"]:not(:root):not(body):not(input)
+! ~kakaku.com##[id$="-pr"]:not(:root):not(body):not(input)
+! ##[id$="_PR"]:not(:root):not(body):not(input)
+! ##[id$="_pr"]:not(:root):not(body):not(input)
+##[id*="PROMO"]:not(:root):not(body):not(input)
+~transifex.com##[id*="promo"]:not(:root):not(body):not(input):not(#secpromo)
 
-~sports.yahoo.co.jp##[class^="pickup"]:not(body):not(input)
-##[class$="Pickup"]:not(body):not(input)
-##[class$="pickup"]:not(body):not(input)
-! ##[class^="PR-"]:not(body):not(input)
-! ##[class^="PR_"]:not(body):not(input)
-! ##[class^="pr-"]:not(body):not(input)
-! ##[class^="pr_"]:not(body):not(input)
-! ##[class*="-PR-"]:not(body):not(input)
-! ##[class*="-pr-"]:not(body):not(input)
-! ##[class*="_PR_"]:not(body):not(input)
-! ##[class*="_pr_"]:not(body):not(input)
+~sports.yahoo.co.jp##[class^="pickup"]:not(:root):not(body):not(input)
+##[class$="Pickup"]:not(:root):not(body):not(input)
+##[class$="pickup"]:not(:root):not(body):not(input)
+! ##[class^="PR-"]:not(:root):not(body):not(input)
+! ##[class^="PR_"]:not(:root):not(body):not(input)
+! ##[class^="pr-"]:not(:root):not(body):not(input)
+! ##[class^="pr_"]:not(:root):not(body):not(input)
+! ##[class*="-PR-"]:not(:root):not(body):not(input)
+! ##[class*="-pr-"]:not(:root):not(body):not(input)
+! ##[class*="_PR_"]:not(:root):not(body):not(input)
+! ##[class*="_pr_"]:not(:root):not(body):not(input)
 ! Negative condition is added to avoid false positives with default class name of Drupal 7 reported aaron@madlon-kay.com via https://code.google.com/p/adblock-plus-japanese-filter/issues/detail?id=25 , Feb 14, 2012
-! ##[class*="prtext"]:not(body):not(input)
-! ##[class$="-PR"]:not(body):not(input)
-! ##[class$="-pr"]:not(body):not(input)
-! ##[class$="_PR"]:not(body):not(input)
-! ##[class$="_pr"]:not(body):not(input)
-##[class*="PROMO"]:not(body):not(input)
-~personalfirewall.comodo.com,~transifex.com,~announce.mail.yahoo.co.jp##[class*="promo"]:not(body):not(input):not(.node-promoted):not(.node-not-promoted)
+! ##[class*="prtext"]:not(:root):not(body):not(input)
+! ##[class$="-PR"]:not(:root):not(body):not(input)
+! ##[class$="-pr"]:not(:root):not(body):not(input)
+! ##[class$="_PR"]:not(:root):not(body):not(input)
+! ##[class$="_pr"]:not(:root):not(body):not(input)
+##[class*="PROMO"]:not(:root):not(body):not(input)
+~personalfirewall.comodo.com,~transifex.com,~announce.mail.yahoo.co.jp##[class*="promo"]:not(:root):not(body):not(input):not(.node-promoted):not(.node-not-promoted)
 ! ---------- Generic filters END ----------
 
 
