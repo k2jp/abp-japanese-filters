@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: U1kkIwj5TgG7JC8DzQQFTg
+! Checksum: IwkbxLXDy5z7kPd/xLSvFg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201609202347
+! Version: 201609270004
 !
-! Last modified: 2016-09-20 23:47 JST(UTC+0900)
+! Last modified: 2016-09-27 00:04 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -5533,6 +5533,7 @@ _cellcastmedia-
 _cellcastmedia.
 _cellcastmedia^
 _cellcastmedia_
+_click?data=
 _clickforce_
 _comscore-
 _comscore.
@@ -5950,6 +5951,7 @@ _yahooads_
 ://geo.$object,script,subdocument
 ://geo.$third-party
 ://go.*/*.php?*zoneid=
+://googleads.
 ://hitlog.
 ://im.banner.
 ://image.*/bnr.gif?$third-party
@@ -6256,6 +6258,7 @@ _yahooads_
 ||a5pub.com^
 ||a8.net^$third-party
 ||a9.com^$third-party
+||aaaads.com^$third-party
 ||aad73c550c.se^
 ||aad73c550c.se^$popup
 ||abcd-porno-video.biz^
@@ -6843,6 +6846,7 @@ _yahooads_
 ||amazonaws.com/p10DrIj/
 ||amazonaws.com/saaspulse-cdn/
 ||amazonaws.com/sniffer/
+||amazonaws.com/tapjoy/
 ||amazonaws.com/totango-cdn/
 ||6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com^
 ||analyticsengine.s3.amazonaws.com^
@@ -6912,6 +6916,7 @@ _yahooads_
 ||apmebf.com^
 ||apmmedia.net^$third-party
 ||apocence.com^
+||app-c.net^$third-party
 ||app-data.net^
 ||appgiga.jp/files/*/sample
 ||appgiga.jp/files/*/eb3e7affbcbcddd74b2c6125a008d5f2.jpg
@@ -7295,6 +7300,7 @@ _yahooads_
 ||charmsavings.com^$third-party
 ||charnelcam.com^
 ||chartbeat.com^$third-party
+||chartboost.com^$third-party
 ||chat-en-cam.
 ||chat-en-live.
 ||chat-illico.
@@ -8124,6 +8130,7 @@ _yahooads_
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
 ! ||game-advertising-online.com^$third-party
 ||game8.vn^$third-party
+||gamefeat.net/api/
 ||gameforge.de^$third-party
 ||gameoftraffic.com^
 ||gaminatorslots.com^$popup
@@ -8183,6 +8190,7 @@ _yahooads_
 ||girlsteachsex.com^$third-party
 ||collector-cdn.github.com^
 ||collector.githubapp.com^
+||giveapp.jp^$third-party
 ||giveawayoftheday.com^$third-party
 ||gl-cash.com^$third-party
 ||glam.com^$third-party
@@ -9196,6 +9204,7 @@ _yahooads_
 ||moborobot.com^
 ||mobraner.com^
 ||mobruner.com^
+||mobu.jp^
 ||mobylog.jp^$third-party
 ||mobyrol.com^
 ||mocean.mobi^
@@ -10499,6 +10508,7 @@ _yahooads_
 ||takensparks.com^$third-party
 ||tanzuki.net^
 ||tapad.com^$third-party
+||tapjoyads.com^
 ||targetedinfo.com^$third-party
 ||targetedtopic.com^$third-party
 ||ad.targetingmarketplace.com^
@@ -11305,6 +11315,7 @@ _yahooads_
 ||zontrans.com^
 ||zpk200.com^
 ||zqyxpllyma.ru^
+||zucks.jp^
 ||zwaar.org^
 ||zyumicher.ru^
 ! ========== ValueClick alias domains: 216.34.207.62 START ==========
