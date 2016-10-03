@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: pEG9E1E3FI5zRgdjBy9ajg
+! Checksum: CqhwU/bcJpDFWhq4Pv1OeQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201610030112
+! Version: 201610040126
 !
-! Last modified: 2016-10-03 01:12 JST(UTC+0900)
+! Last modified: 2016-10-04 01:26 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2206,6 +2206,7 @@
 |https:*/bb-mx/$third-party
 /bb-mxad/*$third-party
 /bb-serve/*$third-party
+/bcn?id=
 /bcon.$third-party
 /bebi_$script,third-party
 /better-stop-adblock/*
@@ -10270,6 +10271,7 @@ _yahooads_
 ||shuffele.com^
 ||siftscience.com^$third-party
 ||signetter.com^
+||silkenthreadiness.info^
 ||silvercdn.ryukyu^
 ||silveregg.net^$third-party
 ||similarad.com^
