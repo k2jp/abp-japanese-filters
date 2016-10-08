@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: B9lt+InhXxWNTDqm9y7E5Q
+! Checksum: hl8k4zTzCyjvu+wXGqzmpA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201610082230
+! Version: 201610082245
 !
-! Last modified: 2016-10-08 22:30 JST(UTC+0900)
+! Last modified: 2016-10-08 22:45 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -7109,7 +7109,7 @@ _yahooads_
 ||bestadbid.com^
 ||bestbuys.com^$popup
 ||bestoffersjs.info^
-||bet365.com^
+||bet365.$document
 ||bet365.$popup
 ||betrad.com^
 ||bflixjs.info^
