@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: yukq40DU6BgOMKaMj54xJw
+! Checksum: MXELmHEYOVXFaaVKdbHmtA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201610120241
+! Version: 201610142150
 !
-! Last modified: 2016-10-12 02:41 JST(UTC+0900)
+! Last modified: 2016-10-14 21:50 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2494,6 +2494,7 @@
 /omniturePlugin.
 /OmnitureSWF.
 /omuniture/*
+/OneSignalSDK.$script
 ! this cause javascript to stop: /oo/$domain=zai.diamond.jp
 /opt_content.js^$script,third-party
 /overtureAd.
@@ -9578,6 +9579,7 @@ _yahooads_
 ||one2onesexy.com^
 ||onedmp.com^
 ||onenetworkdirect.$third-party
+||onesignal.com^$third-party
 ||onestat.com^$third-party
 ||onetad.com^$third-party
 ||sanyo.oni.co.jp/clients/
