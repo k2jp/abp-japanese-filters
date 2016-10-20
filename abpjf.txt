@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: N/bbTNDVIIbS5GblGMwIvg
+! Checksum: 92VXaSO6mBYSTU97wjG2LA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201610210043
+! Version: 201610210102
 !
-! Last modified: 2016-10-21 00:43 JST(UTC+0900)
+! Last modified: 2016-10-21 01:02 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -264,6 +264,8 @@
 @@||image.slidesharecdn.com^$image
 @@||spreadfirefox.jp/affiliates/
 @@||spreadthunderbird.com/files/affiliates/
+! False positives on movies with the existing |https:*^ad- filter, Oct 21, 2016
+@@||twimg.com/ext_tw_video/$domain=twitter.com
 ! False positives with images used with ^analytics- filter, at analytics.twitter.com, Aug 28, 2014
 @@||twimg.com/insights/images/analytics-$domain=analytics.twitter.com
 ! False positives with the existing -analytics^, at analytics.twitter.com audience view, Nov 13, 2015
