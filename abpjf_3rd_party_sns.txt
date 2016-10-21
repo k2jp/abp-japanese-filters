@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: TmVaMu/qVoZTwzg6URp/KQ
+! Checksum: V5alTpynbDh0DN95JpSufQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese 3rd party SNS filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201603092335
+! Version: 201610212245
 !
-! Last modified: 2016-03-09 23:35 JST(UTC+0900)
+! Last modified: 2016-10-21 22:45 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -52,7 +52,6 @@ _fbconnect_$domain=~facebook.com
 ||jiathis.com^$third-party
 ||licdn.com^$domain=~linkedin.com
 ||line.me^$third-party
-||line-apps.com^$third-party
 ||linkedin.com^$third-party
 ||mixi.jp^$third-party
 ||media.line.naver.jp^$third-party
