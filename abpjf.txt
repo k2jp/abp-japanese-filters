@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: 7RzmpfxX/5gUtKsjRXk3Dw
+! Checksum: 1A3HTTiHHWKW7Iu1nWq9qQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201610240915
+! Version: 201610240925
 !
-! Last modified: 2016-10-24 09:15 JST(UTC+0900)
+! Last modified: 2016-10-24 09:25 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -8025,6 +8025,7 @@ _yahooads_
 ||facebookofsex.com^$third-party
 ||faciles-rencontres.com^
 ||fairfax.com.au^$third-party
+||fam-ad.com^
 ||fandelcot.com^
 ||fastclick.net^
 ||fastdiscountz.com^$third-party
