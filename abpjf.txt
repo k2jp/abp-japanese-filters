@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: VYHXolFf2MQ4W0pPvkUbcQ
+! Checksum: sK6jQeA7U7pARBZNu4tClQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201611091627
+! Version: 201611122140
 !
-! Last modified: 2016-11-09 16:27 JST(UTC+0900)
+! Last modified: 2016-11-12 21:40 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -570,13 +570,21 @@
 -adcombo^
 -adcombo_
 -adframe-
+-adframe-$document
 -adframe.
+-adframe.$document
 -adframe^
+-adframe^$document
 -adframe_
+-adframe_$document
 -adframes-
+-adframes-$document
 -adframes.
+-adframes.$document
 -adframes^
+-adframes^$document
 -adframes_
+-adframes_$document
 -adgear-
 -adgear.
 -adgear^
@@ -1271,13 +1279,21 @@
 .adcombo^
 .adcombo_
 .adframe-
+.adframe-$document
 .adframe.
+.adframe.$document
 .adframe^
+.adframe^$document
 .adframe_
+.adframe_$document
 .adframes-
+.adframes-$document
 .adframes.
+.adframes.$document
 .adframes^
+.adframes^$document
 .adframes_
+.adframes_$document
 .adgear-
 .adgear.
 .adgear^
@@ -3189,13 +3205,21 @@
 ^adfarm9^
 ^adfarm9_
 ^adframe-
+^adframe-$document
 ^adframe.
+^adframe.$document
 ^adframe^
+^adframe^$document
 ^adframe_
+^adframe_$document
 ^adframes-
+^adframes-$document
 ^adframes.
+^adframes.$document
 ^adframes^
+^adframes^$document
 ^adframes_
+^adframes_$document
 ^adfrontserver-
 ^adfrontserver.
 ^adfrontserver^
@@ -5245,13 +5269,21 @@ _adcombo.
 _adcombo^
 _adcombo_
 _adframe-
+_adframe-$document
 _adframe.
+_adframe.$document
 _adframe^
+_adframe^$document
 _adframe_
+_adframe_$document
 _adframes-
+_adframes-$document
 _adframes.
+_adframes.$document
 _adframes^
+_adframes^$document
 _adframes_
+_adframes_$document
 _adgear-
 _adgear.
 _adgear^
