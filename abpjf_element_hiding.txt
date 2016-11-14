@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: 2e4LQc3NKN9Olv5jbf2Mdw
+! Checksum: k+bnrfsvUPbvVbF7PRA0cA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Element-hiding filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201611140416
+! Version: 201611140956
 !
-! Last modified: 2016-11-14 04:16 JST(UTC+0900)
+! Last modified: 2016-11-14 09:56 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -445,6 +445,7 @@
 ##a[href*="/clk.php?"]
 ##a[href*="/dlaf/=/"]
 ##a[href*="/event.ng/"]
+##a[href*="/gate.php?"][href*="&acode="][href*="&mcode="]
 ##a[href*="/index.php?ref="][href*="/ld/"]
 ##a[href*="INSERT_RANDOM_NUMBER_HERE"]
 ##a[href*="/kokoku/"]
@@ -576,6 +577,7 @@
 ##a[href*="//search.jword.jp"]
 ##a[href*="//kvors.com/click/?"]
 ##a[href*="//lahw.info/"]
+##a[href*="//link-a.net/"]
 ##a[href*=".linksynergy.com/fs-bin/"]
 ##a[href*=".linksynergy.com/php-bin/"]
 ##a[href*=".liutilities.com/affcb/"]
