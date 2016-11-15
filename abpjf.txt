@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: nbGiDqh3k9n7o7Qi0JPGCg
+! Checksum: dSexHwTttgM9/2lggsLQnw
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201611160337
+! Version: 201611160342
 !
-! Last modified: 2016-11-16 03:37 JST(UTC+0900)
+! Last modified: 2016-11-16 03:42 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -6650,6 +6650,7 @@ _yahooads_
 ||adshostnet.com^
 ||adshot.de^$third-party
 ||adshuffle.com^$third-party
+||adsjudo.com^
 ||adsk2.$popup
 ||adsk2.$third-party
 ||adskape.ru^$third-party
@@ -7116,6 +7117,7 @@ _yahooads_
 ||babelzilla.org^*/addonfox_
 ||babelzilla.org^*/powerfox-
 ||ua.badongo.com^
+||badtopwitch.work^
 ||cb.baidu.com^
 ||cbjs.baidu.com^
 ||cpro.baidu
@@ -10541,6 +10543,7 @@ _yahooads_
 ||steamac.com^
 ||steelhousemedia.com^$third-party
 ||stickeraction.com^$third-party
+||stirshakead.com^
 ||stocknavigator.ru^$third-party
 ||storepm.com^
 ||storycam.com^
