@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: dSexHwTttgM9/2lggsLQnw
+! Checksum: 0FnC9dQPjMne37Aju5d1zA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201611160342
+! Version: 201611170606
 !
-! Last modified: 2016-11-16 03:42 JST(UTC+0900)
+! Last modified: 2016-11-17 06:06 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -8792,6 +8792,7 @@ _yahooads_
 ||k0z09okc.com^
 ||k1nomania.com^
 ||kadtd.com^
+||kaizentraffic.com^
 ||kakaku.com^*/Rdm
 ||kakaku.com/images/rex-card/
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
