@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: HeNTE/sIlXnc1lGtwRIvXg
+! Checksum: 6ockTsfinZWgrDzb434EQQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201611170626
+! Version: 201611190411
 !
-! Last modified: 2016-11-17 06:26 JST(UTC+0900)
+! Last modified: 2016-11-19 04:11 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -8948,7 +8948,9 @@ _yahooads_
 ||like18.info/image/
 ||likemastr.com^$third-party
 ||likondok.com^
-||line-apps.com^$third-party
+! Commented out to avoid false positives because more subdomains are used than expected like cdn-matome.line-apps.com at matome.naver.jp, Nov 19, 2016
+! Need exact subdomain or path
+! ||line-apps.com^$third-party
 ||lineni.ru^
 ||linezing.com^$third-party
 ||link-a.net^$third-party
