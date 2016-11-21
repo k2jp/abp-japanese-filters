@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: RGsUmEWwkPcJtOgZs7d9ew
+! Checksum: 7i1C+VPT7FJxjr3qgBt7/g
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201611220215
+! Version: 201611220314
 !
-! Last modified: 2016-11-22 02:15 JST(UTC+0900)
+! Last modified: 2016-11-22 03:14 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9052,6 +9052,7 @@ _yahooads_
 ||loveloves.com^
 ||loveme.fr^
 ||loveplanet.ru^$third-party
+||campus.lovepop.jp^
 ||loveraz.com^
 ||lovinuk.com^
 ||lovin-uk.com^
