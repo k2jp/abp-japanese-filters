@@ -1,11 +1,11 @@
 [Adblock Plus 2.7.1]
-! Checksum: gpNFrKt/a+8seoZNWaph0Q
+! Checksum: RGsUmEWwkPcJtOgZs7d9ew
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201611200259
+! Version: 201611220215
 !
-! Last modified: 2016-11-20 02:59 JST(UTC+0900)
+! Last modified: 2016-11-22 02:15 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -168,7 +168,7 @@
 ! False positives with random path including /ad/, reported via Issue Report, May 3, 2014
 @@||hydra-media.cursecdn.com/*.gamepedia.com*/a/ad/$image,domain=gamepedia.com
 ! Exception for its own site logo, May 31, 2013
-@@||distrowatch.com/images/jruiakuzm/dwbanner.$image
+@@||distrowatch.com/images/jruiakuzm/dwbanner.$image,domain=distrowatch.com
 ! False positives with movie player (Daily Motion Player?) used with ^dmp.$object,script,subdocument,third-party filter, Jul 25, 2015 and Dec 04, 2015
 @@||dmcdn.net/playerv*/dmp.$object,script,domain=dailymotion.com
 ! False positives with images on third-party domains, reported via Issue Report, Nov 23, 2015
@@ -7812,7 +7812,8 @@ _yahooads_
 ||disqusads.com^
 ||disterme.com^
 ||distributique.com^
-||distrowatch.com/images/jruiakuzm/
+||distrowatch.com/images/jruiakuzm/$domain=distrowatch.com
+||distrowatch.com/images/k/$domain=distrowatch.com
 ||divertura.com^
 ||divxporno.net^
 ||dizzyac.com^
