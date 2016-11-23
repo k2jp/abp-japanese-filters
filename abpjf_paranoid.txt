@@ -1,11 +1,11 @@
-[Adblock Plus 2.7.1]
-! Checksum: 1FQWirBQWwm00nQZ7ZMPoA
+[Adblock Plus 2.8.2]
+! Checksum: xVKh7tNZWsKNA1g5o/Ch0Q
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201611141113
+! Version: 201611232010
 !
-! Last modified: 2016-11-14 11:13 JST(UTC+0900)
+! Last modified: 2016-11-23 20:10 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
