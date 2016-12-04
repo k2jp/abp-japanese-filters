@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: aZMJf0m/YQ9ZVAcMbQDsuA
+! Checksum: SPPOQlO5LlpxRUmm5mq28g
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201612031651
+! Version: 201612042125
 !
-! Last modified: 2016-12-03 16:51 JST(UTC+0900)
+! Last modified: 2016-12-04 21:25 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2362,6 +2362,7 @@
 /getmarquee^$domain=live.nicovideo.jp|www.nicovideo.jp
 /getmarquee_$domain=live.nicovideo.jp|www.nicovideo.jp
 /globalAdTag.$script
+/go/redirect/?r=$document
 /google.html?cb=$subdocument
 ! Commented out duplicated filters, Feb 26, 2012
 ! /google_ads-
@@ -6208,8 +6209,10 @@ _yahooads_
 ! Added malicious IP Addresses reported at http://unixfreaxjp.blogspot.jp/2013/08/ocjp-119kelihos.html and http://malwaremustdie.blogspot.jp/2013/08/the-quick-report-on-48hours-in-battle.html by [https://twitter.com/unixfreaxjp @unixfreaxjp] via Changelog wiki, Aug 9, 2013
 !
 ||*-aaa.net^$third-party
+||*-adsterra.com^$document
 ||*-mmm.net^
 ||*-mmm.net^$popup
+||*-terraclicks.com^$document
 ||*adexchange.com^$document
 ||*adexchange.com^$popup
 ||*tab.com/?*&subid=
