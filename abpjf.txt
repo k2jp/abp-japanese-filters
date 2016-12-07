@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: PZ31yeeEcD5zfOVL7MGC4g
+! Checksum: SbsMtTr4B6puuBj+bXfuiQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201612052103
+! Version: 201612071352
 !
-! Last modified: 2016-12-05 21:03 JST(UTC+0900)
+! Last modified: 2016-12-07 13:52 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1567,8 +1567,8 @@
 .analytics9.
 .analytics9^
 .analytics9_
-.asp?*&s=*&v=*&m=$document
-.aspx?*&s=*&v=*&m=$document
+||com^*.asp?*&s=*&v=*&m=$document
+||com^*.aspx?*&s=*&v=*&m=$document
 .autolinkmaker-
 .autolinkmaker.
 .autolinkmaker^
@@ -1707,8 +1707,8 @@
 .heatmap^$third-party
 .heatmap_$third-party
 .histats.$third-party
-.htm?*&s=*&v=*&m=$document
-.html?*&s=*&v=*&m=$document
+||com^*.htm?*&s=*&v=*&m=$document
+||com^*.html?*&s=*&v=*&m=$document
 .impact-ad.jp^$third-party
 .impression_id-
 .impression_id.
@@ -1781,7 +1781,7 @@
 .pagead.
 .pagead^
 .pagead_
-.php?*&s=*&v=*&m=$document
+||com^*.php?*&s=*&v=*&m=$document
 .php?k=*&h=*&ban=*&iid=
 .php?k=*&h=*&ban=*&iid=$popup
 ! Simplified to ?zoneid=
