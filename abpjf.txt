@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: SbsMtTr4B6puuBj+bXfuiQ
+! Checksum: xPWHDOqw8CNavs86NzcxaA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201612071352
+! Version: 201612080052
 !
-! Last modified: 2016-12-07 13:52 JST(UTC+0900)
+! Last modified: 2016-12-08 00:52 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -305,8 +305,9 @@
 ! ########## Option only START ##########
 |data:text/html;$popup
 |http:$image,object,object-subrequest,ping,script,subdocument,xmlhttprequest,domain=ime.nu|ime.st
-|http:$ping
-|https:$ping
+! Commented out for the incompatibility with uBlock Origin, Dec 08, 2016
+! |http:$ping
+! |https:$ping
 |http:$popup,domain=1channel.ch|1fichier.com|2baksa.net|6brj.com|adexprt.com|adnxs.com|adshostnet.com|adspirit.de|adsplats.com|airliners.net|alphatv.gr|alrincon.com|animeflv.net|animeid.tv|bitshare.com|booking.com|cinerip.com|cloudfront.net|co-co-co.co|cpasbien.io|cpasbien.pw|ctdisk.com|depositfiles.com|ellinofreneiafm.gr|emule-island.ru|eurosptp.com|extratorrent.cc|extratorrentlive.com|eztv.ag|filenuke.com|filesonic.com|filesonic.fr|filesonic.jp|flashx.tv|freakshare.com|freebunker.com|freshremix.ru|hao123.com|hdtorrents.info|hikaritube.com|hot-jav.com|hotavxxx.com|hotporndl.com|humoron.com|imagecarry.com|imagefruit.com|imagesnake.com|imgcarry.com|imgchili.com|imgshots.com|isohunt.com|kinoman.tv|libertyland.tv|lumfile.com|megafilmesonline.net|megaupload.com|megavideo.com|mk-sniper.net|movie4k.tv|movie8k.me|newpct1.com|nuvid.com|openadserving.com|openload.co|peliculaspepito.to|pornbus.org|primewire.ag|promptfile.com|qponning.com|rev2pub.com|rueducommerce.fr|senmanga.com|seriesflv.net|seriespepito.to|slickdeals.net|speedyshare.com|streamcloud.eu|streamingclic.net|swesub.tv|t411.ch|telechargementz.org|torrentbox.com|torrentfrancais.com|torrentunblock.com|torrentz.eu|tucinecom.com|turbobit.net|umbertoarciero.it|un-lien.fr|unblocked.li|uploadable.ch|uploadrocket.net|uptobox.com|veoh.com|videomega.tv|vidtodo.com|vidzi.tv|viooz.co|vshare.eu|watch-series.to|xhamster.com|xnxx.com|xvideos.com|youporn.com|yourfilehost.com|yourlib.net|yunfile.com|yyets.com
 |https:$popup,domain=1channel.ch|1fichier.com|2baksa.net|6brj.com|adexprt.com|adnxs.com|adshostnet.com|adspirit.de|adsplats.com|airliners.net|alphatv.gr|alrincon.com|animeflv.net|animeid.tv|bitshare.com|booking.com|cinerip.com|cloudfront.net|co-co-co.co|cpasbien.io|cpasbien.pw|ctdisk.com|depositfiles.com|ellinofreneiafm.gr|emule-island.ru|eurosptp.com|extratorrent.cc|extratorrentlive.com|eztv.ag|filenuke.com|filesonic.com|filesonic.fr|filesonic.jp|flashx.tv|freakshare.com|freebunker.com|freshremix.ru|hao123.com|hdtorrents.info|hikaritube.com|hot-jav.com|hotavxxx.com|hotporndl.com|humoron.com|imagecarry.com|imagefruit.com|imagesnake.com|imgcarry.com|imgchili.com|imgshots.com|isohunt.com|kinoman.tv|libertyland.tv|lumfile.com|megafilmesonline.net|megaupload.com|megavideo.com|mk-sniper.net|movie4k.tv|movie8k.me|newpct1.com|nuvid.com|openadserving.com|openload.co|peliculaspepito.to|pornbus.org|primewire.ag|promptfile.com|qponning.com|rev2pub.com|rueducommerce.fr|senmanga.com|seriesflv.net|seriespepito.to|slickdeals.net|speedyshare.com|streamcloud.eu|streamingclic.net|swesub.tv|t411.ch|telechargementz.org|torrentbox.com|torrentfrancais.com|torrentunblock.com|torrentz.eu|tucinecom.com|turbobit.net|umbertoarciero.it|un-lien.fr|unblocked.li|uploadable.ch|uploadrocket.net|uptobox.com|veoh.com|videomega.tv|vidtodo.com|vidzi.tv|viooz.co|vshare.eu|watch-series.to|xhamster.com|xnxx.com|xvideos.com|youporn.com|yourfilehost.com|yourlib.net|yunfile.com|yyets.com
 |http:$subdocument,domain=mangahere.co
@@ -1567,8 +1568,6 @@
 .analytics9.
 .analytics9^
 .analytics9_
-||com^*.asp?*&s=*&v=*&m=$document
-||com^*.aspx?*&s=*&v=*&m=$document
 .autolinkmaker-
 .autolinkmaker.
 .autolinkmaker^
@@ -1707,8 +1706,6 @@
 .heatmap^$third-party
 .heatmap_$third-party
 .histats.$third-party
-||com^*.htm?*&s=*&v=*&m=$document
-||com^*.html?*&s=*&v=*&m=$document
 .impact-ad.jp^$third-party
 .impression_id-
 .impression_id.
@@ -1781,7 +1778,6 @@
 .pagead.
 .pagead^
 .pagead_
-||com^*.php?*&s=*&v=*&m=$document
 .php?k=*&h=*&ban=*&iid=
 .php?k=*&h=*&ban=*&iid=$popup
 ! Simplified to ?zoneid=
@@ -6148,12 +6144,18 @@ _yahooads_
 ||iad.$domain=~iad.co.jp
 ! ---------- URL Fragments END ----------
 ! 
-! ########## Top Level Domains with path START ##########
+! ########## TLD (Top Level Domain) with path START ##########
+||com^*.asp?*&s=*&v=*&m=$document
 ||com/*.asp?*=nt.v|$document
+||com^*.aspx?*&s=*&v=*&m=$document
 ||com/*.aspx?*=nt.v|$document
+||com^*.htm?*&s=*&v=*&m=$document
 ||com/*.htm?*=nt.v|$document
+||com^*.html?*&s=*&v=*&m=$document
 ||com/*.html?*=nt.v|$document
+||com^*.php?*&s=*&v=*&m=$document
 ||com/*.php?*=nt.v|$document
+
 ||com/jquery/text.$script,third-party
 ||info/*.js?dn=*&isc=$third-party
 ||net/amz/$script,third-party
@@ -6161,7 +6163,7 @@ _yahooads_
 ||ru/rdr/to/$document
 ||ru/rdr/to/$popup
 ||work/w/d/$third-party
-! ---------- Top Level Domains with path END ----------
+! ---------- TLD (Top Level Domain) with path END ----------
 ! 
 ! ########## Domains optionally with path START ##########
 ||46.105.39.177^
