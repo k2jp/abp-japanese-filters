@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: 1FsN5eSc/5iR018pb+NDig
+! Checksum: pF8nb7wGxgWT2RJOuKGy8A
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201612090242
+! Version: 201612090257
 !
-! Last modified: 2016-12-09 02:42 JST(UTC+0900)
+! Last modified: 2016-12-09 02:57 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -984,6 +984,10 @@
 -dfp9^$third-party
 -dfp9_$object,script,subdocument
 -dfp9_$third-party
+-dsp-$third-party
+-dsp.$third-party
+-dsp^$third-party
+-dsp_$third-party
 -evercookie-
 -evercookie.
 -evercookie^
@@ -1106,6 +1110,10 @@
 -retargetingid.
 -retargetingid^
 -retargetingid_
+-rtb-$third-party
+-rtb.$third-party
+-rtb^$third-party
+-rtb_$third-party
 -shopzilla-$third-party
 -shopzilla.$third-party
 -shopzilla^$third-party
@@ -1118,10 +1126,18 @@
 -showads.
 -showads^
 -showads_
+-slot-$third-party
+-slot.$third-party
+-slot^$third-party
+-slot_$third-party
 -sponsored-
 -sponsored.
 -sponsored^
 -sponsored_
+-ssp-$third-party
+-ssp.$third-party
+-ssp^$third-party
+-ssp_$third-party
 ! Commented out to avoid false positives with "static": 2011-09-07
 ! -stat-
 ! -stat.
@@ -1690,6 +1706,10 @@
 .dfp9^$third-party
 .dfp9_$object,script,subdocument
 .dfp9_$third-party
+.dsp-$third-party
+.dsp.$third-party
+.dsp^$third-party
+.dsp_$third-party
 .engine?$third-party
 .engine?id=
 .engine?guid=$popup
@@ -1824,6 +1844,10 @@
 .retargetingid^
 .retargetingid_
 .rpxnow.com/$third-party
+.rtb-$third-party
+.rtb.$third-party
+.rtb^$third-party
+.rtb_$third-party
 .shopzilla-$third-party
 .shopzilla.$third-party
 .shopzilla^$third-party
@@ -1836,10 +1860,18 @@
 .showads.
 .showads^
 .showads_
+.slot-$third-party
+.slot.$third-party
+.slot^$third-party
+.slot_$third-party
 .sponsored-
 .sponsored.
 .sponsored^
 .sponsored_
+.ssp-$third-party
+.ssp.$third-party
+.ssp^$third-party
+.ssp_$third-party
 ! Commented out to avoid false positives with "static": 2011-09-07
 ! .stat-
 ! .stat.
@@ -4211,6 +4243,10 @@
 ^doubleclick.
 ^doubleclick^
 ^doubleclick_
+^dsp-$third-party
+^dsp.$third-party
+^dsp^$third-party
+^dsp_$third-party
 ^dynads-
 ^dynads.
 ^dynads^
@@ -4957,6 +4993,10 @@
 ^retargetingid.
 ^retargetingid^
 ^retargetingid_
+^rtb-$third-party
+^rtb.$third-party
+^rtb^$third-party
+^rtb_$third-party
 ^rum-$object,script,subdocument
 ^rum.$object,script,subdocument
 ^rum^$object,script,subdocument
@@ -5001,6 +5041,10 @@
 ^sitesnapi.
 ^sitesnapi^
 ^sitesnapi_
+^slot-$third-party
+^slot.$third-party
+^slot^$third-party
+^slot_$third-party
 ^smartad-
 ^smartad.
 ^smartad^
@@ -5030,6 +5074,10 @@
 ^sprocket.$third-party
 ^sprocket^$third-party
 ^sprocket_$third-party
+^ssp-$third-party
+^ssp.$third-party
+^ssp^$third-party
+^ssp_$third-party
 ^survey-$third-party
 ^survey.$third-party
 ^survey^$third-party
@@ -5708,6 +5756,10 @@ _dfp9^$object,script,subdocument
 _dfp9^$third-party
 _dfp9_$object,script,subdocument
 _dfp9_$third-party
+_dsp-$third-party
+_dsp.$third-party
+_dsp^$third-party
+_dsp_$third-party
 _evercookie-
 _evercookie.
 _evercookie^
@@ -5836,6 +5888,10 @@ _retargetingid-
 _retargetingid.
 _retargetingid^
 _retargetingid_
+_rtb-$third-party
+_rtb.$third-party
+_rtb^$third-party
+_rtb_$third-party
 _shopzilla-$third-party
 _shopzilla.$third-party
 _shopzilla^$third-party
@@ -5848,6 +5904,10 @@ _showads-
 _showads.
 _showads^
 _showads_
+_slot-$third-party
+_slot.$third-party
+_slot^$third-party
+_slot_$third-party
 _sponsor-
 _sponsor.
 _sponsor^
@@ -5866,6 +5926,10 @@ _sponsored-
 _sponsored.
 _sponsored^
 _sponsored_
+_ssp-$third-party
+_ssp.$third-party
+_ssp^$third-party
+_ssp_$third-party
 ! Commented out to avoid false positives with "static": 2011-09-07
 ! _stat-
 ! _stat.
