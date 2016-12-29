@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: cprHXtEjFprOWwKfh3xQtA
+! Checksum: 1wcyqFJZSeR6iQEbLIDhbA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201612300250
+! Version: 201612300317
 !
-! Last modified: 2016-12-30 02:50 JST(UTC+0900)
+! Last modified: 2016-12-30 03:17 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2559,6 +2559,7 @@
 /OneSignalSDK.$script
 ! this cause javascript to stop: /oo/$domain=zai.diamond.jp
 /opt_content.js^$script,third-party
+/out?bidid=$document
 /overtureAd.
 /OvertureSS.
 /owa.$script,domain=~outlook.live.com
@@ -10868,7 +10869,7 @@ _yahooads_
 ||traffic-exchange.tv^$third-party
 ||traffic.ru^$third-party
 ||trafficandrei.ru^
-||trafficbroker.com^$third-party
+||trafficbroker.com^
 ||trafficdna.com^$third-party
 ||trafficfactory.biz^$third-party
 ||trafficgate.net^$third-party
