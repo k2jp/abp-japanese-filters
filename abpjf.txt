@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: y37rusWDvG6w/DtJPtbmSQ
+! Checksum: X0yru3x0P3gNBv7qYH+2Hg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201701050248
+! Version: 201701050302
 !
-! Last modified: 2017-01-05 02:48 JST(UTC+0900)
+! Last modified: 2017-01-05 03:02 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -6251,53 +6251,53 @@ _yahooads_
 ! ---------- TLD (Top Level Domain) with path END ----------
 ! 
 ! ########## Domains optionally with path START ##########
-||46.105.39.177^
-||49.212.27.60^
-||80.77.113.200^
-||127.0.0.1:4001/isrunning$third-party
-||133.242.135.143^
-||202.212.208.85^
-||202.229.21.235^
-||203.86.249.80^
-||210.135.99.84^
-||210.155.151.148^
-||217.19.51.
+://46.105.39.177^
+://49.212.27.60^
+://80.77.113.200^
+://127.0.0.1:4001/isrunning$third-party
+://133.242.135.143^
+://202.212.208.85^
+://202.229.21.235^
+://203.86.249.80^
+://210.135.99.84^
+://210.155.151.148^
+://217.19.51.
 !
 ! Added malicious IP Addresses reported at http://unixfreaxjp.blogspot.jp/2013/08/ocjp-119kelihos.html and http://malwaremustdie.blogspot.jp/2013/08/the-quick-report-on-48hours-in-battle.html by [https://twitter.com/unixfreaxjp @unixfreaxjp] via Changelog wiki, Aug 9, 2013
 ! START
-||58.0.83.121^
-||58.1.146.36^
-||58.89.126.241^
-||60.40.158.22^
-||60.71.211.55^
-||61.27.199.31^
-||61.200.114.40^
-||106.169.115.234^
-||110.133.156.104^
-||111.67.162.60^
-||112.139.167.48^
-||114.48.16.144^
-||114.178.77.6^
-||116.65.108.115^
-||116.83.151.87^
-||117.74.46.13^
-||119.171.13.230^
-||121.2.3.182^
-||123.216.163.119^
-||125.4.35.24^
-||126.4.196.160^
-||153.185.24.123^
-||180.11.51.121^
-||180.61.12.209^
-||183.72.151.211^
-||203.114.209.218^
-||210.1.161.235^
-||210.148.165.67^
-||218.110.111.80^
-||219.103.108.90^
-||219.115.243.108^
-||219.121.156.187^
-||223.133.68.174^
+://58.0.83.121^
+://58.1.146.36^
+://58.89.126.241^
+://60.40.158.22^
+://60.71.211.55^
+://61.27.199.31^
+://61.200.114.40^
+://106.169.115.234^
+://110.133.156.104^
+://111.67.162.60^
+://112.139.167.48^
+://114.48.16.144^
+://114.178.77.6^
+://116.65.108.115^
+://116.83.151.87^
+://117.74.46.13^
+://119.171.13.230^
+://121.2.3.182^
+://123.216.163.119^
+://125.4.35.24^
+://126.4.196.160^
+://153.185.24.123^
+://180.11.51.121^
+://180.61.12.209^
+://183.72.151.211^
+://203.114.209.218^
+://210.1.161.235^
+://210.148.165.67^
+://218.110.111.80^
+://219.103.108.90^
+://219.115.243.108^
+://219.121.156.187^
+://223.133.68.174^
 ! END
 ! Added malicious IP Addresses reported at http://unixfreaxjp.blogspot.jp/2013/08/ocjp-119kelihos.html and http://malwaremustdie.blogspot.jp/2013/08/the-quick-report-on-48hours-in-battle.html by [https://twitter.com/unixfreaxjp @unixfreaxjp] via Changelog wiki, Aug 9, 2013
 !
