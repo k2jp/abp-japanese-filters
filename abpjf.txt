@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: JTUj0tyZ+cxLW0fa+4IZFQ
+! Checksum: S0GUCkC3grAQI0O3bbcv0w
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201701150038
+! Version: 201701150044
 !
-! Last modified: 2017-01-15 00:38 JST(UTC+0900)
+! Last modified: 2017-01-15 00:44 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -413,6 +413,8 @@
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
 ! &file=ads&
 &iad=
+&impid=
+&impid=$document
 |http:*?*&ip=$third-party
 |https:*?*&ip=$third-party
 |http:*?*&lp=*id=$popup
@@ -2307,8 +2309,6 @@
 /click/body.php?id=*&hash=$popup
 /click?i=$document
 /click?id=$document
-/click?impid=
-/click?impid=$document
 /click?lang=$document
 /clicktracklog.
 /cloudflare.$script,third-party
@@ -2960,6 +2960,8 @@
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
 ! ?file=ads&
 ?id_promo=
+?impid=
+?impid=$document
 |http:*?ip=$third-party
 |https:*?ip=$third-party
 ?lp_domain=$popup
