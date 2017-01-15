@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: xprN5mjO7U57K89O1znb3A
+! Checksum: oI4Vm3iM7wYXUEp4PxtHxQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201701100154
+! Version: 201701160737
 !
-! Last modified: 2017-01-10 01:54 JST(UTC+0900)
+! Last modified: 2017-01-16 07:37 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4544,6 +4544,10 @@ www.yahoo.co.jp###local
 ||top/?*=*-*-$subdocument,third-party
 ||toys/?*&es_sm=$subdocument,third-party
 ||toys/?es_sm=$subdocument,third-party
+|http:*.us/?*&br_fl=$subdocument,third-party
+|https:*.us/?*&br_fl=$subdocument,third-party
+|http:*.us/?br_fl=$subdocument,third-party
+|https:*.us/?br_fl=$subdocument,third-party
 ||xyz/?*=*-*-$subdocument,third-party
 ! ----- Ransomware via iframes ----- END -----
 
