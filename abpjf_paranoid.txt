@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: oI4Vm3iM7wYXUEp4PxtHxQ
+! Checksum: fkDKlCt/Ewk2e9H2NL2j2Q
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201701160737
+! Version: 201701171826
 !
-! Last modified: 2017-01-16 07:37 JST(UTC+0900)
+! Last modified: 2017-01-17 18:26 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4513,12 +4513,16 @@ www.yahoo.co.jp###local
 ! ----- Questionnaire, survey or poll ----- END -----
 
 ! ===== Ransomware via iframes ===== START =====
+|http:*/?*&br_fl=$subdocument,third-party
+|https:*/?*&br_fl=$subdocument,third-party
+|http:*/?br_fl=$subdocument,third-party
+|https:*/?br_fl=$subdocument,third-party
 |http:*.cf/?*=*-*-$subdocument,third-party
 |https:*.cf/?*=*-*-$subdocument,third-party
 |http:*.co/?*=*-*-$subdocument,third-party
 |https:*.co/?*=*-*-$subdocument,third-party
-||com/?*&br_fl=$subdocument,third-party
-||com/?br_fl=$subdocument,third-party
+! ||com/?*&br_fl=$subdocument,third-party
+! ||com/?br_fl=$subdocument,third-party
 ||com/?*&es_sm=$subdocument,third-party
 ||com/?es_sm=$subdocument,third-party
 ||com/?*=*-*-$subdocument,third-party
@@ -4530,8 +4534,8 @@ www.yahoo.co.jp###local
 ||live/?es_sm=$subdocument,third-party
 |http:*.ml/?*=*-*-$subdocument,third-party
 |https:*.ml/?*=*-*-$subdocument,third-party
-||net/?*&br_fl=$subdocument,third-party
-||net/?br_fl=$subdocument,third-party
+! ||net/?*&br_fl=$subdocument,third-party
+! ||net/?br_fl=$subdocument,third-party
 ||net/?*&es_sm=$subdocument,third-party
 ||net/?es_sm=$subdocument,third-party
 ||net/?*=*-*-$subdocument,third-party
@@ -4544,10 +4548,10 @@ www.yahoo.co.jp###local
 ||top/?*=*-*-$subdocument,third-party
 ||toys/?*&es_sm=$subdocument,third-party
 ||toys/?es_sm=$subdocument,third-party
-|http:*.us/?*&br_fl=$subdocument,third-party
-|https:*.us/?*&br_fl=$subdocument,third-party
-|http:*.us/?br_fl=$subdocument,third-party
-|https:*.us/?br_fl=$subdocument,third-party
+! |http:*.us/?*&br_fl=$subdocument,third-party
+! |https:*.us/?*&br_fl=$subdocument,third-party
+! |http:*.us/?br_fl=$subdocument,third-party
+! |https:*.us/?br_fl=$subdocument,third-party
 ||xyz/?*=*-*-$subdocument,third-party
 ! ----- Ransomware via iframes ----- END -----
 
