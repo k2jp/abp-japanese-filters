@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: fkDKlCt/Ewk2e9H2NL2j2Q
+! Checksum: YON7zzCNMH0AKEagBg9p7Q
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201701171826
+! Version: 201701260428
 !
-! Last modified: 2017-01-17 18:26 JST(UTC+0900)
+! Last modified: 2017-01-26 04:28 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3678,6 +3678,8 @@ _s_code2_$script
 ! ----- SiteCatalyst at adobe.com -----
 
 ! ===== Amazon Affiliate killer ===== START =====
+##a[href*="://amzn.to/"]
+##a[href*="://astore.amazon."][href*="-22/detail/"]
 ##a[href*="amazon."][href*="/ASIN/"][href*="-22"]
 ##a[href*="amazon."][href*="/dp/"][href*="-22"]
 ##a[href*="amazon."][href*="/gp/product/"][href*="-22"]
@@ -3687,8 +3689,6 @@ _s_code2_$script
 ##a[href*="amazon."][href*="?tag="][href*="-22"]
 ##a[href*="amazon."][href*="%26tag%3D"][href*="-22"]
 ##a[href*="amazon."][href*="%3Ftag%3D"][href*="-22"]
-##a[href*="://astore.amazon."][href*="-22/detail/"]
-##a[href^="http://amzn.to/"]
 ! ----- Amazon Affiliate killer ----- END -----
 
 ! ===== Amazon discount banners ===== START =====
