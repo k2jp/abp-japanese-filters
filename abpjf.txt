@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: iuaQPNSTLiuse/P6Vv/0EQ
+! Checksum: 169vMkGTTfg2YWBv6HdHeQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201702060558
+! Version: 201702061549
 !
-! Last modified: 2017-02-06 05:58 JST(UTC+0900)
+! Last modified: 2017-02-06 15:49 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -305,6 +305,7 @@
 ! ---------- Default white list END ----------
 !
 ! ########## Option only START ##########
+|data:text/html^$document
 |data:text/html^$popup
 |http:$image,object,object-subrequest,ping,script,subdocument,xmlhttprequest,domain=ime.nu|ime.st
 ! Commented out for the incompatibility with uBlock Origin, Dec 08, 2016
