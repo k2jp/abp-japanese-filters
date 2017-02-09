@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: zgiH3yZIKqZYjlOQwQFotQ
+! Checksum: QniAPqpgSZ58J/8YtFdP1g
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201702100500
+! Version: 201702100628
 !
-! Last modified: 2017-02-10 05:00 JST(UTC+0900)
+! Last modified: 2017-02-10 06:28 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2487,6 +2487,7 @@
 /kanasoku*/at_side.
 /kanasoku/Live.
 /kanasoku/rss.
+/kccs.$script
 /lcslog.$script
 /leaderboard_SWF
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
@@ -7048,6 +7049,7 @@ _yahooads_
 ||amazonaws.com/getsatisfaction.com/
 ||amazonaws.com/hd_streamer/
 ||amazonaws.com/isr-public/
+||amazonaws.com/kccs-adecco/
 ||amazonaws.com/ki.
 ||amazonaws.com/lp3cloudfront/
 ||amazonaws.com/lps
@@ -8952,6 +8954,7 @@ _yahooads_
 ||kau.li^$third-party
 ||kavanga.ru^$third-party
 ||kazeo.com^$third-party
+||kccsrecommend.
 ||recommend.kbmj.com^
 ||keen.io^$third-party
 ||keertn.com^
