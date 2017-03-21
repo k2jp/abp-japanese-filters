@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: W/IH9VIkcmBfkCETOWndTQ
+! Checksum: DrPdAkyjtSHDdMyS6nGV2g
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201703212100
+! Version: 201703212106
 !
-! Last modified: 2017-03-21 21:00 JST(UTC+0900)
+! Last modified: 2017-03-21 21:06 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3614,6 +3614,10 @@ _tracking9_
 -s_code2.$script
 -s_code2^$script
 -s_code2_$script
+-sitecatalyst-
+-sitecatalyst.
+-sitecatalyst^
+-sitecatalyst_
 .omni-$script
 .omni.$script
 .omni^$script
@@ -3630,6 +3634,10 @@ _tracking9_
 .s_code2.$script
 .s_code2^$script
 .s_code2_$script
+.sitecatalyst-
+.sitecatalyst.
+.sitecatalyst^
+.sitecatalyst_
 ^omni-$script
 ^omni.$script
 ^omni^$script
@@ -3666,6 +3674,10 @@ _s_code2-$script
 _s_code2.$script
 _s_code2^$script
 _s_code2_$script
+_sitecatalyst-
+_sitecatalyst.
+_sitecatalyst^
+_sitecatalyst_
 ! ----- Omniture SiteCatalyst ----- END -----
 
 ! ===== Google Analytics ===== START =====
