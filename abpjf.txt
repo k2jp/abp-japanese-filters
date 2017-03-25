@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: A7UPHTDQcLm+yzAYxPYJjA
+! Checksum: gQyrwSJpUsXURYodAf3xGA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201703252222
+! Version: 201703260531
 !
-! Last modified: 2017-03-25 22:22 JST(UTC+0900)
+! Last modified: 2017-03-26 05:31 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2585,6 +2585,8 @@
 /path/lp.$document
 /pcad.
 /pcads.
+/pfx.$script,third-party
+/pfx_$script,third-party
 /ping.*?$image,object,subdocument
 /piwik.$image,third-party
 /piwik.$script
@@ -7476,6 +7478,7 @@ _yahooads_
 ||camseduction.com^
 ||camvisio.com^
 ||canalds.com^
+||caprofitx.com^
 ||captainad.com^$third-party
 ||car-insurance-offers.info^
 ||caragots.com^
