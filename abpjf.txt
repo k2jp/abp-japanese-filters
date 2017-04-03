@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: IEQ98DmiCZ58h5MFVqlhaw
+! Checksum: GkniYjbBvNlyZjm7e59X5w
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201704030629
+! Version: 201704040415
 !
-! Last modified: 2017-04-03 06:29 JST(UTC+0900)
+! Last modified: 2017-04-04 04:15 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4369,10 +4369,6 @@
 ^gemius.
 ^gemius^
 ^gemius_
-^geoiplookup-
-^geoiplookup.
-^geoiplookup^
-^geoiplookup_
 ^geopop-
 ^geopop.
 ^geopop^
@@ -6143,8 +6139,6 @@ _yahooads_
 |http://dw.c$script
 |https://dw.c$script
 ://eulerian.
-://geo.$object,script,subdocument
-://geo.$third-party
 ! Commented out a duplicated filter with the existing &zoneid=$document or ?zoneid=$document filters, Oct 21, 2016
 ! ://go.*/*.php?*zoneid=$document
 ://googleads.
