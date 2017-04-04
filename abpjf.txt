@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: FUxavOP4hXLpPzkFnDw83Q
+! Checksum: E/gXYGxD/Hq2LFR/b2Y4ZQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201704042131
+! Version: 201704042142
 !
-! Last modified: 2017-04-04 21:31 JST(UTC+0900)
+! Last modified: 2017-04-04 21:42 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2817,6 +2817,7 @@
 /wanalytics/*
 /watch?key=$document
 /watch?key=$popup
+/watch_autoplayrenderer.$script,domain=youtube.com
 /webtrack.
 /webtrends-
 ! Added to avoid false positives at logicool.co.jp . It does NOT have appropriate error handling. This end in "dcsMultiTrack is not defined "...
