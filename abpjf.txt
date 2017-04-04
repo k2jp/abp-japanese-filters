@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: ogN0fn/0+RKQXdsDGv5R6g
+! Checksum: +jx8gsdBb9RVxtEQGtWvPQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201704040438
+! Version: 201704042118
 !
-! Last modified: 2017-04-04 04:38 JST(UTC+0900)
+! Last modified: 2017-04-04 21:18 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -11546,7 +11546,8 @@ _yahooads_
 ||yourjavascript.com^$third-party
 ||youtopry.com^
 ! Commented out to avoid the false positive preventing users from change its playing position on the progress bar of HTML5 player, reported by zanderzhng, May 01, 2015
-! ||youtube.com/annotations_invideo?
+! Re-enabled the commented out filter again without problem, Apr 04, 2017
+||youtube.com/annotations_invideo?$domain=youtube.com
 ||youtube.com/get_video?
 ||youtube.com/ptracking?
 ||youtube.com/set_awesome?
