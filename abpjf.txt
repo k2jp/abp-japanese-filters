@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: pHs8Z2XT62B/Ti1Y3X7tzg
+! Checksum: oLu62l41yeE41dMX3JwQjQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201704170956
+! Version: 201704171009
 !
-! Last modified: 2017-04-17 09:56 JST(UTC+0900)
+! Last modified: 2017-04-17 10:09 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -6349,6 +6349,7 @@ _yahooads_
 !
 ||*-aaa.net^$third-party
 ||*-adsterra.com^$document
+||*-arata.com^$third-party
 ||*-mmm.net^
 ||*-mmm.net^$popup
 ||*-terraclicks.com^$document
@@ -9273,7 +9274,8 @@ _yahooads_
 ||luxure.tv^
 ||lytics.io^$third-party
 ||lzjl.com^
-||m-arata.com^$third-party
+! Merged into ||*-arata.com^$third-party, Apr 17, 2017
+! ||m-arata.com^$third-party
 ||m2pub.com^
 ||m2pub.com^$popup
 ||ma-cam-live.com^
