@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: 9rq5qxrCqxRHpLzk5MOePA
+! Checksum: JndZgWBzr/XxhZUXbV+u9g
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201704190909
+! Version: 201704190929
 !
-! Last modified: 2017-04-19 09:09 JST(UTC+0900)
+! Last modified: 2017-04-19 09:29 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -6114,6 +6114,8 @@ _yahooads_
 |https://ax-d.
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
 ! ://beacon.
+://c.*/?a=$document
+://c.*/?*&s2=$document
 |http://c.*/c.$image,object,subdocument
 |https://c.*/c.$image,object,subdocument
 ://campaign.
@@ -7468,6 +7470,7 @@ _yahooads_
 ||buzzfed.com^
 ||buzzfeed.com^$third-party
 ||bypass.jp^$third-party
+||byvue.com^
 ||c-ovn.jp^
 ||c-team.jp^$third-party
 ||c8.net.ua^$third-party
