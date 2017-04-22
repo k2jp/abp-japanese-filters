@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: 9GnbFwpIKV+cOG5LNOTD+w
+! Checksum: cPnsVvfEkrQXoziGvuCLpw
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201704221148
+! Version: 201704221422
 !
-! Last modified: 2017-04-22 11:48 JST(UTC+0900)
+! Last modified: 2017-04-22 14:22 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4321,6 +4321,10 @@
 ^evercookie.
 ^evercookie^
 ^evercookie_
+^ezoic-$domain=~ezoic.com
+^ezoic.$domain=~ezoic.com
+^ezoic^$domain=~ezoic.com
+^ezoic_$domain=~ezoic.com
 ^fastpopunder-
 ^fastpopunder.
 ^fastpopunder^
