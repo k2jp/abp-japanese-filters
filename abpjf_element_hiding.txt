@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: IbJMc8V//vOOjcbjVuGOZw
+! Checksum: I+eDboLMGsMVOrWp8dd3dg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Element-hiding filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201704060623
+! Version: 201704221603
 !
-! Last modified: 2017-04-06 06:23 JST(UTC+0900)
+! Last modified: 2017-04-22 16:03 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1991,6 +1991,7 @@ revouninstaller.com##.row-banner
 ribbon.to##body > p[align="center"]
 robtex.com##.topper
 robtex.com##[id^="xad"]:not(:root):not(body):not(input)
+robtex.com##[id$="topad"]:not(:root):not(body):not(input)
 ip.robtex.com##a[rel="nofollow"] > img
 rue89japon.com##[id^="ad_"]:not(:root):not(body):not(input)
 sanspo.com###lBoard2
