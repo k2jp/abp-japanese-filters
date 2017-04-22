@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: l1vpQpQ0oo8zRZmq9MYWEw
+! Checksum: 4663K5d2xFIoInuYgP4f6A
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Element-hiding filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201704221613
+! Version: 201704221619
 !
-! Last modified: 2017-04-22 16:13 JST(UTC+0900)
+! Last modified: 2017-04-22 16:19 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1992,9 +1992,9 @@ ribbon.to##body > p[align="center"]
 robtex.com##.aiad
 robtex.com##.topper
 robtex.com##[id^="xad"]:not(:root):not(body):not(input)
-robtex.com##[id*="adtester"]:not(:root):not(body):not(input)
-robtex.com##[id*="ezoic"]:not(:root):not(body):not(input)
 robtex.com##[id$="topad"]:not(:root):not(body):not(input)
+robtex.com##[class*="adtester"]:not(:root):not(body):not(input)
+robtex.com##[class*="ezoic"]:not(:root):not(body):not(input)
 ip.robtex.com##a[rel="nofollow"] > img
 rue89japon.com##[id^="ad_"]:not(:root):not(body):not(input)
 sanspo.com###lBoard2
