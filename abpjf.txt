@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: Sl5Ezsnm2ACxrQ3KthlmSw
+! Checksum: PhvkWge+h3WEH0TIvT+QWA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201704222239
+! Version: 201704251103
 !
-! Last modified: 2017-04-22 22:39 JST(UTC+0900)
+! Last modified: 2017-04-25 11:03 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1010,6 +1010,10 @@
 -evercookie.
 -evercookie^
 -evercookie_
+-ezoic-$domain=~ezoic.com
+-ezoic.$domain=~ezoic.com
+-ezoic^$domain=~ezoic.com
+-ezoic_$domain=~ezoic.com
 -fingerprint-$script
 -fingerprint.$script
 -fingerprint^$script
@@ -1735,6 +1739,10 @@
 .evercookie.
 .evercookie^
 .evercookie_
+.ezoic-$domain=~ezoic.com
+.ezoic.$domain=~ezoic.com
+.ezoic^$domain=~ezoic.com
+.ezoic_$domain=~ezoic.com
 .fingerprint-$script
 .fingerprint.$script
 .fingerprint^$script
@@ -5830,6 +5838,10 @@ _evercookie-
 _evercookie.
 _evercookie^
 _evercookie_
+_ezoic-$domain=~ezoic.com
+_ezoic.$domain=~ezoic.com
+_ezoic^$domain=~ezoic.com
+_ezoic_$domain=~ezoic.com
 _fingerprint-$script
 _fingerprint.$script
 _fingerprint^$script
