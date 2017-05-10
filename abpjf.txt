@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: /e7heT3u+VtwOZ+0rOscpQ
+! Checksum: 90ab35HgxNARw/PnlD5ubg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201705081347
+! Version: 201705110009
 !
-! Last modified: 2017-05-08 13:47 JST(UTC+0900)
+! Last modified: 2017-05-11 00:09 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -6650,6 +6650,7 @@ _yahooads_
 ||adedy.com^$third-party
 ||ademails.com^$third-party
 ||adengage.com^$third-party
+||adengine.org^
 ||adexc.net^
 ||adexce.net^
 ||adexcite.com^$third-party
@@ -6662,10 +6663,12 @@ _yahooads_
 ||adforgeinc.com^$third-party
 ||adform.net^$third-party
 ||adfox.ru^$third-party
+||adfront.org^
 ||adfunky.com^$third-party
 ||adgear.com^$third-party
 ||adglare.net^
 ||adgoup.com^
+||adgrid.org^
 ||adhai.com^$third-party
 ||adhelper.org^
 ||adhitzads.com^
@@ -6847,6 +6850,7 @@ _yahooads_
 ||adspot-rich.info^$third-party
 ||adspserving.com^
 ||adsrotator.net^
+||adsrv.
 ||adsrvmedia.net^
 ||adsrvr.org^
 ||adstager.com^
@@ -9693,6 +9697,7 @@ _yahooads_
 ! ||netdna-cdn.com^$third-party
 ||netdna-cdn.com/scores/
 ||adperformance.netdna-cdn.com
+||bsa.netdna-cdn.com^
 ||petametricsinc.netdna-cdn.com^
 ||s2hd-plugincom-maynemyltf.netdna-ssl.com^
 ||netgy.com^$third-party
