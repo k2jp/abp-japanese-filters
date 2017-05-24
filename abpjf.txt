@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: wpSvjuv2oX6WH+HEmyc+/A
+! Checksum: Gyv0gIvEarR/NgDh1X7exw
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201705230612
+! Version: 201705250135
 !
-! Last modified: 2017-05-23 06:12 JST(UTC+0900)
+! Last modified: 2017-05-25 01:35 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -11083,6 +11083,7 @@ _yahooads_
 ||twenga.de^
 ||twinplan.$third-party
 ||countess.twitch.tv^
+||twitter.com/i/jot^$domain=twitter.com
 ||twitter.com/i/users/prompts^$domain=twitter.com
 ||scribe.twitter.com^
 ||syndication.twitter.com^
