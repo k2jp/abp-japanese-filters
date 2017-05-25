@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: y7xQ8Ka3PK0GWQOi+I1QpA
+! Checksum: C2zlPbLUUtPY3MhyzWuXKg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201704150255
+! Version: 201705252339
 !
-! Last modified: 2017-04-15 02:55 JST(UTC+0900)
+! Last modified: 2017-05-25 23:39 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3815,6 +3815,10 @@ itpro.nikkeibp.co.jp##a[href*="/article/Active"]
 ! ===== twitter.com an inserted popular tweet in the middle of search result page ===== START =====
 twitter.com##.stream-items > .stream-item > [data-relevance-type="popular"]
 ! ----- twitter.com an inserted popular tweet in the middle of search result page ----- END -----
+
+! ===== twitter.com 「◯◯さんがいいねしました」 tweets inserted into the timeline, May 25, 2017 ===== START =====
+twitter.com##.stream-items > [data-suggestion-json*="ActivityTweet"]
+! ----- twitter.com 「◯◯さんがいいねしました」 tweets inserted into the timeline, May 25, 2017 ----- END -----
 
 ! ===== ustream.tv channel PR ===== START =====
 ustream.tv###FeaturedLiveBox
