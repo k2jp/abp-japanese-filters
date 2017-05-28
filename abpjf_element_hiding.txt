@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: +XT1P5n9wPsEnbUjESFh0A
+! Checksum: U704fJHLAwl/LUgEmcN8ww
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Element-hiding filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201704251133
+! Version: 201705290227
 !
-! Last modified: 2017-04-25 11:33 JST(UTC+0900)
+! Last modified: 2017-05-29 02:27 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -334,6 +334,8 @@
 ##.topAds:not(:root):not(body):not(input)
 ! ========== Links with a keyword START ==========
 ##a[href^="data:text/html;"]
+##a[href*="$MFT"]
+##a[href*="$mft"]
 ##a[href*="/A-affiliate2/"]
 ##a[href*="/aclk?bid="]
 ~famitsu.com##a[href*="&ad="]
