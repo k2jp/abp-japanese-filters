@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: icSFQLx9aBMChiyPrQfpcg
+! Checksum: brBkSKEiAA0TBuORyR1Yjw
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201705310848
+! Version: 201705310852
 !
-! Last modified: 2017-05-31 08:48 JST(UTC+0900)
+! Last modified: 2017-05-31 08:52 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2592,7 +2592,8 @@
 /OneSignalSDK.$script
 ! this cause javascript to stop: /oo/$domain=zai.diamond.jp
 /opt_content.js^$script,third-party
-/out?bidid=$document
+! Commented out the duplicated filter with ?bidid=$document, May 31, 2017
+! /out?bidid=$document
 /overtureAd.
 /OvertureSS.
 /owa.$script,domain=~outlook.live.com
