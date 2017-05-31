@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: p3LtB3VNv5VLrp+wotub5g
+! Checksum: P/woiUfkYlDFnsHQZxn+IA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201705310950
+! Version: 201705311004
 !
-! Last modified: 2017-05-31 09:50 JST(UTC+0900)
+! Last modified: 2017-05-31 10:04 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -8148,6 +8148,7 @@ _yahooads_
 ||eads.to^$third-party
 ||earthly-p.com^$third-party
 ||easy2date.net^
+||easy2date.net^$popup
 ||easydate.biz^$third-party
 ||easydating.fr^
 ||easyinline.com^$third-party
