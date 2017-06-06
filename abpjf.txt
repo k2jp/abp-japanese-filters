@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: E63mYMqbguM+moEGBKjl+A
+! Checksum: eh3cHhLdyHcRMoMdrNsYrQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201706061204
+! Version: 201706061207
 !
-! Last modified: 2017-06-06 12:04 JST(UTC+0900)
+! Last modified: 2017-06-06 12:07 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2656,6 +2656,7 @@
 /publisher/*$third-party
 /Publishers/*$third-party
 /Publishers/*?random=
+/PVCountCmd?
 /rainman.$script,domain=livedoor.jp
 /rajic.$subdocument
 /rakulog.$script
@@ -7586,6 +7587,7 @@ _yahooads_
 ||cettenu.com^
 ||cettenus.com^
 ||cha-f.com^$third-party
+||challenging.jp^$third-party
 ||champions-quiz.$popup
 ||chango.com^$third-party
 ||channelintelligence.com^$third-party
@@ -10954,6 +10956,7 @@ _yahooads_
 ||thewheelof.com^
 ||thinkscore.com^$popup
 ||thisadsfor.us^
+||threewave.jp^$third-party
 ||thumbcropper.com^
 ||thumpac.com^
 ||ticketchic.com^
