@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: qV9T2KZJNb7AKt54i7luqw
+! Checksum: o5inQ0yf2xgfyP5cpWyi4Q
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201706102127
+! Version: 201706102213
 !
-! Last modified: 2017-06-10 21:27 JST(UTC+0900)
+! Last modified: 2017-06-10 22:13 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -641,12 +641,16 @@
 -adriver^
 -adriver_
 -ads-
+-ads-$document
 -ads-$popup
 -ads.$domain=~retweet-ads.net
+-ads.$document
 -ads.$popup
 -ads^
+-ads^$document
 -ads^$popup
 -ads_
+-ads_$document
 -ads_$popup
 -adsdata-
 -adsdata.
@@ -1371,12 +1375,16 @@
 .adriver^
 .adriver_
 .ads-
+.ads-$document
 .ads-$popup
 .ads.
+.ads.$document
 .ads.$popup
 .ads^
+.ads^$document
 .ads^$popup
 .ads_
+.ads_$document
 .ads_$popup
 .adsdata-
 .adsdata.
@@ -3531,12 +3539,16 @@
 ^adrotator_
 ^adrotator_$popup
 ^ads-
+^ads-$document
 ^ads-$popup
 ^ads.
+^ads.$document
 ^ads.$popup
 ^ads^
+^ads^$document
 ^ads^$popup
 ^ads_
+^ads_$document
 ^ads_$popup
 ^ads2-
 ^ads2.
@@ -5470,12 +5482,16 @@ _adriver.
 _adriver^
 _adriver_
 _ads-
+_ads-$document
 _ads-$popup
 _ads.
+_ads.$document
 _ads.$popup
 _ads^
+_ads^$document
 _ads^$popup
 _ads_
+_ads_$document
 _ads_$popup
 _adsdata-
 _adsdata.
