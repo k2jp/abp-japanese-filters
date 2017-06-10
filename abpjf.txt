@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: o5inQ0yf2xgfyP5cpWyi4Q
+! Checksum: L3Qp6AsjaBxMw9Vbkj0z9g
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201706102213
+! Version: 201706102230
 !
-! Last modified: 2017-06-10 22:13 JST(UTC+0900)
+! Last modified: 2017-06-10 22:30 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -256,7 +256,7 @@
 @@||s-msft.com/Combined.*?resources=*,$script,stylesheet,domain=microsoft.com
 ! False positive with combined stylesheet with the ^ads. filter, reported via Issue Report, Sep 16, 2014
 @@||salon.com/combo/css?*&$stylesheet
-! False positive with combined JavaScript with the -ads.$domain=~retweet-ads.net filter, reported via Issue Report, Sep 16, 2014
+! False positive with combined JavaScript with the -ads. filter, reported via Issue Report, Sep 16, 2014
 @@||salon.com/combo/js?*&$script
 ! False positives with product images starting at AD- using |https:*^ad- filter, reported via issue report, Feb 2, 2014
 @@||sanwa.co.jp/product/*/AD-$image
@@ -643,7 +643,7 @@
 -ads-
 -ads-$document
 -ads-$popup
--ads.$domain=~retweet-ads.net
+-ads.
 -ads.$document
 -ads.$popup
 -ads^
