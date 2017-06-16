@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: ZGl24Jic2l8QrcegjGR8/g
+! Checksum: 48xogryF1OxNkjqzFYh8tA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201706161353
+! Version: 201706161420
 !
-! Last modified: 2017-06-16 13:53 JST(UTC+0900)
+! Last modified: 2017-06-16 14:20 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -8017,6 +8017,9 @@ _yahooads_
 ||deobp.com^
 ||deolerton.ru^
 ||deplayer.net^$third-party
+||deployads.com^$third-party
+||deployads.com/c?b=$document
+||e.deployads.com^
 ! Possibly false positive disabling "Regular download" button, reported by leaies.hotmail at [https://code.google.com/p/adblock-plus-japanese-filter/issues/detail?id=33]
 ! ||depositfiles.com/js/df_utils.$script
 ! False positive with 無料ダウンロード, reported by 通りすがりの火狐ユーザー via blog, Jun 1, 2013
