@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: b8JbpyUMP4gbQo7GRFvgAw
+! Checksum: SGGg2sKZkVYUPqdy17FXHg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201706221924
+! Version: 201706231839
 !
-! Last modified: 2017-06-22 19:24 JST(UTC+0900)
+! Last modified: 2017-06-23 18:39 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4551,7 +4551,8 @@ www.yahoo.co.jp###local
 ! |https:*/?*&br_fl=$subdocument,third-party
 ! |http:*/?br_fl=$subdocument,third-party
 ! |https:*/?br_fl=$subdocument,third-party
-/^https?:\/\/[^/]+\/\?\w+&(?:[^=]+=[^&]+&)*?\w+=[x][3HX][3rvz][Q][Mcd][_frv][LPTWX][YZef][ab][R]/$subdocument,third-party
+/^https?:\/\/[^/]+\/\?\w+&(?:[^=]+=[^&]+&)*?\w+=[x][3HX][_3rvz][Q][Mcd][_frv][LPTWX][YZef][ab][R]/$document
+/^https?:\/\/[^/]+\/\?\w+&(?:[^=]+=[^&]+&)*?\w+=[x][3HX][_3rvz][Q][Mcd][_frv][LPTWX][YZef][ab][R]/$subdocument,third-party
 |http:*/?*&q=*QMvXcJ$subdocument,third-party
 |https:*/?*&q=*QMvXcJ$subdocument,third-party
 |http:*/?q=*QMvXcJ$subdocument,third-party
