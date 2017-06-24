@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: kZH8HFOfZWxZKcxZObqkpw
+! Checksum: AprXK6wRo/GTqvrUZwDvww
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201706220123
+! Version: 201706250523
 !
-! Last modified: 2017-06-22 01:23 JST(UTC+0900)
+! Last modified: 2017-06-25 05:23 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -901,6 +901,10 @@
 -beacons^
 -beacons_
 -betting/$popup
+-campaign-$third-party
+-campaign.$third-party
+-campaign^$third-party
+-campaign_$third-party
 -cellcast-media-
 -cellcast-media.
 -cellcast-media^
@@ -1634,6 +1638,10 @@
 .beacons^
 .beacons_
 .ca.html|
+.campaign-$third-party
+.campaign.$third-party
+.campaign^$third-party
+.campaign_$third-party
 .cellcast-media-
 .cellcast-media.
 .cellcast-media^
@@ -4140,6 +4148,10 @@
 ^bnr^pr^
 ^bnr^pr_
 ^ca-pub-
+^campaign-$third-party
+^campaign.$third-party
+^campaign^$third-party
+^campaign_$third-party
 ^cellcast-media-
 ^cellcast-media.
 ^cellcast-media^
@@ -5762,6 +5774,10 @@ _beacons-
 _beacons.
 _beacons^
 _beacons_
+_campaign-$third-party
+_campaign.$third-party
+_campaign^$third-party
+_campaign_$third-party
 _campaign=$document
 _campaign=$popup
 _cellcast-media-
@@ -7156,6 +7172,7 @@ _yahooads_
 ||amazonaws.com/ki.
 ||amazonaws.com/lp3cloudfront/
 ||amazonaws.com/lps
+||amazonaws.com/monetrackpro/
 ||amazonaws.com/opbanditcdn/
 ||amazonaws.com/opentag/
 ||amazonaws.com/p10DrIj/
