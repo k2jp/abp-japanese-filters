@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: 6cI/c/FYyJZilFxpZPjidA
+! Checksum: +wO9YgtZZdl2Eh2VKTHNdA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201707182046
+! Version: 201707190835
 !
-! Last modified: 2017-07-18 20:46 JST(UTC+0900)
+! Last modified: 2017-07-19 08:35 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4504,6 +4504,10 @@ www.yahoo.co.jp###local
 ||bid^
 ||bid^$document
 ||bid^$popup
+! [2017-07-18 - #BlankSlate #malspam still going strong - saw #BTCWare #ransomware today](https://twitter.com/malware_traffic/status/887439239234822144), Jul 19, 2017
+||men^
+||men^$document
+||men^$popup
 ! [Magnitude Exploit Kit Activity Increases Via Malvertising Attacks | Malwarebytes Unpacked](https://blog.malwarebytes.org/exploits-2/2015/11/magnitude-exploit-kit-activity-increases-via-malvertising-attacks/)
 |http:*.pw^$third-party
 |https:*.pw^$third-party
