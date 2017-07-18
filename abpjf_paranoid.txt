@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: mC86J9BUEitoXWiXXYfGug
+! Checksum: 6cI/c/FYyJZilFxpZPjidA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201707170805
+! Version: 201707182046
 !
-! Last modified: 2017-07-17 08:05 JST(UTC+0900)
+! Last modified: 2017-07-18 20:46 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4512,7 +4512,7 @@ www.yahoo.co.jp###local
 ||review^$document
 ||review^$popup
 ! [A Look At A Neutrino EK Distributor | Malwarebytes Labs](https://blog.malwarebytes.org/threat-analysis/exploits-threat-analysis/2016/04/a-look-at-a-neutrino-ek-distributor/)
-! Not to trust TLD "top" any more, Sep 27, 2016
+! No longer trusted, Sep 27, 2016
 ||top^
 ||top^$document
 ||top^$popup
@@ -4524,7 +4524,7 @@ www.yahoo.co.jp###local
 ||win^$document
 ||win^$popup
 ! [Unconventional Malvertising Attack Uses New Tricks | Malwarebytes Unpacked](https://blog.malwarebytes.org/malvertising-2/2015/09/unconventional-malvertising-attack-uses-new-tricks/)
-! Not to trust TLD "top" any more, Jul 12, 2017
+! No longer trusted, Jul 12, 2017
 ||xyz^$domain=~crosslab.xyz
 ||xyz^$document,domain=~crosslab.xyz
 ||xyz^$popup,domain=~crosslab.xyz
