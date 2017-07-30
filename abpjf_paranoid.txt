@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: wA/l8oH8jYAIpMuLn98Jog
+! Checksum: lo4XoquQLn/MKb1WTG5f5g
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201707222112
+! Version: 201707310728
 !
-! Last modified: 2017-07-22 21:12 JST(UTC+0900)
+! Last modified: 2017-07-31 07:28 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4534,9 +4534,9 @@ www.yahoo.co.jp###local
 ||win^$popup
 ! [Unconventional Malvertising Attack Uses New Tricks | Malwarebytes Unpacked](https://blog.malwarebytes.org/malvertising-2/2015/09/unconventional-malvertising-attack-uses-new-tricks/)
 ! No longer trusted, Jul 12, 2017
-||xyz^$domain=~crosslab.xyz
-||xyz^$document,domain=~crosslab.xyz
-||xyz^$popup,domain=~crosslab.xyz
+||xyz^$domain=~crosslab.xyz|~woodbook.xyz
+||xyz^$document,domain=~crosslab.xyz|~woodbook.xyz
+||xyz^$popup,domain=~crosslab.xyz|~woodbook.xyz
 ! ----- Notorious TLDs ----- END -----
 
 ! ===== Notorious CDN ===== START =====
