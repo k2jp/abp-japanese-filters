@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: lo4XoquQLn/MKb1WTG5f5g
+! Checksum: wmNwNAAwTSNjyeLijaso/A
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201707310728
+! Version: 201708221912
 !
-! Last modified: 2017-07-31 07:28 JST(UTC+0900)
+! Last modified: 2017-08-22 19:12 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3907,6 +3907,11 @@ www.yahoo.co.jp###local
 ||zoosnet.net^$third-party
 ||zopim.com^$third-party
 ! ----- Live chat or Online support ----- END -----
+
+! ===== Malicious links in spam mails ===== START =====
+/f.php?d=*=|$document
+##a[href*="/f.php?d="][href$="="]
+! ----- Malicious links in spam mails ----- END -----
 
 ! ===== Malicious objects reported at https://twitter.com/unixfreaxjp by @unixfreaxjp ===== START =====
 ! https://twitter.com/unixfreaxjp/status/318023174589661185
