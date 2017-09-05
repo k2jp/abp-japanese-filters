@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: 08a4gv37Qrm7M5WONdHVbQ
+! Checksum: S46C/b6p+d2Bx25jZJvwag
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201708290331
+! Version: 201709060639
 !
-! Last modified: 2017-08-29 03:31 JST(UTC+0900)
+! Last modified: 2017-09-06 06:39 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4531,8 +4531,13 @@ www.yahoo.co.jp###local
 ||top^$document
 ||top^$popup
 ! [Malware-Traffic-Analysis.net - 2015-09-18 - Nuclear EK from EK 178.62.72.26 - oaacderesftu.tk](http://malware-traffic-analysis.net/2015/09/18/index.html)
-|http:*.tk^$third-party
-|https:*.tk^$third-party
+! No longer trusted based on [Malware-Traffic-Analysis.net - 2017-09-01 - EITest HoeflerText popups or fake anti-virus pages](http://malware-traffic-analysis.net/2017/09/01/index.html), Sep 06, 2017
+|http:*.tk^
+|http:*.tk^$document
+|http:*.tk^$popup
+|https:*.tk^
+|https:*.tk^$document
+|https:*.tk^$popup
 ! [Domains used by Numeric Tech Support Scam (I observed) · GitHub](https://gist.github.com/anonymous/546e857c5935e903da0e5bcfe5b05037), Jul 15, 2017
 ||win^
 ||win^$document
