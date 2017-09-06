@@ -6384,10 +6384,10 @@ _yahooads_
 ://tizer8.
 ://tizer9.
 ://utm.
-://xml.*/click?
-://xml.*/click?$document
-://xml.*/redirect?
-://xml.*/redirect?$document
+://xml*.*/click?
+://xml*.*/click?$document
+://xml*.*/redirect?
+://xml*.*/redirect?$document
 
 ||iad.$domain=~iad.co.jp
 ! ---------- URL Fragments END ----------
