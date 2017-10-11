@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: eK5UOr9nFVbe9bu4EDQQ+w
+! Checksum: ewOwC9+yBCltcYDb2XGMew
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201709141000
+! Version: 201710120640
 !
-! Last modified: 2017-09-14 10:00 JST(UTC+0900)
+! Last modified: 2017-10-12 06:40 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4587,8 +4587,8 @@ www.yahoo.co.jp###local
 ! |https:*/?*&br_fl=$subdocument,third-party
 ! |http:*/?br_fl=$subdocument,third-party
 ! |https:*/?br_fl=$subdocument,third-party
-/^https?:\/\/[^/]+\/\?\w+=?&(?:[^=]+=[^&]+&)*?\w+=(?:[wz][3HXn][_0-9a-z][Q][M][v][X][c][J]|[x][3HXn][_0-9a-z][Q][Mcd][_0-9a-z][A-Z][YZdef][ab][R])/$document
-/^https?:\/\/[^/]+\/\?\w+=?&(?:[^=]+=[^&]+&)*?\w+=(?:[wz][3HXn][_0-9a-z][Q][M][v][X][c][J]|[x][3HXn][_0-9a-z][Q][Mcd][_0-9a-z][A-Z][YZdef][ab][R])/$subdocument,third-party
+/^https?:\/\/[^/]+\/\?\w+=?&(?:[^=]+=[^&]+&)*?\w+=(?:[wz][3HXn][_0-9a-z][Q][M][v][X][c][J]|[x][3HQXn][_0-9a-z][Q][Mcd][_0-9a-z][A-Z][YZdef][ab][R])/$document
+/^https?:\/\/[^/]+\/\?\w+=?&(?:[^=]+=[^&]+&)*?\w+=(?:[wz][3HXn][_0-9a-z][Q][M][v][X][c][J]|[x][3HQXn][_0-9a-z][Q][Mcd][_0-9a-z][A-Z][YZdef][ab][R])/$subdocument,third-party
 |http:*/?*&q=*QMvXcJ$subdocument,third-party
 |https:*/?*&q=*QMvXcJ$subdocument,third-party
 |http:*/?q=*QMvXcJ$subdocument,third-party
