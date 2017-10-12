@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: cuSc7MBLriJ/wkELuw0s7g
+! Checksum: 8vL50Hjfo92t88d03ZG4fg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201710102149
+! Version: 201710122006
 !
-! Last modified: 2017-10-10 21:49 JST(UTC+0900)
+! Last modified: 2017-10-12 20:06 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4256,10 +4256,14 @@
 ^criteo.
 ^criteo^
 ^criteo_
-^cryptonight-$script
-^cryptonight.$script
-^cryptonight^$script
-^cryptonight_$script
+^cryptonight-$object,script,subdocument
+^cryptonight.$object,script,subdocument
+^cryptonight^$object,script,subdocument
+^cryptonight_$object,script,subdocument
+^cryptonight-$third-party
+^cryptonight.$third-party
+^cryptonight^$third-party
+^cryptonight_$third-party
 ^cta-$third-party
 ^cta^$third-party
 ^cta.$third-party
