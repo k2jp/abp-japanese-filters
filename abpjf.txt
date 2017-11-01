@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: 3wLT4kp86Upb4Co8pt1Chg
+! Checksum: yDyl0GvoCFPFs+lGvoHaWQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201711011553
+! Version: 201711011610
 !
-! Last modified: 2017-11-01 15:53 JST(UTC+0900)
+! Last modified: 2017-11-01 16:10 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3625,6 +3625,14 @@
 ^adscontext.
 ^adscontext^
 ^adscontext_
+^adscore-
+^adscore.
+^adscore^
+^adscore_
+^adscores-
+^adscores.
+^adscores^
+^adscores_
 ^adscount-
 ^adscount.
 ^adscount^
@@ -3637,22 +3645,6 @@
 ^adsdata.
 ^adsdata^
 ^adsdata_
-^adserving-
-^adserving-$popup
-^adserving.
-^adserving.$popup
-^adserving^
-^adserving^$popup
-^adserving_
-^adserving_$popup
-^adscore-
-^adscore.
-^adscore^
-^adscore_
-^adscores-
-^adscores.
-^adscores^
-^adscores_
 ^adsearch-
 ^adsearch.
 ^adsearch^
@@ -3765,10 +3757,22 @@
 ^adservice.
 ^adservice^
 ^adservice_
+^adserving-
+^adserving-$popup
+^adserving.
+^adserving.$popup
+^adserving^
+^adserving^$popup
+^adserving_
+^adserving_$popup
 ^adshow-
 ^adshow.
 ^adshow^
 ^adshow_
+^adsid-
+^adsid.
+^adsid^
+^adsid_
 ^adsk2-$third-party
 ^adsk2.$third-party
 ^adsk2^$third-party
