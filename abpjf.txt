@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: 5S5QteJC9EXdxB0EuCcVkQ
+! Checksum: w8/BdDC5NQ+TzxRuzEdyPg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201710251356
+! Version: 201711011454
 !
-! Last modified: 2017-10-25 13:56 JST(UTC+0900)
+! Last modified: 2017-11-01 14:54 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4240,6 +4240,10 @@
 ^coinhive.$script
 ^coinhive^$script
 ^coinhive_$script
+^coinlab-$script
+^coinlab^$script
+^coinlab.$script
+^coinlab_$script
 ^comscore-
 ^comscore.
 ^comscore^
@@ -7889,6 +7893,7 @@ _yahooads_
 ://js.coinis*/dl.min.$script,third-party
 ||coinisrsdelivery.com^
 ||coinisrevsharecontent.com^
+||coinlab.biz^$third-party
 ||collarity.com^$third-party
 ||collective-media.net^
 ||colpory.com^
