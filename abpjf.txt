@@ -10980,7 +10980,6 @@ _yahooads_
 ||striere.com^
 ||striete.com^
 ||stringenfolie.com^
-||stripe.com^$third-party
 ||sublimeskinz.com^$third-party
 ||sumapo.org^
 ||sumome.com^$third-party
