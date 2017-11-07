@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: u8SWh30V+fbqEUshe02ONg
+! Checksum: DkBhO3MtNtEsBkebY8jzrQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201710312153
+! Version: 201711080050
 !
-! Last modified: 2017-10-31 21:53 JST(UTC+0900)
+! Last modified: 2017-11-08 00:50 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3808,6 +3808,10 @@ itpro.nikkeibp.co.jp##a[href*="/article/Active"]
 ||afl.rakuten.co.jp^
 ##a[href*=".afl.rakuten.co.jp"]
 ! ----- rakuten affiliate stronger filter ----- END -----
+
+! ===== Leading to mixpanel.com ===== START =====
+||stripe.com^$third-party
+! ----- Leading to mixpanel.com ----- END -----
 
 ! ===== twitter.com search result pages show unwanted popular images and videos in the side column ===== START =====
 ||api.twitter.com^*search/*_facets.
