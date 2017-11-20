@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: D4G3YDx90pks+E/WMC9Vkw
+! Checksum: k1zDAvnNzxBVHaYtLVUiXA
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Element-hiding filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201711092152
+! Version: 201711210544
 !
-! Last modified: 2017-11-09 21:52 JST(UTC+0900)
+! Last modified: 2017-11-21 05:44 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1822,6 +1822,7 @@ jbpress.ismedia.jp###vbox
 jbpress.ismedia.jp###pr1
 jbpress.ismedia.jp##.prelease
 jbpress.ismedia.jp##[class^="premium-"]
+wedge.ismedia.jp##.public-relations
 itarchitect.jp##.ads-textLine
 itmedia.co.jp##.colBoxArtTop
 izumino.jp##a[href*="//izumino.jp/p2k/"]
