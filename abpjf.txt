@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: dcDOd/Hs3wYH31WZPWN+kw
+! Checksum: Htu2unTrxpmIZDM9KgG7ig
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201711280205
+! Version: 201711300838
 !
-! Last modified: 2017-11-28 02:05 JST(UTC+0900)
+! Last modified: 2017-11-30 08:38 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -473,6 +473,9 @@
 &subid=*&data_ss=*&data_rc=$popup
 &subid=*&data_ss=*&data_rc=$third-party
 &tgu_src_lp_domain=$popup
+&tid=*&red=*&abt=*&v=*.*.*.
+&tid=*&red=*&abt=*&v=*.*.*.$document
+&tid=*&red=*&abt=*&v=*.*.*.$popup
 &track_id=
 &track_id=$popup
 &tracker_id=
@@ -3090,7 +3093,9 @@
 ! ?retargeting_
 ?subid=*&subid2=*&random_page=$popup
 ?tgu_src_lp_domain=$popup
-?tid=$third-party
+?tid=*&red=*&abt=*&v=*.*.*.
+?tid=*&red=*&abt=*&v=*.*.*.$document
+?tid=*&red=*&abt=*&v=*.*.*.$popup
 ?track_id=
 ?track_id=$popup
 ?tracker_id=
