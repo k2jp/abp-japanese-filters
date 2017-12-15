@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: H/2sSMRzkPWQ/1U5jDgpOw
+! Checksum: azhC19gzhCfKOakjNT2hpQ
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201712082139
+! Version: 201712151846
 !
-! Last modified: 2017-12-08 21:39 JST(UTC+0900)
+! Last modified: 2017-12-15 18:46 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1089,6 +1089,10 @@
 -mixpanel.$third-party
 -mixpanel^$third-party
 -mixpanel_$third-party
+-mraid-$object-subrequest,script,websocket,xmlhttprequest
+-mraid.$object-subrequest,script,websocket,xmlhttprequest
+-mraid^$object-subrequest,script,websocket,xmlhttprequest
+-mraid_$object-subrequest,script,websocket,xmlhttprequest
 -numerik-art-
 -numerik-art.
 -numerik-art^
@@ -1234,6 +1238,14 @@
 -teasers_
 -textad.
 -utm.$script
+-vast-$object-subrequest,script,websocket,xmlhttprequest
+-vast.$object-subrequest,script,websocket,xmlhttprequest
+-vast^$object-subrequest,script,websocket,xmlhttprequest
+-vast_$object-subrequest,script,websocket,xmlhttprequest
+-vpaid-$object-subrequest,script,websocket,xmlhttprequest
+-vpaid.$object-subrequest,script,websocket,xmlhttprequest
+-vpaid^$object-subrequest,script,websocket,xmlhttprequest
+-vpaid_$object-subrequest,script,websocket,xmlhttprequest
 -yahooads-
 -yahooads.
 -yahooads^
@@ -1831,6 +1843,10 @@
 .mobifiesta.
 .mobifun.
 .movifiesta.
+.mraid-$object-subrequest,script,websocket,xmlhttprequest
+.mraid.$object-subrequest,script,websocket,xmlhttprequest
+.mraid^$object-subrequest,script,websocket,xmlhttprequest
+.mraid_$object-subrequest,script,websocket,xmlhttprequest
 .my-tv-store.
 .netflame.cc^
 .numerik-art-
@@ -1983,7 +1999,15 @@
 .teasers^
 .teasers_
 .TieupNotification.
+.vast-$object-subrequest,script,websocket,xmlhttprequest
+.vast.$object-subrequest,script,websocket,xmlhttprequest
+.vast^$object-subrequest,script,websocket,xmlhttprequest
+.vast_$object-subrequest,script,websocket,xmlhttprequest
 .vipmobile.
+.vpaid-$object-subrequest,script,websocket,xmlhttprequest
+.vpaid.$object-subrequest,script,websocket,xmlhttprequest
+.vpaid^$object-subrequest,script,websocket,xmlhttprequest
+.vpaid_$object-subrequest,script,websocket,xmlhttprequest
 .yahooads-
 .yahooads.
 .yahooads^
@@ -4955,6 +4979,10 @@
 ^mobileads.
 ^mobileads^
 ^mobileads_
+^mraid-$object-subrequest,script,websocket,xmlhttprequest
+^mraid.$object-subrequest,script,websocket,xmlhttprequest
+^mraid^$object-subrequest,script,websocket,xmlhttprequest
+^mraid_$object-subrequest,script,websocket,xmlhttprequest
 ^mtrcs-$script
 ^mtrcs.$script
 ^mtrcs^$script
@@ -5373,6 +5401,10 @@
 ^urchin.
 ^urchin^
 ^urchin_
+^vast-$object-subrequest,script,websocket,xmlhttprequest
+^vast.$object-subrequest,script,websocket,xmlhttprequest
+^vast^$object-subrequest,script,websocket,xmlhttprequest
+^vast_$object-subrequest,script,websocket,xmlhttprequest
 ^voluum-
 ^voluum-$document
 ^voluum.$domain=~voluum.com
@@ -5381,6 +5413,10 @@
 ^voluum^$document
 ^voluum_
 ^voluum_$document
+^vpaid-$object-subrequest,script,websocket,xmlhttprequest
+^vpaid.$object-subrequest,script,websocket,xmlhttprequest
+^vpaid^$object-subrequest,script,websocket,xmlhttprequest
+^vpaid_$object-subrequest,script,websocket,xmlhttprequest
 ^watchtcm^$popup
 ^xbanner-$third-party
 ^xbanner.$third-party
@@ -6046,6 +6082,10 @@ _mixpanel-$third-party
 _mixpanel.$third-party
 _mixpanel^$third-party
 _mixpanel_$third-party
+_mraid-$object-subrequest,script,websocket,xmlhttprequest
+_mraid.$object-subrequest,script,websocket,xmlhttprequest
+_mraid^$object-subrequest,script,websocket,xmlhttprequest
+_mraid_$object-subrequest,script,websocket,xmlhttprequest
 _numerik-art-
 _numerik-art.
 _numerik-art^
@@ -6206,6 +6246,14 @@ _teasers-
 _teasers.
 _teasers^
 _teasers_
+_vast-$object-subrequest,script,websocket,xmlhttprequest
+_vast.$object-subrequest,script,websocket,xmlhttprequest
+_vast^$object-subrequest,script,websocket,xmlhttprequest
+_vast_$object-subrequest,script,websocket,xmlhttprequest
+_vpaid-$object-subrequest,script,websocket,xmlhttprequest
+_vpaid.$object-subrequest,script,websocket,xmlhttprequest
+_vpaid^$object-subrequest,script,websocket,xmlhttprequest
+_vpaid_$object-subrequest,script,websocket,xmlhttprequest
 _yahooads-
 _yahooads.
 _yahooads^
