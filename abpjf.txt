@@ -1,11 +1,11 @@
 [Adblock Plus 2.8.2]
-! Checksum: azhC19gzhCfKOakjNT2hpQ
+! Checksum: r4A6XZwVKXwBmcdJd3wa1Q
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201712151846
+! Version: 201712162033
 !
-! Last modified: 2017-12-15 18:46 JST(UTC+0900)
+! Last modified: 2017-12-16 20:33 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -6466,6 +6466,7 @@ _yahooads_
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
 ! ://survey.$third-party
 ! ://surveys.$third-party
+://syndication.$third-party
 ://tds.$document
 ://tealium.
 ://telemetry.$third-party
@@ -8489,6 +8490,7 @@ _yahooads_
 ||exoclick.com^
 ||exoclick.com^$popup
 ||exoplanetwar.com^$third-party
+||exosrv.com^
 ||exponential.com^$third-party
 ||express-rachat-credit.net^
 ||extfeed.net^
@@ -11591,6 +11593,8 @@ _yahooads_
 ||wespoland.jp^$third-party
 ||wh5kb0u4.com^
 ||whaleads.com^
+||whibd.com^
+||whibr.com^
 ||whiterabbitproducts.com^$third-party
 ||whitinjs.info^
 ||whoson.com^$third-party
