@@ -9120,6 +9120,7 @@ _yahooads_
 ||ioam.de^
 ||iogous.com^$third-party
 ||iperceptions.com^$third-party
+||ip-api.$third-party
 ||ip-label.net^$third-party
 ||ipify.org^$third-party
 ||ipornia.com^
