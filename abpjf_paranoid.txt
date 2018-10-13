@@ -1,5 +1,4 @@
 [Adblock Plus 2.8.2]
-! Checksum: 4S7wB9HSTOOeak114ZaoXw
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours

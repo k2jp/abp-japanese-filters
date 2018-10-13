@@ -1,5 +1,4 @@
 [Adblock Plus 2.8.2]
-! Checksum: MKNt57jTF22568ZSDTUpRg
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Element-hiding filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
