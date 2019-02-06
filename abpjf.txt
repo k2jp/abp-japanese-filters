@@ -2,9 +2,9 @@
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201902061613
+! Version: 201902061633
 !
-! Last modified: 2019-02-06 16:13 JST(UTC+0900)
+! Last modified: 2019-02-06 16:33 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9011,6 +9011,7 @@ _yahooads_
 ||idyllove.com^
 ||idylnetwork.com^
 ||idylsenior.com^
+||ie8eamus.com^
 ||iesnare.com^
 ||iforex.com^$third-party
 ||ifortino.ru^
