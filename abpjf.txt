@@ -2,9 +2,9 @@
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201902061526
+! Version: 201902061613
 !
-! Last modified: 2019-02-06 15:26 JST(UTC+0900)
+! Last modified: 2019-02-06 16:13 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2890,6 +2890,9 @@
 /wad.$subdocument,third-party
 /wanalytics-
 /wanalytics/*
+/watch.*.js?key=*&refer=
+/watch.*?key=*&refer=$document
+/watch.*?key=*&refer=$popup
 /watch?key=$document
 /watch?key=$popup
 /watch?refer=*&key=$document
@@ -11426,6 +11429,7 @@ _yahooads_
 ||urlcash.$document
 ||urlcash.$popup
 ||urlcash.$third-party
+||urldelivery.com^
 ||urlgalleries.net^
 ||urlgalleries.net^$popup
 ||usagc.org^$third-party
