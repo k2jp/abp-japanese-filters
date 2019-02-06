@@ -2,9 +2,9 @@
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201804111805
+! Version: 201902062055
 !
-! Last modified: 2018-04-11 18:05 JST(UTC+0900)
+! Last modified: 2019-02-06 20:55 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1760,6 +1760,7 @@ browser,navigator,messenger,songbird,midbrowser,emusic,webrunner##.abp-recommend
 /cnt.
 /flashCookie.$third-party
 /index.js^$third-party
+/invoke.js|$script,third-party
 /javascript.js^$third-party
 |http:*/js.js^$third-party
 |https:*/js.js^$third-party
