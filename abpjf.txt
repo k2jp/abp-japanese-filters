@@ -2,9 +2,9 @@
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201902170221
+! Version: 201902170258
 !
-! Last modified: 2019-02-17 02:21 JST(UTC+0900)
+! Last modified: 2019-02-17 02:58 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -273,6 +273,8 @@
 @@||twimg.com/insights/images/analytics-$domain=analytics.twitter.com
 ! False positives with the existing -analytics^, at analytics.twitter.com audience view, Nov 13, 2015
 @@||twimg.com/macaw-analytics/$domain=analytics.twitter.com
+! False positives with Report User function at twitter.com, reported at [Issue #43](https://github.com/k2jp/abp-japanese-filters/issues/43), Feb 17, 2019
+@@||twitter.com/i/safety/$domain=twitter.com
 ! False positives with XHR used with ^analytics. filter, at analytics.twitter.com, Aug 29, 2014
 @@||analytics.twitter.com^$xmlhttprequest,domain=analytics.twitter.com
 ! False positives with |http:*^ad- filter, Mar 20, 2014
