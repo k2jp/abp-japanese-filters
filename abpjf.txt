@@ -2,9 +2,9 @@
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201902272015
+! Version: 201902272034
 !
-! Last modified: 2019-02-27 20:15 JST(UTC+0900)
+! Last modified: 2019-02-27 20:34 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2452,6 +2452,7 @@
 /direct?placement_id=
 /direct?placement_id=$popup
 /dmm.$script
+/dmx^$domain=dailymotion.com
 /do2icnk.
 /docodoco?
 /e?type^$third-party
@@ -8176,6 +8177,7 @@ _yahooads_
 ! ||dailymotion.com/logger/$domain=dailymotion.com
 ||dailymotion.com/sense/$domain=dailymotion.com
 ||dailymotion.com/track/$domain=dailymotion.com
+||dmxleo.dailymotion.com^$domain=dailymotion.com
 ||sense.dailymotion.com^$domain=dailymotion.com
 ||dailyprofitmethod.org$popup
 ||dailyvideorewards.com^$popup
@@ -8298,6 +8300,7 @@ _yahooads_
 ||dmpcounter.com^
 ||dmtracker.com^$third-party
 ||dmtry.com^
+||dmxleo.com^
 ||dn888.com^
 ||dnpdmp.jp^$third-party
 ||docodoco.jp^$third-party
