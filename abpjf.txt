@@ -8169,14 +8169,14 @@ _yahooads_
 ||dafferes.com^
 ||daffices.com^
 ||dafficha.com^
-||dailymotion.com*/masscast/
-||dailymotion.com/behavior/
-||dailymotion.com/history/
+||dailymotion.com*/masscast/$domain=dailymotion.com
+||dailymotion.com/behavior/$domain=dailymotion.com
+||dailymotion.com/history/$domain=dailymotion.com
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
-! ||dailymotion.com/logger/
-||dailymotion.com/sense/
-||dailymotion.com/track/
-||sense.dailymotion.com^
+! ||dailymotion.com/logger/$domain=dailymotion.com
+||dailymotion.com/sense/$domain=dailymotion.com
+||dailymotion.com/track/$domain=dailymotion.com
+||sense.dailymotion.com^$domain=dailymotion.com
 ||dailyprofitmethod.org$popup
 ||dailyvideorewards.com^$popup
 ||actracer.daiwahouse.co.jp^
