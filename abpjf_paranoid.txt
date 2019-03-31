@@ -2,9 +2,9 @@
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201903311549
+! Version: 201903312234
 !
-! Last modified: 2019-03-31 15:49 JST(UTC+0900)
+! Last modified: 2019-03-31 22:34 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -100,10 +100,10 @@
 @@||twitter.com^*^count=
 ! False positives with _count^ filters blocking timeline like ○件の新しいツイート, Jan 7-9, 2013
 @@||twitter.com^*_count=
+! False positives on movies with the existing ^tag^$third-party Paranoid filter
+@@||twimg.com/amplify_video/$domain=twitter.com
 ! Flase positives with twitter user images caused with _banners^$third-party, Sep 28, 2012
 @@||twimg.com/profile_banners/$image
-! False positives on movies with the existing ^tag^$third-party Paranoid filter
-@@||video.twimg.com/amplify_video/$domain=twitter.com
 ! False positives with ^count^ filter at torflow.uncharted.software, Feb 20, 2016
 @@||torflow.uncharted.software/*?count=$domain=torflow.uncharted.software
 ! False positives at VirusTotal statistics pages 2011-11-29
