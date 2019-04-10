@@ -2,9 +2,9 @@
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201904101312
+! Version: 201904101332
 !
-! Last modified: 2019-04-10 13:12 JST(UTC+0900)
+! Last modified: 2019-04-10 13:32 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -600,6 +600,10 @@
 -adcombo.
 -adcombo^
 -adcombo_
+-adformat-
+-adformat.
+-adformat^
+-adformat_
 -adframe-
 -adframe-$document
 -adframe.
@@ -1353,6 +1357,10 @@
 .adcombo.
 .adcombo^
 .adcombo_
+.adformat-
+.adformat.
+.adformat^
+.adformat_
 .adframe-
 .adframe-$document
 .adframe.
@@ -3395,6 +3403,10 @@
 ^adfarm9.
 ^adfarm9^
 ^adfarm9_
+^adformat-
+^adformat.
+^adformat^
+^adformat_
 ^adframe-
 ^adframe-$document
 ^adframe.
@@ -5605,6 +5617,10 @@ _adcombo-
 _adcombo.
 _adcombo^
 _adcombo_
+_adformat-
+_adformat.
+_adformat^
+_adformat_
 _adframe-
 _adframe-$document
 _adframe.
