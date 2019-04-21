@@ -2,9 +2,9 @@
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201904220552
+! Version: 201904220556
 !
-! Last modified: 2019-04-22 05:52 JST(UTC+0900)
+! Last modified: 2019-04-22 05:56 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -7298,6 +7298,7 @@ _yahooads_
 ||ntvimg-a.akamaihd.net^
 ||serviceama-a.akamaihd.net^
 ||razorweb-a.akamaihd.net^
+||media-analytics.akamaized.net^
 ||akibablog.net/lilbox/
 ||akmega.ru^
 ||aknod.com^$third-party
