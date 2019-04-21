@@ -2,9 +2,9 @@
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201904220444
+! Version: 201904220452
 !
-! Last modified: 2019-04-22 04:44 JST(UTC+0900)
+! Last modified: 2019-04-22 04:52 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -9639,6 +9639,7 @@ _yahooads_
 ||mach10.fr^
 ||macpath.net^
 ||macpath.net^$popup
+||macromill.com^$third-party
 ||macsoft.jp/img/Banner1/
 ||macsoft.jp/img/af/
 ||mag2.com/js/osusume.$script
