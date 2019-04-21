@@ -2,9 +2,9 @@
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201904220351
+! Version: 201904220444
 !
-! Last modified: 2019-04-22 03:51 JST(UTC+0900)
+! Last modified: 2019-04-22 04:44 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -8583,6 +8583,7 @@ _yahooads_
 ||facdn.com^
 ||facebook.com/ai.php?
 ||facebook.com/plugins/recommendations.
+||an.facebook.com^
 ||facebookofsex.com^$third-party
 ||faciles-rencontres.com^
 ||fairfax.com.au^$third-party
@@ -9140,6 +9141,7 @@ _yahooads_
 ||incmd06.com^
 ||inctivee.com^
 ||indeed.com^$third-party
+||indexww.com^
 ||inditazione.com^
 ||industrybrains.com^$third-party
 ||inedomedia.com^$third-party
