@@ -2,9 +2,9 @@
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201904101909
+! Version: 201904220351
 !
-! Last modified: 2019-04-10 19:09 JST(UTC+0900)
+! Last modified: 2019-04-22 03:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -2663,6 +2663,8 @@
 /OneSignalSDK.$script
 ! this cause javascript to stop: /oo/$domain=zai.diamond.jp
 /opt_content.js^$script,third-party
+/optout/get^*&key=*&t=$third-party
+/optout/set^*&key=*&t=$third-party
 ! Commented out the duplicated filter with ?bidid=$document, May 31, 2017
 ! /out?bidid=$document
 /overtureAd.
@@ -7068,6 +7070,7 @@ _yahooads_
 ||adrocketmedia.com^
 ||adroll.com^$third-party
 ||adrotator.$popup
+||adrs.me^
 ||ads2rtb.com^
 ||ads2srv.com^
 ||adsafe.fr^
@@ -8625,6 +8628,7 @@ _yahooads_
 ||fedrobi.ru^
 ||feedjit.com^$third-party
 ||feedsweep.com^$third-party
+||feedvertizus.com^
 ||feljack.com^
 ||fetchback.com^$third-party
 ||fetish-sexe.biz^
@@ -8901,6 +8905,7 @@ _yahooads_
 ||hananokai.tv^
 ||adcreative.hangame.co.jp^
 ||hannist.com^
+||hanstrackr.com^$third-party
 ||happymail.co.jp^$third-party
 ||hardsextubepremium.com^$third-party
 ||hareljann.com^
@@ -9821,6 +9826,7 @@ _yahooads_
 ||mobatory.com^
 ||mobbober.com^
 ||mobbobr.com^
+||mobiclean.xyz^
 ||mobicont.com^
 ||mobicow.com^$third-party
 ||mobidealer.$third-party
@@ -10001,6 +10007,7 @@ _yahooads_
 ||neomion.com^
 ||nepalon.com^
 ||nervora.net^
+||nesmotrinamenya.ru^
 ||net-tool.net^
 ||netaatoz.jp/rss
 ||netaffiliation.$third-party
@@ -11139,6 +11146,7 @@ _yahooads_
 ||striete.com^
 ||stringenfolie.com^
 ||sublimeskinz.com^$third-party
+||sugabit.net^
 ||sumapo.org^
 ||sumome.com^$third-party
 ||sumorobo.net^$popup
@@ -11620,6 +11628,7 @@ _yahooads_
 ||voluum*.com^
 ||voluum*.com^$document
 ||voluumtrk.com^
+||votetoda.com^
 ||votre-aide-pret.com^
 ||votre-devis-credit.com^
 ||voyeurparadize.com^
@@ -11966,6 +11975,7 @@ _yahooads_
 ||youradexchange.com^$popup
 ||youradexchange.com^$third-party
 ||youradslab.com^
+||yourfirstcheapshop.com^$third-party
 ||yourjavascript.com^$third-party
 ||youtopry.com^
 ||youtube.com/api/stats/$domain=youtube.com
