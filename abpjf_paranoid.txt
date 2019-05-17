@@ -2,9 +2,9 @@
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201904101630
+! Version: 201905172006
 !
-! Last modified: 2019-04-10 16:30 JST(UTC+0900)
+! Last modified: 2019-05-17 20:06 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4695,6 +4695,12 @@ www.yahoo.co.jp###local
 ||spot.im^$third-party
 ||uservoice.com^$third-party
 ! ----- Third-party manager of user feedback like comments ----- END -----
+
+! ===== Third-party movie players including features like ADs or analytics ===== START =====
+! Note: Probably, blocking the whole domain is too strict, Apr 29, 2012
+! Moved to the Paranoid subscription, May 17, 2019
+||brightcove.$third-party
+! ----- Third-party movie players including features like ADs or analytics ----- END -----
 
 ! ===== Toolbar ===== START =====
 ||conduit.com^$third-party
