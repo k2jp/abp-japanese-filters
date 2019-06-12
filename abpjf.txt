@@ -2,9 +2,9 @@
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201906122307
+! Version: 201906122309
 !
-! Last modified: 2019-06-12 23:07 JST(UTC+0900)
+! Last modified: 2019-06-12 23:09 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -11224,6 +11224,7 @@ _yahooads_
 ||tafla.ru^
 ! Third-party redirecting scripts, reported at http://labs.sucuri.net/?note=2015-08-31 , Sep 01, 2015
 ||tag-cloud-generator.com^
+||tagcommander.com^
 ||takealldir.ru^
 ||takensparks.com^$third-party
 ||tanzuki.net^
