@@ -2,9 +2,9 @@
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201906240411
+! Version: 201906240453
 !
-! Last modified: 2019-06-24 04:11 JST(UTC+0900)
+! Last modified: 2019-06-24 04:53 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -10271,6 +10271,7 @@ _yahooads_
 ||l.player.ooyala.com^
 ||opbandit.com^$third-party
 ||open-mind.vc^
+||open8.com^$third-party
 ||openads.org^
 ! Dropped a third-party option because adwares or malwares open it directly, Apr 2, 2012
 ||openadserving.com^
