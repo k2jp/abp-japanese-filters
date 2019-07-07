@@ -2,9 +2,9 @@
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Element-hiding filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201907051921
+! Version: 201907072116
 !
-! Last modified: 2019-07-05 19:21 JST(UTC+0900)
+! Last modified: 2019-07-07 21:16 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -583,6 +583,7 @@
 ##a[href*="//cl.jlisting.jp"]
 ##a[href*="//36.jpn.org/"]
 ##a[href*="//on.jpn.org/"]
+##a[href*="//jpnhighlow-as.life/"]
 ##a[href*="//search.jword.jp"]
 ##a[href*="//kvors.com/click/?"]
 ##a[href*="//lahw.info/"]
