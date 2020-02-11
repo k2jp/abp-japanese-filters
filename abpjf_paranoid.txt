@@ -2,9 +2,9 @@
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese Paranoid filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 201907192055
+! Version: 202002120017
 !
-! Last modified: 2019-07-19 20:55 JST(UTC+0900)
+! Last modified: 2020-02-12 00:17 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -4604,6 +4604,7 @@ www.yahoo.co.jp###local
 
 ! ===== Banner AD images with obfuscated short URL links to avoid adblocking ===== START =====
 ##a[href*="//bit.ly/"] > img
+##a[href*="//cutter.li/"] > img
 ##a[href*="//goo.gl/"] > img
 ##a[href*="//j.gs/"] > img
 ##a[href*="//j.mp/"] > img
