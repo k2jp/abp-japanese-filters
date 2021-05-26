@@ -2,9 +2,9 @@
 ! Homepage: https://github.com/k2jp/abp-japanese-filters/
 ! Title: ABP Japanese filters (ONLY FOR Japanese and experienced users: READ Support Policy)
 ! Expires: 6 hours
-! Version: 202002052038
+! Version: 202105262051
 !
-! Last modified: 2020-02-05 20:38 JST(UTC+0900)
+! Last modified: 2021-05-26 20:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
 ! Code license: GNU GPL v3: http://www.gnu.org/licenses/gpl.html
 ! Content license: Creative Commons BY-NC-SA 4.0 http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -60,10 +60,12 @@
 ! A filter -ads^ causes a false positive with a [http://translate.google.com/translate/static/kcpbtI_-aDs/css/desktop_ltr.css css stylesheet] at translate.google.com and translate.google.co.jp, reported by @dullneko, July 18, 2012
 @@||translate.google.*/translate/static/*-aDs/css/*.$stylesheet
 ! False positives with the existing |https:*?ip=$third-party filter at YouTube embedded pages, reported by Issue Report, Aug 17, 2015
-@@||googlevideo.com/videoplayback?ip=$domain=youtube.com
+! ?ip= is no longer blocked at youtube.com, May 26, 2021
+! @@||googlevideo.com/videoplayback?ip=$domain=youtube.com
 ! False positives with the existing |https:*?*&ip=$third-party filter at YouTube and embedded pages, reported by baq via blog comment
 ! Simplified for gaming.youtube.com and limited the domain for better performance, Nov 13, 2015
-@@||googlevideo.com^*?*&ip=$domain=youtube.com
+! &ip= is no longer blocked at youtube.com, May 26, 2021
+! @@||googlevideo.com^*?*&ip=$domain=youtube.com
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=76&
 @@||gyoen.minpos.com/delivery/ajs.php?zoneid=77&
 ! ^urchin. filter causes false positives with the Japanese Amazon external audio player at web-cache.chocomaru.com, reporeted by 鳥 via blog, May 12, 2013
@@ -432,8 +434,8 @@
 &iad=
 &impid=
 &impid=$document
-|http:*?*&ip=$third-party
-|https:*?*&ip=$third-party
+|http:*?*&ip=$third-party,domain=~youtube.com
+|https:*?*&ip=$third-party,domain=~youtube.com
 &key=*&scrWidth=*&scrHeight=*&tz=$document
 |http:*?*&lp=*id=$popup
 |https:*?*&lp=*id=$popup
@@ -3105,8 +3107,8 @@
 ?id_promo=
 ?impid=
 ?impid=$document
-|http:*?ip=$third-party
-|https:*?ip=$third-party
+|http:*?ip=$third-party,domain=~youtube.com
+|https:*?ip=$third-party,domain=~youtube.com
 |http:*?lp=*id=$popup
 |https:*?lp=*id=$popup
 ?lp_domain=$popup
